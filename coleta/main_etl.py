@@ -66,8 +66,8 @@ def main_tranform_data(repo, creators, info_issues):
 def job( closed_column='closed', open_column='open'):
     
     repo_id='357557193'
-    git_token='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'
-    zh_token='7e7139e708aa0c236190828bfe80da2e89fd7830d30c38655d87cd7ed4fc6bc5670181fd6167fcda'
+    git_token=<SUA_TOKEN>
+    zh_token=<SUA_TOKEN>
     
     zh = Zenhub(zh_token)
     g = Github(git_token)
