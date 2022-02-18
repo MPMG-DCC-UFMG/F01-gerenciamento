@@ -1,0 +1,18 @@
+## Comportamento Esperado
+Requisição da extração de html e arquivos disponíveis com informações a respeito de <TAG> de <MUNICIPIO>
+
+## Comportamento Atual
+Não se aplica.
+
+## Localização
+Não se aplica.
+
+## Detalhes da Fonte
+Os dados a serem extraídos podem ser encontrados no portal de transparência da prefeitura de <MUNICIPIO>, no link:
+<LINK>
+
+## Detalhes da Trilha
+Os dados aqui solicitados são de interesse da trilha F01, sob coordenação de Rodrygo Santos (rodrygo@gmail.com).
+
+## Screenshots e Links
+Não se aplica.
