@@ -127,7 +127,7 @@ def create_heatmap(df, x, y, z, title):
   
     return fig
 
-def main_create_figures(closed_colum='closed', open_colum='open'):
+def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
     count_month = pd.read_csv("data/count_month.csv")
     week_status = pd.read_csv('data/week_status.csv')
@@ -171,3 +171,33 @@ def main_create_figures(closed_colum='closed', open_colum='open'):
     fig5 = create_heatmap(closed_df, x, y, z, "Coletas realizadas")
     
     return fig1, fig2, fig3, fig4, fig5, fig6, fig7
+
+def create_figures_dev(closed_colum='closed', open_colum='open'):
+    
+    count_month = pd.read_csv("data/count_month_dev.csv")
+    week_status = pd.read_csv('data/week_status_dev.csv')
+    coletas_tag= pd.read_csv("data/coletas_tag_dev.csv")
+    
+    open_df = pd.read_csv("data/open_df_dev.csv")
+    closed_df= pd.read_csv("data/closed_df_dev.csv")
+
+    x = open_df.columns[1:].tolist()
+    z = open_df.columns[1:]
+    y = 'municipio'
+    
+    
+    fig1 = plot_status_mes(
+        count_month, x_column=x, name1='Issues abertas', name2="Issues fechadas",
+        y1_column=open_colum, y2_column=closed_colum, title='Generalizações por mês')
+    
+    
+    fig2 = plot_status_week(
+        week_status, y_column='closed_at', x_column='week',
+        title='Testes de generalização feitos por semana', xaxis_title_text='Semanas')
+    
+    fig3 = dropdown_stack(
+        coletas_tag, title="Generalizações por template", x_column='template', y2_column=open_colum,
+        y1_column=closed_colum, name2="Issues fechadas", name1="Issues abertas", showlegend=False)
+    
+       
+    return fig1, fig2, fig3

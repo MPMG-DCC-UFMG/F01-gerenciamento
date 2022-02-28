@@ -90,6 +90,46 @@ def get_issues_infos(all_issues, info_issues):
             
     return info_issues
 
+def get_info_filtered_issues(epics_id, repo, filter_by='generalization test'):
+    
+    data = {'title': [], 'id':[] , 'tag':[], 'template': [], 'status': []}
+
+    for epic_id in epics_id:
+    
+        issue = repo.get_issue(epic_id)
+        labels = issue.labels
+        labels = [i.name for i in labels]
+    
+        if filter_by in labels:
+
+            data['title'].append(issue.title)
+            data['id'].append(epic_id)
+            data['tag'].append(get_specific_labels(labels, pattern='tag'))
+            data['template'].append(get_specific_labels(labels, pattern='template'))
+            data['status'].append(issue.state)
+        
+    df = pd.DataFrame(data)
+    
+    return df
+
+def get_info_issues_by_id(ids, repo):
+    
+    data = {'title': [], 'id':[], 'status': [], 'created_at':[], 'closed_at':[]}
+    
+    for issue_id in ids:
+    
+        issue = repo.get_issue(issue_id)
+    
+        data['title'].append(issue.title)
+        data['id'].append(issue_id)
+        data['status'].append(issue.state)
+        data['created_at'].append(issue.created_at)
+        data['closed_at'].append(issue.closed_at)
+        
+    df = pd.DataFrame(data)
+    
+    return df
+
 def fill_pipeline_array(df, pipeline_name):
     
     tam = len(df)
