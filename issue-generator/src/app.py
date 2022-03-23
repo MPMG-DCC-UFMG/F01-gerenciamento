@@ -107,7 +107,7 @@ def main(template_issue_coleta, template_issue_generalizacao):
                            body=body,
                            assignee=user,
                         labels=[
-                            repo.get_label("Realização F01"), repo.get_label("Coleta")
+                            repo.get_label("[T] Realização F01"), repo.get_label("[0] Coleta")
                         ]
                     )
             
