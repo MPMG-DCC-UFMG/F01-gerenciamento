@@ -48,11 +48,11 @@ def main(template_issue_coleta, template_issue_generalizacao):
             "Licitação", "Contratos", "Despesas", "Concursos Públicos", "Servidores", "Obras Públicas",
            "Terceiro Setor", "Diárias de viagem", "Orçamento" ]
     
-    creators = ["", 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'arthurnader']
+    creators = ["", 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'arthurnader', 'GabrielLimaB', 'lucas-maia-96']
 
     git_token = st.text_input("Entre com sua Token do GitHub.")
     
-    repo_name = st.text_input("Entre com o nome do repositório que você deseja criar a issue", value='CinthiaS/test')
+    repo_name = st.text_input("Entre com o nome do repositório que você deseja criar a issue", value='MPMG-DCC-UFMG/C01')
     
     user = st.selectbox("Nome do usuário no github. (Essa informação será utilizada para te atribuir como responsável por essa issue.", options=creators)
     
