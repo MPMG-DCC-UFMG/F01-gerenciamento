@@ -98,9 +98,14 @@ def main(template_issue_coleta, template_issue_generalizacao):
                 
                 g = Github(git_token)
                 repo = g.get_repo(repo_name)
-
+                counter = 0
         
                 for title, body in issues.items():
+
+                    counter += 1
+                    if(counter == 19): time.sleep(180)
+
+                    print("oi", counter)
                      #result = gh.create_issue(title=title, body=body, repository=repo_name, owner=user, label=['bug'])
                     i = repo.create_issue(
                            title=title,
@@ -114,4 +119,4 @@ def main(template_issue_coleta, template_issue_generalizacao):
                 st.write('Great!, Issues Criadas')
     
 if __name__ == "__main__":
-    main(template_issue_coleta, template_issue_generalizacao)
+    main(template_issue_coleta, template_issue_generalizacao)   
