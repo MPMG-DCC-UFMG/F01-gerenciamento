@@ -103,9 +103,10 @@ def main(template_issue_coleta, template_issue_generalizacao):
                 for title, body in issues.items():
 
                     counter += 1
-                    if(counter == 19): time.sleep(180)
+                    if(counter == 19): 
+                        time.sleep(180)
+                        counter = 0
 
-                    print("oi", counter)
                      #result = gh.create_issue(title=title, body=body, repository=repo_name, owner=user, label=['bug'])
                     i = repo.create_issue(
                            title=title,
