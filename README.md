@@ -8,6 +8,12 @@ Ferramentas auxiliares para execução de tarefas do projeto [F01](https://githu
 ### Atenção
 Para usos além do escopo da F01, alterar as configurações específicas de projeto e servidores, incluindo IPs e portas sugeridas.
 
+### Iniciando os geradores com streamlit:
+
+```
+$ streamlit run app.py --server.port [PORT]
+```
+
 ### Documentação
   * [Wiki da F01](https://github.com/MPMG-DCC-UFMG/F01/wiki)
   * [Como utilizar a Ferramenta de Criação de Issues](https://github.com/MPMG-DCC-UFMG/F01/wiki/Como-utilizar-a-ferramenta-de-cria%C3%A7%C3%A3o-de-issues)
