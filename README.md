@@ -1,7 +1,7 @@
 # F01-gerenciamento
 
 Ferramentas auxiliares para execução de tarefas do projeto [F01](https://github.com/MPMG-DCC-UFMG/F01), incluindo:
-  * Gerador de Coleta e parâmetros de coleta para uso da ferramenta do projeto [C01](https://github.com/MPMG-DCC-UFMG/F01);
+  * Gerador de Coleta e parâmetros de coleta para uso da ferramenta do projeto [C01](https://github.com/MPMG-DCC-UFMG/C01);
   * Gerador de Issues no Github;
   * Dashboard de Acompanhamento.
 
