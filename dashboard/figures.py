@@ -142,14 +142,16 @@ def plot_status_template(df, title, y_column, x_column, hue, showlegend=True):
     df = df.sort_values(by=[hue, x_column])
 
     fig =  px.bar(df, y=y_column, x="aux", orientation="h", height=250, color=hue,
-        color_discrete_map={"Coletado":"green",
-        "Não Coletado":"lightblue","Não Coletável":"red"}, 
+        color_discrete_map={"Coletado":"green", "Não Coletado":"lightblue","Não Coletável":"red"}, 
         labels={"aux":"Coletores"} )    
     fig.update_layout(title=title) 
     fig.update_traces(opacity=0.75, showlegend=showlegend)
 
-    # Coletado,A Coletar,Não-Coletável    
+    # seaborn colors
     # ['#4c72b0', '#dd8452', '#55a868', '#c44e52', '#8172b3', '#937860', '#da8bc3', '#8c8c8c', '#ccb974', '#64b5cd']
+    # blue          brown       green       red
+    # color_discrete_map={"Coletado":"#4c72b0", "Não Coletado":"#64b5cd","Não Coletável":"#c44e52"},      
+
     return fig
 
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
