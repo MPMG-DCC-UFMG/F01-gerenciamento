@@ -46,7 +46,7 @@ def coleta_layout():
     municipios_cobertos = len(open_df['municipio'].tolist())
     count_tags = len(df_tags.loc[df_tags['closed'] != 0]['closed'])
 
-    fig1, fig2, fig3, fig4, fig5, fig6, fig7 = figures.create_figures_coleta()
+    fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9 = figures.create_figures_coleta()
       
     # Create app layout
     layout = html.Div(
@@ -116,9 +116,6 @@ def coleta_layout():
                                 id="info-container",
                                 className="row container-display",
                             ),
-                            html.Div([
-                                dcc.Graph(id="graph1", figure=fig1)],id="countGraphContainer",className="pretty_container",
-                            ),
                         ],
                         id="right-column",
                         className="12 columns",
@@ -126,7 +123,25 @@ def coleta_layout():
                 ],
                 className="row flex-display",
             ),
-             html.Div(
+            html.Div(
+                [
+                    html.Div([dcc.Graph(id="graph9", figure=fig9)], className="pretty_container 6 columns",)
+                ],
+                className="row flex-display",
+            ),
+            html.Div(
+                [
+                    html.Div([dcc.Graph(id="graph8", figure=fig8)], className="pretty_container 6 columns",)
+                ],
+                className="row flex-display",
+            ),
+            html.Div(
+                [
+                    html.Div([dcc.Graph(id="graph1", figure=fig1)], className="pretty_container 6 columns",)
+                ],
+                className="row flex-display",
+            ),
+            html.Div(
                 [
                     html.Div([dcc.Graph(id="graph6", figure=fig6)], className="pretty_container 6 columns",)
                 ],

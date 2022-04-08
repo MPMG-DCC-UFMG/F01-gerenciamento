@@ -127,6 +127,31 @@ def create_heatmap(df, x, y, z, title):
   
     return fig
 
+def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=None, showlegend=False):
+
+    fig =  px.bar(df, y="template", x=["closed", "open"], )
+
+    fig.update_layout(barmode='stack', xaxis={'categoryorder':'total ascending'})    
+    fig.update_layout(autosize=True, title=title) 
+    fig.update_traces(opacity=0.75, showlegend=showlegend)
+    
+    return fig
+
+def plot_status_template(df, title, y_column, x_column, hue, showlegend=True):
+
+    df = df.sort_values(by=[hue, x_column])
+
+    fig =  px.bar(df, y=y_column, x="aux", orientation="h", height=250, color=hue,
+        color_discrete_map={"Coletado":"green",
+        "Não Coletado":"lightblue","Não Coletável":"red"}, 
+        labels={"aux":"Coletores"} )    
+    fig.update_layout(title=title) 
+    fig.update_traces(opacity=0.75, showlegend=showlegend)
+
+    # Coletado,A Coletar,Não-Coletável    
+    # ['#4c72b0', '#dd8452', '#55a868', '#c44e52', '#8172b3', '#937860', '#da8bc3', '#8c8c8c', '#ccb974', '#64b5cd']
+    return fig
+
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
     count_month = pd.read_csv("data/count_month.csv")
@@ -139,38 +164,45 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
     df = pd.read_csv("data/df.csv")
     open_df = pd.read_csv("data/open_df.csv")
     closed_df= pd.read_csv("data/closed_df.csv")
+    template_df= pd.read_csv("data/coletas_por_template.csv")
 
     x = open_df.columns[1:].tolist()
     z = open_df.columns[1:]
     y = 'municipio'
     
     
-    fig1 = plot_status_mes(
-        count_month, x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",
-        y1_column=open_colum, y2_column=closed_colum, title='Coletas por mês')
+    fig1 = plot_status_mes(count_month, title='Coletas por mês',
+        x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",
+        y1_column=open_colum, y2_column=closed_colum )
     
-    fig2 = plot_status_mes(
-        count_epics_month, x_column=count_epics_month['month'].tolist(), name1='Coletas a realizar',
-        name2="Coletas realizadas", y1_column=open_colum, y2_column=closed_colum,
-        title='Quantidade de templates cobertos por mês')
+    fig2 = plot_status_mes(count_epics_month, title='Quantidade de templates cobertos por mês',
+        x_column=count_epics_month['month'].tolist(), name1='Coletas a realizar',
+        name2="Coletas realizadas", y1_column=open_colum, y2_column=closed_colum)
     
-    fig6 = plot_status_week(
-        week_status, y_column='closed_at', x_column='week',
-        title='Coletas fechadas por semana', xaxis_title_text='Semanas')
+    fig6 = plot_status_week(week_status, title='Coletas fechadas por semana',
+        y_column='closed_at', x_column='week',
+        xaxis_title_text='Semanas')
                   
-    fig7 = dropdown_stack(
-        issues_epic_df, title="Coletas por template", x_column='template', y2_column=open_colum,
-        y1_column=closed_colum, name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
+    fig7 = dropdown_stack(issues_epic_df, title="Coletas por template", 
+        x_column='template', y2_column=open_colum, y1_column=closed_colum, 
+        name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     
-    fig3 = plot_stack(
-            df_tags, title="Coletas por tag", x_column='tag', y2_column=open_colum, y1_column=closed_colum,
+    fig3 = plot_stack(df_tags, title="Coletas por tag", 
+            x_column='tag', y2_column=open_colum, y1_column=closed_colum,
             name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     
     fig4 = create_heatmap(open_df, x, y, z, "Coletas a realizar")
     
     fig5 = create_heatmap(closed_df, x, y, z, "Coletas realizadas")
+
+    fig8 = create_barplot(issues_epic_df, title="Coletas por Template: Realizadas X Planejadas (com issue) X Estimadas",
+        x_column='template', y2_column=open_colum, y1_column=closed_colum, 
+        name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     
-    return fig1, fig2, fig3, fig4, fig5, fig6, fig7
+    fig9 = plot_status_template(template_df, title='Epics por Template - Coletores feitos e a fazer',        
+        y_column='Template', x_column='Coletor', hue="Status", showlegend=True)
+
+    return fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9
 
 def create_figures_dev(closed_colum='closed', open_colum='open'):
     
