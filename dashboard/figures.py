@@ -138,20 +138,26 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     return fig
 
 def plot_status_template(df, title, y_column, x_column, hue, showlegend=True):
-
+     
+    total = 29 #TODO Siplanweb
+    templates = epics_df['template'].dropna().unique()
+    
+    for template in templates:
+        created =  df.groupby('template').count()['title'][template]
+        missing = total - created
+        for i in range(missing):
+            df = df.append({'template':template, 'state':'Estimado', 'aux':1}, ignore_index=True)    
+        
     df = df.sort_values(by=[hue, x_column])
 
-    fig =  px.bar(df, y=y_column, x="aux", orientation="h", height=250, color=hue,
-        color_discrete_map={"Coletado":"green", "Não Coletado":"lightblue","Não Coletável":"red"}, 
-        labels={"aux":"Coletores"} )    
+    fig =  px.bar(df, y=y_column, x="aux", orientation="h", color=hue, height=800, width=900,
+        color_discrete_map={"Coletado":"green", "Com epic criada":"#64b5cd", 'Estimado':'lightblue', "Não localizado":"red"}, 
+        labels={"aux":"#Coletores (total estimado pelo template Siplanweb)"} )    
     fig.update_layout(title=title) 
     fig.update_traces(opacity=0.75, showlegend=showlegend)
-
-    # seaborn colors
+    # Seaborn colors  
     # ['#4c72b0', '#dd8452', '#55a868', '#c44e52', '#8172b3', '#937860', '#da8bc3', '#8c8c8c', '#ccb974', '#64b5cd']
-    # blue          brown       green       red
-    # color_discrete_map={"Coletado":"#4c72b0", "Não Coletado":"#64b5cd","Não Coletável":"#c44e52"},      
-
+    
     return fig
 
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
@@ -202,7 +208,7 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
         name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     
     fig9 = plot_status_template(template_df, title='Epics por Template - Coletores feitos e a fazer',        
-        y_column='Template', x_column='Coletor', hue="Status", showlegend=True)
+        y_column='template', x_column='title', hue="state", showlegend=True)
 
     return fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9
 

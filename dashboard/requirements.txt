@@ -8,3 +8,4 @@ plotly==5.3.1
 pyzenhub==0.2.1
 PyGithub==1.55
 spacy==3.2.4 # run: $ python3 -m spacy download pt_core_news_sm 
+jupyterlab==3.2.9

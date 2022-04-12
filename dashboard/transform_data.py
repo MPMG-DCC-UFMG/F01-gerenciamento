@@ -2,8 +2,7 @@ import pandas as pd
 import extract_data
 import re
 
-def count_issues_epic(
-    info_issues, zh, repo_F01, repo_id_f01):
+def count_issues_epic(info_issues, zh, repo_F01, repo_id_f01):
     
     epics_id = extract_data.get_epics_ids(zh, repo_id_f01)
     issues_data = extract_data.get_data_epics(zh, epics_id, repo_id_f01)
@@ -96,6 +95,17 @@ def filter_by_labels(df, label_column='labels', labels_filter=['bug']):
     
     return df
     
+
+def find_label(item_labels, target_label):    
+    
+    item_labels = str(item_labels)
+    found = re.match(r'.*"' + target_label + r'-([^"]*?)"', item_labels)    
+    
+    if found: 
+        return found.group(1)
+    
+    return None
+
 def datetime_to_string(x):
     
     try:
@@ -178,7 +188,25 @@ def format_epics_data(epics_info, time_column, state):
     
     return df, df_count
 
-def count_epics_by_month(epics_id, repo, info_issues, open_column='open', closed_column='closed'):
+
+def process_epics(df, target_labels=['template', 'tag', 'subtag'], remove_orig_col=True):
+    
+    for target_label in target_labels:
+        df[target_label] = df.apply(lambda x: find_label(x['labels'], target_label), axis=1)
+        
+    df.loc[df.labels.astype(str).str.contains('não-localizado'), 'state'] = 'Não localizado'
+    df.loc[df.state == 'closed', 'state'] = 'Coletado'
+    df.loc[df.state == 'open', 'state'] = 'Com epic criada'
+    
+    df = df.rename(columns={'number':'git_issue'})
+    df['aux'] = 1 #TODO
+    
+    if remove_orig_col:
+        df = df.drop(columns='labels')
+    
+    return df
+
+def summarize_epics(epics_id, repo, info_issues, open_column='open', closed_column='closed'):
     
     epics = extract_data.get_issues_by_number(repo, numbers=epics_id)
     epics_info = pd.DataFrame(extract_data.get_issues_infos([epics], info_issues))
@@ -186,11 +214,13 @@ def count_epics_by_month(epics_id, repo, info_issues, open_column='open', closed
     
     open_epics, count_open = format_epics_data(epics_info, time_column='created_at', state=open_column)
     closed_epics, count_closed = format_epics_data(epics_info, time_column='closed_at', state=closed_column)
-    
+
     count_epics_month = count_open.merge(count_closed, on='month')
     count_epics_month['month'] = string_to_datetime(count_epics_month['month'])
     count_epics_month = count_epics_month.sort_values(by='month', ascending=True)
     count_epics_month['month'] = count_epics_month['month'].dt.strftime("%m/%Y").astype(str)
     
-    return count_epics_month
+    epics_info = process_epics(epics_info)
+
+    return epics_info, count_epics_month
      

@@ -305,8 +305,9 @@ def refresh(n_clicks):
     if n_clicks is None:
         raise dash.exceptions.PreventUpdate
     else:
-        main_etl.job1()
-        main_etl.job2()
+        #TODO logs
+        main_etl.update_data_coletas()
+        main_etl.update_data_desenvolvimento()
         html.A(href='/')
         
         
