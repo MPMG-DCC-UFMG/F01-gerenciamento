@@ -140,7 +140,7 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
 def plot_status_template(df, title, y_column, x_column, hue, showlegend=True):
      
     total = 29 #TODO Siplanweb
-    templates = epics_df['template'].dropna().unique()
+    templates = df['template'].dropna().unique()
     
     for template in templates:
         created =  df.groupby('template').count()['title'][template]
@@ -163,8 +163,7 @@ def plot_status_template(df, title, y_column, x_column, hue, showlegend=True):
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
     count_month = pd.read_csv("data/count_month.csv")
-    week_status = pd.read_csv('data/week_status.csv')
-    
+    week_status = pd.read_csv('data/week_status.csv')    
     count_epics_month = pd.read_csv("data/count_epics_month.csv")
                               
     issues_epic_df = pd.read_csv("data/issues_epic_df.csv")
@@ -172,12 +171,11 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
     df = pd.read_csv("data/df.csv")
     open_df = pd.read_csv("data/open_df.csv")
     closed_df= pd.read_csv("data/closed_df.csv")
-    template_df= pd.read_csv("data/coletas_por_template.csv")
+    template_df= pd.read_csv("data/epics.csv")
 
     x = open_df.columns[1:].tolist()
     z = open_df.columns[1:]
-    y = 'municipio'
-    
+    y = 'municipio'    
     
     fig1 = plot_status_mes(count_month, title='Coletas por mês',
         x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",

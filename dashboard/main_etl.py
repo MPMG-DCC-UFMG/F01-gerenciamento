@@ -36,8 +36,7 @@ def main_tranform_data(repo, creators, info_issues):
     df['closed_at'] = df['closed_at'].fillna(0)
 
     df = transform_data.format_date(df, time_column='closed_at', status='closed')
-    df = transform_data.format_date(df, time_column='created_at', status='created')
-    
+    df = transform_data.format_date(df, time_column='created_at', status='created')    
 
     closed_df = transform_data.issues_matrix(df, state_column='closed', time_column='format_date_closed')
     open_df = transform_data.issues_matrix(df, state_column='open', time_column='format_date_created')
@@ -63,7 +62,7 @@ def main_tranform_data(repo, creators, info_issues):
     
     return info_issues, df, open_df, closed_df
 
-def job1( closed_column='closed', open_column='open'):
+def update_data_coletas( closed_column='closed', open_column='open'):
     
     """
     Atualiza os dados das coletas
@@ -80,6 +79,8 @@ def job1( closed_column='closed', open_column='open'):
     repo_F01 = g.get_repo("MPMG-DCC-UFMG/F01")
     
     info_issues = {'title': [], 'number': [], 'created_at': [], 'closed_at': [], 'labels' : [], 'state': [] }
+    
+    #TODO same at app.py
     creators = ['carbo6ufmg', 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'arthurnader']
     
     list_tags = ['Acesso à informação', 'Informações institucionais', 'Receitas', 'Despesas', 'Licitação', 'Contratos', 'Terceiro Setor', 'Concursos Públicos', 'Obras públicas', 'Servidores Públicos']
@@ -92,8 +93,8 @@ def job1( closed_column='closed', open_column='open'):
     week_status = transform_data.count_by_week(df, column_to_group='week', time_column='closed_at')
        
     issues_epic_df, epics_id = transform_data.count_issues_epic(df, zh, repo_F01, repo_id)
-    count_epics_month = transform_data.count_epics_by_month(epics_id, repo_F01, info_issues)
-    
+    epics_info, count_epics_month = transform_data.summarize_epics(epics_id, repo_F01, info_issues)
+
     df_tags = transform_data.count_by_tags(issues_epic_df, list_tags)
     
     df.to_csv("data/df.csv", index=False)
@@ -105,12 +106,13 @@ def job1( closed_column='closed', open_column='open'):
     issues_epic_df = pd.concat([issues_epic_df, aux])
     issues_epic_df.to_csv("data/issues_epic_df.csv", index=False)
     count_epics_month.to_csv("data/count_epics_month.csv", index=False) 
+    epics_info.to_csv("data/epics.csv", index=False) 
     df_tags.to_csv("data/df_tags.csv", index=False)
     
     open_df.to_csv("data/open_df.csv", index=False)
     closed_df.to_csv("data/closed_df.csv", index=False)
     
-def job2(closed_column='closed', open_column='open'):
+def update_data_desenvolvimento(closed_column='closed', open_column='open'):
     
     """
     Atualiza os dados do desenvolvimento
