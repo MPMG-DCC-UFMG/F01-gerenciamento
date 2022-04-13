@@ -18,7 +18,7 @@ Arantina,0,0,0,0,0,0,1,2,5,2
 Araporã,0,0,0,0,1,0,0,0,0,0
 Arapuá,0,0,0,0,1,0,0,0,0,0
 Araxá,0,0,0,0,0,0,1,0,0,0
-Aricanduva,0,0,0,0,0,0,1,2,4,0
+Aricanduva,0,0,0,0,0,0,1,2,4,1
 Arinos,0,0,0,0,0,0,1,0,0,0
 Astolfo Dutra,0,0,0,0,0,0,1,2,5,2
 Ataléia,0,0,0,0,0,0,1,0,0,0
@@ -57,7 +57,7 @@ Cantagalo,0,0,0,0,0,0,0,1,0,0
 Canápolis,0,0,0,0,1,0,0,0,0,0
 Capelinha,0,0,0,0,0,0,2,2,4,0
 Capinópolis,0,0,0,0,1,0,0,0,0,0
-Capitão Enéas,0,0,0,0,0,0,1,2,4,0
+Capitão Enéas,0,0,0,0,0,0,1,2,4,1
 Carandaí,0,0,0,0,0,0,1,0,0,0
 Caraí,0,0,0,0,0,0,1,0,0,0
 Careaçu,0,0,0,0,0,0,1,0,0,0
@@ -79,7 +79,7 @@ Chapada do Norte,0,0,0,0,0,0,1,0,0,0
 Chiador,0,0,0,0,0,0,1,2,5,2
 Chácara,0,0,0,0,0,0,1,2,5,2
 Cipotânea,0,0,0,0,0,0,1,2,5,2
-Claro dos Poções,0,0,0,0,0,0,1,2,4,0
+Claro dos Poções,0,0,0,0,0,0,1,2,4,1
 Cláudio,0,0,0,0,2,0,0,6,2,0
 Coimbra,0,0,0,0,0,0,1,2,5,2
 Coluna,0,0,0,0,0,0,2,2,4,0
@@ -97,7 +97,7 @@ Coronel Pacheco,0,0,0,0,0,0,1,2,5,2
 Coronel Xavier Chaves,0,0,0,0,0,0,1,0,0,0
 Couto de Magalhães de Minas,0,0,0,0,0,0,2,2,4,0
 Cristina,0,0,0,0,0,1,0,2,5,2
-Cristália,0,0,0,0,0,0,1,2,4,0
+Cristália,0,0,0,0,0,0,1,2,4,1
 Cruzeiro da Fortaleza,0,0,0,0,0,0,1,0,0,0
 Cruzília,0,0,0,0,0,0,1,2,5,2
 Cuparaque,0,0,0,0,0,0,1,0,0,0
@@ -112,6 +112,7 @@ Divisópolis,0,0,0,0,0,0,2,2,4,0
 Dom Silvério,0,0,0,0,0,0,2,0,0,0
 Dom Viçoso,0,0,0,0,0,0,1,2,5,2
 Dores de Campos,0,0,0,0,0,0,1,0,0,0
+Dores de Guanhães,0,0,0,0,0,0,0,0,0,1
 Dores do Indaiá,0,0,0,0,1,0,0,0,0,0
 Durandé,0,0,0,0,1,0,0,0,0,0
 Elói Mendes,0,0,0,0,1,0,0,0,0,0
@@ -155,7 +156,7 @@ Ingaí,0,0,0,0,0,0,1,0,0,0
 Ipatinga,0,2,1,1,3,0,0,0,0,0
 Itabirinha,0,0,0,0,0,0,1,0,0,0
 Itabirito,0,0,0,0,0,0,1,0,0,0
-Itacambira,0,0,0,0,0,0,1,2,4,0
+Itacambira,0,0,0,0,0,0,1,2,4,1
 Itacarambi,0,0,0,0,0,0,2,2,4,0
 Itaguara,0,0,0,0,0,0,0,2,2,0
 Itaipé,0,0,0,0,0,0,1,0,0,0
@@ -177,12 +178,12 @@ Jenipapo de Minas,0,0,0,0,0,0,2,2,4,0
 Jequitaí,0,0,0,0,0,0,2,2,4,0
 Joaquim Felício,0,0,0,0,0,0,2,2,4,0
 Jordânia,0,0,0,0,0,0,1,0,0,0
-Josenópolis,0,0,0,0,0,0,1,2,4,0
+Josenópolis,0,0,0,0,0,0,1,2,4,1
 João Monlevade,0,0,0,0,0,0,1,0,0,0
 Juiz de Fora,0,7,0,2,1,0,0,0,0,0
 Juramento,0,0,0,0,0,1,1,2,4,0
 Juruaia,0,0,0,0,1,0,0,0,0,0
-Ladainha,0,0,0,0,0,0,1,2,4,0
+Ladainha,0,0,0,0,0,0,1,2,4,1
 Lagoa Dourada,0,0,0,0,0,0,1,0,0,0
 Lagoa Santa,0,0,0,0,1,0,0,0,0,0
 Lagoa da Prata,0,0,0,0,0,2,0,2,2,0
@@ -198,7 +199,7 @@ Luz,0,0,0,0,0,2,0,2,2,0
 Machacalis,0,0,0,0,0,0,1,0,0,0
 Madre de Deus de Minas,0,0,0,0,0,0,2,2,5,2
 Mamonas,0,0,0,0,0,1,1,2,4,0
-Manga,0,0,0,0,0,0,1,2,4,0
+Manga,0,0,0,0,0,0,1,2,4,1
 Mantena,0,0,0,0,0,2,0,2,2,0
 Mariana,0,0,0,0,0,2,0,2,3,0
 Marilac,0,0,0,0,0,0,1,0,0,0
@@ -221,7 +222,7 @@ Nazareno,0,0,0,0,0,0,1,0,0,0
 Nepomuceno,0,0,0,0,0,2,0,0,0,0
 Nova Era,0,0,0,0,0,0,1,0,0,0
 Nova Ponte,0,0,0,0,0,0,1,0,0,0
-Nova Porteirinha,0,0,0,0,0,0,1,2,4,0
+Nova Porteirinha,0,0,0,0,0,0,1,2,4,1
 Nova União,0,0,0,0,0,0,1,0,0,0
 Novo Cruzeiro,0,0,0,0,0,0,2,2,4,0
 Novo Oriente de Minas,0,0,0,0,0,0,1,0,0,0
@@ -254,7 +255,7 @@ Pescador,0,0,0,0,0,0,0,1,0,0
 Piau,0,0,0,0,0,1,0,2,5,2
 Piedade do Rio Grande,0,0,0,0,0,0,1,0,0,0
 Pimenta,0,0,0,0,1,0,0,0,0,0
-Pintópolis,0,0,0,0,0,0,1,2,4,0
+Pintópolis,0,0,0,0,0,0,1,2,4,1
 Pirajuba,0,0,0,0,0,2,0,0,0,0
 Piranga,0,0,0,0,0,1,0,2,5,2
 Piranguinho,0,0,0,0,0,0,1,0,0,0
@@ -298,7 +299,7 @@ Santo Antônio do Grama,0,0,0,0,0,0,1,0,0,0
 Santo Antônio do Jacinto,0,0,0,0,0,0,0,1,0,0
 Santo Antônio do Monte,0,0,0,0,0,2,0,2,2,0
 Santo Antônio do Retiro,0,0,0,0,0,0,2,2,4,0
-Santo Hipólito,0,0,0,0,0,0,1,2,4,0
+Santo Hipólito,0,0,0,0,0,0,1,2,4,1
 Sardoá,0,0,0,0,0,0,1,0,0,0
 Sarzedo,0,0,0,0,0,2,0,2,2,0
 Senador Cortes,0,0,0,0,0,0,1,2,5,2
@@ -311,6 +312,7 @@ Serra Azul de Minas,0,0,0,0,0,0,2,2,4,0
 Serrania,0,0,0,0,0,3,0,0,0,0
 Serranos,0,0,0,0,0,0,0,3,0,0
 Serro,0,0,0,0,0,0,1,0,0,0
+Setubinha,0,0,0,0,0,0,0,0,0,1
 Silveirânia,0,0,0,0,0,0,1,0,0,0
 Silvianópolis,0,0,0,0,0,0,1,0,0,0
 Simão Pereira,0,0,0,0,0,1,0,2,5,2
@@ -324,12 +326,12 @@ São José da Lapa,0,0,0,0,1,0,0,0,0,0
 São João Evangelista,0,0,0,0,0,0,1,0,0,0
 São João da Lagoa,0,0,0,0,0,1,1,2,4,0
 São João da Mata,0,0,0,0,0,0,1,0,0,0
-São João das Missões,0,0,0,0,0,0,1,2,4,0
+São João das Missões,0,0,0,0,0,0,1,2,4,1
 São João del Rei,0,0,0,0,0,0,1,0,0,0
 São João do Pacuí,0,0,0,0,0,0,2,2,4,0
 São Lourenço,0,0,0,0,0,0,1,3,5,2
 São Pedro do Suaçuí,0,0,0,0,0,0,1,0,0,0
-São Romão,0,0,0,0,0,0,1,2,4,0
+São Romão,0,0,0,0,0,0,1,2,4,1
 São Sebastião do Anta,0,0,0,0,1,0,0,0,0,0
 São Sebastião do Maranhão,0,0,0,0,0,0,1,0,0,0
 São Sebastião do Oeste,0,0,0,0,0,2,0,2,3,0

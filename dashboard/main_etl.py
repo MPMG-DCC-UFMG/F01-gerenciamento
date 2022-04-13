@@ -62,16 +62,13 @@ def main_tranform_data(repo, creators, info_issues):
     
     return info_issues, df, open_df, closed_df
 
-def update_data_coletas( closed_column='closed', open_column='open'):
+def update_data_coletas(git_token, zh_token, closed_column='closed', open_column='open'):    
     
     """
     Atualiza os dados das coletas
     """
     
-    repo_id='357557193'
-    git_token=<TOKEN>
-    zh_token=<TOKEN>
-    
+    repo_id='357557193'    
     zh = Zenhub(zh_token)
     g = Github(git_token)
     
@@ -112,16 +109,13 @@ def update_data_coletas( closed_column='closed', open_column='open'):
     open_df.to_csv("data/open_df.csv", index=False)
     closed_df.to_csv("data/closed_df.csv", index=False)
     
-def update_data_desenvolvimento(closed_column='closed', open_column='open'):
+def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', open_column='open'):
     
     """
     Atualiza os dados do desenvolvimento
     """
     
-    repo_id='357557193'
-    git_token=<TOKEN>
-    zh_token=<TOKEN>
-    
+    repo_id='357557193'    
     zh = Zenhub(zh_token)
     g = Github(git_token)
     

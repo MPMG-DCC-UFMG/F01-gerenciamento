@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import pandas as pd
 import dash
-import math
-import datetime as dt
-import pandas as pd
+import math, pandas as pd, datetime as dt, sys
 from dash.dependencies import Input, Output, State, ClientsideFunction
-from dash import dcc
-from dash import html
+from dash import dcc, html
 import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import load_figure_template
 import plotly.io as pio
@@ -249,7 +245,6 @@ def desenvolvimento_layout():
 
 app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}], external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-
 sidebar = html.Div(
     [
         html.Img(src=app.get_asset_url("logo.png"),
@@ -272,8 +267,6 @@ sidebar = html.Div(
     ],
     style=SIDEBAR_STYLE,
 )
-
-
 
 app.title = "F01 - Coletas"
 server = app.server
@@ -306,8 +299,8 @@ def refresh(n_clicks):
         raise dash.exceptions.PreventUpdate
     else:
         #TODO logs
-        main_etl.update_data_coletas()
-        main_etl.update_data_desenvolvimento()
+        main_etl.update_data_coletas(git_token, zh_token)
+        main_etl.update_data_desenvolvimento(git_token, zh_token)
         html.A(href='/')
         
         
@@ -328,12 +321,13 @@ def render_page_content(pathname):
             html.Hr(),
             html.P(f"The pathname {pathname} was not recognised..."),
         ]
-    )
-        
+    )        
 
-if __name__ == '__main__':
+# Repository credentials
+git_token = '' 
+zh_token = ''
+
+if __name__ == '__main__':    
+    git_token = input("Enter GitHub token: ")
+    zh_token  = input("Enter ZenHub token: ")
     app.run_server(port=8050)
-
-    
-
-    
