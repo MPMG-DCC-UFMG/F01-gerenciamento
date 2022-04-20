@@ -137,7 +137,7 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
-def plot_status_template(df, title, y_column, x_column, hue, showlegend=True):
+def plot_status_epics(df, title, y_column, x_column, hue, showlegend=True):
      
     total = 29 #TODO Siplanweb
     templates = df['template'].dropna().unique()
@@ -160,6 +160,31 @@ def plot_status_template(df, title, y_column, x_column, hue, showlegend=True):
     
     return fig
 
+def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):
+     
+    total = 29 #TODO Siplanweb
+    templates = df['template'].dropna().unique()
+    
+    for template in templates:
+        created =  df.groupby('template').count()['title'][template]
+        missing = total - created
+        for i in range(missing):
+            df = df.append({'template':template, 'state':'3-Previsto', 'aux':1}, ignore_index=True)    
+        
+    df['item'] = df['tag'] + ' (' + df['subtag'] + ')'
+    df = df.sort_values(by=[hue, x_column])
+
+    fig =  px.bar(df, y=y_column, x="item", orientation="h", color=hue, height=800, width=900,
+        color_discrete_map={"1-Testado":"green", "2-Implementado":"#64b5cd", '3-Previsto':'lightblue'}, 
+        labels={"item":"Validadores"} )    
+    fig.update_layout(title=title) 
+    fig.update_traces(opacity=0.75, showlegend=showlegend)
+    fig.update_xaxes(tickangle=-45)
+    # Seaborn colors  
+    # ['#4c72b0', '#dd8452', '#55a868', '#c44e52', '#8172b3', '#937860', '#da8bc3', '#8c8c8c', '#ccb974', '#64b5cd']
+    
+    return fig
+
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
     count_month = pd.read_csv("data/count_month.csv")
@@ -167,11 +192,11 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
     count_epics_month = pd.read_csv("data/count_epics_month.csv")
                               
     issues_epic_df = pd.read_csv("data/issues_epic_df.csv")
+    epics_df= pd.read_csv("data/epics.csv")
     df_tags = pd.read_csv("data/df_tags.csv")
     df = pd.read_csv("data/df.csv")
     open_df = pd.read_csv("data/open_df.csv")
     closed_df= pd.read_csv("data/closed_df.csv")
-    template_df= pd.read_csv("data/epics.csv")
 
     x = open_df.columns[1:].tolist()
     z = open_df.columns[1:]
@@ -205,7 +230,7 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
         x_column='template', y2_column=open_colum, y1_column=closed_colum, 
         name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     
-    fig9 = plot_status_template(template_df, title='Epics por Template - Coletores feitos e a fazer',        
+    fig9 = plot_status_epics(epics_df, title='Visão Geral - Epics por Template - Coletores feitos e a fazer',        
         y_column='template', x_column='title', hue="state", showlegend=True)
 
     return fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9
@@ -215,19 +240,18 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
     count_month = pd.read_csv("data/count_month_dev.csv")
     week_status = pd.read_csv('data/week_status_dev.csv')
     coletas_tag= pd.read_csv("data/coletas_tag_dev.csv")
+    epics_dev_df= pd.read_csv("data/epics_dev.csv")
     
     open_df = pd.read_csv("data/open_df_dev.csv")
     closed_df= pd.read_csv("data/closed_df_dev.csv")
 
     x = open_df.columns[1:].tolist()
     z = open_df.columns[1:]
-    y = 'municipio'
-    
+    y = 'municipio'    
     
     fig1 = plot_status_mes(
         count_month, x_column=x, name1='Issues abertas', name2="Issues fechadas",
-        y1_column=open_colum, y2_column=closed_colum, title='Generalizações por mês')
-    
+        y1_column=open_colum, y2_column=closed_colum, title='Generalizações por mês')    
     
     fig2 = plot_status_week(
         week_status, y_column='closed_at', x_column='week',
@@ -237,5 +261,8 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
         coletas_tag, title="Generalizações por template", x_column='template', y2_column=open_colum,
         y1_column=closed_colum, name2="Issues fechadas", name1="Issues abertas", showlegend=False)
     
-       
-    return fig1, fig2, fig3
+    fig4 = plot_status_epics_dev(epics_dev_df, title='Visão Geral - Validadores feitos e a fazer (**EM CONSTRUÇÃO**)',        
+        y_column='template', x_column='title', hue="state", showlegend=True)
+
+
+    return fig1, fig2, fig3, fig4

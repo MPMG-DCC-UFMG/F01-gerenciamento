@@ -1,22 +1,21 @@
 title,number,created_at,closed_at,labels,state,municipio,month,day,year,format_date_closed,format_date_created,week
-Coleta de Contratos - Volta Grande,2623,2022-04-04 12:15:42,0,[T] Realização F01 [0] Coleta,open,Volta Grande,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Teixeiras,2621,2022-04-04 12:15:40,0,[T] Realização F01 [0] Coleta,open,Teixeiras,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Tabuleiro,2620,2022-04-04 12:15:38,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Senhora dos Remédios,2616,2022-04-04 12:12:33,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Senador Firmino,2614,2022-04-04 12:12:30,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Rio Novo,2608,2022-04-04 12:12:23,0,[T] Realização F01 [0] Coleta,open,Rio Novo,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Pedro Teixeira,2604,2022-04-04 12:12:17,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Oratórios,2601,2022-04-04 12:12:13,0,[T] Realização F01 [0] Coleta,open,Oratórios,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Lima Duarte,2594,2022-04-04 12:09:03,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Ibertioga,2591,2022-04-04 12:08:58,0,[T] Realização F01 [0] Coleta,open,Ibertioga,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Guarará,2590,2022-04-04 12:08:56,0,[T] Realização F01 [0] Coleta,open,Guarará,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Coronel Pacheco,2581,2022-04-04 12:08:45,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Chácara,2578,2022-04-04 12:05:40,0,[T] Realização F01 [0] Coleta,open,Chácara,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Carmo de Minas,2576,2022-04-04 12:05:38,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Canaã,2575,2022-04-04 12:05:37,0,[T] Realização F01 [0] Coleta,open,Canaã,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Astolfo Dutra,2568,2022-04-04 12:05:27,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Andrelândia,2565,2022-04-04 12:05:23,0,[T] Realização F01 [0] Coleta,open,Andrelândia,4,4,2022,1/1970,4/2022,00
-Coleta de Contratos - Aiuruoca,2563,2022-04-04 12:05:20,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,4,4,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Teixeiras,2781,2022-04-16 14:57:21,0,[T] Realização F01 [0] Coleta,open,Teixeiras,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Tabuleiro,2780,2022-04-16 14:57:20,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Senhora dos Remédios,2776,2022-04-16 14:54:15,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Senador Firmino,2774,2022-04-16 14:54:12,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Pedro Teixeira,2764,2022-04-16 14:54:00,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Oratórios,2761,2022-04-16 14:53:56,0,[T] Realização F01 [0] Coleta,open,Oratórios,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Maripá de Minas,2756,2022-04-16 14:50:50,0,[T] Realização F01 [0] Coleta,open,Maripá de Minas,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Lima Duarte,2754,2022-04-16 14:50:47,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Ibertioga,2751,2022-04-16 14:50:44,0,[T] Realização F01 [0] Coleta,open,Ibertioga,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Guarará,2750,2022-04-16 14:50:42,0,[T] Realização F01 [0] Coleta,open,Guarará,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Coronel Pacheco,2741,2022-04-16 14:50:32,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Chácara,2738,2022-04-16 14:47:28,0,[T] Realização F01 [0] Coleta,open,Chácara,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Carmo de Minas,2736,2022-04-16 14:47:25,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Canaã,2735,2022-04-16 14:47:24,0,[T] Realização F01 [0] Coleta,open,Canaã,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Astolfo Dutra,2728,2022-04-16 14:47:15,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Andrelândia,2725,2022-04-16 14:47:12,0,[T] Realização F01 [0] Coleta,open,Andrelândia,4,16,2022,1/1970,4/2022,00
+Coleta de Despesas com Diarias - Aiuruoca,2723,2022-04-16 14:47:09,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,4,16,2022,1/1970,4/2022,00
 Coleta de Licitação - Água Comprida,1290,2022-01-18 14:26:09,0,[T] Realização F01 [0] Coleta,open,Água Comprida,1,18,2022,1/1970,1/2022,00
 Coleta de Licitação - Estrela do Sul,1289,2022-01-18 14:26:08,0,[T] Realização F01 [0] Coleta,open,Estrela do Sul,1,18,2022,1/1970,1/2022,00
 Coleta de Licitação - Campo Florido,1288,2022-01-18 14:26:06,0,[T] Realização F01 [0] Coleta,open,Campo Florido,1,18,2022,1/1970,1/2022,00
@@ -114,82 +113,45 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
-Coleta de Licitações - Manga,2720,2022-04-13 11:27:55,0,[T] Realização F01 [0] Coleta,open,Manga,4,13,2022,1/1970,4/2022,00
-Coleta de Licitações - Santo Hipólito,2719,2022-04-13 11:25:54,0,[T] Realização F01 [0] Coleta,open,Santo Hipólito,4,13,2022,1/1970,4/2022,00
-Coleta de Licitações - Itacambira,2718,2022-04-13 11:24:32,0,[T] Realização F01 [0] Coleta,open,Itacambira,4,13,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Teixeiras,2844,2022-04-18 12:20:40,0,[T] Realização F01 [0] Coleta,open,Teixeiras,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Lima Duarte,2843,2022-04-18 12:20:39,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Ibertioga,2842,2022-04-18 12:20:38,0,[T] Realização F01 [0] Coleta,open,Ibertioga,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Canaã,2841,2022-04-18 12:20:37,0,[T] Realização F01 [0] Coleta,open,Canaã,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Senador Firmino,2840,2022-04-18 12:20:36,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Oratórios,2839,2022-04-18 12:20:34,0,[T] Realização F01 [0] Coleta,open,Oratórios,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Carmo de Minas,2838,2022-04-18 12:20:33,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Coronel Pacheco,2837,2022-04-18 12:20:32,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Aiuruoca,2836,2022-04-18 12:20:30,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Guarará,2835,2022-04-18 12:20:29,0,[T] Realização F01 [0] Coleta,open,Guarará,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Senhora dos Remédios,2834,2022-04-18 12:20:27,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Chácara,2833,2022-04-18 12:20:26,0,[T] Realização F01 [0] Coleta,open,Chácara,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Tabuleiro,2832,2022-04-18 12:20:25,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Pedro Teixeira,2831,2022-04-18 12:20:24,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Astolfo Dutra,2830,2022-04-18 12:20:22,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Andrelândia,2829,2022-04-18 12:07:10,0,[T] Realização F01 [0] Coleta,open,Andrelândia,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Rio Novo,2828,2022-04-18 12:07:09,0,[T] Realização F01 [0] Coleta,open,Rio Novo,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Seritinga,2827,2022-04-18 12:04:07,0,[T] Realização F01 [0] Coleta,open,Seritinga,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Fervedouro,2826,2022-04-18 12:04:06,0,[T] Realização F01 [0] Coleta,open,Fervedouro,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Chiador,2825,2022-04-18 12:04:05,0,[T] Realização F01 [0] Coleta,open,Chiador,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Volta Grande,2824,2022-04-18 12:04:03,0,[T] Realização F01 [0] Coleta,open,Volta Grande,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Olaria,2819,2022-04-18 12:03:57,0,[T] Realização F01 [0] Coleta,open,Olaria,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Amparo do Serra,2812,2022-04-18 12:03:48,0,[T] Realização F01 [0] Coleta,open,Amparo do Serra,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Laranjal,2808,2022-04-18 11:57:38,0,[T] Realização F01 [0] Coleta,open,Laranjal,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Arantina,2802,2022-04-18 11:54:31,0,[T] Realização F01 [0] Coleta,open,Arantina,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Dom Viçoso,2798,2022-04-18 11:54:24,0,[T] Realização F01 [0] Coleta,open,Dom Viçoso,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Passa Vinte,2792,2022-04-18 11:54:16,0,[T] Realização F01 [0] Coleta,open,Passa Vinte,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Guarani,2790,2022-04-18 11:54:14,0,[T] Realização F01 [0] Coleta,open,Guarani,4,18,2022,1/1970,4/2022,00
+Coleta de Terceiro Setor - Convênios - Bias Fortes,2786,2022-04-18 11:52:21,0,[T] Realização F01 [0] Coleta,open,Bias Fortes,4,18,2022,1/1970,4/2022,00
 Coleta de Licitações - Ladainha,2717,2022-04-13 11:23:15,0,[T] Realização F01 [0] Coleta,open,Ladainha,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Aricanduva,2716,2022-04-13 11:21:54,0,[T] Realização F01 [0] Coleta,open,Aricanduva,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Nova Porteirinha,2715,2022-04-13 11:20:38,0,[T] Realização F01 [0] Coleta,open,Nova Porteirinha,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - São João das Missões,2714,2022-04-13 11:19:25,0,[T] Realização F01 [0] Coleta,open,São João das Missões,4,13,2022,1/1970,4/2022,00
-Coleta de Licitações - Cristália,2713,2022-04-13 11:17:23,0,[T] Realização F01 [0] Coleta,open,Cristália,4,13,2022,1/1970,4/2022,00
-Coleta de Licitações - Capitão Enéas,2712,2022-04-13 11:15:45,0,[T] Realização F01 [0] Coleta,open,Capitão Enéas,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Pintópolis,2711,2022-04-13 11:14:15,0,[T] Realização F01 [0] Coleta,open,Pintópolis,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - São Romão,2710,2022-04-13 11:12:48,0,[T] Realização F01 [0] Coleta,open,São Romão,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Josenópolis,2709,2022-04-13 11:10:49,0,[T] Realização F01 [0] Coleta,open,Josenópolis,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Dores de Guanhães,2708,2022-04-13 11:09:21,0,[T] Realização F01 [0] Coleta,open,Dores de Guanhães,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Setubinha,2707,2022-04-13 11:08:10,0,[T] Realização F01 [0] Coleta,open,Setubinha,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Claro dos Poções,2706,2022-04-13 11:06:30,0,[T] Realização F01 [0] Coleta,open,Claro dos Poções,4,13,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Teixeiras,2689,2022-04-07 01:27:26,0,[T] Realização F01 [0] Coleta,open,Teixeiras,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Lima Duarte,2688,2022-04-07 01:27:24,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Ibertioga,2687,2022-04-07 01:27:23,0,[T] Realização F01 [0] Coleta,open,Ibertioga,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Canaã,2686,2022-04-07 01:27:22,0,[T] Realização F01 [0] Coleta,open,Canaã,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Senador Firmino,2685,2022-04-07 01:27:20,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Oratórios,2684,2022-04-07 01:27:19,0,[T] Realização F01 [0] Coleta,open,Oratórios,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Carmo de Minas,2683,2022-04-07 01:27:18,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Coronel Pacheco,2682,2022-04-07 01:27:16,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Aiuruoca,2681,2022-04-07 01:27:15,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Guarará,2680,2022-04-07 01:27:14,0,[T] Realização F01 [0] Coleta,open,Guarará,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Senhora dos Remédios,2679,2022-04-07 01:27:13,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Chácara,2678,2022-04-07 01:27:11,0,[T] Realização F01 [0] Coleta,open,Chácara,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Tabuleiro,2677,2022-04-07 01:27:10,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Pedro Teixeira,2676,2022-04-07 01:27:09,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Astolfo Dutra,2675,2022-04-07 01:27:07,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Andrelândia,2674,2022-04-07 01:25:31,0,[T] Realização F01 [0] Coleta,open,Andrelândia,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Rio Novo,2673,2022-04-07 01:25:30,0,[T] Realização F01 [0] Coleta,open,Rio Novo,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Seritinga,2672,2022-04-07 01:22:28,0,[T] Realização F01 [0] Coleta,open,Seritinga,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Fervedouro,2671,2022-04-07 01:22:27,0,[T] Realização F01 [0] Coleta,open,Fervedouro,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Chiador,2670,2022-04-07 01:22:26,0,[T] Realização F01 [0] Coleta,open,Chiador,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Volta Grande,2669,2022-04-07 01:22:24,0,[T] Realização F01 [0] Coleta,open,Volta Grande,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Rochedo de Minas,2668,2022-04-07 01:22:23,0,[T] Realização F01 [0] Coleta,open,Rochedo de Minas,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Minduri,2667,2022-04-07 01:22:22,0,[T] Realização F01 [0] Coleta,open,Minduri,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Paula Cândido,2666,2022-04-07 01:22:21,0,[T] Realização F01 [0] Coleta,open,Paula Cândido,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Diogo de Vasconcelos,2665,2022-04-07 01:22:19,0,[T] Realização F01 [0] Coleta,open,Diogo de Vasconcelos,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Olaria,2664,2022-04-07 01:22:18,0,[T] Realização F01 [0] Coleta,open,Olaria,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Estrela Dalva,2663,2022-04-07 01:22:17,0,[T] Realização F01 [0] Coleta,open,Estrela Dalva,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Miraí,2662,2022-04-07 01:22:15,0,[T] Realização F01 [0] Coleta,open,Miraí,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Rio Preto,2661,2022-04-07 01:22:14,0,[T] Realização F01 [0] Coleta,open,Rio Preto,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Santa Rita de Ibitipoca,2660,2022-04-07 01:22:13,0,[T] Realização F01 [0] Coleta,open,Santa Rita de Ibitipoca,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Cipotânea,2659,2022-04-07 01:22:12,0,[T] Realização F01 [0] Coleta,open,Cipotânea,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Santana do Garambéu,2658,2022-04-07 01:22:10,0,[T] Realização F01 [0] Coleta,open,Santana do Garambéu,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Amparo do Serra,2657,2022-04-07 01:22:09,0,[T] Realização F01 [0] Coleta,open,Amparo do Serra,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Toledo,2656,2022-04-07 01:22:08,0,[T] Realização F01 [0] Coleta,open,Toledo,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - São Lourenço,2655,2022-04-07 01:22:06,0,[T] Realização F01 [0] Coleta,open,São Lourenço,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Madre de Deus de Minas,2654,2022-04-07 01:20:20,0,[T] Realização F01 [0] Coleta,open,Madre de Deus de Minas,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Laranjal,2653,2022-04-07 01:20:19,0,[T] Realização F01 [0] Coleta,open,Laranjal,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Aracitaba,2652,2022-04-07 01:17:17,0,[T] Realização F01 [0] Coleta,open,Aracitaba,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Senhora de Oliveira,2651,2022-04-07 01:17:16,0,[T] Realização F01 [0] Coleta,open,Senhora de Oliveira,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Cruzília,2650,2022-04-07 01:17:14,0,[T] Realização F01 [0] Coleta,open,Cruzília,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Belmiro Braga,2649,2022-04-07 01:17:13,0,[T] Realização F01 [0] Coleta,open,Belmiro Braga,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Bocaina de Minas,2648,2022-04-07 01:17:12,0,[T] Realização F01 [0] Coleta,open,Bocaina de Minas,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Arantina,2647,2022-04-07 01:17:11,0,[T] Realização F01 [0] Coleta,open,Arantina,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Senador Cortes,2646,2022-04-07 01:17:09,0,[T] Realização F01 [0] Coleta,open,Senador Cortes,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Brás Pires,2645,2022-04-07 01:17:08,0,[T] Realização F01 [0] Coleta,open,Brás Pires,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Coimbra,2644,2022-04-07 01:17:07,0,[T] Realização F01 [0] Coleta,open,Coimbra,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Dom Viçoso,2643,2022-04-07 01:17:06,0,[T] Realização F01 [0] Coleta,open,Dom Viçoso,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Lamim,2642,2022-04-07 01:17:04,0,[T] Realização F01 [0] Coleta,open,Lamim,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Rio Espera,2641,2022-04-07 01:17:03,0,[T] Realização F01 [0] Coleta,open,Rio Espera,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Mercês,2640,2022-04-07 01:17:02,0,[T] Realização F01 [0] Coleta,open,Mercês,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Piau,2639,2022-04-07 01:17:00,0,[T] Realização F01 [0] Coleta,open,Piau,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Barra Longa,2638,2022-04-07 01:16:59,0,[T] Realização F01 [0] Coleta,open,Barra Longa,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Passa Vinte,2637,2022-04-07 01:16:58,0,[T] Realização F01 [0] Coleta,open,Passa Vinte,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Piranga,2636,2022-04-07 01:16:56,0,[T] Realização F01 [0] Coleta,open,Piranga,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Guarani,2635,2022-04-07 01:16:55,0,[T] Realização F01 [0] Coleta,open,Guarani,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Cristina,2634,2022-04-07 01:13:43,0,[T] Realização F01 [0] Coleta,open,Cristina,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Simão Pereira,2633,2022-04-07 01:13:42,0,[T] Realização F01 [0] Coleta,open,Simão Pereira,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Ewbank da Câmara,2632,2022-04-07 01:13:40,0,[T] Realização F01 [0] Coleta,open,Ewbank da Câmara,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Bias Fortes,2631,2022-04-07 01:13:39,0,[T] Realização F01 [0] Coleta,open,Bias Fortes,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Bom Jardim de Minas,2630,2022-04-07 01:13:38,0,[T] Realização F01 [0] Coleta,open,Bom Jardim de Minas,4,7,2022,1/1970,4/2022,00
-Coleta de Acesso à Informação - Requisitos Exigidos - Maripá de Minas,2629,2022-04-07 01:13:37,0,[T] Realização F01 [0] Coleta,open,Maripá de Minas,4,7,2022,1/1970,4/2022,00
 Comportamentos distintos em execuções de uma mesma coleta,1652,2022-02-17 19:04:16,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,open,,2,17,2022,1/1970,2/2022,00
 Coleta de Licitações (2021 a 2018) - Guanhães,1444,2022-02-03 01:37:32,0,[T] Realização F01 [0] Coleta,open,Guanhães,2,3,2022,1/1970,2/2022,00
 Coleta de Licitações (2015 a 2013) - Lassance,1443,2022-02-03 01:34:31,0,[T] Realização F01 [0] Coleta,open,Lassance,2,3,2022,1/1970,2/2022,00
@@ -204,56 +166,70 @@ Coleta de Licitações (2021 a 2019) - Serranos,1435,2022-02-02 01:10:38,0,[T] R
 Coleta de Licitações (2015 a 2013) - Virgínia,1434,2022-02-02 01:02:35,0,[T] Realização F01 [0] Coleta,open,Virgínia,2,2,2022,1/1970,2/2022,00
 Coleta de Licitações (2018 a 2016) - Virgínia,1433,2022-02-02 01:00:48,0,[T] Realização F01 [0] Coleta,open,Virgínia,2,2,2022,1/1970,2/2022,00
 Coleta de Licitações (2021 a 2019) - Virgínia,1432,2022-02-01 22:46:41,0,[T] Realização F01 [0] Coleta,open,Virgínia,2,1,2022,1/1970,2/2022,00
+Coleta de Licitações de Belo Horizonte,939,2021-11-22 23:59:23,0,[T] Realização F01 [0] Coleta,open,Belo Horizonte,11,22,2021,1/1970,11/2021,00
 Coleta de Licitações de Varginha,885,2021-11-09 00:41:16,0,[T] Realização F01 [0] Coleta,open,Varginha,11,9,2021,1/1970,11/2021,00
 Coleta de dados de Leis Orçamentárias de Juiz de Fora,866,2021-11-01 14:35:19,0,[E] Externa [T] Realização F01 [0] Coleta,open,Juiz de Fora,11,1,2021,1/1970,11/2021,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Volta Grande,2556,2022-03-31 14:04:36,0,[T] Realização F01 [0] Coleta,open,Volta Grande,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Toledo,2555,2022-03-31 14:04:35,0,[T] Realização F01 [0] Coleta,open,Toledo,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Teixeiras,2554,2022-03-31 14:04:34,0,[T] Realização F01 [0] Coleta,open,Teixeiras,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Tabuleiro,2553,2022-03-31 14:04:32,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - São Lourenço,2552,2022-03-31 14:04:31,0,[T] Realização F01 [0] Coleta,open,São Lourenço,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Seritinga,2550,2022-03-31 14:04:28,0,[T] Realização F01 [0] Coleta,open,Seritinga,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Senhora dos Remédios,2549,2022-03-31 14:04:27,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Senador Firmino,2547,2022-03-31 14:04:24,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Senador Cortes,2546,2022-03-31 14:04:22,0,[T] Realização F01 [0] Coleta,open,Senador Cortes,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Santana do Garambéu,2545,2022-03-31 14:04:21,0,[T] Realização F01 [0] Coleta,open,Santana do Garambéu,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Santa Rita de Ibitipoca,2544,2022-03-31 14:04:19,0,[T] Realização F01 [0] Coleta,open,Santa Rita de Ibitipoca,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Rochedo de Minas,2543,2022-03-31 14:04:17,0,[T] Realização F01 [0] Coleta,open,Rochedo de Minas,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Rio Preto,2542,2022-03-31 14:04:16,0,[T] Realização F01 [0] Coleta,open,Rio Preto,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Rio Novo,2541,2022-03-31 14:02:30,0,[T] Realização F01 [0] Coleta,open,Rio Novo,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Piranga,2539,2022-03-31 14:02:28,0,[T] Realização F01 [0] Coleta,open,Piranga,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Pedro Teixeira,2537,2022-03-31 14:02:25,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Paula Cândido,2536,2022-03-31 14:02:24,0,[T] Realização F01 [0] Coleta,open,Paula Cândido,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Passa Vinte,2535,2022-03-31 14:02:22,0,[T] Realização F01 [0] Coleta,open,Passa Vinte,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Oratórios,2534,2022-03-31 14:02:20,0,[T] Realização F01 [0] Coleta,open,Oratórios,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Olaria,2533,2022-03-31 14:02:19,0,[T] Realização F01 [0] Coleta,open,Olaria,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Miraí,2532,2022-03-31 14:02:17,0,[T] Realização F01 [0] Coleta,open,Miraí,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Minduri,2531,2022-03-31 14:02:16,0,[T] Realização F01 [0] Coleta,open,Minduri,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Mercês,2530,2022-03-31 14:02:14,0,[T] Realização F01 [0] Coleta,open,Mercês,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Madre de Deus de Minas,2528,2022-03-31 14:02:12,0,[T] Realização F01 [0] Coleta,open,Madre de Deus de Minas,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Lima Duarte,2527,2022-03-31 14:02:10,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Laranjal,2526,2022-03-31 13:59:31,0,[T] Realização F01 [0] Coleta,open,Laranjal,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Ibertioga,2524,2022-03-31 13:59:28,0,[T] Realização F01 [0] Coleta,open,Ibertioga,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Guarará,2523,2022-03-31 13:59:26,0,[T] Realização F01 [0] Coleta,open,Guarará,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Guarani,2522,2022-03-31 13:59:25,0,[T] Realização F01 [0] Coleta,open,Guarani,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Fervedouro,2521,2022-03-31 13:59:23,0,[T] Realização F01 [0] Coleta,open,Fervedouro,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Estrela Dalva,2519,2022-03-31 13:59:20,0,[T] Realização F01 [0] Coleta,open,Estrela Dalva,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Dom Viçoso,2518,2022-03-31 13:59:19,0,[T] Realização F01 [0] Coleta,open,Dom Viçoso,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Diogo de Vasconcelos,2517,2022-03-31 13:59:17,0,[T] Realização F01 [0] Coleta,open,Diogo de Vasconcelos,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Cruzília,2516,2022-03-31 13:59:16,0,[T] Realização F01 [0] Coleta,open,Cruzília,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Cristina,2515,2022-03-31 13:59:15,0,[T] Realização F01 [0] Coleta,open,Cristina,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Coronel Pacheco,2514,2022-03-31 13:59:13,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Cipotânea,2512,2022-03-31 13:59:11,0,[T] Realização F01 [0] Coleta,open,Cipotânea,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Chácara,2511,2022-03-31 13:58:21,0,[T] Realização F01 [0] Coleta,open,Chácara,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Chiador,2510,2022-03-31 13:58:19,0,[T] Realização F01 [0] Coleta,open,Chiador,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Carmo de Minas,2509,2022-03-31 13:58:18,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Canaã,2508,2022-03-31 13:58:17,0,[T] Realização F01 [0] Coleta,open,Canaã,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Bocaina de Minas,2505,2022-03-31 13:58:12,0,[T] Realização F01 [0] Coleta,open,Bocaina de Minas,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Barra Longa,2502,2022-03-31 13:58:08,0,[T] Realização F01 [0] Coleta,open,Barra Longa,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Astolfo Dutra,2501,2022-03-31 13:58:07,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Arantina,2500,2022-03-31 13:58:05,0,[T] Realização F01 [0] Coleta,open,Arantina,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Andrelândia,2498,2022-03-31 13:58:02,0,[T] Realização F01 [0] Coleta,open,Andrelândia,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Amparo do Serra,2497,2022-03-31 13:58:00,0,[T] Realização F01 [0] Coleta,open,Amparo do Serra,3,31,2022,1/1970,3/2022,00
-Coleta de Servidores Públicos - Relatórios de Despesas  - Aiuruoca,2496,2022-03-31 13:57:58,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,3,31,2022,1/1970,3/2022,00
+Coleta de Receita Orçamentária - Volta Grande,2905,2022-04-19 00:23:43,0,[T] Realização F01 [0] Coleta,open,Volta Grande,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Toledo,2904,2022-04-19 00:23:41,0,[T] Realização F01 [0] Coleta,open,Toledo,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Teixeiras,2903,2022-04-19 00:23:39,0,[T] Realização F01 [0] Coleta,open,Teixeiras,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Tabuleiro,2902,2022-04-19 00:23:38,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - São Lourenço,2901,2022-04-19 00:23:36,0,[T] Realização F01 [0] Coleta,open,São Lourenço,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Simão Pereira,2900,2022-04-19 00:23:35,0,[T] Realização F01 [0] Coleta,open,Simão Pereira,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Seritinga,2899,2022-04-19 00:23:33,0,[T] Realização F01 [0] Coleta,open,Seritinga,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Senhora dos Remédios,2898,2022-04-19 00:23:32,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Senhora de Oliveira,2897,2022-04-19 00:23:30,0,[T] Realização F01 [0] Coleta,open,Senhora de Oliveira,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Senador Firmino,2896,2022-04-19 00:23:29,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Senador Cortes,2895,2022-04-19 00:23:27,0,[T] Realização F01 [0] Coleta,open,Senador Cortes,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Santana do Garambéu,2894,2022-04-19 00:23:26,0,[T] Realização F01 [0] Coleta,open,Santana do Garambéu,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Santa Rita de Ibitipoca,2893,2022-04-19 00:23:24,0,[T] Realização F01 [0] Coleta,open,Santa Rita de Ibitipoca,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Rochedo de Minas,2892,2022-04-19 00:23:23,0,[T] Realização F01 [0] Coleta,open,Rochedo de Minas,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Rio Preto,2891,2022-04-19 00:23:21,0,[T] Realização F01 [0] Coleta,open,Rio Preto,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Rio Novo,2890,2022-04-19 00:19:51,0,[T] Realização F01 [0] Coleta,open,Rio Novo,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Rio Espera,2889,2022-04-19 00:19:50,0,[T] Realização F01 [0] Coleta,open,Rio Espera,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Piranga,2888,2022-04-19 00:19:48,0,[T] Realização F01 [0] Coleta,open,Piranga,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Piau,2887,2022-04-19 00:19:47,0,[T] Realização F01 [0] Coleta,open,Piau,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Pedro Teixeira,2886,2022-04-19 00:19:45,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Paulo Cândido,2885,2022-04-19 00:19:44,0,[T] Realização F01 [0] Coleta,open,,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Passa Vinte,2884,2022-04-19 00:19:42,0,[T] Realização F01 [0] Coleta,open,Passa Vinte,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Oratórios,2883,2022-04-19 00:19:41,0,[T] Realização F01 [0] Coleta,open,Oratórios,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Olaria,2882,2022-04-19 00:19:39,0,[T] Realização F01 [0] Coleta,open,Olaria,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Miraí,2881,2022-04-19 00:19:38,0,[T] Realização F01 [0] Coleta,open,Miraí,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Minduri,2880,2022-04-19 00:19:36,0,[T] Realização F01 [0] Coleta,open,Minduri,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Mercês,2879,2022-04-19 00:19:35,0,[T] Realização F01 [0] Coleta,open,Mercês,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Maripá de Minas,2878,2022-04-19 00:19:33,0,[T] Realização F01 [0] Coleta,open,Maripá de Minas,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Madre de Deus de Minas,2877,2022-04-19 00:19:31,0,[T] Realização F01 [0] Coleta,open,Madre de Deus de Minas,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Lima Duarte,2876,2022-04-19 00:19:30,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Laranjal,2875,2022-04-19 00:18:16,0,[T] Realização F01 [0] Coleta,open,Laranjal,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Lamim,2874,2022-04-19 00:18:14,0,[T] Realização F01 [0] Coleta,open,Lamim,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Ibertioga,2873,2022-04-19 00:18:12,0,[T] Realização F01 [0] Coleta,open,Ibertioga,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Guarará,2872,2022-04-19 00:18:10,0,[T] Realização F01 [0] Coleta,open,Guarará,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Guarani,2871,2022-04-19 00:18:09,0,[T] Realização F01 [0] Coleta,open,Guarani,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Fervedouro,2870,2022-04-19 00:18:07,0,[T] Realização F01 [0] Coleta,open,Fervedouro,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Ewbank da Câmara,2869,2022-04-19 00:18:05,0,[T] Realização F01 [0] Coleta,open,Ewbank da Câmara,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Estrela Dalva,2868,2022-04-19 00:18:04,0,[T] Realização F01 [0] Coleta,open,Estrela Dalva,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Dom Viçoso,2867,2022-04-19 00:18:01,0,[T] Realização F01 [0] Coleta,open,Dom Viçoso,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Diogo de Vasconcelos,2866,2022-04-19 00:18:00,0,[T] Realização F01 [0] Coleta,open,Diogo de Vasconcelos,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Cruzília,2865,2022-04-19 00:17:58,0,[T] Realização F01 [0] Coleta,open,Cruzília,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Cristina,2864,2022-04-19 00:17:57,0,[T] Realização F01 [0] Coleta,open,Cristina,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Coronel Pacheco,2863,2022-04-19 00:17:55,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Coimbra,2862,2022-04-19 00:17:54,0,[T] Realização F01 [0] Coleta,open,Coimbra,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Cipotânea,2861,2022-04-19 00:17:52,0,[T] Realização F01 [0] Coleta,open,Cipotânea,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Chácara,2860,2022-04-19 00:06:04,0,[T] Realização F01 [0] Coleta,open,Chácara,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Chiador,2859,2022-04-19 00:06:03,0,[T] Realização F01 [0] Coleta,open,Chiador,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Carmo de Minas,2858,2022-04-19 00:06:01,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Canaã,2857,2022-04-19 00:05:59,0,[T] Realização F01 [0] Coleta,open,Canaã,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Brás Pires,2856,2022-04-19 00:05:58,0,[T] Realização F01 [0] Coleta,open,Brás Pires,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Bom Jardim de Minas,2855,2022-04-19 00:05:56,0,[T] Realização F01 [0] Coleta,open,Bom Jardim de Minas,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Bocaina de Minas,2854,2022-04-19 00:05:54,0,[T] Realização F01 [0] Coleta,open,Bocaina de Minas,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Bias Fortes,2853,2022-04-19 00:05:53,0,[T] Realização F01 [0] Coleta,open,Bias Fortes,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Belmiro Braga,2852,2022-04-19 00:05:51,0,[T] Realização F01 [0] Coleta,open,Belmiro Braga,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Barra Longa,2851,2022-04-19 00:05:50,0,[T] Realização F01 [0] Coleta,open,Barra Longa,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Astolfo Dutra,2850,2022-04-19 00:05:48,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Arantina,2849,2022-04-19 00:05:46,0,[T] Realização F01 [0] Coleta,open,Arantina,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Aracitaba,2848,2022-04-19 00:05:45,0,[T] Realização F01 [0] Coleta,open,Aracitaba,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Andrelândia,2847,2022-04-19 00:05:43,0,[T] Realização F01 [0] Coleta,open,Andrelândia,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Amparo do Serra,2846,2022-04-19 00:05:42,0,[T] Realização F01 [0] Coleta,open,Amparo do Serra,4,19,2022,1/1970,4/2022,00
+Coleta de Receita Orçamentária - Aiuruoca,2845,2022-04-19 00:05:40,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,4,19,2022,1/1970,4/2022,00
 Coleta de Despesas (Relatórios) - Rio Preto,2145,2022-03-10 19:00:08,0,[T] Realização F01 [0] Coleta,open,Rio Preto,3,10,2022,1/1970,3/2022,00
 Coleta de Despesas (Relatórios) - Rio Novo,2144,2022-03-10 19:00:07,0,[T] Realização F01 [0] Coleta,open,Rio Novo,3,10,2022,1/1970,3/2022,00
 Coleta de Despesas (Relatórios) - Rio Espera,2143,2022-03-10 19:00:06,0,[T] Realização F01 [0] Coleta,open,Rio Espera,3,10,2022,1/1970,3/2022,00
@@ -306,29 +282,84 @@ Coleta de dados de Relatórios Fiscais de Paracatu,957,2021-11-25 01:55:39,2021-
 Coleta de dados das Contas Públicas de Paracatu,955,2021-11-25 01:53:30,0,[E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,11,25,2021,1/1970,11/2021,00
 Coleta de dados das Contas Públicas de Paracatu,956,2021-11-25 01:53:39,2021-11-26 18:33:57,[E] Externa [T] Realização F01 [0] Coleta,closed,Paracatu,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de Elói Mendes,901,2021-11-12 13:10:46,0,[E] Externa [T] Realização F01 [0] Coleta,open,Elói Mendes,11,12,2021,1/1970,11/2021,00
+Coleta de Despesas com Diarias - Volta Grande,2783,2022-04-16 14:57:24,2022-04-20 13:07:31,[T] Realização F01 [0] Coleta,closed,Volta Grande,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Toledo,2782,2022-04-16 14:57:22,2022-04-19 23:43:40,[T] Realização F01 [0] Coleta,closed,Toledo,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - São Lourenço,2779,2022-04-16 14:57:19,2022-04-19 23:22:39,[T] Realização F01 [0] Coleta,closed,São Lourenço,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Simão Pereira,2778,2022-04-16 14:54:17,2022-04-18 13:19:29,[T] Realização F01 [0] Coleta,closed,Simão Pereira,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Seritinga,2777,2022-04-16 14:54:16,2022-04-20 13:42:33,[T] Realização F01 [0] Coleta,closed,Seritinga,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Senhora de Oliveira,2775,2022-04-16 14:54:14,2022-04-19 14:03:36,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Senador Cortes,2773,2022-04-16 14:54:11,2022-04-18 13:41:09,[T] Realização F01 [0] Coleta,closed,Senador Cortes,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Santana do Garambéu,2772,2022-04-16 14:54:10,2022-04-20 12:43:23,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Santa Rita de Ibitipoca,2771,2022-04-16 14:54:09,2022-04-20 12:48:00,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Rochedo de Minas,2770,2022-04-16 14:54:07,2022-04-20 13:14:46,[T] Realização F01 [0] Coleta,closed,Rochedo de Minas,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Rio Preto,2769,2022-04-16 14:54:06,2022-04-20 12:51:30,[T] Realização F01 [0] Coleta,closed,Rio Preto,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Rio Novo,2768,2022-04-16 14:54:05,2022-04-20 13:36:32,[T] Realização F01 [0] Coleta,closed,Rio Novo,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Rio Espera,2767,2022-04-16 14:54:04,2022-04-18 13:35:19,[T] Realização F01 [0] Coleta,closed,Rio Espera,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Piranga,2766,2022-04-16 14:54:02,2022-04-18 13:27:28,[T] Realização F01 [0] Coleta,closed,Piranga,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Piau,2765,2022-04-16 14:54:01,2022-04-18 13:33:31,[T] Realização F01 [0] Coleta,closed,Piau,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Paulo Cândido,2763,2022-04-16 14:53:59,2022-04-20 13:16:39,[T] Realização F01 [0] Coleta,closed,Diarias,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Passa Vinte,2762,2022-04-16 14:53:57,2022-04-18 13:31:26,[T] Realização F01 [0] Coleta,closed,Passa Vinte,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Olaria,2760,2022-04-16 14:53:55,2022-04-20 13:22:59,[T] Realização F01 [0] Coleta,closed,Olaria,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Miraí,2759,2022-04-16 14:50:54,2022-04-20 12:55:05,[T] Realização F01 [0] Coleta,closed,Miraí,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Minduri,2758,2022-04-16 14:50:52,2022-04-20 13:20:42,[T] Realização F01 [0] Coleta,closed,Minduri,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Mercês,2757,2022-04-16 14:50:51,2022-04-18 13:34:39,[T] Realização F01 [0] Coleta,closed,Mercês,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Madre de Deus de Minas,2755,2022-04-16 14:50:49,2022-04-19 23:39:14,[T] Realização F01 [0] Coleta,closed,Madre de Deus de Minas,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Laranjal,2753,2022-04-16 14:50:46,2022-04-19 23:34:56,[T] Realização F01 [0] Coleta,closed,Laranjal,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Lamim,2752,2022-04-16 14:50:45,2022-04-18 13:41:31,[T] Realização F01 [0] Coleta,closed,Lamim,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Guarani,2749,2022-04-16 14:50:41,2022-04-18 13:26:54,[T] Realização F01 [0] Coleta,closed,Guarani,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Fervedouro,2748,2022-04-16 14:50:40,2022-04-20 13:40:08,[T] Realização F01 [0] Coleta,closed,Fervedouro,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Ewbank da Câmara,2747,2022-04-16 14:50:39,2022-04-18 13:22:43,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Estrela Dalva,2746,2022-04-16 14:50:38,2022-04-20 12:57:40,[T] Realização F01 [0] Coleta,closed,Estrela Dalva,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Dom Viçoso,2745,2022-04-16 14:50:36,2022-04-18 13:42:17,[T] Realização F01 [0] Coleta,closed,Dom Viçoso,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Diogo de Vasconcelos,2744,2022-04-16 14:50:35,2022-04-20 13:24:58,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Cruzília,2743,2022-04-16 14:50:34,2022-04-19 13:48:14,[T] Realização F01 [0] Coleta,closed,Cruzília,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Cristina,2742,2022-04-16 14:50:33,2022-04-18 13:26:22,[T] Realização F01 [0] Coleta,closed,Cristina,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Coimbra,2740,2022-04-16 14:47:30,2022-04-18 13:40:22,[T] Realização F01 [0] Coleta,closed,Coimbra,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Cipotânea,2739,2022-04-16 14:47:29,2022-04-20 12:39:13,[T] Realização F01 [0] Coleta,closed,Cipotânea,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Chiador,2737,2022-04-16 14:47:26,2022-04-20 13:10:51,[T] Realização F01 [0] Coleta,closed,Chiador,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Brás Pires,2734,2022-04-16 14:47:23,2022-04-18 13:40:31,[T] Realização F01 [0] Coleta,closed,Brás Pires,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Bom Jardim de Minas,2733,2022-04-16 14:47:22,2022-04-18 13:14:00,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Bocaina de Minas,2732,2022-04-16 14:47:20,2022-04-19 13:36:52,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Bias Fortes,2731,2022-04-16 14:47:19,2022-04-18 13:13:48,[T] Realização F01 [0] Coleta,closed,Bias Fortes,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Belmiro Braga,2730,2022-04-16 14:47:18,2022-04-19 13:41:54,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Barra Longa,2729,2022-04-16 14:47:17,2022-04-18 13:32:59,[T] Realização F01 [0] Coleta,closed,Barra Longa,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Arantina,2727,2022-04-16 14:47:14,2022-04-19 13:35:12,[T] Realização F01 [0] Coleta,closed,Arantina,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Aracitaba,2726,2022-04-16 14:47:13,2022-04-19 23:30:17,[T] Realização F01 [0] Coleta,closed,Aracitaba,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Amparo do Serra,2724,2022-04-16 14:47:10,2022-04-20 12:30:18,[T] Realização F01 [0] Coleta,closed,Amparo do Serra,4,16,2022,4/2022,4/2022,16
+Coleta de Contratos - Volta Grande,2623,2022-04-04 12:15:42,2022-04-13 23:47:40,[T] Realização F01 [0] Coleta,closed,Volta Grande,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Toledo,2622,2022-04-04 12:15:41,2022-04-05 12:25:51,[T] Realização F01 [0] Coleta,closed,Toledo,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Teixeiras,2621,2022-04-04 12:15:40,2022-04-14 15:07:36,[T] Realização F01 [0] Coleta,closed,Teixeiras,4,4,2022,4/2022,4/2022,15
+Coleta de Contratos - Tabuleiro,2620,2022-04-04 12:15:38,2022-04-14 14:00:35,[T] Realização F01 [0] Coleta,closed,Tabuleiro,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - São Lourenço,2619,2022-04-04 12:15:37,2022-04-05 12:22:20,[T] Realização F01 [0] Coleta,closed,São Lourenço,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Simão Pereira,2618,2022-04-04 12:12:36,2022-04-04 13:15:17,[T] Realização F01 [0] Coleta,closed,Simão Pereira,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Seritinga,2617,2022-04-04 12:12:34,2022-04-06 14:21:51,[T] Realização F01 [0] Coleta,closed,Seritinga,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Senhora dos Remédios,2616,2022-04-04 12:12:33,2022-04-14 14:01:46,[T] Realização F01 [0] Coleta,closed,Senhora dos Remédios,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Senhora de Oliveira,2615,2022-04-04 12:12:32,2022-04-05 12:11:11,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Senador Firmino,2614,2022-04-04 12:12:30,2022-04-14 15:05:27,[T] Realização F01 [0] Coleta,closed,Senador Firmino,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Senador Cortes,2613,2022-04-04 12:12:29,2022-04-05 11:54:25,[T] Realização F01 [0] Coleta,closed,Senador Cortes,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Santana do Garambéu,2612,2022-04-04 12:12:28,2022-04-05 12:27:18,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Santa Rita de Ibitipoca,2611,2022-04-04 12:12:27,2022-04-06 13:01:16,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Rochedo de Minas,2610,2022-04-04 12:12:25,2022-04-06 14:07:42,[T] Realização F01 [0] Coleta,closed,Rochedo de Minas,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Rio Preto,2609,2022-04-04 12:12:24,2022-04-06 13:02:23,[T] Realização F01 [0] Coleta,closed,Rio Preto,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Rio Novo,2608,2022-04-04 12:12:23,2022-04-14 13:02:36,[T] Realização F01 [0] Coleta,closed,Rio Novo,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Rio Espera,2607,2022-04-04 12:12:21,2022-04-04 13:56:02,[T] Realização F01 [0] Coleta,closed,Rio Espera,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Piranga,2606,2022-04-04 12:12:20,2022-04-04 13:32:26,[T] Realização F01 [0] Coleta,closed,Piranga,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Piau,2605,2022-04-04 12:12:18,2022-04-04 13:47:39,[T] Realização F01 [0] Coleta,closed,Piau,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Pedro Teixeira,2604,2022-04-04 12:12:17,2022-04-14 13:11:49,[T] Realização F01 [0] Coleta,closed,Pedro Teixeira,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Paula Cândido,2603,2022-04-04 12:12:16,2022-04-06 13:47:06,[T] Realização F01 [0] Coleta,closed,Paula Cândido,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Passa Vinte,2602,2022-04-04 12:12:14,2022-04-04 13:37:55,[T] Realização F01 [0] Coleta,closed,Passa Vinte,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Oratórios,2601,2022-04-04 12:12:13,2022-04-14 15:04:59,[T] Realização F01 [0] Coleta,closed,Oratórios,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Olaria,2600,2022-04-04 12:12:12,2022-04-06 13:59:44,[T] Realização F01 [0] Coleta,closed,Olaria,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Miraí,2599,2022-04-04 12:09:10,2022-04-06 13:02:53,[T] Realização F01 [0] Coleta,closed,Miraí,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Minduri,2598,2022-04-04 12:09:09,2022-04-06 13:48:09,[T] Realização F01 [0] Coleta,closed,Minduri,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Mercês,2597,2022-04-04 12:09:08,2022-04-04 13:51:20,[T] Realização F01 [0] Coleta,closed,Mercês,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Maripá de Minas,2596,2022-04-04 12:09:06,2022-04-04 12:56:28,[T] Realização F01 [0] Coleta,closed,Maripá de Minas,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Madre de Deus de Minas,2595,2022-04-04 12:09:05,2022-04-05 12:14:08,[T] Realização F01 [0] Coleta,closed,Madre de Deus de Minas,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Lima Duarte,2594,2022-04-04 12:09:03,2022-04-14 15:06:59,[T] Realização F01 [0] Coleta,closed,Lima Duarte,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Laranjal,2593,2022-04-04 12:09:01,2022-04-05 12:12:57,[T] Realização F01 [0] Coleta,closed,Laranjal,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Lamim,2592,2022-04-04 12:08:59,2022-04-04 14:00:01,[T] Realização F01 [0] Coleta,closed,Lamim,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Ibertioga,2591,2022-04-04 12:08:58,2022-04-14 15:06:24,[T] Realização F01 [0] Coleta,closed,Ibertioga,4,4,2022,4/2022,4/2022,15
+Coleta de Contratos - Guarará,2590,2022-04-04 12:08:56,2022-04-14 14:02:42,[T] Realização F01 [0] Coleta,closed,Guarará,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Guarani,2589,2022-04-04 12:08:55,2022-04-04 13:26:34,[T] Realização F01 [0] Coleta,closed,Guarani,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Fervedouro,2588,2022-04-04 12:08:54,2022-04-06 14:10:02,[T] Realização F01 [0] Coleta,closed,Fervedouro,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Ewbank da Câmara,2587,2022-04-04 12:08:52,2022-04-04 13:08:26,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,4,4,2022,4/2022,4/2022,14
@@ -337,18 +368,25 @@ Coleta de Contratos - Dom Viçoso,2585,2022-04-04 12:08:50,2022-04-04 14:01:09,[
 Coleta de Contratos - Diogo de Vasconcelos,2584,2022-04-04 12:08:49,2022-04-06 13:41:21,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Cruzília,2583,2022-04-04 12:08:47,2022-04-05 12:05:50,[T] Realização F01 [0] Coleta,closed,Cruzília,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Cristina,2582,2022-04-04 12:08:46,2022-04-04 13:22:33,[T] Realização F01 [0] Coleta,closed,Cristina,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Coronel Pacheco,2581,2022-04-04 12:08:45,2022-04-14 14:18:35,[T] Realização F01 [0] Coleta,closed,Coronel Pacheco,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Coimbra,2580,2022-04-04 12:05:43,2022-04-05 11:52:29,[T] Realização F01 [0] Coleta,closed,Coimbra,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Cipotânea,2579,2022-04-04 12:05:42,2022-04-06 13:03:56,[T] Realização F01 [0] Coleta,closed,Cipotânea,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Chácara,2578,2022-04-04 12:05:40,2022-04-14 14:01:00,[T] Realização F01 [0] Coleta,closed,Chácara,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Chiador,2577,2022-04-04 12:05:39,2022-04-06 14:17:07,[T] Realização F01 [0] Coleta,closed,Chiador,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Carmo de Minas,2576,2022-04-04 12:05:38,2022-04-14 15:00:03,[T] Realização F01 [0] Coleta,closed,Carmo de Minas,4,4,2022,4/2022,4/2022,15
+Coleta de Contratos - Canaã,2575,2022-04-04 12:05:37,2022-04-14 15:05:49,[T] Realização F01 [0] Coleta,closed,Canaã,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Brás Pires,2574,2022-04-04 12:05:35,2022-04-05 11:53:34,[T] Realização F01 [0] Coleta,closed,Brás Pires,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Bom Jardim de Minas,2573,2022-04-04 12:05:34,2022-04-04 12:50:45,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Bocaina de Minas,2572,2022-04-04 12:05:33,2022-04-05 12:04:15,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Bias Fortes,2571,2022-04-04 12:05:31,2022-04-04 13:02:25,[T] Realização F01 [0] Coleta,closed,Bias Fortes,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Belmiro Braga,2570,2022-04-04 12:05:30,2022-04-05 12:05:15,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Barra Longa,2569,2022-04-04 12:05:28,2022-04-04 13:43:20,[T] Realização F01 [0] Coleta,closed,Barra Longa,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Astolfo Dutra,2568,2022-04-04 12:05:27,2022-04-14 13:08:04,[T] Realização F01 [0] Coleta,closed,Astolfo Dutra,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Arantina,2567,2022-04-04 12:05:26,2022-04-05 12:01:17,[T] Realização F01 [0] Coleta,closed,Arantina,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Aracitaba,2566,2022-04-04 12:05:24,2022-04-05 12:11:55,[T] Realização F01 [0] Coleta,closed,Aracitaba,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Andrelândia,2565,2022-04-04 12:05:23,2022-04-14 13:07:29,[T] Realização F01 [0] Coleta,closed,Andrelândia,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Amparo do Serra,2564,2022-04-04 12:05:22,2022-04-05 12:26:31,[T] Realização F01 [0] Coleta,closed,Amparo do Serra,4,4,2022,4/2022,4/2022,14
+Coleta de Contratos - Aiuruoca,2563,2022-04-04 12:05:20,2022-04-14 14:02:13,[T] Realização F01 [0] Coleta,closed,Aiuruoca,4,4,2022,4/2022,4/2022,15
 Coleta de Despesas - Relatório Orçamentario - Itacarambi,2320,2022-03-14 13:19:58,2022-03-17 16:46:53,[T] Realização F01 [0] Coleta,closed,Itacarambi,3,14,2022,3/2022,3/2022,11
 Coleta de Despesas - Relatório Orçamentario - Montezuma,2319,2022-03-14 13:19:56,2022-03-17 16:46:44,[T] Realização F01 [0] Coleta,closed,Montezuma,3,14,2022,3/2022,3/2022,11
 Coleta de Despesas - Relatório Orçamentario - Manga,2318,2022-03-14 13:19:55,2022-03-17 16:46:11,[T] Realização F01 [0] Coleta,closed,Manga,3,14,2022,3/2022,3/2022,11
@@ -1134,6 +1172,104 @@ Coleta de dados da Estrutura Organizacional de Governador Valadares.,505,2021-06
 Coleta de dados das receitas da prefeitura de Governador Valadares.,500,2021-06-02 15:41:14,2021-10-06 14:33:37,[E] Externa [0] Coleta,closed,Governador Valadares,6,2,2021,10/2021,6/2021,40
 Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 13:44:20,[2] Alta Prioridade [E] Externa [0] Coleta,closed,Congonhas,7,21,2021,10/2021,7/2021,43
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,7,20,2021,8/2021,7/2021,35
+Coleta de Terceiro Setor - Convênios - Rochedo de Minas,2823,2022-04-18 12:04:02,2022-04-20 11:47:29,[T] Realização F01 [0] Coleta,closed,Rochedo de Minas,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Minduri,2822,2022-04-18 12:04:00,2022-04-20 11:45:45,[T] Realização F01 [0] Coleta,closed,Minduri,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Paula Cândido,2821,2022-04-18 12:03:59,2022-04-20 11:42:34,[T] Realização F01 [0] Coleta,closed,Paula Cândido,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Diogo de Vasconcelos,2820,2022-04-18 12:03:58,2022-04-20 11:40:43,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Estrela Dalva,2818,2022-04-18 12:03:55,2022-04-20 11:36:16,[T] Realização F01 [0] Coleta,closed,Estrela Dalva,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Miraí,2817,2022-04-18 12:03:54,2022-04-20 11:34:09,[T] Realização F01 [0] Coleta,closed,Miraí,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Rio Preto,2816,2022-04-18 12:03:53,2022-04-20 11:31:08,[T] Realização F01 [0] Coleta,closed,Rio Preto,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Santa Rita de Ibitipoca,2815,2022-04-18 12:03:52,2022-04-20 11:29:52,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Cipotânea,2814,2022-04-18 12:03:50,2022-04-20 11:28:25,[T] Realização F01 [0] Coleta,closed,Cipotânea,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Santana do Garambéu,2813,2022-04-18 12:03:49,2022-04-20 11:26:55,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Toledo,2811,2022-04-18 12:03:47,2022-04-20 11:22:14,[T] Realização F01 [0] Coleta,closed,Toledo,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - São Lourenço,2810,2022-04-18 12:03:45,2022-04-20 11:20:53,[T] Realização F01 [0] Coleta,closed,São Lourenço,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Madre de Deus de Minas,2809,2022-04-18 11:57:40,2022-04-20 11:19:43,[T] Realização F01 [0] Coleta,closed,Madre de Deus de Minas,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Aracitaba,2807,2022-04-18 11:54:37,2022-04-20 11:15:22,[T] Realização F01 [0] Coleta,closed,Aracitaba,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Senhora de Oliveira,2806,2022-04-18 11:54:35,2022-04-20 11:14:32,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Cruzília,2805,2022-04-18 11:54:34,2022-04-20 11:13:42,[T] Realização F01 [0] Coleta,closed,Cruzília,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Belmiro Braga,2804,2022-04-18 11:54:33,2022-04-20 10:44:55,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Bocaina de Minas,2803,2022-04-18 11:54:32,2022-04-20 02:00:46,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Senador Cortes,2801,2022-04-18 11:54:29,2022-04-20 01:51:10,[T] Realização F01 [0] Coleta,closed,Senador Cortes,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Brás Pires,2800,2022-04-18 11:54:28,2022-04-20 01:31:07,[T] Realização F01 [0] Coleta,closed,Brás Pires,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Coimbra,2799,2022-04-18 11:54:25,2022-04-20 01:28:37,[T] Realização F01 [0] Coleta,closed,Coimbra,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Lamim,2797,2022-04-18 11:54:23,2022-04-20 01:09:43,[T] Realização F01 [0] Coleta,closed,Lamim,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Rio Espera,2796,2022-04-18 11:54:21,2022-04-20 01:26:35,[T] Realização F01 [0] Coleta,closed,Rio Espera,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Mercês,2795,2022-04-18 11:54:20,2022-04-20 01:07:17,[T] Realização F01 [0] Coleta,closed,Mercês,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Piau,2794,2022-04-18 11:54:19,2022-04-20 00:53:50,[T] Realização F01 [0] Coleta,closed,Piau,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Barra Longa,2793,2022-04-18 11:54:17,2022-04-19 01:38:39,[T] Realização F01 [0] Coleta,closed,Barra Longa,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Piranga,2791,2022-04-18 11:54:15,2022-04-19 01:31:11,[T] Realização F01 [0] Coleta,closed,Piranga,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Cristina,2789,2022-04-18 11:52:24,2022-04-19 00:48:26,[T] Realização F01 [0] Coleta,closed,Cristina,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Simão Pereira,2788,2022-04-18 11:52:23,2022-04-19 00:47:21,[T] Realização F01 [0] Coleta,closed,Simão Pereira,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Ewbank da Câmara,2787,2022-04-18 11:52:22,2022-04-19 00:41:18,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Bom Jardim de Minas,2785,2022-04-18 11:52:19,2022-04-19 00:38:36,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,4,18,2022,4/2022,4/2022,16
+Coleta de Terceiro Setor - Convênios - Maripá de Minas,2784,2022-04-18 11:52:18,2022-04-19 00:37:30,[T] Realização F01 [0] Coleta,closed,Maripá de Minas,4,18,2022,4/2022,4/2022,16
+Coleta de Licitações - Manga,2720,2022-04-13 11:27:55,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Manga,4,13,2022,4/2022,4/2022,15
+Coleta de Licitações - Santo Hipólito,2719,2022-04-13 11:25:54,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Santo Hipólito,4,13,2022,4/2022,4/2022,15
+Coleta de Licitações - Itacambira,2718,2022-04-13 11:24:32,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Itacambira,4,13,2022,4/2022,4/2022,15
+Coleta de Licitações - Cristália,2713,2022-04-13 11:17:23,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Cristália,4,13,2022,4/2022,4/2022,15
+Coleta de Licitações - Capitão Enéas,2712,2022-04-13 11:15:45,2022-04-14 23:23:53,[T] Realização F01 [0] Coleta,closed,Capitão Enéas,4,13,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Teixeiras,2689,2022-04-07 01:27:26,2022-04-13 23:05:18,[T] Realização F01 [0] Coleta,closed,Teixeiras,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Lima Duarte,2688,2022-04-07 01:27:24,2022-04-13 23:05:20,[T] Realização F01 [0] Coleta,closed,Lima Duarte,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Ibertioga,2687,2022-04-07 01:27:23,2022-04-13 23:05:20,[T] Realização F01 [0] Coleta,closed,Ibertioga,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Canaã,2686,2022-04-07 01:27:22,2022-04-13 23:05:20,[T] Realização F01 [0] Coleta,closed,Canaã,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Senador Firmino,2685,2022-04-07 01:27:20,2022-04-13 23:05:19,[T] Realização F01 [0] Coleta,closed,Senador Firmino,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Oratórios,2684,2022-04-07 01:27:19,2022-04-13 23:05:19,[T] Realização F01 [0] Coleta,closed,Oratórios,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Carmo de Minas,2683,2022-04-07 01:27:18,2022-04-13 23:05:19,[T] Realização F01 [0] Coleta,closed,Carmo de Minas,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Coronel Pacheco,2682,2022-04-07 01:27:16,2022-04-13 23:05:19,[T] Realização F01 [0] Coleta,closed,Coronel Pacheco,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Aiuruoca,2681,2022-04-07 01:27:15,2022-04-13 23:05:19,[T] Realização F01 [0] Coleta,closed,Aiuruoca,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Guarará,2680,2022-04-07 01:27:14,2022-04-13 23:05:18,[T] Realização F01 [0] Coleta,closed,Guarará,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Senhora dos Remédios,2679,2022-04-07 01:27:13,2022-04-13 23:05:18,[T] Realização F01 [0] Coleta,closed,Senhora dos Remédios,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Chácara,2678,2022-04-07 01:27:11,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Chácara,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Tabuleiro,2677,2022-04-07 01:27:10,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Tabuleiro,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Pedro Teixeira,2676,2022-04-07 01:27:09,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Pedro Teixeira,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Astolfo Dutra,2675,2022-04-07 01:27:07,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Astolfo Dutra,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Andrelândia,2674,2022-04-07 01:25:31,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Andrelândia,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Rio Novo,2673,2022-04-07 01:25:30,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Rio Novo,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Seritinga,2672,2022-04-07 01:22:28,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Seritinga,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Fervedouro,2671,2022-04-07 01:22:27,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Fervedouro,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Chiador,2670,2022-04-07 01:22:26,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Chiador,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Volta Grande,2669,2022-04-07 01:22:24,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Volta Grande,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Rochedo de Minas,2668,2022-04-07 01:22:23,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Rochedo de Minas,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Minduri,2667,2022-04-07 01:22:22,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Minduri,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Paula Cândido,2666,2022-04-07 01:22:21,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Paula Cândido,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Diogo de Vasconcelos,2665,2022-04-07 01:22:19,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Olaria,2664,2022-04-07 01:22:18,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Olaria,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Estrela Dalva,2663,2022-04-07 01:22:17,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Estrela Dalva,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Miraí,2662,2022-04-07 01:22:15,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Miraí,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Rio Preto,2661,2022-04-07 01:22:14,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Rio Preto,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Santa Rita de Ibitipoca,2660,2022-04-07 01:22:13,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Cipotânea,2659,2022-04-07 01:22:12,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Cipotânea,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Santana do Garambéu,2658,2022-04-07 01:22:10,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Amparo do Serra,2657,2022-04-07 01:22:09,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Amparo do Serra,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Toledo,2656,2022-04-07 01:22:08,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Toledo,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - São Lourenço,2655,2022-04-07 01:22:06,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,São Lourenço,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Madre de Deus de Minas,2654,2022-04-07 01:20:20,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Madre de Deus de Minas,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Laranjal,2653,2022-04-07 01:20:19,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Laranjal,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Aracitaba,2652,2022-04-07 01:17:17,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Aracitaba,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Senhora de Oliveira,2651,2022-04-07 01:17:16,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Cruzília,2650,2022-04-07 01:17:14,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Cruzília,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Belmiro Braga,2649,2022-04-07 01:17:13,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Bocaina de Minas,2648,2022-04-07 01:17:12,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Arantina,2647,2022-04-07 01:17:11,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Arantina,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Senador Cortes,2646,2022-04-07 01:17:09,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Senador Cortes,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Brás Pires,2645,2022-04-07 01:17:08,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Brás Pires,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Coimbra,2644,2022-04-07 01:17:07,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Coimbra,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Dom Viçoso,2643,2022-04-07 01:17:06,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Dom Viçoso,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Lamim,2642,2022-04-07 01:17:04,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Lamim,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Rio Espera,2641,2022-04-07 01:17:03,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Rio Espera,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Mercês,2640,2022-04-07 01:17:02,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Mercês,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Piau,2639,2022-04-07 01:17:00,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Piau,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Barra Longa,2638,2022-04-07 01:16:59,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Barra Longa,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Passa Vinte,2637,2022-04-07 01:16:58,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Passa Vinte,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Piranga,2636,2022-04-07 01:16:56,2022-04-13 23:04:58,[T] Realização F01 [0] Coleta,closed,Piranga,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Guarani,2635,2022-04-07 01:16:55,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Guarani,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Cristina,2634,2022-04-07 01:13:43,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Cristina,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Simão Pereira,2633,2022-04-07 01:13:42,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Simão Pereira,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Ewbank da Câmara,2632,2022-04-07 01:13:40,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Bias Fortes,2631,2022-04-07 01:13:39,2022-04-13 23:04:57,[T] Realização F01 [0] Coleta,closed,Bias Fortes,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Bom Jardim de Minas,2630,2022-04-07 01:13:38,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,4,7,2022,4/2022,4/2022,15
+Coleta de Acesso à Informação - Requisitos Exigidos - Maripá de Minas,2629,2022-04-07 01:13:37,2022-04-13 23:04:56,[T] Realização F01 [0] Coleta,closed,Maripá de Minas,4,7,2022,4/2022,4/2022,15
 Coleta de Servidores Públicos - Pessoal - Teixeiras,2489,2022-03-24 11:39:23,2022-03-31 11:47:27,[T] Realização F01 [0] Coleta,closed,Teixeiras,3,24,2022,3/2022,3/2022,13
 Coleta de Servidores Públicos - Pessoal - Lima Duarte,2488,2022-03-24 11:39:22,2022-03-31 10:47:00,[T] Realização F01 [0] Coleta,closed,Lima Duarte,3,24,2022,3/2022,3/2022,13
 Coleta de Servidores Públicos - Pessoal - Ibertioga,2487,2022-03-24 11:39:20,2022-03-31 10:45:32,[T] Realização F01 [0] Coleta,closed,Ibertioga,3,24,2022,3/2022,3/2022,13
@@ -1407,7 +1543,6 @@ Coleta de Licitações de Pratápolis,973,2021-11-25 22:08:16,2021-11-26 18:33:5
 Coleta de Licitações de Durandé,972,2021-11-25 22:05:25,2021-11-26 18:33:52,[T] Realização F01 [0] Coleta,closed,Durandé,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de São Sebastião do Anta,971,2021-11-25 21:59:45,2021-11-26 18:33:54,[T] Realização F01 [0] Coleta,closed,São Sebastião do Anta,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de Juruaia,945,2021-11-23 19:46:10,2021-12-03 13:38:21,[T] Realização F01 [0] Coleta,closed,Juruaia,11,23,2021,12/2021,11/2021,48
-Coleta de Licitações de Belo Horizonte,939,2021-11-22 23:59:23,2021-12-03 13:38:25,[T] Realização F01 [0] Coleta,closed,Belo Horizonte,11,22,2021,12/2021,11/2021,48
 Coleta de Licitações de Pimenta,938,2021-11-22 23:56:31,2021-12-03 13:38:23,[T] Realização F01 [0] Coleta,closed,Pimenta,11,22,2021,12/2021,11/2021,48
 Coleta de Licitações de Diamantina,926,2021-11-19 01:47:12,2021-11-22 12:06:57,[T] Realização F01 [0] Coleta,closed,Diamantina,11,19,2021,11/2021,11/2021,47
 Coleta de Licitações de Guimarânia,925,2021-11-19 01:27:08,2021-11-22 12:06:58,[T] Realização F01 [0] Coleta,closed,Guimarânia,11,19,2021,11/2021,11/2021,47
@@ -1431,19 +1566,67 @@ Coleta Geral da prefeitura de Varginha,822,2021-10-20 23:24:36,2021-10-22 14:11:
 Coleta Geral da prefeitura de Montes Claros,812,2021-10-19 19:44:21,2021-10-22 14:11:40,[T] Realização F01 [0] Coleta,closed,Montes Claros,10,19,2021,10/2021,10/2021,42
 Coleta Geral da prefeitura de Uberaba,808,2021-10-19 12:28:21,2021-10-22 14:11:58,[T] Realização F01 [0] Coleta,closed,Uberaba,10,19,2021,10/2021,10/2021,42
 Coleta geral da prefeitura de Divinópolis,802,2021-10-15 13:50:30,2021-10-22 14:11:19,[T] Realização F01 [0] Coleta,closed,Divinópolis,10,15,2021,10/2021,10/2021,42
+Coleta de Servidores Públicos - Relatórios de Despesas  - Volta Grande,2556,2022-03-31 14:04:36,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Volta Grande,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Toledo,2555,2022-03-31 14:04:35,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Toledo,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Teixeiras,2554,2022-03-31 14:04:34,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Teixeiras,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Tabuleiro,2553,2022-03-31 14:04:32,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Tabuleiro,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - São Lourenço,2552,2022-03-31 14:04:31,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,São Lourenço,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Simão Pereira,2551,2022-03-31 14:04:29,2022-04-08 02:18:04,[T] Realização F01 [0] Coleta,closed,Simão Pereira,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Seritinga,2550,2022-03-31 14:04:28,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Seritinga,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Senhora dos Remédios,2549,2022-03-31 14:04:27,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Senhora dos Remédios,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Senhora de Oliveira,2548,2022-03-31 14:04:25,2022-04-08 02:18:03,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Senador Firmino,2547,2022-03-31 14:04:24,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Senador Firmino,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Senador Cortes,2546,2022-03-31 14:04:22,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Senador Cortes,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Santana do Garambéu,2545,2022-03-31 14:04:21,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Santa Rita de Ibitipoca,2544,2022-03-31 14:04:19,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Rochedo de Minas,2543,2022-03-31 14:04:17,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Rochedo de Minas,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Rio Preto,2542,2022-03-31 14:04:16,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Rio Preto,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Rio Novo,2541,2022-03-31 14:02:30,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Rio Novo,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Rio Espera,2540,2022-03-31 14:02:29,2022-04-08 02:18:04,[T] Realização F01 [0] Coleta,closed,Rio Espera,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Piranga,2539,2022-03-31 14:02:28,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Piranga,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Piau,2538,2022-03-31 14:02:26,2022-04-08 02:18:04,[T] Realização F01 [0] Coleta,closed,Piau,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Pedro Teixeira,2537,2022-03-31 14:02:25,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Pedro Teixeira,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Paula Cândido,2536,2022-03-31 14:02:24,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Paula Cândido,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Passa Vinte,2535,2022-03-31 14:02:22,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Passa Vinte,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Oratórios,2534,2022-03-31 14:02:20,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Oratórios,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Olaria,2533,2022-03-31 14:02:19,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Olaria,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Miraí,2532,2022-03-31 14:02:17,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Miraí,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Minduri,2531,2022-03-31 14:02:16,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Minduri,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Mercês,2530,2022-03-31 14:02:14,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Mercês,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Maripá de Minas,2529,2022-03-31 14:02:13,2022-04-08 02:18:03,[T] Realização F01 [0] Coleta,closed,Maripá de Minas,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Madre de Deus de Minas,2528,2022-03-31 14:02:12,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Madre de Deus de Minas,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Lima Duarte,2527,2022-03-31 14:02:10,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Lima Duarte,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Laranjal,2526,2022-03-31 13:59:31,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Laranjal,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Lamim,2525,2022-03-31 13:59:29,2022-04-08 02:18:04,[T] Realização F01 [0] Coleta,closed,Lamim,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Ibertioga,2524,2022-03-31 13:59:28,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Ibertioga,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Guarará,2523,2022-03-31 13:59:26,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Guarará,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Guarani,2522,2022-03-31 13:59:25,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Guarani,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Fervedouro,2521,2022-03-31 13:59:23,2022-04-18 23:40:03,[T] Realização F01 [0] Coleta,closed,Fervedouro,3,31,2022,4/2022,3/2022,16
 Coleta de Servidores Públicos - Relatórios de Despesas  - Ewbank da Câmara,2520,2022-03-31 13:59:22,2022-04-08 02:18:03,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Estrela Dalva,2519,2022-03-31 13:59:20,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Estrela Dalva,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Dom Viçoso,2518,2022-03-31 13:59:19,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Dom Viçoso,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Diogo de Vasconcelos,2517,2022-03-31 13:59:17,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Cruzília,2516,2022-03-31 13:59:16,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Cruzília,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Cristina,2515,2022-03-31 13:59:15,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Cristina,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Coronel Pacheco,2514,2022-03-31 13:59:13,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Coronel Pacheco,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Coimbra,2513,2022-03-31 13:59:12,2022-04-08 02:18:05,[T] Realização F01 [0] Coleta,closed,Coimbra,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Cipotânea,2512,2022-03-31 13:59:11,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Cipotânea,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Chácara,2511,2022-03-31 13:58:21,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Chácara,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Chiador,2510,2022-03-31 13:58:19,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Chiador,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Carmo de Minas,2509,2022-03-31 13:58:18,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Carmo de Minas,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Canaã,2508,2022-03-31 13:58:17,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Canaã,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Brás Pires,2507,2022-03-31 13:58:15,2022-04-08 02:18:05,[T] Realização F01 [0] Coleta,closed,Brás Pires,3,31,2022,4/2022,3/2022,14
 Coleta de Servidores Públicos - Relatórios de Despesas  - Bom Jardim de Minas,2506,2022-03-31 13:58:14,2022-04-08 02:18:03,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Bocaina de Minas,2505,2022-03-31 13:58:12,2022-04-15 02:31:25,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Bias Fortes,2504,2022-03-31 13:58:11,2022-04-08 02:18:03,[T] Realização F01 [0] Coleta,closed,Bias Fortes,3,31,2022,4/2022,3/2022,14
 Coleta de Servidores Públicos - Relatórios de Despesas  - Belmiro Braga,2503,2022-03-31 13:58:10,2022-04-08 02:18:03,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Barra Longa,2502,2022-03-31 13:58:08,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Barra Longa,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Astolfo Dutra,2501,2022-03-31 13:58:07,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Astolfo Dutra,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Arantina,2500,2022-03-31 13:58:05,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Arantina,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Aracitaba,2499,2022-03-31 13:58:04,2022-04-08 02:18:03,[T] Realização F01 [0] Coleta,closed,Aracitaba,3,31,2022,4/2022,3/2022,14
+Coleta de Servidores Públicos - Relatórios de Despesas  - Andrelândia,2498,2022-03-31 13:58:02,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Andrelândia,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Amparo do Serra,2497,2022-03-31 13:58:00,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Amparo do Serra,3,31,2022,4/2022,3/2022,15
+Coleta de Servidores Públicos - Relatórios de Despesas  - Aiuruoca,2496,2022-03-31 13:57:58,2022-04-15 02:31:24,[T] Realização F01 [0] Coleta,closed,Aiuruoca,3,31,2022,4/2022,3/2022,15
 Coleta de Despesas (Leis Orçamentárias) - Volta Grande,2434,2022-03-24 00:15:21,2022-03-25 02:34:39,[T] Realização F01 [0] Coleta,closed,Volta Grande,3,24,2022,3/2022,3/2022,12
 Coleta de Despesas (Leis Orçamentárias) - Toledo,2433,2022-03-24 00:15:20,2022-03-25 02:34:40,[T] Realização F01 [0] Coleta,closed,Toledo,3,24,2022,3/2022,3/2022,12
 Coleta de Despesas (Leis Orçamentárias) - Teixeiras,2432,2022-03-24 00:15:19,2022-03-31 13:20:58,[T] Realização F01 [0] Coleta,closed,Teixeiras,3,24,2022,3/2022,3/2022,13
