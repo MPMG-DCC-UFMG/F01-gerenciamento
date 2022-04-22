@@ -160,23 +160,14 @@ def plot_status_epics(df, title, y_column, x_column, hue, showlegend=True):
     
     return fig
 
-def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):
-     
-    total = 29 #TODO Siplanweb
-    templates = df['template'].dropna().unique()
-    
-    for template in templates:
-        created =  df.groupby('template').count()['title'][template]
-        missing = total - created
-        for i in range(missing):
-            df = df.append({'template':template, 'state':'3-Previsto', 'aux':1}, ignore_index=True)    
+def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
         
-    df['item'] = df['tag'] + ' (' + df['subtag'] + ')'
+    df['title'] = df['subtag'] + ' (' + df['tag'] + ')'
     df = df.sort_values(by=[hue, x_column])
 
-    fig =  px.bar(df, y=y_column, x="item", orientation="h", color=hue, height=800, width=900,
+    fig =  px.bar(df, y=y_column, x="title", orientation="h", color=hue, height=800, width=1000,
         color_discrete_map={"1-Testado":"green", "2-Implementado":"#64b5cd", '3-Previsto':'lightblue'}, 
-        labels={"item":"Validadores"} )    
+        labels={"title":"Validadores"} )    
     fig.update_layout(title=title) 
     fig.update_traces(opacity=0.75, showlegend=showlegend)
     fig.update_xaxes(tickangle=-45)
