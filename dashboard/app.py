@@ -11,8 +11,6 @@ import logging
 import figures
 import main_etl
 
-
-
 # styling the sidebar
 SIDEBAR_STYLE = {
     "position": "fixed",
@@ -354,3 +352,5 @@ def read_auth_tokens(filename = 'tokens.txt'):
 if __name__ == '__main__':
     read_auth_tokens()
     app.run_server(port=8050)
+    # To find the process PID: $ lsof -i :8050 #TODO get PID dinamically and display
+    
