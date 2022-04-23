@@ -1,0 +1,110 @@
+127.0.0.1 - - [23/Apr/2022 00:17:00] "GET /assets/logo.png HTTP/1.1" 304 -
+[2022-04-23 00:17:04,006] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/u/.local/lib/python3.8/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/home/u/.local/lib/python3.8/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "app.py", line 324, in render_page_content
+    layout = coleta_layout()
+  File "app.py", line 44, in coleta_layout
+    fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9 = figures.create_figures_coleta()
+  File "/home/u/git/F01-gerenciamento/dashboard/figures.py", line 222, in create_figures_coleta
+TypeError: plot_status_epics() got multiple values for argument 'title'
+127.0.0.1 - - [23/Apr/2022 00:17:04] "POST /_dash-update-component HTTP/1.1" 500 -
+127.0.0.1 - - [23/Apr/2022 00:17:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:17:52] "GET /assets/s1.css?m=1650420167.0670626 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Apr/2022 00:17:52] "GET /assets/styles.css?m=1650420167.0770626 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Apr/2022 00:17:53] "GET /assets/resizing_script.js?m=1650420167.0670626 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Apr/2022 00:17:53] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:17:53] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:17:53] "GET /_favicon.ico?v=2.0.0 HTTP/1.1" 200 -
+Renderizando layout de coleta...
+127.0.0.1 - - [23/Apr/2022 00:17:54] "GET /assets/logo.png HTTP/1.1" 304 -
+[2022-04-23 00:17:58,677] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/u/.local/lib/python3.8/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/home/u/.local/lib/python3.8/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "app.py", line 324, in render_page_content
+    layout = coleta_layout()
+  File "app.py", line 44, in coleta_layout
+    fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9 = figures.create_figures_coleta()
+  File "/home/u/git/F01-gerenciamento/dashboard/figures.py", line 222, in create_figures_coleta
+TypeError: plot_status_epics() got multiple values for argument 'title'
+127.0.0.1 - - [23/Apr/2022 00:17:58] "POST /_dash-update-component HTTP/1.1" 500 -
+^C(mp) u@dell:~/git/F01-gerenciamento/dashboard$ python app.py 
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.8) or chardet (4.0.0) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Lendo tokens de autenticacao...
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Apr/2022 00:18:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:18:16] "GET /assets/s1.css?m=1650420167.0670626 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Apr/2022 00:18:16] "GET /assets/styles.css?m=1650420167.0770626 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Apr/2022 00:18:16] "GET /assets/resizing_script.js?m=1650420167.0670626 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Apr/2022 00:18:16] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:18:16] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:18:16] "GET /_favicon.ico?v=2.0.0 HTTP/1.1" 200 -
+Renderizando layout de coleta...
+127.0.0.1 - - [23/Apr/2022 00:18:17] "GET /assets/logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [23/Apr/2022 00:18:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:18:23] "GET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2022 00:18:23] "POST /_dash-update-component HTTP/1.1" 204 -
+127.0.0.1 - - [23/Apr/2022 00:18:23] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+Atualizando dados de coletas...
+[2022-04-23 00:19:58,191] ERROR in app: Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/u/.local/lib/python3.8/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/u/.local/lib/python3.8/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/home/u/.local/lib/python3.8/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "app.py", line 308, in refresh
+    main_etl.update_data_coletas(git_token, zh_token)
+  File "/home/u/git/F01-gerenciamento/dashboard/main_etl.py", line 92, in update_data_coletas
+    issues_epic_df, epics_id = transform_data.count_issues_epic(df, zh, repo_F01, repo_id)
+  File "/home/u/git/F01-gerenciamento/dashboard/transform_data.py", line 8, in count_issues_epic
+    issues_data = extract_data.get_data_epics(zh, epics_id, repo_id_f01)
+  File "/home/u/git/F01-gerenciamento/dashboard/extract_data.py", line 12, in get_data_epics
+    issues_data = {i: zh.get_epic_data(repo_id=repo_id, epic_id= i) for i in epics_id}
+  File "/home/u/git/F01-gerenciamento/dashboard/extract_data.py", line 12, in <dictcomp>
+    issues_data = {i: zh.get_epic_data(repo_id=repo_id, epic_id= i) for i in epics_id}
+  File "/home/u/.local/lib/python3.8/site-packages/zenhub/core.py", line 181, in get_epic_data
+    return self._get(url)
+  File "/home/u/.local/lib/python3.8/site-packages/zenhub/core.py", line 89, in _get
+    return self._parse_response_contents(response)
+  File "/home/u/.local/lib/python3.8/site-packages/zenhub/core.py", line 66, in _parse_response_contents
+    raise APILimitError("Reached request limit to the API. See API Limits.")
+zenhub.core.APILimitError: Reached request limit to the API. See API Limits.
+127.0.0.1 - - [23/Apr/2022 00:19:58] "POST /_dash-update-component HTTP/1.1" 500 -

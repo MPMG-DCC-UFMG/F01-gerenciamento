@@ -137,22 +137,29 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
-def plot_status_epics(df, title, y_column, x_column, hue, showlegend=True):
-     
+def plot_status_epics(df, top_templates_df, title, y_column, x_column, hue, showlegend=True):     
+    
+    top_templates_df = top_templates_df[top_templates_df['rank'] <= 15]
+    df = top_templates_df.merge(df, how='left').fillna({'state':'Estimado', 'aux':1})    
+    
     total = 29 #TODO Siplanweb
     templates = df['template'].dropna().unique()
     
     for template in templates:
         created =  df.groupby('template').count()['title'][template]
         missing = total - created
-        for i in range(missing):
-            df = df.append({'template':template, 'state':'Estimado', 'aux':1}, ignore_index=True)    
-        
-    df = df.sort_values(by=[hue, x_column])
+        rank = top_templates_df[top_templates_df.template == template]['rank'].values[0]
+        for i in range(missing):            
+            df = df.append({'template':template, 'state':'Estimado', 'rank':rank,'aux':1}, ignore_index=True)    
 
-    fig =  px.bar(df, y=y_column, x="aux", orientation="h", color=hue, height=800, width=900,
+    y_label = "template_rank"
+    df[y_label] = df["template"] + " (" + df["rank"].astype(str) + "º)"
+    df = df.sort_values(by=[hue])
+    # display(df)
+    
+    fig =  px.bar(df, y=y_label, x="aux", orientation="h", color=hue, height=800, width=900,
         color_discrete_map={"Coletado":"green", "Com epic criada":"#64b5cd", 'Estimado':'lightblue', "Não localizado":"red"}, 
-        labels={"aux":"#Coletores (total estimado pelo template Siplanweb)"} )    
+        labels={"aux":"#Coletores (total estimado pelo template Siplanweb)", y_label:"Template / Município"} )    
     fig.update_layout(title=title) 
     fig.update_traces(opacity=0.75, showlegend=showlegend)
     # Seaborn colors  
@@ -229,7 +236,7 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
     count_month = pd.read_csv("data/count_month_dev.csv")
     week_status = pd.read_csv('data/week_status_dev.csv')
     coletas_tag= pd.read_csv("data/coletas_tag_dev.csv")
-    epics_dev_df= pd.read_csv("data/epics_dev.csv", index_col="template")    
+    epics_dev_df= pd.read_csv("data/epics_dev.csv", index_col="template_rank")    
     
     open_df = pd.read_csv("data/open_df_dev.csv")
     closed_df= pd.read_csv("data/closed_df_dev.csv")

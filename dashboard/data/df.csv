@@ -1,21 +1,4 @@
 title,number,created_at,closed_at,labels,state,municipio,month,day,year,format_date_closed,format_date_created,week
-Coleta de Despesas com Diarias - Teixeiras,2781,2022-04-16 14:57:21,0,[T] Realização F01 [0] Coleta,open,Teixeiras,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Tabuleiro,2780,2022-04-16 14:57:20,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Senhora dos Remédios,2776,2022-04-16 14:54:15,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Senador Firmino,2774,2022-04-16 14:54:12,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Pedro Teixeira,2764,2022-04-16 14:54:00,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Oratórios,2761,2022-04-16 14:53:56,0,[T] Realização F01 [0] Coleta,open,Oratórios,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Maripá de Minas,2756,2022-04-16 14:50:50,0,[T] Realização F01 [0] Coleta,open,Maripá de Minas,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Lima Duarte,2754,2022-04-16 14:50:47,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Ibertioga,2751,2022-04-16 14:50:44,0,[T] Realização F01 [0] Coleta,open,Ibertioga,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Guarará,2750,2022-04-16 14:50:42,0,[T] Realização F01 [0] Coleta,open,Guarará,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Coronel Pacheco,2741,2022-04-16 14:50:32,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Chácara,2738,2022-04-16 14:47:28,0,[T] Realização F01 [0] Coleta,open,Chácara,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Carmo de Minas,2736,2022-04-16 14:47:25,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Canaã,2735,2022-04-16 14:47:24,0,[T] Realização F01 [0] Coleta,open,Canaã,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Astolfo Dutra,2728,2022-04-16 14:47:15,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Andrelândia,2725,2022-04-16 14:47:12,0,[T] Realização F01 [0] Coleta,open,Andrelândia,4,16,2022,1/1970,4/2022,00
-Coleta de Despesas com Diarias - Aiuruoca,2723,2022-04-16 14:47:09,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,4,16,2022,1/1970,4/2022,00
 Coleta de Licitação - Água Comprida,1290,2022-01-18 14:26:09,0,[T] Realização F01 [0] Coleta,open,Água Comprida,1,18,2022,1/1970,1/2022,00
 Coleta de Licitação - Estrela do Sul,1289,2022-01-18 14:26:08,0,[T] Realização F01 [0] Coleta,open,Estrela do Sul,1,18,2022,1/1970,1/2022,00
 Coleta de Licitação - Campo Florido,1288,2022-01-18 14:26:06,0,[T] Realização F01 [0] Coleta,open,Campo Florido,1,18,2022,1/1970,1/2022,00
@@ -169,67 +152,13 @@ Coleta de Licitações (2021 a 2019) - Virgínia,1432,2022-02-01 22:46:41,0,[T] 
 Coleta de Licitações de Belo Horizonte,939,2021-11-22 23:59:23,0,[T] Realização F01 [0] Coleta,open,Belo Horizonte,11,22,2021,1/1970,11/2021,00
 Coleta de Licitações de Varginha,885,2021-11-09 00:41:16,0,[T] Realização F01 [0] Coleta,open,Varginha,11,9,2021,1/1970,11/2021,00
 Coleta de dados de Leis Orçamentárias de Juiz de Fora,866,2021-11-01 14:35:19,0,[E] Externa [T] Realização F01 [0] Coleta,open,Juiz de Fora,11,1,2021,1/1970,11/2021,00
-Coleta de Receita Orçamentária - Volta Grande,2905,2022-04-19 00:23:43,0,[T] Realização F01 [0] Coleta,open,Volta Grande,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Toledo,2904,2022-04-19 00:23:41,0,[T] Realização F01 [0] Coleta,open,Toledo,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Teixeiras,2903,2022-04-19 00:23:39,0,[T] Realização F01 [0] Coleta,open,Teixeiras,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Tabuleiro,2902,2022-04-19 00:23:38,0,[T] Realização F01 [0] Coleta,open,Tabuleiro,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - São Lourenço,2901,2022-04-19 00:23:36,0,[T] Realização F01 [0] Coleta,open,São Lourenço,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Simão Pereira,2900,2022-04-19 00:23:35,0,[T] Realização F01 [0] Coleta,open,Simão Pereira,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Seritinga,2899,2022-04-19 00:23:33,0,[T] Realização F01 [0] Coleta,open,Seritinga,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Senhora dos Remédios,2898,2022-04-19 00:23:32,0,[T] Realização F01 [0] Coleta,open,Senhora dos Remédios,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Senhora de Oliveira,2897,2022-04-19 00:23:30,0,[T] Realização F01 [0] Coleta,open,Senhora de Oliveira,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Senador Firmino,2896,2022-04-19 00:23:29,0,[T] Realização F01 [0] Coleta,open,Senador Firmino,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Senador Cortes,2895,2022-04-19 00:23:27,0,[T] Realização F01 [0] Coleta,open,Senador Cortes,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Santana do Garambéu,2894,2022-04-19 00:23:26,0,[T] Realização F01 [0] Coleta,open,Santana do Garambéu,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Santa Rita de Ibitipoca,2893,2022-04-19 00:23:24,0,[T] Realização F01 [0] Coleta,open,Santa Rita de Ibitipoca,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Rochedo de Minas,2892,2022-04-19 00:23:23,0,[T] Realização F01 [0] Coleta,open,Rochedo de Minas,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Rio Preto,2891,2022-04-19 00:23:21,0,[T] Realização F01 [0] Coleta,open,Rio Preto,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Rio Novo,2890,2022-04-19 00:19:51,0,[T] Realização F01 [0] Coleta,open,Rio Novo,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Rio Espera,2889,2022-04-19 00:19:50,0,[T] Realização F01 [0] Coleta,open,Rio Espera,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Piranga,2888,2022-04-19 00:19:48,0,[T] Realização F01 [0] Coleta,open,Piranga,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Piau,2887,2022-04-19 00:19:47,0,[T] Realização F01 [0] Coleta,open,Piau,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Pedro Teixeira,2886,2022-04-19 00:19:45,0,[T] Realização F01 [0] Coleta,open,Pedro Teixeira,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Paulo Cândido,2885,2022-04-19 00:19:44,0,[T] Realização F01 [0] Coleta,open,,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Passa Vinte,2884,2022-04-19 00:19:42,0,[T] Realização F01 [0] Coleta,open,Passa Vinte,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Oratórios,2883,2022-04-19 00:19:41,0,[T] Realização F01 [0] Coleta,open,Oratórios,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Olaria,2882,2022-04-19 00:19:39,0,[T] Realização F01 [0] Coleta,open,Olaria,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Miraí,2881,2022-04-19 00:19:38,0,[T] Realização F01 [0] Coleta,open,Miraí,4,19,2022,1/1970,4/2022,00
 Coleta de Receita Orçamentária - Minduri,2880,2022-04-19 00:19:36,0,[T] Realização F01 [0] Coleta,open,Minduri,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Mercês,2879,2022-04-19 00:19:35,0,[T] Realização F01 [0] Coleta,open,Mercês,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Maripá de Minas,2878,2022-04-19 00:19:33,0,[T] Realização F01 [0] Coleta,open,Maripá de Minas,4,19,2022,1/1970,4/2022,00
 Coleta de Receita Orçamentária - Madre de Deus de Minas,2877,2022-04-19 00:19:31,0,[T] Realização F01 [0] Coleta,open,Madre de Deus de Minas,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Lima Duarte,2876,2022-04-19 00:19:30,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Laranjal,2875,2022-04-19 00:18:16,0,[T] Realização F01 [0] Coleta,open,Laranjal,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Lamim,2874,2022-04-19 00:18:14,0,[T] Realização F01 [0] Coleta,open,Lamim,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Ibertioga,2873,2022-04-19 00:18:12,0,[T] Realização F01 [0] Coleta,open,Ibertioga,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Guarará,2872,2022-04-19 00:18:10,0,[T] Realização F01 [0] Coleta,open,Guarará,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Guarani,2871,2022-04-19 00:18:09,0,[T] Realização F01 [0] Coleta,open,Guarani,4,19,2022,1/1970,4/2022,00
 Coleta de Receita Orçamentária - Fervedouro,2870,2022-04-19 00:18:07,0,[T] Realização F01 [0] Coleta,open,Fervedouro,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Ewbank da Câmara,2869,2022-04-19 00:18:05,0,[T] Realização F01 [0] Coleta,open,Ewbank da Câmara,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Estrela Dalva,2868,2022-04-19 00:18:04,0,[T] Realização F01 [0] Coleta,open,Estrela Dalva,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Dom Viçoso,2867,2022-04-19 00:18:01,0,[T] Realização F01 [0] Coleta,open,Dom Viçoso,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Diogo de Vasconcelos,2866,2022-04-19 00:18:00,0,[T] Realização F01 [0] Coleta,open,Diogo de Vasconcelos,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Cruzília,2865,2022-04-19 00:17:58,0,[T] Realização F01 [0] Coleta,open,Cruzília,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Cristina,2864,2022-04-19 00:17:57,0,[T] Realização F01 [0] Coleta,open,Cristina,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Coronel Pacheco,2863,2022-04-19 00:17:55,0,[T] Realização F01 [0] Coleta,open,Coronel Pacheco,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Coimbra,2862,2022-04-19 00:17:54,0,[T] Realização F01 [0] Coleta,open,Coimbra,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Cipotânea,2861,2022-04-19 00:17:52,0,[T] Realização F01 [0] Coleta,open,Cipotânea,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Chácara,2860,2022-04-19 00:06:04,0,[T] Realização F01 [0] Coleta,open,Chácara,4,19,2022,1/1970,4/2022,00
 Coleta de Receita Orçamentária - Chiador,2859,2022-04-19 00:06:03,0,[T] Realização F01 [0] Coleta,open,Chiador,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Carmo de Minas,2858,2022-04-19 00:06:01,0,[T] Realização F01 [0] Coleta,open,Carmo de Minas,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Canaã,2857,2022-04-19 00:05:59,0,[T] Realização F01 [0] Coleta,open,Canaã,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Brás Pires,2856,2022-04-19 00:05:58,0,[T] Realização F01 [0] Coleta,open,Brás Pires,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Bom Jardim de Minas,2855,2022-04-19 00:05:56,0,[T] Realização F01 [0] Coleta,open,Bom Jardim de Minas,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Bocaina de Minas,2854,2022-04-19 00:05:54,0,[T] Realização F01 [0] Coleta,open,Bocaina de Minas,4,19,2022,1/1970,4/2022,00
 Coleta de Receita Orçamentária - Bias Fortes,2853,2022-04-19 00:05:53,0,[T] Realização F01 [0] Coleta,open,Bias Fortes,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Belmiro Braga,2852,2022-04-19 00:05:51,0,[T] Realização F01 [0] Coleta,open,Belmiro Braga,4,19,2022,1/1970,4/2022,00
 Coleta de Receita Orçamentária - Barra Longa,2851,2022-04-19 00:05:50,0,[T] Realização F01 [0] Coleta,open,Barra Longa,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Astolfo Dutra,2850,2022-04-19 00:05:48,0,[T] Realização F01 [0] Coleta,open,Astolfo Dutra,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Arantina,2849,2022-04-19 00:05:46,0,[T] Realização F01 [0] Coleta,open,Arantina,4,19,2022,1/1970,4/2022,00
 Coleta de Receita Orçamentária - Aracitaba,2848,2022-04-19 00:05:45,0,[T] Realização F01 [0] Coleta,open,Aracitaba,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Andrelândia,2847,2022-04-19 00:05:43,0,[T] Realização F01 [0] Coleta,open,Andrelândia,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Amparo do Serra,2846,2022-04-19 00:05:42,0,[T] Realização F01 [0] Coleta,open,Amparo do Serra,4,19,2022,1/1970,4/2022,00
-Coleta de Receita Orçamentária - Aiuruoca,2845,2022-04-19 00:05:40,0,[T] Realização F01 [0] Coleta,open,Aiuruoca,4,19,2022,1/1970,4/2022,00
 Coleta de Despesas (Relatórios) - Rio Preto,2145,2022-03-10 19:00:08,0,[T] Realização F01 [0] Coleta,open,Rio Preto,3,10,2022,1/1970,3/2022,00
 Coleta de Despesas (Relatórios) - Rio Novo,2144,2022-03-10 19:00:07,0,[T] Realização F01 [0] Coleta,open,Rio Novo,3,10,2022,1/1970,3/2022,00
 Coleta de Despesas (Relatórios) - Rio Espera,2143,2022-03-10 19:00:06,0,[T] Realização F01 [0] Coleta,open,Rio Espera,3,10,2022,1/1970,3/2022,00
@@ -284,10 +213,14 @@ Coleta de dados das Contas Públicas de Paracatu,956,2021-11-25 01:53:39,2021-11
 Coleta de Licitações de Elói Mendes,901,2021-11-12 13:10:46,0,[E] Externa [T] Realização F01 [0] Coleta,open,Elói Mendes,11,12,2021,1/1970,11/2021,00
 Coleta de Despesas com Diarias - Volta Grande,2783,2022-04-16 14:57:24,2022-04-20 13:07:31,[T] Realização F01 [0] Coleta,closed,Volta Grande,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Toledo,2782,2022-04-16 14:57:22,2022-04-19 23:43:40,[T] Realização F01 [0] Coleta,closed,Toledo,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Teixeiras,2781,2022-04-16 14:57:21,2022-04-22 14:15:07,[T] Realização F01 [0] Coleta,closed,Teixeiras,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Tabuleiro,2780,2022-04-16 14:57:20,2022-04-22 12:57:04,[T] Realização F01 [0] Coleta,closed,Tabuleiro,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - São Lourenço,2779,2022-04-16 14:57:19,2022-04-19 23:22:39,[T] Realização F01 [0] Coleta,closed,São Lourenço,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Simão Pereira,2778,2022-04-16 14:54:17,2022-04-18 13:19:29,[T] Realização F01 [0] Coleta,closed,Simão Pereira,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Seritinga,2777,2022-04-16 14:54:16,2022-04-20 13:42:33,[T] Realização F01 [0] Coleta,closed,Seritinga,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Senhora dos Remédios,2776,2022-04-16 14:54:15,2022-04-22 13:26:55,[T] Realização F01 [0] Coleta,closed,Senhora dos Remédios,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Senhora de Oliveira,2775,2022-04-16 14:54:14,2022-04-19 14:03:36,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Senador Firmino,2774,2022-04-16 14:54:12,2022-04-22 14:12:59,[T] Realização F01 [0] Coleta,closed,Senador Firmino,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Senador Cortes,2773,2022-04-16 14:54:11,2022-04-18 13:41:09,[T] Realização F01 [0] Coleta,closed,Senador Cortes,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Santana do Garambéu,2772,2022-04-16 14:54:10,2022-04-20 12:43:23,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Santa Rita de Ibitipoca,2771,2022-04-16 14:54:09,2022-04-20 12:48:00,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,4,16,2022,4/2022,4/2022,16
@@ -297,15 +230,21 @@ Coleta de Despesas com Diarias - Rio Novo,2768,2022-04-16 14:54:05,2022-04-20 13
 Coleta de Despesas com Diarias - Rio Espera,2767,2022-04-16 14:54:04,2022-04-18 13:35:19,[T] Realização F01 [0] Coleta,closed,Rio Espera,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Piranga,2766,2022-04-16 14:54:02,2022-04-18 13:27:28,[T] Realização F01 [0] Coleta,closed,Piranga,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Piau,2765,2022-04-16 14:54:01,2022-04-18 13:33:31,[T] Realização F01 [0] Coleta,closed,Piau,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Pedro Teixeira,2764,2022-04-16 14:54:00,2022-04-22 12:53:50,[T] Realização F01 [0] Coleta,closed,Pedro Teixeira,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Paulo Cândido,2763,2022-04-16 14:53:59,2022-04-20 13:16:39,[T] Realização F01 [0] Coleta,closed,Diarias,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Passa Vinte,2762,2022-04-16 14:53:57,2022-04-18 13:31:26,[T] Realização F01 [0] Coleta,closed,Passa Vinte,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Oratórios,2761,2022-04-16 14:53:56,2022-04-22 13:37:23,[T] Realização F01 [0] Coleta,closed,Oratórios,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Olaria,2760,2022-04-16 14:53:55,2022-04-20 13:22:59,[T] Realização F01 [0] Coleta,closed,Olaria,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Miraí,2759,2022-04-16 14:50:54,2022-04-20 12:55:05,[T] Realização F01 [0] Coleta,closed,Miraí,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Minduri,2758,2022-04-16 14:50:52,2022-04-20 13:20:42,[T] Realização F01 [0] Coleta,closed,Minduri,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Mercês,2757,2022-04-16 14:50:51,2022-04-18 13:34:39,[T] Realização F01 [0] Coleta,closed,Mercês,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Maripá de Minas,2756,2022-04-16 14:50:50,2022-04-22 14:12:40,[T] Realização F01 [0] Coleta,closed,Maripá de Minas,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Madre de Deus de Minas,2755,2022-04-16 14:50:49,2022-04-19 23:39:14,[T] Realização F01 [0] Coleta,closed,Madre de Deus de Minas,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Lima Duarte,2754,2022-04-16 14:50:47,2022-04-22 14:14:44,[T] Realização F01 [0] Coleta,closed,Lima Duarte,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Laranjal,2753,2022-04-16 14:50:46,2022-04-19 23:34:56,[T] Realização F01 [0] Coleta,closed,Laranjal,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Lamim,2752,2022-04-16 14:50:45,2022-04-18 13:41:31,[T] Realização F01 [0] Coleta,closed,Lamim,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Ibertioga,2751,2022-04-16 14:50:44,2022-04-22 14:11:11,[T] Realização F01 [0] Coleta,closed,Ibertioga,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Guarará,2750,2022-04-16 14:50:42,2022-04-22 13:28:14,[T] Realização F01 [0] Coleta,closed,Guarará,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Guarani,2749,2022-04-16 14:50:41,2022-04-18 13:26:54,[T] Realização F01 [0] Coleta,closed,Guarani,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Fervedouro,2748,2022-04-16 14:50:40,2022-04-20 13:40:08,[T] Realização F01 [0] Coleta,closed,Fervedouro,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Ewbank da Câmara,2747,2022-04-16 14:50:39,2022-04-18 13:22:43,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,4,16,2022,4/2022,4/2022,16
@@ -314,18 +253,25 @@ Coleta de Despesas com Diarias - Dom Viçoso,2745,2022-04-16 14:50:36,2022-04-18
 Coleta de Despesas com Diarias - Diogo de Vasconcelos,2744,2022-04-16 14:50:35,2022-04-20 13:24:58,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Cruzília,2743,2022-04-16 14:50:34,2022-04-19 13:48:14,[T] Realização F01 [0] Coleta,closed,Cruzília,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Cristina,2742,2022-04-16 14:50:33,2022-04-18 13:26:22,[T] Realização F01 [0] Coleta,closed,Cristina,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Coronel Pacheco,2741,2022-04-16 14:50:32,2022-04-22 13:30:32,[T] Realização F01 [0] Coleta,closed,Coronel Pacheco,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Coimbra,2740,2022-04-16 14:47:30,2022-04-18 13:40:22,[T] Realização F01 [0] Coleta,closed,Coimbra,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Cipotânea,2739,2022-04-16 14:47:29,2022-04-20 12:39:13,[T] Realização F01 [0] Coleta,closed,Cipotânea,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Chácara,2738,2022-04-16 14:47:28,2022-04-22 12:58:35,[T] Realização F01 [0] Coleta,closed,Chácara,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Chiador,2737,2022-04-16 14:47:26,2022-04-20 13:10:51,[T] Realização F01 [0] Coleta,closed,Chiador,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Carmo de Minas,2736,2022-04-16 14:47:25,2022-04-22 13:33:03,[T] Realização F01 [0] Coleta,closed,Carmo de Minas,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Canaã,2735,2022-04-16 14:47:24,2022-04-22 14:08:54,[T] Realização F01 [0] Coleta,closed,Canaã,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Brás Pires,2734,2022-04-16 14:47:23,2022-04-18 13:40:31,[T] Realização F01 [0] Coleta,closed,Brás Pires,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Bom Jardim de Minas,2733,2022-04-16 14:47:22,2022-04-18 13:14:00,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Bocaina de Minas,2732,2022-04-16 14:47:20,2022-04-19 13:36:52,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Bias Fortes,2731,2022-04-16 14:47:19,2022-04-18 13:13:48,[T] Realização F01 [0] Coleta,closed,Bias Fortes,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Belmiro Braga,2730,2022-04-16 14:47:18,2022-04-19 13:41:54,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Barra Longa,2729,2022-04-16 14:47:17,2022-04-18 13:32:59,[T] Realização F01 [0] Coleta,closed,Barra Longa,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Astolfo Dutra,2728,2022-04-16 14:47:15,2022-04-22 12:47:13,[T] Realização F01 [0] Coleta,closed,Astolfo Dutra,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Arantina,2727,2022-04-16 14:47:14,2022-04-19 13:35:12,[T] Realização F01 [0] Coleta,closed,Arantina,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Aracitaba,2726,2022-04-16 14:47:13,2022-04-19 23:30:17,[T] Realização F01 [0] Coleta,closed,Aracitaba,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Andrelândia,2725,2022-04-16 14:47:12,2022-04-22 13:01:21,[T] Realização F01 [0] Coleta,closed,Andrelândia,4,16,2022,4/2022,4/2022,16
 Coleta de Despesas com Diarias - Amparo do Serra,2724,2022-04-16 14:47:10,2022-04-20 12:30:18,[T] Realização F01 [0] Coleta,closed,Amparo do Serra,4,16,2022,4/2022,4/2022,16
+Coleta de Despesas com Diarias - Aiuruoca,2723,2022-04-16 14:47:09,2022-04-22 13:29:19,[T] Realização F01 [0] Coleta,closed,Aiuruoca,4,16,2022,4/2022,4/2022,16
 Coleta de Contratos - Volta Grande,2623,2022-04-04 12:15:42,2022-04-13 23:47:40,[T] Realização F01 [0] Coleta,closed,Volta Grande,4,4,2022,4/2022,4/2022,15
 Coleta de Contratos - Toledo,2622,2022-04-04 12:15:41,2022-04-05 12:25:51,[T] Realização F01 [0] Coleta,closed,Toledo,4,4,2022,4/2022,4/2022,14
 Coleta de Contratos - Teixeiras,2621,2022-04-04 12:15:40,2022-04-14 15:07:36,[T] Realização F01 [0] Coleta,closed,Teixeiras,4,4,2022,4/2022,4/2022,15
@@ -1566,6 +1512,60 @@ Coleta Geral da prefeitura de Varginha,822,2021-10-20 23:24:36,2021-10-22 14:11:
 Coleta Geral da prefeitura de Montes Claros,812,2021-10-19 19:44:21,2021-10-22 14:11:40,[T] Realização F01 [0] Coleta,closed,Montes Claros,10,19,2021,10/2021,10/2021,42
 Coleta Geral da prefeitura de Uberaba,808,2021-10-19 12:28:21,2021-10-22 14:11:58,[T] Realização F01 [0] Coleta,closed,Uberaba,10,19,2021,10/2021,10/2021,42
 Coleta geral da prefeitura de Divinópolis,802,2021-10-15 13:50:30,2021-10-22 14:11:19,[T] Realização F01 [0] Coleta,closed,Divinópolis,10,15,2021,10/2021,10/2021,42
+Coleta de Receita Orçamentária - Volta Grande,2905,2022-04-19 00:23:43,2022-04-22 04:05:21,[T] Realização F01 [0] Coleta,closed,Volta Grande,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Toledo,2904,2022-04-19 00:23:41,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Toledo,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Teixeiras,2903,2022-04-19 00:23:39,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Teixeiras,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Tabuleiro,2902,2022-04-19 00:23:38,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Tabuleiro,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - São Lourenço,2901,2022-04-19 00:23:36,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,São Lourenço,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Simão Pereira,2900,2022-04-19 00:23:35,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Simão Pereira,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Seritinga,2899,2022-04-19 00:23:33,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Seritinga,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Senhora dos Remédios,2898,2022-04-19 00:23:32,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Senhora dos Remédios,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Senhora de Oliveira,2897,2022-04-19 00:23:30,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Senador Firmino,2896,2022-04-19 00:23:29,2022-04-22 04:07:25,[T] Realização F01 [0] Coleta,closed,Senador Firmino,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Senador Cortes,2895,2022-04-19 00:23:27,2022-04-22 04:05:21,[T] Realização F01 [0] Coleta,closed,Senador Cortes,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Santana do Garambéu,2894,2022-04-19 00:23:26,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Santa Rita de Ibitipoca,2893,2022-04-19 00:23:24,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Rochedo de Minas,2892,2022-04-19 00:23:23,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Rochedo de Minas,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Rio Preto,2891,2022-04-19 00:23:21,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Rio Preto,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Rio Novo,2890,2022-04-19 00:19:51,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Rio Novo,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Rio Espera,2889,2022-04-19 00:19:50,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Rio Espera,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Piranga,2888,2022-04-19 00:19:48,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Piranga,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Piau,2887,2022-04-19 00:19:47,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Piau,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Pedro Teixeira,2886,2022-04-19 00:19:45,2022-04-22 04:05:24,[T] Realização F01 [0] Coleta,closed,Pedro Teixeira,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Paulo Cândido,2885,2022-04-19 00:19:44,2022-04-22 04:05:21,[T] Realização F01 [0] Coleta,closed,,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Passa Vinte,2884,2022-04-19 00:19:42,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Passa Vinte,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Oratórios,2883,2022-04-19 00:19:41,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Oratórios,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Olaria,2882,2022-04-19 00:19:39,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Olaria,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Miraí,2881,2022-04-19 00:19:38,2022-04-22 04:05:22,[T] Realização F01 [0] Coleta,closed,Miraí,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Mercês,2879,2022-04-19 00:19:35,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Mercês,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Maripá de Minas,2878,2022-04-19 00:19:33,2022-04-22 04:05:23,[T] Realização F01 [0] Coleta,closed,Maripá de Minas,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Lima Duarte,2876,2022-04-19 00:19:30,2022-04-22 04:07:24,[T] Realização F01 [0] Coleta,closed,Lima Duarte,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Laranjal,2875,2022-04-19 00:18:16,2022-04-22 04:05:21,[T] Realização F01 [0] Coleta,closed,Laranjal,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Lamim,2874,2022-04-19 00:18:14,2022-04-22 04:06:37,[T] Realização F01 [0] Coleta,closed,Lamim,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Ibertioga,2873,2022-04-19 00:18:12,2022-04-22 04:06:37,[T] Realização F01 [0] Coleta,closed,Ibertioga,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Guarará,2872,2022-04-19 00:18:10,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Guarará,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Guarani,2871,2022-04-19 00:18:09,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Guarani,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Ewbank da Câmara,2869,2022-04-19 00:18:05,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Estrela Dalva,2868,2022-04-19 00:18:04,2022-04-22 04:06:39,[T] Realização F01 [0] Coleta,closed,Estrela Dalva,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Dom Viçoso,2867,2022-04-19 00:18:01,2022-04-22 04:06:39,[T] Realização F01 [0] Coleta,closed,Dom Viçoso,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Diogo de Vasconcelos,2866,2022-04-19 00:18:00,2022-04-22 04:06:37,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Cruzília,2865,2022-04-19 00:17:58,2022-04-22 04:06:37,[T] Realização F01 [0] Coleta,closed,Cruzília,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Cristina,2864,2022-04-19 00:17:57,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Cristina,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Coronel Pacheco,2863,2022-04-19 00:17:55,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Coronel Pacheco,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Coimbra,2862,2022-04-19 00:17:54,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Coimbra,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Cipotânea,2861,2022-04-19 00:17:52,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Cipotânea,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Chácara,2860,2022-04-19 00:06:04,2022-04-22 04:06:39,[T] Realização F01 [0] Coleta,closed,Chácara,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Carmo de Minas,2858,2022-04-19 00:06:01,2022-04-22 04:06:39,[T] Realização F01 [0] Coleta,closed,Carmo de Minas,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Canaã,2857,2022-04-19 00:05:59,2022-04-22 04:06:39,[T] Realização F01 [0] Coleta,closed,Canaã,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Brás Pires,2856,2022-04-19 00:05:58,2022-04-22 04:06:37,[T] Realização F01 [0] Coleta,closed,Brás Pires,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Bom Jardim de Minas,2855,2022-04-19 00:05:56,2022-04-22 04:06:37,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Bocaina de Minas,2854,2022-04-19 00:05:54,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Belmiro Braga,2852,2022-04-19 00:05:51,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Astolfo Dutra,2850,2022-04-19 00:05:48,2022-04-22 04:06:39,[T] Realização F01 [0] Coleta,closed,Astolfo Dutra,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Arantina,2849,2022-04-19 00:05:46,2022-04-22 04:06:39,[T] Realização F01 [0] Coleta,closed,Arantina,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Andrelândia,2847,2022-04-19 00:05:43,2022-04-22 04:06:40,[T] Realização F01 [0] Coleta,closed,Andrelândia,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Amparo do Serra,2846,2022-04-19 00:05:42,2022-04-22 04:06:37,[T] Realização F01 [0] Coleta,closed,Amparo do Serra,4,19,2022,4/2022,4/2022,16
+Coleta de Receita Orçamentária - Aiuruoca,2845,2022-04-19 00:05:40,2022-04-22 04:06:38,[T] Realização F01 [0] Coleta,closed,Aiuruoca,4,19,2022,4/2022,4/2022,16
 Coleta de Servidores Públicos - Relatórios de Despesas  - Volta Grande,2556,2022-03-31 14:04:36,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Volta Grande,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Toledo,2555,2022-03-31 14:04:35,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Toledo,3,31,2022,4/2022,3/2022,15
 Coleta de Servidores Públicos - Relatórios de Despesas  - Teixeiras,2554,2022-03-31 14:04:34,2022-04-15 02:31:23,[T] Realização F01 [0] Coleta,closed,Teixeiras,3,31,2022,4/2022,3/2022,15
