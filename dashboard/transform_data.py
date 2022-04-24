@@ -184,7 +184,8 @@ def format_epics_data(epics_info, time_column, state):
         df[time_column] = df[time_column].fillna(0)
 
     df = format_date(df, time_column=time_column, status=state)
-    df_count = df.groupby('format_date_{}'.format(state)).agg({'title': 'count'}).reset_index().rename(columns={'title': state, 'format_date_{}'.format(state): 'month'})
+    df_count = df.groupby('format_date_{}'.format(state)).agg({'title': 'count'}).reset_index().rename(
+        columns={'title': state, 'format_date_{}'.format(state): 'month'})
     
     return df, df_count
 
@@ -199,7 +200,7 @@ def process_epics(df, target_labels=['template', 'tag', 'subtag'], remove_orig_c
     df.loc[df.state == 'open', 'state'] = 'Com epic criada'
     
     df = df.rename(columns={'number':'git_issue'})
-    df['aux'] = 1 #TODO
+    df['aux'] = 1
     
     if remove_orig_col:
         df = df.drop(columns='labels')
@@ -219,7 +220,7 @@ def summarize_epics(epics_id, repo, info_issues, open_column='open', closed_colu
     count_epics_month['month'] = string_to_datetime(count_epics_month['month'])
     count_epics_month = count_epics_month.sort_values(by='month', ascending=True)
     count_epics_month['month'] = count_epics_month['month'].dt.strftime("%m/%Y").astype(str)
-    
+        
     epics_info = process_epics(epics_info)
 
     return epics_info, count_epics_month
