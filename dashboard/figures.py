@@ -137,35 +137,67 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
-def plot_status_epics(df, top_templates_df, title, y_column, x_column, hue, showlegend=True):     
+
+def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
+       
+    count_col = 'aux'
+    state_col = 'state'
+    total = 29  # reference: Siplanweb    
     
+    # Pre-process dataframes
     top_templates_df = top_templates_df[top_templates_df['rank'] <= 15]
-    df = top_templates_df.merge(df, how='left').fillna({'state':'Estimado', 'aux':1})    
-    
-    total = 29 #TODO Siplanweb
+    df = top_templates_df.merge(df, how='left').fillna({state_col:'Estimado', count_col:1})     
     templates = df['template'].dropna().unique()
     
-    for template in templates:
-        created =  df.groupby('template').count()['title'][template]
-        missing = total - created
-        rank = top_templates_df[top_templates_df.template == template]['rank'].values[0]
+    # Fill missing (estimated) epics in df
+    for template in templates:        
+        created =  df.groupby('template').count()[state_col][template]
+        missing = total - created                
+        rank = df[df.template == template]['rank'].values[0]        
+        
         for i in range(missing):            
-            df = df.append({'template':template, 'state':'Estimado', 'rank':rank,'aux':1}, ignore_index=True)    
+            df = df.append({'template':template, state_col:'Estimado', 'rank':rank,count_col:1}, ignore_index=True)    
 
-    y_label = "template_rank"
-    df[y_label] = df["template"] + " (" + df["rank"].astype(str) + "º)"
-    df = df.sort_values(by=[hue])
-    # display(df)
+    # Add a better name for x values
+    x = "template_rank"
+    df[x] = df["template"] + " (" + df["rank"].astype(str) + "º)"
+    df = df.sort_values(by=[state_col, x], ascending=[True, False])
     
-    fig =  px.bar(df, y=y_label, x="aux", orientation="h", color=hue, height=800, width=900,
-        color_discrete_map={"Coletado":"green", "Com epic criada":"#64b5cd", 'Estimado':'lightblue', "Não localizado":"red"}, 
-        labels={"aux":"#Coletores (total estimado pelo template Siplanweb)", y_label:"Template / Município"} )    
-    fig.update_layout(title=title) 
-    fig.update_traces(opacity=0.75, showlegend=showlegend)
-    # Seaborn colors  
-    # ['#4c72b0', '#dd8452', '#55a868', '#c44e52', '#8172b3', '#937860', '#da8bc3', '#8c8c8c', '#ccb974', '#64b5cd']
+    # Plot
+    fig = px.bar(
+        df, y=count_col, x=x, color=state_col, height=800, width=1000, title=title,
+        color_discrete_map = {"Coletado":"green", "Com epic criada":"#64b5cd", 'Estimado':'lightblue', "Não localizado":"red"}, 
+        labels = {count_col:"#Coletores (total estimado pelo template Siplanweb)", x:"Template / Município"}, opacity=0.75 )    
+
+    return fig
+
+
+def plot_speed_epics(df, title):     
+    
+    # Medindo velocidade
+    current_speed = df["closed"].mean()          
+    df["closed_cumsum"] = df["closed"].cumsum()
+    
+    df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x:02d}/2022' for x in range(1,13)] + 
+                                ["01/2023", "02/2023"], columns=["month"]), how="right").fillna(0)          
+        
+    ### baseado no Siplanweb: 29 coletores, 15 templates + 5 municipios
+    total_epics = 29 * (15 + 5)    
+    total_months = df.shape[0]
+    ideal_speed = total_epics / total_months
+    
+    # Plot
+    fig =  px.bar(df, x="month", y="closed_cumsum", title=title, opacity=0.75, height=500,
+                 labels={"closed_cumsum":"Epics concluídas (acumulado)", "month":"Mês"})
+    
+    fig.update_layout(yaxis = dict(tickmode = 'linear', tick0 = 0, dtick = 100))
+    fig.add_trace(go.Scatter(x=df.month, y=[i * current_speed for i in range(1, total_months+1)], 
+                              name="Realizado", text=df))
+    fig.add_trace(go.Scatter(x=df.month, y=[i * ideal_speed for i in range(1, total_months+1)], 
+                              name="Planejado"))    
     
     return fig
+
 
 def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
         
@@ -179,12 +211,13 @@ def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):
     
     return fig
 
+
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
     count_month = pd.read_csv("data/count_month.csv")
     week_status = pd.read_csv('data/week_status.csv')    
-    count_epics_month = pd.read_csv("data/count_epics_month.csv")
-                              
+    count_epics_month = pd.read_csv("data/count_epics_month.csv")                    
+          
     issues_epic_df = pd.read_csv("data/issues_epic_df.csv")
     epics_df = pd.read_csv("data/epics.csv")
     top_templates_df = pd.read_csv("data/top_templates.csv")
@@ -226,10 +259,11 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
         x_column='template', y2_column=open_colum, y1_column=closed_colum, 
         name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     
-    fig9 = plot_status_epics(epics_df, top_templates_df, title='Visão Geral - Epics por Template - Coletores feitos e a fazer',        
-        y_column='template', x_column='title', hue="state", showlegend=True)
+    fig9 = plot_status_epics(epics_df, top_templates_df)
+    fig10 = plot_speed_epics(count_epics_month, title='Coleta - Conclusão de Epics por Mês')
 
-    return fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9
+    return fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10
+
 
 def create_figures_dev(closed_colum='closed', open_colum='open'):
     
