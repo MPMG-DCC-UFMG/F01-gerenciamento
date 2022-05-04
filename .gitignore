@@ -1,6 +1,6 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-
 __pycache__/
 config-coleta-generator/configs/
 tokens.txt
+nohup.out

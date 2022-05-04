@@ -201,13 +201,21 @@ def plot_speed_epics(df, title):
 
 def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
         
-    fig = px.imshow(df, color_continuous_scale=["green", "#64b5cd", 'lightblue'], 
-                    height=1300, width=1100, title=title)
-
-    fig.update_traces(opacity=0.75, showlegend=False)
-    fig.update_coloraxes(showscale=False)
-    fig.update_xaxes(tickangle=-90)
-    fig.update_xaxes(side="top")
+    fig = px.imshow(
+        df, height=1200, title=title,
+        color_continuous_scale=[(0, "green"), (0.33, 'lightgreen'), (0.66, "#64b5cd"), (1, 'lightblue')]
+    )     
+    
+    fig.update_traces(opacity=0.75)
+    fig.update_xaxes(tickangle=-90, side="top")
+    fig.update_yaxes(showgrid=True, gridwidth=5)
+    
+    fig.update_layout(coloraxis_colorbar=dict(
+        title="Status", 
+        tickvals=[1,2,3,4],
+        ticktext=["Testado","Parametrizado","Implementado",'Previsto'],
+        lenmode="pixels", len=200        
+    ))
     
     return fig
 
