@@ -107,14 +107,18 @@ def main(template_issue_coleta, template_issue_generalizacao):
                         time.sleep(180)
                         counter = 0
 
+                    labels_git = []
+                    if tipo == "Coleta":
+                        labels_git=[repo.get_label("[T] Realização F01"), repo.get_label("[0] Coleta")]
+                    elif tipo == "Teste de generalização":
+                        labels_git=[repo.get_label("generalization teste"), repo.get_label("development")]
+
                      #result = gh.create_issue(title=title, body=body, repository=repo_name, owner=user, label=['bug'])
                     i = repo.create_issue(
                            title=title,
                            body=body,
                            assignee=user,
-                        labels=[
-                            repo.get_label("[T] Realização F01"), repo.get_label("[0] Coleta")
-                        ]
+                        labels=labels_git
                     )
             
                 st.write('Great!, Issues Criadas')
