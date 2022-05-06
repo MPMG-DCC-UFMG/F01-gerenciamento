@@ -79,7 +79,7 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     
     #TODO same at app.py / automatically get team members
     creators = ['carbo6ufmg', 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'albertoueda', 
-                'arthurnader', 'GabrielLimab', 'lucas-maia-96'] 0
+                'arthurnader', 'GabrielLimab', 'lucas-maia-96']
     
     list_tags = ['Acesso à informação', 'Informações institucionais', 'Receitas', 'Despesas', 'Licitação', 'Contratos', 'Terceiro Setor', 'Concursos Públicos', 'Obras públicas', 'Servidores Públicos']
     
