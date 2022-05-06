@@ -173,7 +173,8 @@ def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Temp
 
 
 def plot_speed_epics(df, title):     
-    
+    #BUG abril desaparece no update 
+
     # Medindo velocidade
     current_speed = df["closed"].mean()          
     df["closed_cumsum"] = df["closed"].cumsum()
