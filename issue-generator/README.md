@@ -5,6 +5,6 @@
 ## Para executar o gerador
 
 ```bash
-[F01-gerenciamento/config-coleta-generator]$ pip install -r ../requirements.txt
-[F01-gerenciamento/config-coleta-generator]$ streamlit run app.py --server.port [PORT]
+[F01-gerenciamento/issue-generator]$ pip install -r ../requirements.txt
+[F01-gerenciamento/issue-generator]$ streamlit run src/app.py --server.port [PORT]
 ```
