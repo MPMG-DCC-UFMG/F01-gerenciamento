@@ -41,6 +41,7 @@ def body_text_generalizacao(template_issue_generalizacao, data, tag):
 def main(template_issue_coleta, template_issue_generalizacao):
     
     user=""
+    issues = {}
     
     st.title("Gerador de Issues")
     
@@ -55,7 +56,8 @@ def main(template_issue_coleta, template_issue_generalizacao):
     
     repo_name = st.text_input("Entre com o nome do repositório que você deseja criar a issue", value='MPMG-DCC-UFMG/C01')
     
-    user = st.selectbox("Nome do usuário no github. (Essa informação será utilizada para te atribuir como responsável por essa issue.", options=creators)
+    user = st.selectbox("Nome do usuário no github. (Essa informação será utilizada para te atribuir como responsável por essa issue.", 
+                        options=creators)
     
     tag = st.text_input("Entre com a tag da solicitação.")
     
@@ -71,17 +73,14 @@ def main(template_issue_coleta, template_issue_generalizacao):
             issues = body_text_coleta(template_issue_coleta, data, tag)
         elif tipo == "Teste de generalização":
             issues = body_text_generalizacao(template_issue_generalizacao, data, tag)
-            
     
     b1 = st.button('Show Issues', key=0)
     if b1:
         
         st.markdown("### Atenção humano, você está criando uma issue de {}!".format(tipo))
     
-        
         logtxtbox = st.empty()
         logtxt = ''
-       
     
         for title, body in issues.items():
         
