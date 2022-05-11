@@ -4,3 +4,4 @@ __pycache__/
 config-coleta-generator/configs/
 tokens.txt
 nohup.out
+venv/
