@@ -61,7 +61,7 @@ def create_and_run_coletor(config):
     
     #if not os.path.exists(config['data_path']):
     #    os.makedirs(config['data_path'])
-    
+
     try:
         r_creator = requests.post(API_ADDRESS, data=config)
         configuracao_do_coletor_criado = r_creator.json()
@@ -75,7 +75,7 @@ def create_and_run_coletor(config):
         time.sleep(5)
         
     except KeyError as error:
-        print(r_creator.json())
+        st.error('KeyError: json devolvido = ' + str(r_creator.json()))    
         raise error
     return r_creator
     
@@ -86,13 +86,13 @@ def app1():
     
     st.title("Generalização de configuração de coleta")
 
-    template_name = st.text_input("Entre com o nome do template")
+    template_name = st.text_input("Entre com o nome do template:")
     
-    url_base = st.text_input("Entre com a url base")
+    url_base = st.text_input("Entre com a url base:")
     
-    tag = st.text_input("Entre com a tag da solicitação.")
+    tag = st.text_input("Entre com a tag da solicitação (sem espaços):")
     
-    subtag = st.text_input("Entre com a subtag da solicitação")
+    subtag = st.text_input("Entre com a subtag da solicitação (sem espaços):")
       
     template_file = st.file_uploader("Carregue o template de configuração aqui")
     if template_file is not None:
