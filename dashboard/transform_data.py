@@ -207,6 +207,8 @@ def process_epics(df, target_labels=['template', 'tag', 'subtag'], remove_orig_c
     
     return df
 
+# To check the epics info:
+#   https://github.com/MPMG-DCC-UFMG/F01/issues?q=is%3Aclosed+is%3Aissue+label%3AEpic+-label%3Adevelopment
 def summarize_epics(epics_id, repo, info_issues, open_column='open', closed_column='closed'):
     
     epics = extract_data.get_issues_by_number(repo, numbers=epics_id)

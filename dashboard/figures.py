@@ -165,9 +165,11 @@ def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Temp
     
     # Plot
     fig = px.bar(
-        df, y=count_col, x=x, color=state_col, height=800, width=1000, title=title,
+        df, y=count_col, x=x, color=state_col, height=800, width=1600, title=title,
         color_discrete_map = {"Coletado":"green", "Com epic criada":"#64b5cd", 'Estimado':'lightblue', "Não localizado":"red"}, 
         labels = {count_col:"#Coletores (total estimado pelo template Siplanweb)", x:"Template / Município"}, opacity=0.75 )    
+    
+    fig.update_layout(font=dict(size=20))     
 
     return fig
 
@@ -201,22 +203,25 @@ def plot_speed_epics(df, title):
 
 
 def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
-        
+  
     fig = px.imshow(
-        df, height=1200, title=title,
+        df, height=1500, width=1600, title=title,
         color_continuous_scale=[(0, "green"), (0.33, 'lightgreen'), (0.66, "#64b5cd"), (1, 'lightblue')]
     )     
-    
+        
     fig.update_traces(opacity=0.75)
     fig.update_xaxes(tickangle=-90, side="top")
     fig.update_yaxes(showgrid=True, gridwidth=5)
     
-    fig.update_layout(coloraxis_colorbar=dict(
-        title="Status", 
-        tickvals=[1,2,3,4],
-        ticktext=["Testado","Parametrizado","Implementado",'Previsto'],
-        lenmode="pixels", len=200        
-    ))
+    fig.update_layout(
+        coloraxis_colorbar=dict(
+            title="Status", 
+            tickvals=[1,2,3,4],
+            ticktext=["Testado","Parametrizado","Implementado",'Previsto'],
+            lenmode="pixels", 
+            len=200), 
+        font=dict(size=20)
+    )
     
     return fig
 
@@ -302,6 +307,6 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
     
     #TODO for now, it simply uses the manually edited data/epics_dev.csv
     fig4 = plot_status_epics_dev(epics_dev_df, title='Visão Geral - Validadores feitos e a fazer',        
-        y_column='template', x_column='title', hue="state", showlegend=True)
+        y_column='template', x_column='title', hue="state")
 
     return fig1, fig2, fig3, fig4
