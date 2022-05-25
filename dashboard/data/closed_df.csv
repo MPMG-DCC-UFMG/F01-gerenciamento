@@ -1,12 +1,18 @@
 municipio,6/2021,7/2021,9/2021,10/2021,11/2021,12/2021,1/2022,2/2022,3/2022,4/2022,5/2022
+<<<<<<< Updated upstream
 Abaeté,0,0,0,0,0,0,2,0,0,1,1
 Aiuruoca,0,0,0,0,0,0,1,1,4,6,2
+=======
+Abaeté,0,0,0,0,0,0,2,0,0,1,3
+Aiuruoca,0,0,0,0,0,0,1,1,4,6,3
+>>>>>>> Stashed changes
 Alfenas,0,0,0,0,2,0,0,0,0,0,0
 Alfredo Vasconcelos,0,0,0,0,0,0,1,0,0,0,0
 Alpinópolis,0,0,0,0,0,1,0,0,0,0,0
 Alterosa,0,0,0,0,2,0,0,1,5,0,0
 Alto Rio Doce,0,0,0,0,1,1,0,2,1,0,0
 Alvinópolis,0,0,0,0,0,2,0,0,0,0,0
+<<<<<<< Updated upstream
 Alvorada de Minas,0,0,0,0,0,0,1,3,4,0,1
 Amparo do Serra,0,0,0,0,0,0,1,2,3,6,2
 Andradas,0,0,0,0,0,1,0,0,0,0,0
@@ -48,10 +54,54 @@ Brás Pires,0,0,0,0,0,0,1,2,3,6,2
 Buritis,0,0,0,0,0,0,1,0,0,1,1
 Cachoeira Dourada,0,0,0,0,0,1,0,0,0,0,0
 Cachoeira de Pajeú,0,0,0,0,0,0,1,3,4,0,1
+=======
+Alvorada de Minas,0,0,0,0,0,0,1,3,4,0,2
+Amparo do Serra,0,0,0,0,0,0,1,2,3,6,3
+Andradas,0,0,0,0,0,1,0,0,0,0,0
+Andrelândia,0,0,0,0,0,0,1,1,3,7,3
+Antônio Carlos,0,0,0,0,0,0,1,0,0,0,0
+Aracitaba,0,0,0,0,0,0,1,2,3,6,3
+Araguari,0,0,0,0,0,1,0,0,0,0,0
+Arantina,0,0,0,0,0,0,1,2,3,7,3
+Araporã,0,0,0,0,1,0,0,0,0,0,0
+Arapuá,0,0,0,0,0,0,1,0,0,0,0
+Araxá,0,0,0,0,0,0,0,0,0,0,0
+Aricanduva,0,0,0,0,0,0,0,2,5,0,3
+Arinos,0,0,0,0,0,0,1,0,0,1,3
+Astolfo Dutra,0,0,0,0,0,0,1,1,3,7,3
+Ataléia,0,0,0,0,0,0,1,0,0,0,0
+Augusto de Lima,0,0,0,0,0,0,1,2,5,0,2
+Bandeira,0,0,0,0,0,0,0,1,0,0,0
+Bandeira do Sul,0,0,0,0,0,2,0,2,3,0,0
+Barbacena,0,0,0,0,0,0,0,0,0,0,0
+Barra Longa,0,0,0,0,0,0,1,2,3,6,3
+Barroso,0,0,0,0,0,0,1,0,0,0,0
+Belmiro Braga,0,0,0,0,0,0,1,2,3,6,3
+Belo Horizonte,0,0,0,0,0,0,0,0,0,0,1
+Belo Vale,0,0,0,0,0,0,1,0,0,0,0
+Berilo,0,0,0,0,0,0,1,3,4,0,2
+Bertópolis,0,0,0,0,0,0,1,0,0,0,0
+Betim,0,3,1,0,1,0,0,0,0,0,0
+Bias Fortes,0,0,0,0,0,0,1,2,4,6,3
+Biquinhas,0,0,0,0,0,0,2,0,0,1,3
+Bocaina de Minas,0,0,0,0,0,0,1,2,4,6,3
+Bocaiúva,0,0,0,0,0,0,1,2,5,0,2
+Bom Jardim de Minas,0,0,0,0,0,0,1,2,4,7,2
+Bom Jesus do Amparo,0,0,0,0,0,0,1,0,0,1,3
+Bonito de Minas,0,0,0,0,0,0,1,2,5,0,2
+Botelhos,0,0,0,0,1,1,0,4,3,0,0
+Brasília de Minas,0,0,0,0,0,0,1,2,5,0,2
+Brazópolis,0,0,0,0,0,0,1,0,0,1,3
+Brás Pires,0,0,0,0,0,0,1,2,3,6,3
+Buritis,0,0,0,0,0,0,1,0,0,1,3
+Cachoeira Dourada,0,0,0,0,0,1,0,0,0,0,0
+Cachoeira de Pajeú,0,0,0,0,0,0,1,3,4,0,2
+>>>>>>> Stashed changes
 Cambuquira,0,0,0,0,2,0,0,0,0,0,0
 Campo Florido,0,0,0,0,0,0,0,0,0,0,0
 Campo do Meio,0,0,0,0,0,0,0,0,0,0,0
 Campos Gerais,0,0,0,0,0,4,0,2,2,0,0
+<<<<<<< Updated upstream
 Canaã,0,0,0,0,0,0,1,1,4,6,2
 Cantagalo,0,0,0,0,0,0,0,1,0,0,0
 Canápolis,0,0,0,0,0,1,0,0,0,0,0
@@ -62,6 +112,18 @@ Carandaí,0,0,0,0,0,0,1,0,0,0,0
 Caraí,0,0,0,0,0,0,1,0,0,0,0
 Careaçu,0,0,0,0,0,0,1,0,0,0,0
 Carmo de Minas,0,0,0,0,0,0,1,1,3,7,2
+=======
+Canaã,0,0,0,0,0,0,1,1,4,6,3
+Cantagalo,0,0,0,0,0,0,0,1,0,0,0
+Canápolis,0,0,0,0,0,1,0,0,0,0,0
+Capelinha,0,0,0,0,0,0,1,2,5,0,2
+Capinópolis,0,0,0,0,0,1,0,0,0,0,0
+Capitão Enéas,0,0,0,0,0,0,0,2,5,1,2
+Carandaí,0,0,0,0,0,0,1,0,0,0,0
+Caraí,0,0,0,0,0,0,1,0,0,0,0
+Careaçu,0,0,0,0,0,0,1,0,0,0,0
+Carmo de Minas,0,0,0,0,0,0,1,1,3,7,3
+>>>>>>> Stashed changes
 Carmo do Paranaíba,0,0,0,0,0,0,0,0,0,0,0
 Carmo do Rio Claro,0,0,0,0,0,1,0,0,0,0,0
 Carneirinho,0,0,0,0,0,1,0,0,0,0,0
@@ -70,6 +132,7 @@ Casa Grande,0,0,0,0,0,0,1,0,0,0,0
 Cascalho Rico,0,0,0,0,0,0,0,0,0,0,0
 Cataguases,0,0,0,0,0,2,0,5,2,0,0
 Catas Altas da Noruega,0,0,0,0,0,0,1,0,0,0,0
+<<<<<<< Updated upstream
 Catuti,0,0,0,0,0,0,1,2,5,0,1
 Caxambu,0,0,0,0,0,1,0,0,0,0,0
 Cedro do Abaeté,0,0,0,0,0,0,1,0,0,1,1
@@ -83,12 +146,28 @@ Claro dos Poções,0,0,0,0,0,0,0,3,4,0,1
 Cláudio,0,0,0,0,0,2,0,6,2,0,0
 Coimbra,0,0,0,0,0,0,1,2,3,6,2
 Coluna,0,0,0,0,0,0,1,2,5,0,1
+=======
+Catuti,0,0,0,0,0,0,1,2,5,0,2
+Caxambu,0,0,0,0,0,1,0,0,0,0,0
+Cedro do Abaeté,0,0,0,0,0,0,1,0,0,1,3
+Centralina,0,0,0,0,0,0,0,0,0,0,0
+Chapada Gaúcha,0,0,0,0,0,1,0,3,4,0,2
+Chapada do Norte,0,0,0,0,0,0,1,0,0,0,0
+Chiador,0,0,0,0,0,0,1,2,3,6,3
+Chácara,0,0,0,0,0,0,1,2,3,6,3
+Cipotânea,0,0,0,0,0,0,1,2,3,7,3
+Claro dos Poções,0,0,0,0,0,0,0,3,4,0,3
+Cláudio,0,0,0,0,0,2,0,6,2,0,0
+Coimbra,0,0,0,0,0,0,1,2,3,6,3
+Coluna,0,0,0,0,0,0,1,2,5,0,2
+>>>>>>> Stashed changes
 Conceição da Aparecida,0,0,0,0,0,2,0,0,0,0,0
 Conceição da Barra de Minas,0,0,0,0,0,0,1,0,0,0,0
 Conceição das Alagoas,0,0,0,0,0,0,0,0,0,0,0
 Conceição dos Ouros,0,0,0,0,0,0,1,0,0,0,0
 Congonhas,0,0,1,2,4,2,0,1,4,0,0
 Conquista,0,0,0,0,0,1,0,0,0,0,0
+<<<<<<< Updated upstream
 Consolação,0,0,0,0,0,0,1,0,0,1,1
 Coração de Jesus,0,0,0,0,0,0,1,2,5,0,1
 Coroaci,0,0,0,0,0,0,1,0,0,0,0
@@ -148,15 +227,81 @@ Guimarânia,0,0,0,0,1,0,0,0,0,0,0
 Gurinhatã,0,0,0,0,0,1,0,0,0,0,0
 Ibertioga,0,0,0,0,0,0,1,2,3,6,2
 Ibiaí,0,0,0,0,0,1,1,2,4,0,1
+=======
+Consolação,0,0,0,0,0,0,1,0,0,1,3
+Coração de Jesus,0,0,0,0,0,0,1,2,5,0,2
+Coroaci,0,0,0,0,0,0,1,0,0,0,0
+Coronel Fabriciano,0,0,0,0,0,0,1,0,0,0,0
+Coronel Pacheco,0,0,0,0,0,0,1,1,3,7,3
+Coronel Xavier Chaves,0,0,0,0,0,0,1,0,0,0,0
+Couto de Magalhães de Minas,0,0,0,0,0,0,1,2,5,0,2
+Cristina,0,0,0,0,0,0,1,2,3,6,3
+Cristália,0,0,0,0,0,0,0,2,5,1,2
+Cruzeiro da Fortaleza,0,0,0,0,0,0,0,0,0,0,0
+Cruzília,0,0,0,0,0,0,1,2,3,6,3
+Cuparaque,0,0,0,0,0,0,1,0,0,0,0
+Curral de Dentro,0,0,0,0,0,0,1,2,5,0,2
+Datas,0,0,0,0,0,0,1,2,5,0,2
+Descoberto,0,0,0,0,0,0,1,0,0,0,0
+Diamantina,0,0,0,0,1,0,0,0,0,0,0
+Diarias,0,0,0,0,0,0,0,0,0,1,0
+Diogo de Vasconcelos,0,0,0,0,0,0,1,2,3,7,3
+Divinópolis,0,0,0,1,4,0,1,0,0,0,0
+Divisa Alegre,0,0,0,0,0,0,1,2,5,0,2
+Divisópolis,0,0,0,0,0,0,1,2,5,0,2
+Dom Silvério,0,0,0,0,0,0,2,0,0,1,3
+Dom Viçoso,0,0,0,0,0,0,1,2,4,6,3
+Dores de Campos,0,0,0,0,0,0,1,0,0,0,0
+Dores de Guanhães,0,0,0,0,0,0,0,0,0,0,1
+Dores do Indaiá,0,0,0,0,0,1,0,0,0,0,0
+Durandé,0,0,0,0,1,0,0,0,0,0,0
+Elói Mendes,0,0,0,0,0,0,0,0,0,0,0
+Engenheiro Navarro,0,0,0,0,0,1,0,3,4,0,2
+Entre Rios de Minas,0,0,0,0,0,0,1,0,0,0,0
+Ervália,0,0,0,0,0,0,1,0,0,0,0
+Espinosa,0,0,0,0,0,0,1,2,5,0,2
+Estrela Dalva,0,0,0,0,0,0,1,2,3,7,3
+Estrela do Sul,0,0,0,0,0,0,0,0,0,0,0
+Ewbank da Câmara,0,0,0,0,0,0,1,2,4,6,3
+Felício dos Santos,0,0,0,0,0,0,1,2,5,0,2
+Fervedouro,0,0,0,0,0,0,1,2,2,7,3
+Formiga,0,0,0,0,0,2,0,1,5,0,0
+Francisco Badaró,0,0,0,0,0,0,1,3,4,0,2
+Francisco Sá,0,0,0,0,0,0,1,2,5,0,2
+Frei Gaspar,0,0,0,0,0,0,1,0,0,0,0
+Frei Lagonegro,0,0,0,0,0,0,1,3,4,0,2
+Fronteira dos Vales,0,0,0,0,0,0,1,0,0,0,0
+Fruta de Leite,0,0,0,0,0,0,1,2,5,0,2
+Frutal,0,0,0,0,0,1,0,0,0,0,0
+Gameleiras,0,0,0,0,0,0,1,3,4,0,2
+Glaucilândia,0,0,0,0,0,0,1,2,5,0,2
+Gouveia,0,0,0,0,0,0,1,2,5,0,2
+Governador Valadares,3,0,0,1,6,0,0,0,0,0,0
+Guanhães,0,0,0,0,0,0,0,0,0,0,0
+Guaraciama,0,0,0,0,0,0,1,2,6,0,2
+Guarani,0,0,0,0,0,0,1,2,2,7,3
+Guaranésia,0,0,0,0,2,0,0,0,0,0,0
+Guarará,0,0,0,0,0,0,1,2,3,6,3
+Guaxupé,0,0,0,0,0,1,0,0,0,0,0
+Guimarânia,0,0,0,0,1,0,0,0,0,0,0
+Gurinhatã,0,0,0,0,0,1,0,0,0,0,0
+Ibertioga,0,0,0,0,0,0,1,2,3,6,3
+Ibiaí,0,0,0,0,0,1,1,2,4,0,2
+>>>>>>> Stashed changes
 Ibituruna,0,0,0,0,0,0,1,0,0,0,0
 Igarapé,0,0,0,0,0,1,0,0,0,0,0
 Igaratinga,0,0,0,0,2,0,0,0,0,0,0
 Ijaci,0,0,0,0,0,0,2,1,3,0,0
+<<<<<<< Updated upstream
 Indaiabira,0,0,0,0,0,0,1,2,5,0,1
+=======
+Indaiabira,0,0,0,0,0,0,1,2,5,0,2
+>>>>>>> Stashed changes
 Ingaí,0,0,0,0,0,0,1,0,0,0,0
 Ipatinga,0,0,1,1,3,0,0,0,0,0,0
 Itabirinha,0,0,0,0,0,0,1,0,0,0,0
 Itabirito,0,0,0,0,0,0,0,0,0,0,0
+<<<<<<< Updated upstream
 Itacambira,0,0,0,0,0,0,0,2,5,1,1
 Itacarambi,0,0,0,0,0,0,1,2,5,0,1
 Itaguara,0,0,0,0,0,0,0,1,3,0,0
@@ -185,10 +330,41 @@ Juiz de Fora,0,0,0,1,0,0,0,0,0,0,0
 Juramento,0,0,0,0,0,0,1,2,5,0,1
 Juruaia,0,0,0,0,0,1,0,0,0,0,0
 Ladainha,0,0,0,0,0,0,0,2,5,0,1
+=======
+Itacambira,0,0,0,0,0,0,0,2,5,1,2
+Itacarambi,0,0,0,0,0,0,1,2,5,0,2
+Itaguara,0,0,0,0,0,0,0,1,3,0,0
+Itaipé,0,0,0,0,0,0,0,1,0,0,0
+Itamarandiba,0,0,0,0,0,0,1,2,5,0,2
+Itamonte,0,0,0,0,1,0,0,0,0,0,0
+Itanhandu,0,0,0,0,0,1,0,0,0,0,0
+Itapecerica,0,0,0,0,0,0,1,0,0,1,3
+Itapeva,0,0,0,0,0,0,2,1,3,0,0
+Itatiaiuçu,0,0,0,0,0,2,0,1,5,0,0
+Itaú de Minas,0,0,0,0,0,1,0,0,0,0,0
+Itinga,0,0,0,0,0,0,1,2,5,0,2
+Itumirim,0,0,0,0,0,0,1,0,0,0,0
+Iturama,0,0,0,0,0,0,0,0,1,0,0
+Itutinga,0,0,0,0,0,0,1,0,0,0,0
+Janaúba,0,0,0,0,0,0,1,2,5,0,2
+Jaíba,0,0,0,0,0,0,1,2,5,0,2
+Jeceaba,0,0,0,0,0,0,1,0,0,0,0
+Jenipapo de Minas,0,0,0,0,0,0,1,2,5,0,2
+Jequitaí,0,0,0,0,0,0,1,2,5,0,2
+Joaquim Felício,0,0,0,0,0,0,1,2,5,0,2
+Jordânia,0,0,0,0,0,0,0,1,0,0,0
+Josenópolis,0,0,0,0,0,0,0,2,5,0,3
+João Monlevade,0,0,0,0,0,0,0,0,0,0,0
+Juiz de Fora,0,0,0,1,0,0,0,0,0,0,0
+Juramento,0,0,0,0,0,0,1,2,5,0,2
+Juruaia,0,0,0,0,0,1,0,0,0,0,0
+Ladainha,0,0,0,0,0,0,0,2,5,0,3
+>>>>>>> Stashed changes
 Lagoa Dourada,0,0,0,0,0,0,1,0,0,0,0
 Lagoa Santa,0,0,0,0,0,1,0,0,0,0,0
 Lagoa da Prata,0,0,0,0,0,0,2,1,3,0,0
 Lambari,0,0,0,0,0,1,0,0,0,0,0
+<<<<<<< Updated upstream
 Lamim,0,0,0,0,0,0,1,2,3,6,2
 Laranjal,0,0,0,0,0,0,1,2,3,7,2
 Lassance,0,0,0,0,0,0,0,0,0,0,0
@@ -219,10 +395,43 @@ Monte Sião,0,0,0,0,0,1,0,0,0,0,0
 Montes Claros,0,0,2,2,2,0,0,0,0,0,0
 Montezuma,0,0,0,0,0,0,1,2,5,0,1
 Mário Campos,0,0,0,0,0,0,1,2,5,0,1
+=======
+Lamim,0,0,0,0,0,0,1,2,3,6,3
+Laranjal,0,0,0,0,0,0,1,2,3,7,3
+Lassance,0,0,0,0,0,0,0,0,0,0,0
+Lavras,0,0,0,0,0,1,0,0,0,0,0
+Lima Duarte,0,0,0,0,0,0,1,1,4,6,3
+Lontra,0,0,0,0,0,0,1,2,5,0,2
+Luminárias,0,0,0,0,0,0,1,0,0,0,0
+Luz,0,0,0,0,0,2,0,2,2,0,0
+Machacalis,0,0,0,0,0,0,1,0,0,0,0
+Madre de Deus de Minas,0,0,0,0,0,0,1,2,3,6,3
+Mamonas,0,0,0,0,0,0,1,2,5,0,2
+Manga,0,0,0,0,0,0,0,2,5,1,2
+Mantena,0,0,0,0,0,2,0,2,2,0,0
+Mariana,0,0,0,0,0,2,0,1,4,0,0
+Marilac,0,0,0,0,0,0,0,1,0,0,0
+Maripá de Minas,0,0,0,0,0,0,1,2,4,6,3
+Marmelópolis,0,0,0,0,0,0,1,0,0,1,3
+Mata Verde,0,0,0,0,0,0,1,2,5,0,2
+Materlândia,0,0,0,0,0,0,1,2,5,0,2
+Mato Verde,0,0,0,0,0,0,1,2,5,0,2
+Mercês,0,0,0,0,0,0,1,2,2,7,3
+Minduri,0,0,0,0,0,0,1,2,3,6,3
+Mirabela,0,0,0,0,0,0,1,2,5,0,2
+Miravânia,0,0,0,0,0,0,1,2,5,0,2
+Miraí,0,0,0,0,0,0,1,2,3,6,3
+Monte Azul,0,0,0,0,0,0,1,2,5,0,2
+Monte Sião,0,0,0,0,0,1,0,0,0,0,0
+Montes Claros,0,0,2,2,2,0,0,0,0,0,0
+Montezuma,0,0,0,0,0,0,1,2,5,0,2
+Mário Campos,0,0,0,0,0,0,1,2,5,0,2
+>>>>>>> Stashed changes
 Nazareno,0,0,0,0,0,0,1,0,0,0,0
 Nepomuceno,0,0,0,0,0,2,0,0,0,0,0
 Nova Era,0,0,0,0,0,0,0,0,0,0,0
 Nova Ponte,0,0,0,0,0,0,0,0,0,0,0
+<<<<<<< Updated upstream
 Nova Porteirinha,0,0,0,0,0,0,0,2,5,0,1
 Nova União,0,0,0,0,0,0,1,0,0,1,1
 Novo Cruzeiro,0,0,0,0,0,0,1,2,5,0,1
@@ -235,10 +444,25 @@ Ouro Verde de Minas,0,0,0,0,0,0,1,0,0,0,0
 Padre Carvalho,0,0,0,0,0,0,1,2,5,0,1
 Pai Pedro,0,0,0,0,0,0,1,2,5,0,1
 Paineiras,0,0,0,0,0,0,1,0,0,1,1
+=======
+Nova Porteirinha,0,0,0,0,0,0,0,2,5,0,3
+Nova União,0,0,0,0,0,0,1,0,0,1,3
+Novo Cruzeiro,0,0,0,0,0,0,1,2,5,0,2
+Novo Oriente de Minas,0,0,0,0,0,0,1,0,0,0,0
+Novorizonte,0,0,0,0,0,0,1,3,4,0,2
+Olaria,0,0,0,0,0,0,1,2,2,8,3
+Oratórios,0,0,0,0,0,0,1,1,4,6,3
+Ouro Branco,0,0,0,0,0,2,0,0,0,0,0
+Ouro Verde de Minas,0,0,0,0,0,0,1,0,0,0,0
+Padre Carvalho,0,0,0,0,0,0,1,2,5,0,2
+Pai Pedro,0,0,0,0,0,0,1,2,5,0,2
+Paineiras,0,0,0,0,0,0,1,0,0,1,3
+>>>>>>> Stashed changes
 Paracatu,0,1,0,1,3,1,0,0,0,0,0
 Paraguaçu,0,0,0,0,0,0,0,1,2,0,0
 Pará de Minas,0,0,0,4,1,0,0,0,0,0,0
 Passa Tempo,0,0,0,0,0,0,0,0,0,0,0
+<<<<<<< Updated upstream
 Passa Vinte,0,0,0,0,0,0,1,2,3,7,2
 Passos,0,0,0,0,0,0,0,0,0,0,0
 Patis,0,0,0,0,0,0,1,2,5,0,1
@@ -249,10 +473,23 @@ Pedra Azul,0,0,0,0,0,0,1,2,5,0,1
 Pedralva,0,0,0,0,0,0,1,0,0,1,1
 Pedrinópolis,0,0,0,0,0,0,0,0,0,0,0
 Pedro Teixeira,0,0,0,0,0,0,1,2,3,6,2
+=======
+Passa Vinte,0,0,0,0,0,0,1,2,3,7,3
+Passos,0,0,0,0,0,0,0,0,0,0,0
+Patis,0,0,0,0,0,0,1,2,5,0,2
+Patos de Minas,0,0,0,0,0,0,0,0,0,0,0
+Paula Cândido,0,0,0,0,0,0,0,0,1,4,3
+Pavão,0,0,0,0,0,0,0,1,0,0,0
+Pedra Azul,0,0,0,0,0,0,1,2,5,0,2
+Pedralva,0,0,0,0,0,0,1,0,0,1,3
+Pedrinópolis,0,0,0,0,0,0,0,0,0,0,0
+Pedro Teixeira,0,0,0,0,0,0,1,2,3,6,3
+>>>>>>> Stashed changes
 Pequi,0,0,0,0,0,0,2,0,0,0,0
 Perdizes,0,0,0,0,0,0,0,0,0,0,0
 Periquito,0,0,0,0,0,0,1,0,0,0,0
 Pescador,0,0,0,0,0,0,0,1,0,0,0
+<<<<<<< Updated upstream
 Piau,0,0,0,0,0,0,1,2,2,7,2
 Piedade do Rio Grande,0,0,0,0,0,0,1,0,0,0,0
 Pimenta,0,0,0,0,0,1,0,0,0,0,0
@@ -263,6 +500,18 @@ Piranguinho,0,0,0,0,0,0,1,0,0,1,1
 Piranguçu,0,0,0,0,0,0,2,0,0,1,1
 Planura,0,0,0,0,2,0,0,0,0,0,0
 Ponto Chique,0,0,0,0,0,0,1,2,5,0,1
+=======
+Piau,0,0,0,0,0,0,1,2,2,7,3
+Piedade do Rio Grande,0,0,0,0,0,0,1,0,0,0,0
+Pimenta,0,0,0,0,0,1,0,0,0,0,0
+Pintópolis,0,0,0,0,0,0,0,2,5,0,3
+Pirajuba,0,0,0,0,0,0,2,0,0,0,0
+Piranga,0,0,0,0,0,0,1,2,4,6,3
+Piranguinho,0,0,0,0,0,0,1,0,0,1,3
+Piranguçu,0,0,0,0,0,0,2,0,0,1,3
+Planura,0,0,0,0,2,0,0,0,0,0,0
+Ponto Chique,0,0,0,0,0,0,1,2,5,0,2
+>>>>>>> Stashed changes
 Pouso Alegre,0,0,1,3,1,0,0,0,0,0,0
 Poço Fundo,0,0,0,0,0,1,0,0,0,0,0
 Poços de Caldas,0,0,0,0,0,1,0,0,0,0,0
@@ -270,7 +519,11 @@ Prados,0,0,0,0,0,0,1,0,0,0,0
 Prata,0,0,0,0,0,1,0,0,0,0,0
 Pratinha,0,0,0,0,0,0,0,0,0,0,0
 Pratápolis,0,0,0,0,1,0,0,0,0,0,0
+<<<<<<< Updated upstream
 Presidente Kubitschek,0,0,0,0,0,1,1,2,4,0,1
+=======
+Presidente Kubitschek,0,0,0,0,0,1,1,2,4,0,2
+>>>>>>> Stashed changes
 Página,0,0,0,0,0,0,0,0,0,0,0
 Queluzito,0,0,0,0,0,0,1,0,0,0,0
 Raposos,0,0,0,0,0,1,1,1,4,0,0
@@ -279,6 +532,7 @@ Ressaquinha,0,0,0,0,0,0,1,0,0,0,0
 Rio Acima,0,0,0,0,0,0,1,0,0,0,0
 Rio Casca,0,0,0,0,0,0,2,1,6,0,0
 Rio Doce,0,0,0,0,0,0,2,2,2,0,0
+<<<<<<< Updated upstream
 Rio Espera,0,0,0,0,0,0,1,2,3,6,2
 Rio Novo,0,0,0,0,0,0,1,1,3,7,2
 Rio Paranaíba,0,0,0,0,0,0,0,0,0,0,0
@@ -296,10 +550,30 @@ Santa Vitória,0,0,0,0,0,1,0,0,0,0,0
 Santana do Garambéu,0,0,0,0,0,0,1,2,3,7,2
 Santana do Jacaré,0,0,0,0,0,0,1,0,0,0,0
 Santana do Riacho,0,0,0,0,0,0,1,2,5,0,1
+=======
+Rio Espera,0,0,0,0,0,0,1,2,3,6,3
+Rio Novo,0,0,0,0,0,0,1,1,3,7,3
+Rio Paranaíba,0,0,0,0,0,0,0,0,0,0,0
+Rio Pardo de Minas,0,0,0,0,0,0,1,2,5,0,2
+Rio Preto,0,0,0,0,0,0,1,2,3,6,3
+Ritápolis,0,0,0,0,0,0,1,0,0,0,0
+Rochedo de Minas,0,0,0,0,0,0,1,1,3,8,3
+Sacramento,0,0,0,0,0,0,2,2,3,0,0
+Santa Bárbara do Tugúrio,0,0,0,0,0,0,1,0,0,0,0
+Santa Cruz de Minas,0,0,0,0,0,0,1,0,0,0,0
+Santa Cruz de Salinas,0,0,0,0,0,0,1,2,5,0,2
+Santa Efigênia de Minas,0,0,0,0,0,0,0,1,0,0,0
+Santa Rita de Ibitipoca,0,0,0,0,0,0,1,2,3,6,3
+Santa Vitória,0,0,0,0,0,1,0,0,0,0,0
+Santana do Garambéu,0,0,0,0,0,0,1,2,3,7,3
+Santana do Jacaré,0,0,0,0,0,0,1,0,0,0,0
+Santana do Riacho,0,0,0,0,0,0,1,2,5,0,2
+>>>>>>> Stashed changes
 Santana dos Montes,0,0,0,0,0,0,1,0,0,0,0
 Santo Antônio do Grama,0,0,0,0,0,0,0,0,0,0,0
 Santo Antônio do Jacinto,0,0,0,0,0,0,0,1,0,0,0
 Santo Antônio do Monte,0,0,0,0,0,0,2,1,3,0,0
+<<<<<<< Updated upstream
 Santo Antônio do Retiro,0,0,0,0,0,0,1,2,5,0,1
 Santo Hipólito,0,0,0,0,0,0,0,2,5,1,1
 Sardoá,0,0,0,0,0,0,1,0,0,0,0
@@ -321,11 +595,36 @@ Simão Pereira,0,0,0,0,0,0,1,2,3,6,2
 São Brás do Suaçuí,0,0,0,0,0,0,1,0,0,0,0
 São Geraldo,0,0,0,0,0,0,1,0,0,0,0
 São Gonçalo do Rio Preto,0,0,0,0,0,0,1,2,5,0,1
+=======
+Santo Antônio do Retiro,0,0,0,0,0,0,1,2,5,0,2
+Santo Hipólito,0,0,0,0,0,0,0,2,5,1,2
+Sardoá,0,0,0,0,0,0,1,0,0,0,0
+Sarzedo,0,0,0,0,0,0,2,1,3,0,0
+Senador Cortes,0,0,0,0,0,0,1,2,4,6,2
+Senador Cortês,0,0,0,0,0,0,0,0,0,0,1
+Senador Firmino,0,0,0,0,0,0,1,1,4,6,3
+Senador Modestino Gonçalves,0,0,0,0,0,0,1,2,5,0,2
+Senhora de Oliveira,0,0,0,0,0,0,1,2,3,7,3
+Senhora dos Remédios,0,0,0,0,0,0,1,2,3,6,3
+Seritinga,0,0,0,0,0,0,1,2,3,6,3
+Serra Azul de Minas,0,0,0,0,0,0,1,2,5,0,2
+Serrania,0,0,0,0,0,0,3,0,0,0,0
+Serranos,0,0,0,0,0,0,0,0,0,0,0
+Serro,0,0,0,0,0,0,1,0,0,1,3
+Setubinha,0,0,0,0,0,0,0,0,0,0,1
+Silveirânia,0,0,0,0,0,0,1,0,0,0,0
+Silvianópolis,0,0,0,0,0,0,1,0,0,1,3
+Simão Pereira,0,0,0,0,0,0,1,2,3,6,3
+São Brás do Suaçuí,0,0,0,0,0,0,1,0,0,0,0
+São Geraldo,0,0,0,0,0,0,1,0,0,0,0
+São Gonçalo do Rio Preto,0,0,0,0,0,0,1,2,5,0,2
+>>>>>>> Stashed changes
 São Gotardo,0,0,0,0,0,0,0,0,0,0,0
 São Joaquim de Bicas,0,0,0,0,0,1,0,0,0,0,0
 São José da Barra,0,0,0,0,0,0,0,2,2,0,0
 São José da Lapa,0,0,0,0,0,1,0,0,0,0,0
 São João Evangelista,0,0,0,0,0,0,0,1,0,0,0
+<<<<<<< Updated upstream
 São João da Lagoa,0,0,0,0,0,0,1,2,5,0,1
 São João da Mata,0,0,0,0,0,0,1,0,0,1,1
 São João das Missões,0,0,0,0,0,0,0,2,5,0,1
@@ -335,12 +634,24 @@ São Lourenço,0,0,0,0,0,0,1,2,3,6,2
 São Pedro do Saçuí,0,0,0,0,0,0,0,0,0,1,1
 São Pedro do Suaçuí,0,0,0,0,0,0,1,0,0,0,0
 São Romão,0,0,0,0,0,0,0,2,5,0,1
+=======
+São João da Lagoa,0,0,0,0,0,0,1,2,5,0,2
+São João da Mata,0,0,0,0,0,0,1,0,0,1,3
+São João das Missões,0,0,0,0,0,0,0,2,5,0,3
+São João del Rei,0,0,0,0,0,0,1,0,0,0,0
+São João do Pacuí,0,0,0,0,0,0,1,2,5,0,2
+São Lourenço,0,0,0,0,0,0,1,2,3,6,3
+São Pedro do Saçuí,0,0,0,0,0,0,0,0,0,1,3
+São Pedro do Suaçuí,0,0,0,0,0,0,1,0,0,0,0
+São Romão,0,0,0,0,0,0,0,2,5,0,3
+>>>>>>> Stashed changes
 São Sebastião do Anta,0,0,0,0,1,0,0,0,0,0,0
 São Sebastião do Maranhão,0,0,0,0,0,0,1,0,0,0,0
 São Sebastião do Oeste,0,0,0,0,0,0,2,2,3,0,0
 São Thomé das Letras,0,0,0,0,0,0,1,0,0,0,0
 São Tiago,0,0,0,0,0,0,1,0,0,0,0
 São Vicente de Minas,0,0,0,0,0,0,1,0,0,0,0
+<<<<<<< Updated upstream
 Tabuleiro,0,0,0,0,0,0,1,2,2,7,2
 Tapira,0,0,0,0,0,0,0,0,0,0,0
 Taquaraçu de Minas,0,0,0,0,0,0,1,0,0,0,1
@@ -352,11 +663,25 @@ Toledo,0,0,0,0,0,0,1,2,2,8,2
 Tumiritinga,0,0,0,0,0,0,0,1,0,0,0
 Tupaciguara,0,0,0,0,0,0,0,0,0,0,0
 Turmalina,0,0,0,0,0,1,0,2,5,0,1
+=======
+Tabuleiro,0,0,0,0,0,0,1,2,2,7,3
+Tapira,0,0,0,0,0,0,0,0,0,0,0
+Taquaraçu de Minas,0,0,0,0,0,0,1,0,0,0,4
+Teixeiras,0,0,0,0,0,0,1,2,3,6,3
+Teófilo Otoni,0,0,0,3,1,1,0,0,0,0,0
+Tiradentes,0,0,0,0,0,0,1,0,0,0,0
+Tiros,0,0,0,0,0,0,0,0,0,0,0
+Toledo,0,0,0,0,0,0,1,2,2,8,3
+Tumiritinga,0,0,0,0,0,0,0,1,0,0,0
+Tupaciguara,0,0,0,0,0,0,0,0,0,0,0
+Turmalina,0,0,0,0,0,1,0,2,5,0,2
+>>>>>>> Stashed changes
 Uberaba,0,0,0,1,3,0,0,0,0,0,0
 Uberlândia,0,3,0,2,1,0,0,0,0,0,0
 Umburatiba,0,0,0,0,0,0,0,1,0,0,0
 Unaí,0,0,0,0,0,1,0,0,0,0,0
 União de Minas,0,0,0,0,0,1,0,0,0,0,0
+<<<<<<< Updated upstream
 Vargem Grande do Rio Pardo,0,0,0,0,0,0,1,2,5,0,1
 Varginha,0,0,0,1,1,0,0,0,0,0,0
 Veredinha,0,0,0,0,0,0,1,2,5,0,1
@@ -371,3 +696,19 @@ Wenceslau Braz,0,0,0,0,0,0,2,0,0,1,1
 Água Boa,0,0,0,0,0,0,1,2,5,0,1
 Água Comprida,0,0,0,0,0,0,0,0,0,0,0
 Águas Vermelhas,0,0,0,0,0,0,1,2,5,0,1
+=======
+Vargem Grande do Rio Pardo,0,0,0,0,0,0,1,2,5,0,2
+Varginha,0,0,0,1,1,0,0,0,0,0,0
+Veredinha,0,0,0,0,0,0,1,2,5,0,2
+Veríssimo,0,0,0,0,0,0,0,0,0,0,0
+Vespasiano,0,0,0,0,0,0,0,0,0,0,0
+Virgem da Lapa,0,0,0,0,0,0,1,2,5,0,2
+Virgínia,0,0,0,0,0,0,0,0,0,0,0
+Visconde do Rio Branco,0,0,0,0,0,0,1,0,0,0,0
+Volta Grande,0,0,0,0,0,0,1,1,3,8,3
+Várzea da Palma,0,0,0,0,0,0,1,2,5,0,2
+Wenceslau Braz,0,0,0,0,0,0,2,0,0,1,3
+Água Boa,0,0,0,0,0,0,1,2,5,0,2
+Água Comprida,0,0,0,0,0,0,0,0,0,0,0
+Águas Vermelhas,0,0,0,0,0,0,1,2,5,0,2
+>>>>>>> Stashed changes

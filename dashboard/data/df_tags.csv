@@ -1,6 +1,7 @@
 tag,open,closed
-Acesso à Informação,0.0,61.0
+Acesso à Informação,4.0,72.0
 Contas Públicas,0.0,61.0
+<<<<<<< Updated upstream
 Contratos,0.0,82.0
 Despesas,97.0,1038.0
 Despesas com diárias,0.0,61.0
@@ -12,4 +13,17 @@ Terceiro Setor,0.0,122.0
 Informações institucionais,0.0,0.0
 Concursos Públicos,0.0,0.0
 Acesso à informação,0.0,0.0
+=======
+Contratos,0.0,83.0
+Despesas,141.0,1038.0
+Despesas com diárias,8.0,88.0
+Informações Institucionais,0.0,61.0
+Licitação,41.0,358.0
+Receitas,0.0,105.0
+Servidores Públicos,26.0,294.0
+Terceiro Setor,0.0,122.0
+Acesso à informação,0.0,0.0
+Concursos Públicos,0.0,0.0
+Informações institucionais,0.0,0.0
+>>>>>>> Stashed changes
 Obras públicas,0.0,0.0

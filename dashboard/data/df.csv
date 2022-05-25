@@ -1,4 +1,5 @@
 title,number,created_at,closed_at,labels,state,municipio,month,day,year,format_date_closed,format_date_created,week
+<<<<<<< Updated upstream
 Coleta de Servidores Publicos - Agentes Politicos - Itacarambi,3318,2022-05-11 23:20:22,0,[T] Realização F01 [0] Coleta,open,Itacarambi,5,11,2022,1/1970,5/2022,00
 Coleta de Servidores Publicos - Agentes Politicos - Montezuma,3317,2022-05-11 23:20:21,0,[T] Realização F01 [0] Coleta,open,Montezuma,5,11,2022,1/1970,5/2022,00
 Coleta de Servidores Publicos - Agentes Politicos - Manga,3316,2022-05-11 23:20:19,0,[T] Realização F01 [0] Coleta,open,Manga,5,11,2022,1/1970,5/2022,00
@@ -85,6 +86,8 @@ Coleta de Servidores Publicos - Agentes Politicos - Engenheiro Navarro,3236,2022
 Coleta de Servidores Publicos - Agentes Politicos - Turmalina,3235,2022-05-11 23:06:27,0,[T] Realização F01 [0] Coleta,open,Turmalina,5,11,2022,1/1970,5/2022,00
 Coleta de Servidores Publicos - Agentes Politicos - Presidente Kubitschek,3234,2022-05-11 23:06:25,0,[T] Realização F01 [0] Coleta,open,Presidente Kubitschek,5,11,2022,1/1970,5/2022,00
 Coleta de Servidores Publicos - Agentes Politicos - Ibiaí,3233,2022-05-11 23:06:24,0,[T] Realização F01 [0] Coleta,open,Ibiaí,5,11,2022,1/1970,5/2022,00
+=======
+>>>>>>> Stashed changes
 Coleta de Licitação - Água Comprida,1290,2022-01-18 14:26:09,0,[T] Realização F01 [0] Coleta,open,Água Comprida,1,18,2022,1/1970,1/2022,00
 Coleta de Licitação - Estrela do Sul,1289,2022-01-18 14:26:08,0,[T] Realização F01 [0] Coleta,open,Estrela do Sul,1,18,2022,1/1970,1/2022,00
 Coleta de Licitação - Campo Florido,1288,2022-01-18 14:26:06,0,[T] Realização F01 [0] Coleta,open,Campo Florido,1,18,2022,1/1970,1/2022,00
@@ -182,6 +185,7 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
+<<<<<<< Updated upstream
 Coleta de Informações Institucionais - Leis Municipais - Teixeiras,3232,2022-05-11 02:04:49,0,[T] Realização F01 [0] Coleta,open,Teixeiras,5,11,2022,1/1970,5/2022,00
 Coleta de Informações Institucionais - Leis Municipais - Lima Duarte,3231,2022-05-11 02:04:47,0,[T] Realização F01 [0] Coleta,open,Lima Duarte,5,11,2022,1/1970,5/2022,00
 Coleta de Informações Institucionais - Leis Municipais - Ibertioga,3230,2022-05-11 02:04:46,0,[T] Realização F01 [0] Coleta,open,Ibertioga,5,11,2022,1/1970,5/2022,00
@@ -253,6 +257,34 @@ Coleta de Licitações - Josenópolis,2709,2022-04-13 11:10:49,0,[T] Realizaçã
 Coleta de Licitações - Dores de Guanhães,2708,2022-04-13 11:09:21,0,[T] Realização F01 [0] Coleta,open,Dores de Guanhães,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Setubinha,2707,2022-04-13 11:08:10,0,[T] Realização F01 [0] Coleta,open,Setubinha,4,13,2022,1/1970,4/2022,00
 Coleta de Licitações - Claro dos Poções,2706,2022-04-13 11:06:30,0,[T] Realização F01 [0] Coleta,open,Claro dos Poções,4,13,2022,1/1970,4/2022,00
+=======
+Coleta de Servidores Públicos - Quadro de Pessoal - Campos Gerais,3393,2022-05-23 22:33:40,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Itatiaiuçu,3392,2022-05-23 22:33:38,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Sarzedo,3391,2022-05-23 22:33:37,0,[T] Realização F01 [0] Coleta,open,Sarzedo,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Ijaci,3390,2022-05-23 22:33:35,0,[T] Realização F01 [0] Coleta,open,Ijaci,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Itaguara,3389,2022-05-23 22:33:34,0,[T] Realização F01 [0] Coleta,open,Itaguara,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Mantena,3388,2022-05-23 22:33:32,0,[T] Realização F01 [0] Coleta,open,Mantena,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Paraguaçu,3387,2022-05-23 22:31:33,0,[T] Realização F01 [0] Coleta,open,Paraguaçu,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Raposos,3386,2022-05-23 22:31:32,0,[T] Realização F01 [0] Coleta,open,Raposos,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Rio Casca,3385,2022-05-23 22:28:31,0,[T] Realização F01 [0] Coleta,open,Rio Casca,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Rio Doce,3384,2022-05-23 22:28:29,0,[T] Realização F01 [0] Coleta,open,Rio Doce,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - São José da Barra,3383,2022-05-23 22:28:28,0,[T] Realização F01 [0] Coleta,open,São José da Barra,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Alterosa,3382,2022-05-23 22:28:26,0,[T] Realização F01 [0] Coleta,open,Alterosa,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Formiga,3381,2022-05-23 22:28:25,0,[T] Realização F01 [0] Coleta,open,Formiga,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Congonhas,3380,2022-05-23 22:28:23,0,[T] Realização F01 [0] Coleta,open,Congonhas,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Cataguases,3379,2022-05-23 22:28:22,0,[T] Realização F01 [0] Coleta,open,Cataguases,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Lagoa da Prata,3378,2022-05-23 22:28:21,0,[T] Realização F01 [0] Coleta,open,Lagoa da Prata,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Botelhos,3377,2022-05-23 22:28:19,0,[T] Realização F01 [0] Coleta,open,Botelhos,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - São Sebastião do Oeste,3376,2022-05-23 22:28:18,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Oeste,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Bandeira do Sul,3375,2022-05-23 22:28:17,0,[T] Realização F01 [0] Coleta,open,Bandeira do Sul,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Sacramento,3374,2022-05-23 22:28:15,0,[T] Realização F01 [0] Coleta,open,Sacramento,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Luz,3373,2022-05-23 22:28:14,0,[T] Realização F01 [0] Coleta,open,Luz,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Santo Antônio do Monte,3372,2022-05-23 22:28:12,0,[T] Realização F01 [0] Coleta,open,Santo Antônio do Monte,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Mariana,3371,2022-05-23 22:28:11,0,[T] Realização F01 [0] Coleta,open,Mariana,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Itapeva,3370,2022-05-23 22:28:09,0,[T] Realização F01 [0] Coleta,open,Itapeva,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Cláudio,3369,2022-05-23 22:28:07,0,[T] Realização F01 [0] Coleta,open,Cláudio,5,23,2022,1/1970,5/2022,00
+Coleta de Servidores Públicos - Quadro de Pessoal - Alto Rio Doce,3368,2022-05-23 22:28:06,0,[T] Realização F01 [0] Coleta,open,Alto Rio Doce,5,23,2022,1/1970,5/2022,00
+>>>>>>> Stashed changes
 Comportamentos distintos em execuções de uma mesma coleta,1652,2022-02-17 19:04:16,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,open,,2,17,2022,1/1970,2/2022,00
 Coleta de Licitações (2021 a 2018) - Guanhães,1444,2022-02-03 01:37:32,0,[T] Realização F01 [0] Coleta,open,Guanhães,2,3,2022,1/1970,2/2022,00
 Coleta de Licitações (2015 a 2013) - Lassance,1443,2022-02-03 01:34:31,0,[T] Realização F01 [0] Coleta,open,Lassance,2,3,2022,1/1970,2/2022,00
@@ -321,7 +353,141 @@ Coleta de dados de Relatórios Fiscais de Paracatu,957,2021-11-25 01:55:39,2021-
 Coleta de dados das Contas Públicas de Paracatu,955,2021-11-25 01:53:30,0,[E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,11,25,2021,1/1970,11/2021,00
 Coleta de dados das Contas Públicas de Paracatu,956,2021-11-25 01:53:39,2021-11-26 18:33:57,[E] Externa [T] Realização F01 [0] Coleta,closed,Paracatu,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de Elói Mendes,901,2021-11-12 13:10:46,0,[E] Externa [T] Realização F01 [0] Coleta,open,Elói Mendes,11,12,2021,1/1970,11/2021,00
+<<<<<<< Updated upstream
 Página de detalhes não atualiza o fim da coleta,2559,2022-04-01 12:16:20,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,open,Página,4,1,2022,1/1970,4/2022,00
+=======
+Coleta de Despesas - Leis Orcamentarias - Wenceslau Braz,3437,2022-05-24 16:11:45,0,[T] Realização F01 [0] Coleta,open,Wenceslau Braz,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Taquaraçu de Minas,3436,2022-05-24 16:11:43,0,[T] Realização F01 [0] Coleta,open,Taquaraçu de Minas,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Silvianópolis,3435,2022-05-24 16:11:42,0,[T] Realização F01 [0] Coleta,open,Silvianópolis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Serro,3434,2022-05-24 16:11:41,0,[T] Realização F01 [0] Coleta,open,Serro,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - São Pedro do Suaçuí,3433,2022-05-24 16:08:39,0,[T] Realização F01 [0] Coleta,open,São Pedro do Suaçuí,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - São João da Mata,3432,2022-05-24 16:08:38,0,[T] Realização F01 [0] Coleta,open,São João da Mata,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Piranguinho,3431,2022-05-24 16:08:36,0,[T] Realização F01 [0] Coleta,open,Piranguinho,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Piranguçu,3430,2022-05-24 16:08:35,0,[T] Realização F01 [0] Coleta,open,Piranguçu,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Pedralva,3429,2022-05-24 16:08:34,0,[T] Realização F01 [0] Coleta,open,Pedralva,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Paineiras,3428,2022-05-24 16:08:32,0,[T] Realização F01 [0] Coleta,open,Paineiras,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Nova União,3427,2022-05-24 16:08:30,0,[T] Realização F01 [0] Coleta,open,Nova União,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Marmelópolis,3426,2022-05-24 16:08:29,0,[T] Realização F01 [0] Coleta,open,Marmelópolis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Itapecerica,3425,2022-05-24 16:08:27,0,[T] Realização F01 [0] Coleta,open,Itapecerica,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Dom Silvério,3424,2022-05-24 16:08:26,0,[T] Realização F01 [0] Coleta,open,Dom Silvério,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Consolação,3423,2022-05-24 16:08:24,0,[T] Realização F01 [0] Coleta,open,Consolação,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Cedro do Abaeté,3422,2022-05-24 16:08:23,0,[T] Realização F01 [0] Coleta,open,Cedro do Abaeté,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Buritis,3421,2022-05-24 16:08:22,0,[T] Realização F01 [0] Coleta,open,Buritis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Brazópolis,3420,2022-05-24 16:08:20,0,[T] Realização F01 [0] Coleta,open,Brazópolis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Bom Jesus do Amparo,3419,2022-05-24 16:08:17,0,[T] Realização F01 [0] Coleta,open,Bom Jesus do Amparo,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Biquinhas,3418,2022-05-24 16:08:16,0,[T] Realização F01 [0] Coleta,open,Biquinhas,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Arinos,3417,2022-05-24 16:08:14,0,[T] Realização F01 [0] Coleta,open,Arinos,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Leis Orcamentarias - Abaeté,3416,2022-05-24 16:08:13,0,[T] Realização F01 [0] Coleta,open,Abaeté,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Wenceslau Braz,3415,2022-05-24 15:39:06,0,[T] Realização F01 [0] Coleta,open,Wenceslau Braz,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Taquaraçu de Minas,3414,2022-05-24 15:39:04,0,[T] Realização F01 [0] Coleta,open,Taquaraçu de Minas,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Silvianópolis,3413,2022-05-24 15:39:02,0,[T] Realização F01 [0] Coleta,open,Silvianópolis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Serro,3412,2022-05-24 15:39:00,0,[T] Realização F01 [0] Coleta,open,Serro,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - São Pedro do Suaçuí,3411,2022-05-24 15:35:59,0,[T] Realização F01 [0] Coleta,open,São Pedro do Suaçuí,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - São João da Mata,3410,2022-05-24 15:35:57,0,[T] Realização F01 [0] Coleta,open,São João da Mata,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Piranguinho,3409,2022-05-24 15:35:55,0,[T] Realização F01 [0] Coleta,open,Piranguinho,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Piranguçu,3408,2022-05-24 15:35:54,0,[T] Realização F01 [0] Coleta,open,Piranguçu,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Pedralva,3407,2022-05-24 15:35:52,0,[T] Realização F01 [0] Coleta,open,Pedralva,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Paineiras,3406,2022-05-24 15:35:51,0,[T] Realização F01 [0] Coleta,open,Paineiras,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Nova União,3405,2022-05-24 15:35:49,0,[T] Realização F01 [0] Coleta,open,Nova União,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Marmelópolis,3404,2022-05-24 15:35:47,0,[T] Realização F01 [0] Coleta,open,Marmelópolis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Itapecerica,3403,2022-05-24 15:35:46,0,[T] Realização F01 [0] Coleta,open,Itapecerica,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Dom Silvério,3402,2022-05-24 15:35:44,0,[T] Realização F01 [0] Coleta,open,Dom Silvério,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Consolação,3401,2022-05-24 15:35:43,0,[T] Realização F01 [0] Coleta,open,Consolação,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Cedro do Abaeté,3400,2022-05-24 15:35:42,0,[T] Realização F01 [0] Coleta,open,Cedro do Abaeté,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Buritis,3399,2022-05-24 15:35:40,0,[T] Realização F01 [0] Coleta,open,Buritis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Brazópolis,3398,2022-05-24 15:35:39,0,[T] Realização F01 [0] Coleta,open,Brazópolis,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Bom Jesus do Amparo,3397,2022-05-24 15:35:38,0,[T] Realização F01 [0] Coleta,open,Bom Jesus do Amparo,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Biquinhas,3396,2022-05-24 15:35:36,0,[T] Realização F01 [0] Coleta,open,Biquinhas,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Arinos,3395,2022-05-24 15:35:35,0,[T] Realização F01 [0] Coleta,open,Arinos,5,24,2022,1/1970,5/2022,00
+Coleta de Despesas - Específicas - Abaeté,3394,2022-05-24 15:35:33,0,[T] Realização F01 [0] Coleta,open,Abaeté,5,24,2022,1/1970,5/2022,00
+Página de detalhes não atualiza o fim da coleta,2559,2022-04-01 12:16:20,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,open,Página,4,1,2022,1/1970,4/2022,00
+Coleta de Servidores Publicos - Agentes Politicos - Itacarambi,3318,2022-05-11 23:20:22,2022-05-20 00:58:31,[T] Realização F01 [0] Coleta,closed,Itacarambi,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Montezuma,3317,2022-05-11 23:20:21,2022-05-20 00:58:50,[T] Realização F01 [0] Coleta,closed,Montezuma,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Manga,3316,2022-05-11 23:20:19,2022-05-20 00:58:05,[T] Realização F01 [0] Coleta,closed,Manga,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - São João do Pacuí,3315,2022-05-11 23:20:18,2022-05-20 01:01:20,[T] Realização F01 [0] Coleta,closed,São João do Pacuí,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Santo Antônio do Retiro,3314,2022-05-11 23:20:15,2022-05-20 01:01:02,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Retiro,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Veredinha,3313,2022-05-11 23:20:14,2022-05-20 00:57:37,[T] Realização F01 [0] Coleta,closed,Veredinha,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Jenipapo de Minas,3312,2022-05-11 23:20:13,2022-05-20 00:57:16,[T] Realização F01 [0] Coleta,closed,Jenipapo de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Santana do Riacho,3311,2022-05-11 23:20:11,2022-05-20 01:02:54,[T] Realização F01 [0] Coleta,closed,Santana do Riacho,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Padre Carvalho,3310,2022-05-11 23:20:10,2022-05-20 00:55:21,[T] Realização F01 [0] Coleta,closed,Padre Carvalho,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Santo Hipólito,3309,2022-05-11 23:20:09,2022-05-20 01:00:22,[T] Realização F01 [0] Coleta,closed,Santo Hipólito,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Itacambira,3308,2022-05-11 23:20:07,2022-05-20 01:00:00,[T] Realização F01 [0] Coleta,closed,Itacambira,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Mata Verde,3307,2022-05-11 23:17:06,2022-05-20 00:55:02,[T] Realização F01 [0] Coleta,closed,Mata Verde,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Brasília de Minas,3306,2022-05-11 23:17:04,2022-05-20 00:54:26,[T] Realização F01 [0] Coleta,closed,Brasília de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Santa Cruz de Salinas,3305,2022-05-11 23:17:03,2022-05-20 00:56:59,[T] Realização F01 [0] Coleta,closed,Santa Cruz de Salinas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Pedra Azul,3304,2022-05-11 23:17:02,2022-05-20 00:53:57,[T] Realização F01 [0] Coleta,closed,Pedra Azul,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Mato Verde,3303,2022-05-11 23:17:00,2022-05-20 00:56:40,[T] Realização F01 [0] Coleta,closed,Mato Verde,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Couto de Magalhães de Minas,3302,2022-05-11 23:16:59,2022-05-20 00:53:33,[T] Realização F01 [0] Coleta,closed,Couto de Magalhães de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Miravânia,3301,2022-05-11 23:16:57,2022-05-20 00:52:54,[T] Realização F01 [0] Coleta,closed,Miravânia,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Monte Azul,3300,2022-05-11 23:16:56,2022-05-20 00:52:30,[T] Realização F01 [0] Coleta,closed,Monte Azul,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Joaquim Felício,3299,2022-05-11 23:16:55,2022-05-20 00:52:03,[T] Realização F01 [0] Coleta,closed,Joaquim Felício,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Vargem Grande do Rio Pardo,3298,2022-05-11 23:16:54,2022-05-20 00:56:16,[T] Realização F01 [0] Coleta,closed,Vargem Grande do Rio Pardo,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Mário Campos,3297,2022-05-11 23:16:52,2022-05-20 00:55:56,[T] Realização F01 [0] Coleta,closed,Mário Campos,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Coluna,3296,2022-05-11 23:16:51,2022-05-20 00:51:25,[T] Realização F01 [0] Coleta,closed,Coluna,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Serra Azul de Minas,3295,2022-05-11 23:16:50,2022-05-19 14:53:52,[T] Realização F01 [0] Coleta,closed,Serra Azul de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Ladainha,3294,2022-05-11 23:16:48,2022-05-20 00:49:57,[T] Realização F01 [0] Coleta,closed,Ladainha,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Aricanduva,3293,2022-05-11 23:16:47,2022-05-20 00:49:40,[T] Realização F01 [0] Coleta,closed,Aricanduva,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Nova Porteirinha,3292,2022-05-11 23:16:46,2022-05-19 14:53:35,[T] Realização F01 [0] Coleta,closed,Nova Porteirinha,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Rio Pardo de Minas,3291,2022-05-11 23:16:44,2022-05-20 00:49:19,[T] Realização F01 [0] Coleta,closed,Rio Pardo de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Jequitaí,3290,2022-05-11 23:16:43,2022-05-19 14:51:30,[T] Realização F01 [0] Coleta,closed,Jequitaí,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - São João das Missões,3289,2022-05-11 23:16:42,2022-05-19 14:51:12,[T] Realização F01 [0] Coleta,closed,São João das Missões,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Curral de Dentro,3288,2022-05-11 23:13:40,2022-05-19 14:50:56,[T] Realização F01 [0] Coleta,closed,Curral de Dentro,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Lontra,3287,2022-05-11 23:13:39,2022-05-19 14:46:41,[T] Realização F01 [0] Coleta,closed,Lontra,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Capelinha,3286,2022-05-11 23:13:38,2022-05-19 14:46:18,[T] Realização F01 [0] Coleta,closed,Capelinha,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - São Gonçalo do Rio Preto,3285,2022-05-11 23:13:36,2022-05-19 14:45:58,[T] Realização F01 [0] Coleta,closed,São Gonçalo do Rio Preto,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Divisa Alegre,3284,2022-05-11 23:13:35,2022-05-19 14:50:39,[T] Realização F01 [0] Coleta,closed,Divisa Alegre,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Glaucilândia,3283,2022-05-11 23:13:33,2022-05-19 14:45:36,[T] Realização F01 [0] Coleta,closed,Glaucilândia,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Novo Cruzeiro,3282,2022-05-11 23:13:32,2022-05-19 14:50:23,[T] Realização F01 [0] Coleta,closed,Novo Cruzeiro,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Virgem da Lapa,3281,2022-05-11 23:13:30,2022-05-19 14:45:08,[T] Realização F01 [0] Coleta,closed,Virgem da Lapa,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Divisópolis,3280,2022-05-11 23:13:29,2022-05-20 00:48:56,[T] Realização F01 [0] Coleta,closed,Divisópolis,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Várzea da Palma,3279,2022-05-11 23:13:28,2022-05-19 14:44:32,[T] Realização F01 [0] Coleta,closed,Várzea da Palma,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Bocaiúva,3278,2022-05-11 23:13:26,2022-05-19 14:41:12,[T] Realização F01 [0] Coleta,closed,Bocaiúva,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Águas Vermelhas,3277,2022-05-11 23:13:25,2022-05-19 14:49:59,[T] Realização F01 [0] Coleta,closed,Águas Vermelhas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Pai Pedro,3276,2022-05-11 23:13:24,2022-05-19 14:40:54,[T] Realização F01 [0] Coleta,closed,Pai Pedro,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Guaraciama,3275,2022-05-11 23:13:23,2022-05-19 14:49:39,[T] Realização F01 [0] Coleta,closed,Guaraciama,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Cristália,3274,2022-05-11 23:13:21,2022-05-19 14:40:34,[T] Realização F01 [0] Coleta,closed,Cristália,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Janaúba,3273,2022-05-11 23:13:20,2022-05-19 14:49:17,[T] Realização F01 [0] Coleta,closed,Janaúba,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Capitão Enéas,3272,2022-05-11 23:13:19,2022-05-19 14:43:44,[T] Realização F01 [0] Coleta,closed,Capitão Enéas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Juramento,3271,2022-05-11 23:13:17,2022-05-19 14:43:21,[T] Realização F01 [0] Coleta,closed,Juramento,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Augusto de Lima,3270,2022-05-11 23:13:16,2022-05-19 14:48:24,[T] Realização F01 [0] Coleta,closed,Augusto de Lima,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Jaíba,3269,2022-05-11 23:10:14,2022-05-19 14:43:03,[T] Realização F01 [0] Coleta,closed,Jaíba,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Datas,3268,2022-05-11 23:10:13,2022-05-19 14:40:01,[T] Realização F01 [0] Coleta,closed,Datas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Mamonas,3267,2022-05-11 23:10:12,2022-05-19 14:42:39,[T] Realização F01 [0] Coleta,closed,Mamonas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Pintópolis,3266,2022-05-11 23:10:10,2022-05-19 14:37:59,[T] Realização F01 [0] Coleta,closed,Pintópolis,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Indaiabira,3265,2022-05-11 23:10:08,2022-05-19 14:37:41,[T] Realização F01 [0] Coleta,closed,Indaiabira,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - São Romão,3264,2022-05-11 23:10:06,2022-05-19 14:48:00,[T] Realização F01 [0] Coleta,closed,São Romão,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Josenópolis,3263,2022-05-11 23:10:05,2022-05-19 14:37:13,[T] Realização F01 [0] Coleta,closed,Josenópolis,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Francisco Sá,3262,2022-05-11 23:10:03,2022-05-19 14:42:19,[T] Realização F01 [0] Coleta,closed,Francisco Sá,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Coração de Jesus,3261,2022-05-11 23:10:02,2022-05-19 14:36:53,[T] Realização F01 [0] Coleta,closed,Coração de Jesus,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Itamarandiba,3260,2022-05-11 23:10:00,2022-05-19 14:32:58,[T] Realização F01 [0] Coleta,closed,Itamarandiba,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Senador Modestino Gonçalves,3259,2022-05-11 23:09:59,2022-05-19 13:18:04,[T] Realização F01 [0] Coleta,closed,Senador Modestino Gonçalves,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Felício dos Santos,3258,2022-05-11 23:09:58,2022-05-19 13:17:48,[T] Realização F01 [0] Coleta,closed,Felício dos Santos,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Itinga,3257,2022-05-11 23:09:56,2022-05-19 13:19:57,[T] Realização F01 [0] Coleta,closed,Itinga,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Mirabela,3256,2022-05-11 23:09:55,2022-05-19 13:17:22,[T] Realização F01 [0] Coleta,closed,Mirabela,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Fruta de Leite,3255,2022-05-11 23:09:54,2022-05-19 13:19:05,[T] Realização F01 [0] Coleta,closed,Fruta de Leite,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Catuti,3254,2022-05-11 23:09:52,2022-05-19 13:16:57,[T] Realização F01 [0] Coleta,closed,Catuti,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Ponto Chique,3253,2022-05-11 23:09:51,2022-05-19 13:18:45,[T] Realização F01 [0] Coleta,closed,Ponto Chique,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Gouveia,3252,2022-05-11 23:09:50,2022-05-19 13:16:04,[T] Realização F01 [0] Coleta,closed,Gouveia,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Materlândia,3251,2022-05-11 23:09:49,2022-05-19 13:15:42,[T] Realização F01 [0] Coleta,closed,Materlândia,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - São João da Lagoa,3250,2022-05-11 23:06:47,2022-05-19 13:14:06,[T] Realização F01 [0] Coleta,closed,São João da Lagoa,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Bonito de Minas,3249,2022-05-11 23:06:46,2022-05-19 13:13:18,[T] Realização F01 [0] Coleta,closed,Bonito de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Espinosa,3248,2022-05-11 23:06:44,2022-05-19 13:12:58,[T] Realização F01 [0] Coleta,closed,Espinosa,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Patis,3247,2022-05-11 23:06:43,2022-05-19 13:12:25,[T] Realização F01 [0] Coleta,closed,Patis,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Berilo,3246,2022-05-11 23:06:42,2022-05-19 13:12:06,[T] Realização F01 [0] Coleta,closed,Berilo,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Cachoeira de Pajeú,3245,2022-05-11 23:06:40,2022-05-19 13:11:48,[T] Realização F01 [0] Coleta,closed,Cachoeira de Pajeú,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Novorizonte,3244,2022-05-11 23:06:39,2022-05-19 13:11:27,[T] Realização F01 [0] Coleta,closed,Novorizonte,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Água Boa,3243,2022-05-11 23:06:38,2022-05-19 13:11:10,[T] Realização F01 [0] Coleta,closed,Água Boa,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Claro dos Poções,3242,2022-05-11 23:06:36,2022-05-19 13:10:29,[T] Realização F01 [0] Coleta,closed,Claro dos Poções,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Alvorada de Minas,3241,2022-05-11 23:06:35,2022-05-19 13:10:02,[T] Realização F01 [0] Coleta,closed,Alvorada de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Gameleiras,3240,2022-05-11 23:06:34,2022-05-19 13:09:40,[T] Realização F01 [0] Coleta,closed,Gameleiras,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Frei Lagonegro,3239,2022-05-11 23:06:32,2022-05-19 13:09:21,[T] Realização F01 [0] Coleta,closed,Frei Lagonegro,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Francisco Badaró,3238,2022-05-11 23:06:31,2022-05-19 13:08:44,[T] Realização F01 [0] Coleta,closed,Francisco Badaró,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Chapada Gaúcha,3237,2022-05-11 23:06:30,2022-05-19 13:08:20,[T] Realização F01 [0] Coleta,closed,Chapada Gaúcha,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Engenheiro Navarro,3236,2022-05-11 23:06:28,2022-05-19 13:07:49,[T] Realização F01 [0] Coleta,closed,Engenheiro Navarro,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Turmalina,3235,2022-05-11 23:06:27,2022-05-19 13:07:13,[T] Realização F01 [0] Coleta,closed,Turmalina,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Presidente Kubitschek,3234,2022-05-11 23:06:25,2022-05-19 13:06:53,[T] Realização F01 [0] Coleta,closed,Presidente Kubitschek,5,11,2022,5/2022,5/2022,20
+Coleta de Servidores Publicos - Agentes Politicos - Ibiaí,3233,2022-05-11 23:06:24,2022-05-19 13:06:28,[T] Realização F01 [0] Coleta,closed,Ibiaí,5,11,2022,5/2022,5/2022,20
+>>>>>>> Stashed changes
 Coleta de Servidores Publicos - Folha de Pagamento - Itacarambi,3171,2022-05-09 21:30:27,2022-05-14 01:39:28,[T] Realização F01 [0] Coleta,closed,Itacarambi,5,9,2022,5/2022,5/2022,19
 Coleta de Servidores Publicos - Folha de Pagamento - Montezuma,3170,2022-05-09 21:30:26,2022-05-14 01:37:59,[T] Realização F01 [0] Coleta,closed,Montezuma,5,9,2022,5/2022,5/2022,19
 Coleta de Servidores Publicos - Folha de Pagamento - Manga,3169,2022-05-09 21:30:25,2022-05-14 01:37:51,[T] Realização F01 [0] Coleta,closed,Manga,5,9,2022,5/2022,5/2022,19
@@ -1376,6 +1542,70 @@ Coleta de dados da Estrutura Organizacional de Governador Valadares.,505,2021-06
 Coleta de dados das receitas da prefeitura de Governador Valadares.,500,2021-06-02 15:41:14,2021-10-06 14:33:37,[E] Externa [0] Coleta,closed,Governador Valadares,6,2,2021,10/2021,6/2021,40
 Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 13:44:20,[2] Alta Prioridade [E] Externa [0] Coleta,closed,Congonhas,7,21,2021,10/2021,7/2021,43
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,7,20,2021,8/2021,7/2021,35
+<<<<<<< Updated upstream
+=======
+Coleta de Informações Institucionais - Leis Municipais - Teixeiras,3232,2022-05-11 02:04:49,2022-05-18 21:42:46,[T] Realização F01 [0] Coleta,closed,Teixeiras,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Lima Duarte,3231,2022-05-11 02:04:47,2022-05-18 21:42:46,[T] Realização F01 [0] Coleta,closed,Lima Duarte,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Ibertioga,3230,2022-05-11 02:04:46,2022-05-18 21:42:29,[T] Realização F01 [0] Coleta,closed,Ibertioga,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Canaã,3229,2022-05-11 02:04:44,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Canaã,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Senador Firmino,3228,2022-05-11 02:04:43,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Senador Firmino,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Oratórios,3227,2022-05-11 02:04:42,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Oratórios,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Carmo de Minas,3226,2022-05-11 02:04:40,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Carmo de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Coronel Pacheco,3225,2022-05-11 02:04:39,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Coronel Pacheco,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Aiuruoca,3224,2022-05-11 02:04:37,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Aiuruoca,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Guarará,3223,2022-05-11 02:04:35,2022-05-18 10:59:29,[T] Realização F01 [0] Coleta,closed,Guarará,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Senhora dos Remédios,3222,2022-05-11 02:04:34,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Senhora dos Remédios,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Chácara,3221,2022-05-11 02:04:33,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Chácara,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Tabuleiro,3220,2022-05-11 02:04:31,2022-05-18 21:42:26,[T] Realização F01 [0] Coleta,closed,Tabuleiro,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Pedro Teixeira,3219,2022-05-11 02:04:30,2022-05-18 10:58:50,[T] Realização F01 [0] Coleta,closed,Pedro Teixeira,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Astolfo Dutra,3218,2022-05-11 02:04:29,2022-05-18 21:42:29,[T] Realização F01 [0] Coleta,closed,Astolfo Dutra,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Andrelândia,3217,2022-05-11 02:03:11,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Andrelândia,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Rio Novo,3216,2022-05-11 02:03:10,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Rio Novo,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Seritinga,3215,2022-05-11 02:00:08,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Seritinga,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Fervedouro,3214,2022-05-11 02:00:07,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Fervedouro,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Chiador,3213,2022-05-11 02:00:05,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Chiador,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Volta Grande,3212,2022-05-11 02:00:04,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Volta Grande,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Rochedo de Minas,3211,2022-05-11 02:00:03,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Rochedo de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Minduri,3210,2022-05-11 02:00:01,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Minduri,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Paula Cândido,3209,2022-05-11 02:00:00,2022-05-18 21:42:26,[T] Realização F01 [0] Coleta,closed,Paula Cândido,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Diogo de Vasconcelos,3208,2022-05-11 01:59:58,2022-05-18 21:42:29,[T] Realização F01 [0] Coleta,closed,Diogo de Vasconcelos,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Olaria,3207,2022-05-11 01:59:57,2022-05-18 21:42:29,[T] Realização F01 [0] Coleta,closed,Olaria,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Estrela Dalva,3206,2022-05-11 01:59:55,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Estrela Dalva,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Miraí,3205,2022-05-11 01:59:54,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Miraí,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Rio Preto,3204,2022-05-11 01:59:53,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Rio Preto,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Santa Rita de Ibitipoca,3203,2022-05-11 01:59:52,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Santa Rita de Ibitipoca,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Cipotânea,3202,2022-05-11 01:59:50,2022-05-18 10:58:20,[T] Realização F01 [0] Coleta,closed,Cipotânea,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Santana do Garambéu,3201,2022-05-11 01:59:49,2022-05-18 10:57:56,[T] Realização F01 [0] Coleta,closed,Santana do Garambéu,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Amparo do Serra,3200,2022-05-11 01:59:48,2022-05-18 10:57:39,[T] Realização F01 [0] Coleta,closed,Amparo do Serra,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Toledo,3199,2022-05-11 01:59:46,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Toledo,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - São Lourenço,3198,2022-05-11 01:59:45,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,São Lourenço,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Madre de Deus de Minas,3197,2022-05-11 01:56:38,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Madre de Deus de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Laranjal,3196,2022-05-11 01:56:37,2022-05-18 21:42:26,[T] Realização F01 [0] Coleta,closed,Laranjal,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Aracitaba,3195,2022-05-11 01:53:35,2022-05-18 21:42:29,[T] Realização F01 [0] Coleta,closed,Aracitaba,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Senhora de Oliveira,3194,2022-05-11 01:53:34,2022-05-18 10:57:16,[T] Realização F01 [0] Coleta,closed,Senhora de Oliveira,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Cruzília,3193,2022-05-11 01:53:32,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Cruzília,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Belmiro Braga,3192,2022-05-11 01:53:31,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Belmiro Braga,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Bocaina de Minas,3191,2022-05-11 01:53:28,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Bocaina de Minas,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Arantina,3190,2022-05-11 01:53:27,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Arantina,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Senador Cortês,3189,2022-05-11 01:53:25,2022-05-18 10:56:49,[T] Realização F01 [0] Coleta,closed,Senador Cortês,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Brás Pires,3188,2022-05-11 01:53:24,2022-05-18 10:55:59,[T] Realização F01 [0] Coleta,closed,Brás Pires,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Coimbra,3187,2022-05-11 01:53:23,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Coimbra,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Dom Viçoso,3186,2022-05-11 01:53:22,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Dom Viçoso,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Lamim,3185,2022-05-11 01:53:20,2022-05-18 10:55:31,[T] Realização F01 [0] Coleta,closed,Lamim,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Rio Espera,3184,2022-05-11 01:53:19,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Rio Espera,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Mercês,3183,2022-05-11 01:53:18,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Mercês,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Piau,3182,2022-05-11 01:53:16,2022-05-18 21:42:26,[T] Realização F01 [0] Coleta,closed,Piau,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Barra Longa,3181,2022-05-11 01:53:15,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Barra Longa,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Passa Vinte,3180,2022-05-11 01:53:14,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Passa Vinte,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Piranga,3179,2022-05-11 01:53:13,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Piranga,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Guarani,3178,2022-05-11 01:53:11,2022-05-18 21:42:28,[T] Realização F01 [0] Coleta,closed,Guarani,5,11,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Cristina,3177,2022-05-10 22:56:24,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Cristina,5,10,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Simão Pereira,3176,2022-05-10 22:56:23,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Simão Pereira,5,10,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Ewbank da Câmara,3175,2022-05-10 22:56:21,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Ewbank da Câmara,5,10,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Bias Fortes,3174,2022-05-10 22:56:20,2022-05-18 21:42:27,[T] Realização F01 [0] Coleta,closed,Bias Fortes,5,10,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Bom Jardim de Minas,3173,2022-05-10 22:56:18,2022-05-18 21:42:26,[T] Realização F01 [0] Coleta,closed,Bom Jardim de Minas,5,10,2022,5/2022,5/2022,20
+Coleta de Informações Institucionais - Leis Municipais - Maripá de Minas,3172,2022-05-10 22:56:17,2022-05-18 21:42:26,[T] Realização F01 [0] Coleta,closed,Maripá de Minas,5,10,2022,5/2022,5/2022,20
+>>>>>>> Stashed changes
 Coleta de Terceiro Setor - Aditivos - Teixeiras,3052,2022-04-29 02:01:43,2022-05-02 12:22:22,[T] Realização F01 [0] Coleta,closed,Teixeiras,4,29,2022,5/2022,4/2022,18
 Coleta de Terceiro Setor - Aditivos - Lima Duarte,3051,2022-04-29 02:01:42,2022-05-02 12:21:32,[T] Realização F01 [0] Coleta,closed,Lima Duarte,4,29,2022,5/2022,4/2022,18
 Coleta de Terceiro Setor - Aditivos - Ibertioga,3050,2022-04-29 02:01:41,2022-05-02 12:20:42,[T] Realização F01 [0] Coleta,closed,Ibertioga,4,29,2022,5/2022,4/2022,18
@@ -1501,8 +1731,23 @@ Coleta de Terceiro Setor - Convênios - Maripá de Minas,2784,2022-04-18 11:52:1
 Coleta de Licitações - Manga,2720,2022-04-13 11:27:55,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Manga,4,13,2022,4/2022,4/2022,15
 Coleta de Licitações - Santo Hipólito,2719,2022-04-13 11:25:54,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Santo Hipólito,4,13,2022,4/2022,4/2022,15
 Coleta de Licitações - Itacambira,2718,2022-04-13 11:24:32,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Itacambira,4,13,2022,4/2022,4/2022,15
+<<<<<<< Updated upstream
 Coleta de Licitações - Cristália,2713,2022-04-13 11:17:23,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Cristália,4,13,2022,4/2022,4/2022,15
 Coleta de Licitações - Capitão Enéas,2712,2022-04-13 11:15:45,2022-04-14 23:23:53,[T] Realização F01 [0] Coleta,closed,Capitão Enéas,4,13,2022,4/2022,4/2022,15
+=======
+Coleta de Licitações - Ladainha,2717,2022-04-13 11:23:15,2022-05-23 20:23:29,[T] Realização F01 [0] Coleta,closed,Ladainha,4,13,2022,5/2022,4/2022,21
+Coleta de Licitações - Aricanduva,2716,2022-04-13 11:21:54,2022-05-23 20:21:32,[T] Realização F01 [0] Coleta,closed,Aricanduva,4,13,2022,5/2022,4/2022,21
+Coleta de Licitações - Nova Porteirinha,2715,2022-04-13 11:20:38,2022-05-23 20:20:37,[T] Realização F01 [0] Coleta,closed,Nova Porteirinha,4,13,2022,5/2022,4/2022,21
+Coleta de Licitações - São João das Missões,2714,2022-04-13 11:19:25,2022-05-23 20:19:47,[T] Realização F01 [0] Coleta,closed,São João das Missões,4,13,2022,5/2022,4/2022,21
+Coleta de Licitações - Cristália,2713,2022-04-13 11:17:23,2022-04-14 23:23:54,[T] Realização F01 [0] Coleta,closed,Cristália,4,13,2022,4/2022,4/2022,15
+Coleta de Licitações - Capitão Enéas,2712,2022-04-13 11:15:45,2022-04-14 23:23:53,[T] Realização F01 [0] Coleta,closed,Capitão Enéas,4,13,2022,4/2022,4/2022,15
+Coleta de Licitações - Pintópolis,2711,2022-04-13 11:14:15,2022-05-23 20:15:17,[T] Realização F01 [0] Coleta,closed,Pintópolis,4,13,2022,5/2022,4/2022,21
+Coleta de Licitações - São Romão,2710,2022-04-13 11:12:48,2022-05-20 17:21:54,[T] Realização F01 [0] Coleta,closed,São Romão,4,13,2022,5/2022,4/2022,20
+Coleta de Licitações - Josenópolis,2709,2022-04-13 11:10:49,2022-05-20 17:20:49,[T] Realização F01 [0] Coleta,closed,Josenópolis,4,13,2022,5/2022,4/2022,20
+Coleta de Licitações - Dores de Guanhães,2708,2022-04-13 11:09:21,2022-05-20 17:19:53,[T] Realização F01 [0] Coleta,closed,Dores de Guanhães,4,13,2022,5/2022,4/2022,20
+Coleta de Licitações - Setubinha,2707,2022-04-13 11:08:10,2022-05-20 17:17:46,[T] Realização F01 [0] Coleta,closed,Setubinha,4,13,2022,5/2022,4/2022,20
+Coleta de Licitações - Claro dos Poções,2706,2022-04-13 11:06:30,2022-05-20 17:16:17,[T] Realização F01 [0] Coleta,closed,Claro dos Poções,4,13,2022,5/2022,4/2022,20
+>>>>>>> Stashed changes
 Coleta de Acesso à Informação - Requisitos Exigidos - Teixeiras,2689,2022-04-07 01:27:26,2022-04-13 23:05:18,[T] Realização F01 [0] Coleta,closed,Teixeiras,4,7,2022,4/2022,4/2022,15
 Coleta de Acesso à Informação - Requisitos Exigidos - Lima Duarte,2688,2022-04-07 01:27:24,2022-04-13 23:05:20,[T] Realização F01 [0] Coleta,closed,Lima Duarte,4,7,2022,4/2022,4/2022,15
 Coleta de Acesso à Informação - Requisitos Exigidos - Ibertioga,2687,2022-04-07 01:27:23,2022-04-13 23:05:20,[T] Realização F01 [0] Coleta,closed,Ibertioga,4,7,2022,4/2022,4/2022,15
@@ -2374,6 +2619,54 @@ Coleta de dados das despesas do município de Varginha,838,2021-10-25 11:57:21,2
 Coleta geral da prefeitura de Teófilo Otoni,813,2021-10-19 23:39:31,2021-10-22 14:11:35,[T] Realização F01 [0] Coleta,closed,Teófilo Otoni,10,19,2021,10/2021,10/2021,42
 Coleta geral da prefeitura de Uberlândia,807,2021-10-19 11:40:40,2021-10-22 14:11:24,[T] Realização F01 [0] Coleta,closed,Uberlândia,10,19,2021,10/2021,10/2021,42
 Coleta geral da prefeitura de Pará de Minas,805,2021-10-15 23:54:13,2021-10-22 14:11:29,[T] Realização F01 [0] Coleta,closed,Pará de Minas,10,15,2021,10/2021,10/2021,42
+<<<<<<< Updated upstream
+=======
+Coleta de Receitas - Previsão e Classificação - Taquaraçu de Minas,3365,2022-05-23 13:50:04,2022-05-24 11:36:10,[T] Realização F01 [0] Coleta,closed,Taquaraçu de Minas,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Wenceslau Braz,3364,2022-05-23 13:50:03,2022-05-24 11:35:48,[T] Realização F01 [0] Coleta,closed,Wenceslau Braz,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Silvianópolis,3363,2022-05-23 13:50:01,2022-05-24 11:35:19,[T] Realização F01 [0] Coleta,closed,Silvianópolis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Serro,3362,2022-05-23 13:49:59,2022-05-24 11:34:53,[T] Realização F01 [0] Coleta,closed,Serro,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - São Pedro do Saçuí,3361,2022-05-23 13:46:58,2022-05-24 11:34:31,[T] Realização F01 [0] Coleta,closed,São Pedro do Saçuí,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - São João da Mata,3360,2022-05-23 13:46:57,2022-05-24 11:34:10,[T] Realização F01 [0] Coleta,closed,São João da Mata,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Piranguinho,3359,2022-05-23 13:46:55,2022-05-24 11:33:46,[T] Realização F01 [0] Coleta,closed,Piranguinho,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Piranguçu,3358,2022-05-23 13:46:54,2022-05-24 11:33:26,[T] Realização F01 [0] Coleta,closed,Piranguçu,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Pedralva,3357,2022-05-23 13:46:52,2022-05-24 11:32:53,[T] Realização F01 [0] Coleta,closed,Pedralva,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Paineiras,3356,2022-05-23 13:46:51,2022-05-24 11:32:26,[T] Realização F01 [0] Coleta,closed,Paineiras,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Nova União,3355,2022-05-23 13:46:49,2022-05-24 11:31:58,[T] Realização F01 [0] Coleta,closed,Nova União,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Marmelópolis,3354,2022-05-23 13:46:47,2022-05-24 11:31:06,[T] Realização F01 [0] Coleta,closed,Marmelópolis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Itapecerica,3353,2022-05-23 13:46:46,2022-05-24 11:28:54,[T] Realização F01 [0] Coleta,closed,Itapecerica,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Dom Silvério,3352,2022-05-23 13:46:44,2022-05-24 11:31:27,[T] Realização F01 [0] Coleta,closed,Dom Silvério,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Consolação,3351,2022-05-23 13:46:43,2022-05-24 11:28:50,[T] Realização F01 [0] Coleta,closed,Consolação,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Cedro do Abaeté,3350,2022-05-23 13:46:42,2022-05-24 11:28:42,[T] Realização F01 [0] Coleta,closed,Cedro do Abaeté,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Buritis,3349,2022-05-23 13:46:40,2022-05-24 11:32:38,[T] Realização F01 [0] Coleta,closed,Buritis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Brazópolis,3348,2022-05-23 13:46:39,2022-05-24 11:28:35,[T] Realização F01 [0] Coleta,closed,Brazópolis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Bom Jesus do Amparo,3347,2022-05-23 13:46:37,2022-05-24 11:28:33,[T] Realização F01 [0] Coleta,closed,Bom Jesus do Amparo,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Biquinhas,3346,2022-05-23 13:46:36,2022-05-24 11:28:29,[T] Realização F01 [0] Coleta,closed,Biquinhas,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Arinos,3345,2022-05-23 13:46:34,2022-05-24 11:28:27,[T] Realização F01 [0] Coleta,closed,Arinos,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Previsão e Classificação - Abaeté,3344,2022-05-23 13:46:33,2022-05-24 11:28:24,[T] Realização F01 [0] Coleta,closed,Abaeté,5,23,2022,5/2022,5/2022,21
+Coleta de Contratos - Taquaraçu de Minas,3343,2022-05-23 12:05:07,2022-05-23 12:06:10,[T] Realização F01 [0] Coleta,closed,Taquaraçu de Minas,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Taquaraçu de Minas,3342,2022-05-23 11:34:57,2022-05-23 11:52:54,[T] Realização F01 [0] Coleta,closed,Taquaraçu de Minas,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Wenceslau Braz,3341,2022-05-23 11:13:12,2022-05-23 11:29:44,[T] Realização F01 [0] Coleta,closed,Wenceslau Braz,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Silvianópolis,3340,2022-05-23 11:13:10,2022-05-23 11:29:40,[T] Realização F01 [0] Coleta,closed,Silvianópolis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Serro,3339,2022-05-23 11:13:09,2022-05-23 11:29:37,[T] Realização F01 [0] Coleta,closed,Serro,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - São Pedro do Saçuí,3338,2022-05-23 11:10:07,2022-05-23 11:29:36,[T] Realização F01 [0] Coleta,closed,São Pedro do Saçuí,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - São João da Mata,3337,2022-05-23 11:10:06,2022-05-23 11:29:34,[T] Realização F01 [0] Coleta,closed,São João da Mata,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Piranguinho,3336,2022-05-23 11:10:05,2022-05-23 11:29:32,[T] Realização F01 [0] Coleta,closed,Piranguinho,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Piranguçu,3335,2022-05-23 11:10:03,2022-05-23 11:29:30,[T] Realização F01 [0] Coleta,closed,Piranguçu,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Pedralva,3334,2022-05-23 11:10:01,2022-05-23 11:29:25,[T] Realização F01 [0] Coleta,closed,Pedralva,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Paineiras,3333,2022-05-23 11:09:59,2022-05-23 11:29:22,[T] Realização F01 [0] Coleta,closed,Paineiras,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Nova União,3332,2022-05-23 11:09:58,2022-05-23 11:29:18,[T] Realização F01 [0] Coleta,closed,Nova União,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Marmelópolis,3331,2022-05-23 11:09:56,2022-05-23 11:29:15,[T] Realização F01 [0] Coleta,closed,Marmelópolis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Itapecerica,3330,2022-05-23 11:09:55,2022-05-23 11:29:11,[T] Realização F01 [0] Coleta,closed,Itapecerica,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Dom Silvério,3329,2022-05-23 11:09:53,2022-05-23 11:29:07,[T] Realização F01 [0] Coleta,closed,Dom Silvério,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Consolação,3328,2022-05-23 11:09:51,2022-05-23 11:29:03,[T] Realização F01 [0] Coleta,closed,Consolação,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Cedro do Abaeté,3327,2022-05-23 11:09:50,2022-05-23 11:28:57,[T] Realização F01 [0] Coleta,closed,Cedro do Abaeté,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Buritis,3326,2022-05-23 11:09:49,2022-05-23 11:28:54,[T] Realização F01 [0] Coleta,closed,Buritis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Brazópolis,3325,2022-05-23 11:09:47,2022-05-23 11:28:51,[T] Realização F01 [0] Coleta,closed,Brazópolis,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Bom Jesus do Amparo,3324,2022-05-23 11:09:46,2022-05-23 11:28:48,[T] Realização F01 [0] Coleta,closed,Bom Jesus do Amparo,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Biquinhas,3323,2022-05-23 11:09:45,2022-05-23 11:28:45,[T] Realização F01 [0] Coleta,closed,Biquinhas,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Arinos,3322,2022-05-23 11:09:43,2022-05-23 11:28:42,[T] Realização F01 [0] Coleta,closed,Arinos,5,23,2022,5/2022,5/2022,21
+Coleta de Receitas - Arrecadações - Abaeté,3321,2022-05-23 11:09:42,2022-05-23 11:28:39,[T] Realização F01 [0] Coleta,closed,Abaeté,5,23,2022,5/2022,5/2022,21
+>>>>>>> Stashed changes
 Coleta de Contratos - Wenceslau Braz,2948,2022-04-28 13:04:40,2022-04-28 13:12:47,[T] Realização F01 [0] Coleta,closed,Wenceslau Braz,4,28,2022,4/2022,4/2022,17
 Coleta de Contratos - Silvianópolis,2947,2022-04-28 13:04:39,2022-04-28 13:11:37,[T] Realização F01 [0] Coleta,closed,Silvianópolis,4,28,2022,4/2022,4/2022,17
 Coleta de Contratos - Serro,2946,2022-04-28 13:04:37,2022-04-28 13:12:43,[T] Realização F01 [0] Coleta,closed,Serro,4,28,2022,4/2022,4/2022,17
