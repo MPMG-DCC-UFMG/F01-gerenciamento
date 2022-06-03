@@ -205,7 +205,7 @@ def plot_speed_epics(df, title):
 def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
   
     fig = px.imshow(
-        df, height=1500, width=1600, title=title,
+        df, height=1700, width=1600, title=title,
         color_continuous_scale=[(0, "green"), (0.33, 'lightgreen'), (0.66, "#64b5cd"), (1, 'lightblue')]
     )     
         
