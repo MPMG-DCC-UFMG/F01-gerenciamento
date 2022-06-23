@@ -1,21 +1,47 @@
 import pandas as pd
+import requests
+import time
+from zenhub import APILimitError
 
 def get_epics_ids(zh, repo_id):
+   
+    try: 
+        epics = zh.get_epics(repo_id).get('epic_issues')
 
-    epics = zh.get_epics(repo_id).get('epic_issues')
+    except APILimitError:  # tenta apenas mais uma vez
+        print('Limite de requisicoes alcancado (ZenHub). Aguardando um minuto..')        
+        time.sleep(60)
+        epics = zh.get_epics(repo_id).get('epic_issues')
+
     epics_ids = [i.get('issue_number') for i in epics]
 
     return epics_ids
 
 def get_data_epics(zh, epics_id, repo_id):
     
-    issues_data = {i: zh.get_epic_data(repo_id=repo_id, epic_id= i) for i in epics_id}
-    
+    issues_data = {} 
+
+    for i in epics_id:
+        try:
+            issues_data[i] = zh.get_epic_data(repo_id=repo_id, epic_id=i) 
+
+        except APILimitError:  # tenta apenas mais uma vez
+            print('Limite de requisicoes alcancado (ZenHub). Aguardando um minuto..')        
+            time.sleep(60)
+            issues_data[i] = zh.get_epic_data(repo_id=repo_id, epic_id=i)  
+        
     return issues_data
 
 def get_pipeline_name(zh, repo_id_c01, issue_number, workspace_id='615dcc142f7e9b000f3b1fed'):
 
-    issue = zh.get_issue_data(repo_id_c01, issue_number=issue_number)
+    try:
+        issue = zh.get_issue_data(repo_id_c01, issue_number=issue_number)
+
+    except APILimitError:  # tenta apenas mais uma vez
+        print('Limite de requisicoes alcancado (ZenHub). Aguardando um minuto..')        
+        time.sleep(60)
+        issue = zh.get_issue_data(repo_id_c01, issue_number=issue_number)
+        
     pipeline_name = [i.get('name') for i in issue.get('pipelines') if i.get('workspace_id') == workspace_id]
     
     return pipeline_name
@@ -153,3 +179,18 @@ def get_all_issues(repo, creators, info_issues):
     df = pd.DataFrame(info_issues)
 
     return df
+
+
+def print_zenhub_api_usage(zh_token, repo_id):
+    session = requests.Session()
+    session.headers.update({"Content-Type": "application/json", "User-Agent": "ZenHub Python Client", })
+    session.headers.update({"X-Authentication-Token": zh_token})
+
+    response = session.get(url='https://api.zenhub.com/p1/repositories/' + repo_id + '/epics/1')
+    
+    headers = dict(response.headers)    
+    used  = headers['X-RateLimit-Used']
+    total = headers['X-RateLimit-Limit']
+        
+    print('Requisicoes ao Zenhub feitas por minuto / Limite: %s/%s' % (used, total))
+
