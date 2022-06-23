@@ -301,7 +301,8 @@ def refresh(n_clicks):
 
         app.logger.info('Atualizando dados de desenvolvimento...')
         main_etl.update_data_desenvolvimento(git_token, zh_token)
-
+        
+        app.logger.info('Dados de coleta e desenvolvimento atualizados.')
         html.A(href='/')
         
         

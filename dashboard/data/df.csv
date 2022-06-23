@@ -277,7 +277,6 @@ Coleta de dados de Relatórios Fiscais de Paracatu,957,2021-11-25 01:55:39,2021-
 Coleta de dados das Contas Públicas de Paracatu,955,2021-11-25 01:53:30,0,[E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,11,25,2021,1/1970,11/2021,00
 Coleta de dados das Contas Públicas de Paracatu,956,2021-11-25 01:53:39,2021-11-26 18:33:57,[E] Externa [T] Realização F01 [0] Coleta,closed,Paracatu,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de Elói Mendes,901,2021-11-12 13:10:46,0,[E] Externa [T] Realização F01 [0] Coleta,open,Elói Mendes,11,12,2021,1/1970,11/2021,00
-Página de detalhes não atualiza o fim da coleta,2559,2022-04-01 12:16:20,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,open,Página,4,1,2022,1/1970,4/2022,00
 Coleta de Servidores Publicos - Agentes Politicos - Itacarambi,3318,2022-05-11 23:20:22,2022-05-20 00:58:31,[T] Realização F01 [0] Coleta,closed,Itacarambi,5,11,2022,5/2022,5/2022,20
 Coleta de Servidores Publicos - Agentes Politicos - Montezuma,3317,2022-05-11 23:20:21,2022-05-20 00:58:50,[T] Realização F01 [0] Coleta,closed,Montezuma,5,11,2022,5/2022,5/2022,20
 Coleta de Servidores Publicos - Agentes Politicos - Manga,3316,2022-05-11 23:20:19,2022-05-20 00:58:05,[T] Realização F01 [0] Coleta,closed,Manga,5,11,2022,5/2022,5/2022,20
@@ -2833,3 +2832,4 @@ Coleta de Despesas - Bom Jesus do Amparo,3066,2022-05-09 12:14:57,2022-05-11 13:
 Coleta de Despesas - Biquinhas,3065,2022-05-09 12:14:56,2022-05-11 13:06:49,[T] Realização F01 [0] Coleta,closed,Biquinhas,5,9,2022,5/2022,5/2022,19
 Coleta de Despesas - Arinos,3064,2022-05-09 12:14:54,2022-05-11 13:06:45,[T] Realização F01 [0] Coleta,closed,Arinos,5,9,2022,5/2022,5/2022,19
 Coleta de Despesas - Abaeté,3063,2022-05-09 12:14:53,2022-05-11 13:06:41,[T] Realização F01 [0] Coleta,closed,Abaeté,5,9,2022,5/2022,5/2022,19
+Página de detalhes não atualiza o fim da coleta,2559,2022-04-01 12:16:20,2022-06-23 17:55:55,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,closed,Página,4,1,2022,6/2022,4/2022,25
