@@ -161,7 +161,7 @@ Coleta de dados de Leis Orçamentárias de Divinópolis,637,2021-07-21 13:05:40,
 Coleta de dados de Leis Orçamentárias de Divinópolis,829,2021-10-22 14:36:39,2021-11-22 12:06:08,[E] Externa [T] Realização F01 [0] Coleta,closed,Divinópolis,10,22,2021,11/2021,10/2021,47
 Coleta de dados dos Processos Licitatórios de Divinópolis,633,2021-07-20 14:44:02,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Divinópolis,7,20,2021,1/1970,7/2021,00
 Coleta de dados de Dispensa e Inexigibilidade de Pará de Minas,629,2021-07-20 13:48:43,0,[E] Externa [T] Realização F01 [0] Coleta,open,Pará de Minas,7,20,2021,1/1970,7/2021,00
-Coleta de dados de Licitações de Pará de Minas,628,2021-07-20 13:23:51,0,[2] Alta Prioridade [E] Externa [0] Coleta,open,Pará de Minas,7,20,2021,1/1970,7/2021,00
+Coleta de dados de Licitações de Pará de Minas,628,2021-07-20 13:23:51,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Pará de Minas,7,20,2021,1/1970,7/2021,00
 Coleta de dados de Licitações de Uberaba,624,2021-07-19 16:10:29,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Uberaba,7,19,2021,1/1970,7/2021,00
 Coleta de dados de Obras de Uberaba,623,2021-07-19 14:47:23,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberaba,7,19,2021,1/1970,7/2021,00
 Coleta dos dados de Prestação de contas de Uberaba,606,2021-07-15 14:39:40,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberaba,7,15,2021,1/1970,7/2021,00
@@ -182,7 +182,7 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
-Problema na visualização de passos de coleta dinâmica,3676,2022-06-15 12:06:46,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,open,,6,15,2022,1/1970,6/2022,00
+Problema na visualização de passos de coleta dinâmica,3676,2022-06-15 12:06:46,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento [3] Processamento Dinâmico,open,,6,15,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Campos Gerais,3648,2022-06-13 11:58:46,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Itatiaiuçu,3647,2022-06-13 11:58:44,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Sarzedo,3646,2022-06-13 11:58:42,0,[T] Realização F01 [0] Coleta,open,Sarzedo,6,13,2022,1/1970,6/2022,00
@@ -209,7 +209,6 @@ Coleta de Servidores Públicos - Servidores Ativos - Mariana,3626,2022-06-13 11:
 Coleta de Servidores Públicos - Servidores Ativos - Itapeva,3625,2022-06-13 11:55:10,0,[T] Realização F01 [0] Coleta,open,Itapeva,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Cláudio,3624,2022-06-13 11:55:09,0,[T] Realização F01 [0] Coleta,open,Cláudio,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Alto Rio Doce,3623,2022-06-13 11:55:07,0,[T] Realização F01 [0] Coleta,open,Alto Rio Doce,6,13,2022,1/1970,6/2022,00
-Comportamentos distintos em execuções de uma mesma coleta,1652,2022-02-17 19:04:16,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,open,,2,17,2022,1/1970,2/2022,00
 Coleta de Licitações (2021 a 2018) - Guanhães,1444,2022-02-03 01:37:32,0,[T] Realização F01 [0] Coleta,open,Guanhães,2,3,2022,1/1970,2/2022,00
 Coleta de Licitações (2015 a 2013) - Lassance,1443,2022-02-03 01:34:31,0,[T] Realização F01 [0] Coleta,open,Lassance,2,3,2022,1/1970,2/2022,00
 Coleta de Licitações (2018 a 2016) - Lassance,1442,2022-02-03 01:32:57,0,[T] Realização F01 [0] Coleta,open,Lassance,2,3,2022,1/1970,2/2022,00
@@ -1417,6 +1416,58 @@ Coleta de dados da Estrutura Organizacional de Governador Valadares.,505,2021-06
 Coleta de dados das receitas da prefeitura de Governador Valadares.,500,2021-06-02 15:41:14,2021-10-06 14:33:37,[E] Externa [0] Coleta,closed,Governador Valadares,6,2,2021,10/2021,6/2021,40
 Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 13:44:20,[2] Alta Prioridade [E] Externa [0] Coleta,closed,Congonhas,7,21,2021,10/2021,7/2021,43
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,7,20,2021,8/2021,7/2021,35
+Coleta de Receitas - Maiores Arrecadações - Campos Gerais,3802,2022-06-29 11:17:59,2022-06-29 12:28:35,[T] Realização F01 [0] Coleta,closed,Campos Gerais,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Itatiaiuçu,3801,2022-06-29 11:17:58,2022-06-29 12:27:31,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Sarzedo,3800,2022-06-29 11:17:56,2022-06-29 12:24:58,[T] Realização F01 [0] Coleta,closed,Sarzedo,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Ijaci,3799,2022-06-29 11:17:54,2022-06-29 12:23:51,[T] Realização F01 [0] Coleta,closed,Ijaci,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Itaguara,3798,2022-06-29 11:17:53,2022-06-29 12:22:47,[T] Realização F01 [0] Coleta,closed,Itaguara,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Mantena,3797,2022-06-29 11:17:51,2022-06-29 12:22:18,[T] Realização F01 [0] Coleta,closed,Mantena,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Paraguaçu,3796,2022-06-29 11:17:50,2022-06-29 12:21:22,[T] Realização F01 [0] Coleta,closed,Paraguaçu,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Raposos,3795,2022-06-29 11:17:48,2022-06-29 12:20:46,[T] Realização F01 [0] Coleta,closed,Raposos,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Rio Casca,3794,2022-06-29 11:14:47,2022-06-29 12:19:49,[T] Realização F01 [0] Coleta,closed,Rio Casca,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Rio Doce,3793,2022-06-29 11:14:45,2022-06-29 12:19:14,[T] Realização F01 [0] Coleta,closed,Rio Doce,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - São José da Barra,3792,2022-06-29 11:14:43,2022-06-29 12:17:53,[T] Realização F01 [0] Coleta,closed,São José da Barra,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Alterosa,3791,2022-06-29 11:14:42,2022-06-29 12:16:00,[T] Realização F01 [0] Coleta,closed,Alterosa,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Formiga,3790,2022-06-29 11:14:41,2022-06-29 12:15:10,[T] Realização F01 [0] Coleta,closed,Formiga,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Congonhas,3789,2022-06-29 11:14:39,2022-06-29 12:14:53,[T] Realização F01 [0] Coleta,closed,Congonhas,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Cataguases,3788,2022-06-29 11:14:38,2022-06-29 12:14:14,[T] Realização F01 [0] Coleta,closed,Cataguases,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Lagoa da Prata,3787,2022-06-29 11:14:36,2022-06-29 12:13:46,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Botelhos,3786,2022-06-29 11:14:35,2022-06-29 12:13:10,[T] Realização F01 [0] Coleta,closed,Botelhos,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - São Sebastião do Oeste,3785,2022-06-29 11:14:34,2022-06-29 12:12:18,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Bandeira do Sul,3784,2022-06-29 11:14:32,2022-06-29 12:08:58,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Sacramento,3783,2022-06-29 11:14:30,2022-06-29 12:08:07,[T] Realização F01 [0] Coleta,closed,Sacramento,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Luz,3782,2022-06-29 11:14:29,2022-06-29 12:07:15,[T] Realização F01 [0] Coleta,closed,Luz,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Santo Antônio do Monte,3781,2022-06-29 11:14:28,2022-06-29 12:06:11,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Mariana,3780,2022-06-29 11:14:26,2022-06-29 12:05:21,[T] Realização F01 [0] Coleta,closed,Mariana,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Itapeva,3779,2022-06-29 11:14:24,2022-06-29 12:03:39,[T] Realização F01 [0] Coleta,closed,Itapeva,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Cláudio,3778,2022-06-29 11:14:22,2022-06-29 12:34:06,[T] Realização F01 [0] Coleta,closed,Cláudio,6,29,2022,6/2022,6/2022,26
+Coleta de Receitas - Maiores Arrecadações - Alto Rio Doce,3777,2022-06-29 11:14:21,2022-06-29 12:06:01,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,6,29,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Campos Gerais,3776,2022-06-27 20:31:27,2022-06-28 10:47:16,[T] Realização F01 [0] Coleta,closed,Campos Gerais,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Itatiaiuçu,3775,2022-06-27 20:31:25,2022-06-28 10:46:56,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Sarzedo,3774,2022-06-27 20:31:24,2022-06-28 10:46:27,[T] Realização F01 [0] Coleta,closed,Sarzedo,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Ijaci,3773,2022-06-27 20:31:23,2022-06-28 10:45:54,[T] Realização F01 [0] Coleta,closed,Ijaci,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Itaguara,3772,2022-06-27 20:31:21,2022-06-28 10:45:14,[T] Realização F01 [0] Coleta,closed,Itaguara,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Mantena,3771,2022-06-27 20:31:20,2022-06-28 10:44:49,[T] Realização F01 [0] Coleta,closed,Mantena,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Paraguaçu,3770,2022-06-27 20:31:18,2022-06-28 10:44:24,[T] Realização F01 [0] Coleta,closed,Paraguaçu,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Raposos,3769,2022-06-27 20:31:17,2022-06-28 10:43:56,[T] Realização F01 [0] Coleta,closed,Raposos,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Rio Casca,3768,2022-06-27 20:28:15,2022-06-28 10:43:29,[T] Realização F01 [0] Coleta,closed,Rio Casca,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Rio Doce,3767,2022-06-27 20:28:14,2022-06-28 10:43:08,[T] Realização F01 [0] Coleta,closed,Rio Doce,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - São José da Barra,3766,2022-06-27 20:28:12,2022-06-28 10:42:47,[T] Realização F01 [0] Coleta,closed,São José da Barra,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Alterosa,3765,2022-06-27 20:28:11,2022-06-28 10:42:13,[T] Realização F01 [0] Coleta,closed,Alterosa,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Formiga,3764,2022-06-27 20:28:10,2022-06-28 10:41:48,[T] Realização F01 [0] Coleta,closed,Formiga,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Congonhas,3763,2022-06-27 20:28:08,2022-06-28 10:41:28,[T] Realização F01 [0] Coleta,closed,Congonhas,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Cataguases,3762,2022-06-27 20:28:06,2022-06-28 10:41:04,[T] Realização F01 [0] Coleta,closed,Cataguases,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Lagoa da Prata,3761,2022-06-27 20:28:05,2022-06-28 10:40:19,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Botelhos,3760,2022-06-27 20:28:03,2022-06-28 10:39:53,[T] Realização F01 [0] Coleta,closed,Botelhos,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - São Sebastião do Oeste,3759,2022-06-27 20:28:01,2022-06-28 10:39:30,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Bandeira do Sul,3758,2022-06-27 20:28:00,2022-06-28 10:39:03,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Sacramento,3757,2022-06-27 20:27:58,2022-06-28 10:37:47,[T] Realização F01 [0] Coleta,closed,Sacramento,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Luz,3756,2022-06-27 20:27:57,2022-06-28 10:37:23,[T] Realização F01 [0] Coleta,closed,Luz,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Santo Antônio do Monte,3755,2022-06-27 20:27:54,2022-06-28 10:36:58,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Mariana,3754,2022-06-27 20:27:52,2022-06-28 10:35:57,[T] Realização F01 [0] Coleta,closed,Mariana,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Itapeva,3753,2022-06-27 20:27:50,2022-06-28 10:35:19,[T] Realização F01 [0] Coleta,closed,Itapeva,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Cláudio,3752,2022-06-27 20:27:49,2022-06-28 10:34:50,[T] Realização F01 [0] Coleta,closed,Cláudio,6,27,2022,6/2022,6/2022,26
+Coleta de Acesso à Informação - Requisitos Exigidos - Alto Rio Doce,3751,2022-06-27 20:27:47,2022-06-28 10:32:54,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,6,27,2022,6/2022,6/2022,26
 Coleta de Acesso à Informação - Relatório Estatístico - Campos Gerais,3702,2022-06-20 11:22:01,2022-06-20 11:53:05,[T] Realização F01 [0] Coleta,closed,Campos Gerais,6,20,2022,6/2022,6/2022,25
 Coleta de Acesso à Informação - Relatório Estatístico - Itatiaiuçu,3701,2022-06-20 11:21:59,2022-06-20 12:03:17,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,6,20,2022,6/2022,6/2022,25
 Coleta de Acesso à Informação - Relatório Estatístico - Sarzedo,3700,2022-06-20 11:21:58,2022-06-20 12:01:43,[T] Realização F01 [0] Coleta,closed,Sarzedo,6,20,2022,6/2022,6/2022,25
@@ -1469,32 +1520,32 @@ Coleta de Obras públicas - Mariana,3652,2022-06-14 10:58:02,2022-06-15 10:58:56
 Coleta de Obras públicas - Itapeva,3651,2022-06-14 10:57:59,2022-06-15 10:57:27,[T] Realização F01 [0] Coleta,closed,Itapeva,6,14,2022,6/2022,6/2022,24
 Coleta de Obras públicas - Cláudio,3650,2022-06-14 10:57:58,2022-06-15 10:55:32,[T] Realização F01 [0] Coleta,closed,Cláudio,6,14,2022,6/2022,6/2022,24
 Coleta de Obras públicas - Alto Rio Doce,3649,2022-06-14 10:57:56,2022-06-15 10:48:11,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,6,14,2022,6/2022,6/2022,24
-Coleta de Contratos - Sarzedo,3578,2022-06-06 20:29:01,2022-06-06 20:35:10,[T] Realização F01 [0] Coleta,closed,Sarzedo,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Itaguara,3577,2022-06-06 20:29:00,2022-06-06 20:34:45,[T] Realização F01 [0] Coleta,closed,Itaguara,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Paraguaçu,3576,2022-06-06 20:28:58,2022-06-06 20:34:20,[T] Realização F01 [0] Coleta,closed,Paraguaçu,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Raposos,3575,2022-06-06 20:28:57,2022-06-06 20:33:56,[T] Realização F01 [0] Coleta,closed,Raposos,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Alterosa,3574,2022-06-06 20:28:55,2022-06-06 20:33:20,[T] Realização F01 [0] Coleta,closed,Alterosa,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Cataguases,3573,2022-06-06 20:28:54,2022-06-06 20:32:39,[T] Realização F01 [0] Coleta,closed,Cataguases,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Bandeira do Sul,3572,2022-06-06 20:28:53,2022-06-06 20:32:01,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Santo Antônio do Monte,3571,2022-06-06 20:28:51,2022-06-06 20:30:50,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Alto Rio Doce,3570,2022-06-06 20:28:50,2022-06-06 20:30:36,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,6,6,2022,6/2022,6/2022,23
-Coleta de Contratos - Campos Gerais,3545,2022-06-01 20:21:36,2022-06-01 20:25:01,[T] Realização F01 [0] Coleta,closed,Campos Gerais,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Itatiaiuçu,3544,2022-06-01 20:21:34,2022-06-01 20:25:01,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Ijaci,3543,2022-06-01 20:21:33,2022-06-01 20:25:01,[T] Realização F01 [0] Coleta,closed,Ijaci,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Mantena,3542,2022-06-01 20:21:32,2022-06-01 20:25:00,[T] Realização F01 [0] Coleta,closed,Mantena,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Rio Casca,3541,2022-06-01 20:21:29,2022-06-01 20:25:00,[T] Realização F01 [0] Coleta,closed,Rio Casca,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Rio Doce,3540,2022-06-01 20:21:28,2022-06-01 20:25:00,[T] Realização F01 [0] Coleta,closed,Rio Doce,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - São José da Barra,3539,2022-06-01 20:21:27,2022-06-01 20:24:59,[T] Realização F01 [0] Coleta,closed,São José da Barra,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Formiga,3538,2022-06-01 20:21:25,2022-06-01 20:25:02,[T] Realização F01 [0] Coleta,closed,Formiga,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Congonhas,3537,2022-06-01 20:21:23,2022-06-01 20:25:02,[T] Realização F01 [0] Coleta,closed,Congonhas,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Lagoa da Prata,3536,2022-06-01 20:21:22,2022-06-01 20:25:01,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Botelhos,3535,2022-06-01 20:21:20,2022-06-01 20:25:01,[T] Realização F01 [0] Coleta,closed,Botelhos,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - São Sebastião do Oeste,3534,2022-06-01 20:21:18,2022-06-01 20:25:01,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Sacramento,3533,2022-06-01 20:21:17,2022-06-01 20:25:00,[T] Realização F01 [0] Coleta,closed,Sacramento,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Luz,3532,2022-06-01 20:21:16,2022-06-01 20:25:00,[T] Realização F01 [0] Coleta,closed,Luz,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Mariana,3531,2022-06-01 20:21:14,2022-06-01 20:25:00,[T] Realização F01 [0] Coleta,closed,Mariana,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Itapeva,3530,2022-06-01 20:21:13,2022-06-01 20:25:00,[T] Realização F01 [0] Coleta,closed,Itapeva,6,1,2022,6/2022,6/2022,22
-Coleta de Contratos - Cláudio,3529,2022-06-01 20:21:12,2022-06-01 20:24:59,[T] Realização F01 [0] Coleta,closed,Cláudio,6,1,2022,6/2022,6/2022,22
+Coleta de Contratos - Sarzedo,3578,2022-06-06 20:29:01,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,Sarzedo,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Itaguara,3577,2022-06-06 20:29:00,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,Itaguara,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Paraguaçu,3576,2022-06-06 20:28:58,2022-06-28 11:03:09,[T] Realização F01 [0] Coleta,closed,Paraguaçu,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Raposos,3575,2022-06-06 20:28:57,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Raposos,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Alterosa,3574,2022-06-06 20:28:55,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Alterosa,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Cataguases,3573,2022-06-06 20:28:54,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Cataguases,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Bandeira do Sul,3572,2022-06-06 20:28:53,2022-06-28 11:03:11,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Santo Antônio do Monte,3571,2022-06-06 20:28:51,2022-06-28 11:03:11,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Alto Rio Doce,3570,2022-06-06 20:28:50,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,6,6,2022,6/2022,6/2022,26
+Coleta de Contratos - Campos Gerais,3545,2022-06-01 20:21:36,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,Campos Gerais,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Itatiaiuçu,3544,2022-06-01 20:21:34,2022-06-28 11:03:09,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Ijaci,3543,2022-06-01 20:21:33,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,Ijaci,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Mantena,3542,2022-06-01 20:21:32,2022-06-28 11:03:09,[T] Realização F01 [0] Coleta,closed,Mantena,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Rio Casca,3541,2022-06-01 20:21:29,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Rio Casca,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Rio Doce,3540,2022-06-01 20:21:28,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Rio Doce,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - São José da Barra,3539,2022-06-01 20:21:27,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,São José da Barra,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Formiga,3538,2022-06-01 20:21:25,2022-06-28 11:03:11,[T] Realização F01 [0] Coleta,closed,Formiga,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Congonhas,3537,2022-06-01 20:21:23,2022-06-28 11:03:11,[T] Realização F01 [0] Coleta,closed,Congonhas,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Lagoa da Prata,3536,2022-06-01 20:21:22,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Botelhos,3535,2022-06-01 20:21:20,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,Botelhos,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - São Sebastião do Oeste,3534,2022-06-01 20:21:18,2022-06-28 11:03:10,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Sacramento,3533,2022-06-01 20:21:17,2022-06-28 11:03:09,[T] Realização F01 [0] Coleta,closed,Sacramento,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Luz,3532,2022-06-01 20:21:16,2022-06-28 11:03:09,[T] Realização F01 [0] Coleta,closed,Luz,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Mariana,3531,2022-06-01 20:21:14,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Mariana,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Itapeva,3530,2022-06-01 20:21:13,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Itapeva,6,1,2022,6/2022,6/2022,26
+Coleta de Contratos - Cláudio,3529,2022-06-01 20:21:12,2022-06-28 11:03:08,[T] Realização F01 [0] Coleta,closed,Cláudio,6,1,2022,6/2022,6/2022,26
 Coleta de Servidores Públicos - Quadro de Pessoal - Campos Gerais,3393,2022-05-23 22:33:40,2022-05-25 01:29:06,[T] Realização F01 [0] Coleta,closed,Campos Gerais,5,23,2022,5/2022,5/2022,21
 Coleta de Servidores Públicos - Quadro de Pessoal - Itatiaiuçu,3392,2022-05-23 22:33:38,2022-05-25 00:37:42,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,5,23,2022,5/2022,5/2022,21
 Coleta de Servidores Públicos - Quadro de Pessoal - Sarzedo,3391,2022-05-23 22:33:37,2022-05-25 00:42:45,[T] Realização F01 [0] Coleta,closed,Sarzedo,5,23,2022,5/2022,5/2022,21
