@@ -218,7 +218,7 @@ def summarize_epics(epics_id, repo, info_issues, open_column='open', closed_colu
     open_epics, count_open = format_epics_data(epics_info, time_column='created_at', state=open_column)
     closed_epics, count_closed = format_epics_data(epics_info, time_column='closed_at', state=closed_column)
 
-    count_epics_month = count_open.merge(count_closed, on='month')
+    count_epics_month = count_open.merge(count_closed, on='month', how='outer')
     count_epics_month['month'] = string_to_datetime(count_epics_month['month'])
     count_epics_month = count_epics_month.sort_values(by='month', ascending=True)
     count_epics_month['month'] = count_epics_month['month'].dt.strftime("%m/%Y").astype(str)

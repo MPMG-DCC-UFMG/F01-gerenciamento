@@ -182,6 +182,12 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
+Coleta de Receitas - Ingressos de Receitas - Campos Gerais,3902,2022-07-07 11:01:27,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,7,7,2022,1/1970,7/2022,00
+Coleta de Receitas - Ingressos de Receitas - Rio Casca,3894,2022-07-07 10:58:17,0,[T] Realização F01 [0] Coleta,open,Rio Casca,7,7,2022,1/1970,7/2022,00
+Coleta de Receitas - Ingressos de Receitas - Formiga,3890,2022-07-07 10:58:12,0,[T] Realização F01 [0] Coleta,open,Formiga,7,7,2022,1/1970,7/2022,00
+Coleta de Receitas - Ingressos de Receitas - Congonhas,3889,2022-07-07 10:58:11,0,[T] Realização F01 [0] Coleta,open,Congonhas,7,7,2022,1/1970,7/2022,00
+Coleta de Receitas - Ingressos de Receitas - Botelhos,3886,2022-07-07 10:58:07,0,[T] Realização F01 [0] Coleta,open,Botelhos,7,7,2022,1/1970,7/2022,00
+Coleta de Receitas - Ingressos de Receitas - Sacramento,3883,2022-07-07 10:58:02,0,[T] Realização F01 [0] Coleta,open,Sacramento,7,7,2022,1/1970,7/2022,00
 Problema na visualização de passos de coleta dinâmica,3676,2022-06-15 12:06:46,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento [3] Processamento Dinâmico,open,,6,15,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Campos Gerais,3648,2022-06-13 11:58:46,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Itatiaiuçu,3647,2022-06-13 11:58:44,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,6,13,2022,1/1970,6/2022,00
@@ -1416,6 +1422,26 @@ Coleta de dados da Estrutura Organizacional de Governador Valadares.,505,2021-06
 Coleta de dados das receitas da prefeitura de Governador Valadares.,500,2021-06-02 15:41:14,2021-10-06 14:33:37,[E] Externa [0] Coleta,closed,Governador Valadares,6,2,2021,10/2021,6/2021,40
 Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 13:44:20,[2] Alta Prioridade [E] Externa [0] Coleta,closed,Congonhas,7,21,2021,10/2021,7/2021,43
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,7,20,2021,8/2021,7/2021,35
+Coleta de Receitas - Ingressos de Receitas - Itatiaiuçu,3901,2022-07-07 11:01:25,2022-07-07 11:46:18,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Sarzedo,3900,2022-07-07 11:01:24,2022-07-07 11:46:47,[T] Realização F01 [0] Coleta,closed,Sarzedo,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Ijaci,3899,2022-07-07 11:01:23,2022-07-07 11:47:46,[T] Realização F01 [0] Coleta,closed,Ijaci,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Itaguara,3898,2022-07-07 11:01:20,2022-07-07 11:48:26,[T] Realização F01 [0] Coleta,closed,Itaguara,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Mantena,3897,2022-07-07 11:01:19,2022-07-07 11:49:20,[T] Realização F01 [0] Coleta,closed,Mantena,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Paraguaçu,3896,2022-07-07 11:01:17,2022-07-07 11:49:46,[T] Realização F01 [0] Coleta,closed,Paraguaçu,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Raposos,3895,2022-07-07 11:01:16,2022-07-07 11:50:31,[T] Realização F01 [0] Coleta,closed,Raposos,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Rio Doce,3893,2022-07-07 10:58:16,2022-07-07 11:53:08,[T] Realização F01 [0] Coleta,closed,Rio Doce,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - São José da Barra,3892,2022-07-07 10:58:15,2022-07-07 11:53:41,[T] Realização F01 [0] Coleta,closed,São José da Barra,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Alterosa,3891,2022-07-07 10:58:13,2022-07-07 11:54:10,[T] Realização F01 [0] Coleta,closed,Alterosa,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Cataguases,3888,2022-07-07 10:58:10,2022-07-07 11:44:16,[T] Realização F01 [0] Coleta,closed,Cataguases,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Lagoa da Prata,3887,2022-07-07 10:58:08,2022-07-07 11:43:47,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - São Sebastião do Oeste,3885,2022-07-07 10:58:05,2022-07-07 11:42:29,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Bandeira do Sul,3884,2022-07-07 10:58:04,2022-07-07 11:41:41,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Luz,3882,2022-07-07 10:58:00,2022-07-07 11:28:41,[T] Realização F01 [0] Coleta,closed,Luz,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Santo Antônio do Monte,3881,2022-07-07 10:57:59,2022-07-07 11:27:58,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Mariana,3880,2022-07-07 10:57:58,2022-07-07 11:55:25,[T] Realização F01 [0] Coleta,closed,Mariana,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Itapeva,3879,2022-07-07 10:57:56,2022-07-07 11:27:19,[T] Realização F01 [0] Coleta,closed,Itapeva,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Cláudio,3878,2022-07-07 10:57:55,2022-07-07 11:26:11,[T] Realização F01 [0] Coleta,closed,Cláudio,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Alto Rio Doce,3877,2022-07-07 10:57:53,2022-07-07 11:10:27,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Maiores Arrecadações - Campos Gerais,3802,2022-06-29 11:17:59,2022-06-29 12:28:35,[T] Realização F01 [0] Coleta,closed,Campos Gerais,6,29,2022,6/2022,6/2022,26
 Coleta de Receitas - Maiores Arrecadações - Itatiaiuçu,3801,2022-06-29 11:17:58,2022-06-29 12:27:31,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,6,29,2022,6/2022,6/2022,26
 Coleta de Receitas - Maiores Arrecadações - Sarzedo,3800,2022-06-29 11:17:56,2022-06-29 12:24:58,[T] Realização F01 [0] Coleta,closed,Sarzedo,6,29,2022,6/2022,6/2022,26
@@ -2641,6 +2667,71 @@ Coleta de dados das despesas do município de Varginha,838,2021-10-25 11:57:21,2
 Coleta geral da prefeitura de Teófilo Otoni,813,2021-10-19 23:39:31,2021-10-22 14:11:35,[T] Realização F01 [0] Coleta,closed,Teófilo Otoni,10,19,2021,10/2021,10/2021,42
 Coleta geral da prefeitura de Uberlândia,807,2021-10-19 11:40:40,2021-10-22 14:11:24,[T] Realização F01 [0] Coleta,closed,Uberlândia,10,19,2021,10/2021,10/2021,42
 Coleta geral da prefeitura de Pará de Minas,805,2021-10-15 23:54:13,2021-10-22 14:11:29,[T] Realização F01 [0] Coleta,closed,Pará de Minas,10,15,2021,10/2021,10/2021,42
+Coleta de Despesas - Relatórios e Contas Públicas - Vieiras,3867,2022-07-04 23:48:06,2022-07-07 11:54:43,[T] Realização F01 [0] Coleta,closed,Vieiras,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Vargem Bonita,3866,2022-07-04 23:48:04,2022-07-07 11:54:43,[T] Realização F01 [0] Coleta,closed,Vargem Bonita,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Uruana de Minas,3865,2022-07-04 23:48:03,2022-07-07 11:54:43,[T] Realização F01 [0] Coleta,closed,Uruana de Minas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Taparuba,3864,2022-07-04 23:48:01,2022-07-07 11:54:42,[T] Realização F01 [0] Coleta,closed,Taparuba,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - São José da Varginha,3863,2022-07-04 23:48:00,2022-07-07 11:54:42,[T] Realização F01 [0] Coleta,closed,São José da Varginha,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Serranópolis de Minas,3862,2022-07-04 23:47:59,2022-07-07 11:54:42,[T] Realização F01 [0] Coleta,closed,Serranópolis de Minas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Santo Antônio do Rio Abaixo,3861,2022-07-04 23:47:58,2022-07-07 11:54:42,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Rio Abaixo,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Santana de Pirapama,3860,2022-07-04 23:47:56,2022-07-07 11:54:41,[T] Realização F01 [0] Coleta,closed,Santana de Pirapama,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Santa Rosa da Serra,3859,2022-07-04 23:47:55,2022-07-07 11:54:41,[T] Realização F01 [0] Coleta,closed,Santa Rosa da Serra,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Santa Maria do Salto,3858,2022-07-04 23:44:54,2022-07-07 11:54:41,[T] Realização F01 [0] Coleta,closed,Santa Maria do Salto,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Santa Margarida,3857,2022-07-04 23:44:52,2022-07-07 11:54:40,[T] Realização F01 [0] Coleta,closed,Santa Margarida,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Salinas,3856,2022-07-04 23:44:51,2022-07-07 11:54:40,[T] Realização F01 [0] Coleta,closed,Salinas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Rubelita,3855,2022-07-04 23:44:50,2022-07-07 11:54:40,[T] Realização F01 [0] Coleta,closed,Rubelita,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Ribeirão Vermelho,3854,2022-07-04 23:44:48,2022-07-07 11:54:40,[T] Realização F01 [0] Coleta,closed,Ribeirão Vermelho,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Riachinho,3853,2022-07-04 23:44:47,2022-07-07 11:54:39,[T] Realização F01 [0] Coleta,closed,Riachinho,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Prudente de Morais,3852,2022-07-04 23:44:46,2022-07-07 11:54:39,[T] Realização F01 [0] Coleta,closed,Prudente de Morais,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Presidente Olegário,3851,2022-07-04 23:44:45,2022-07-07 11:54:39,[T] Realização F01 [0] Coleta,closed,Presidente Olegário,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Porteirinha,3850,2022-07-04 23:44:43,2022-07-07 11:54:39,[T] Realização F01 [0] Coleta,closed,Porteirinha,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Piumhi,3849,2022-07-04 23:44:42,2022-07-07 11:54:38,[T] Realização F01 [0] Coleta,closed,Piumhi,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Pitangui,3848,2022-07-04 23:44:41,2022-07-07 11:54:38,[T] Realização F01 [0] Coleta,closed,Pitangui,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Perdões,3847,2022-07-04 23:44:39,2022-07-07 11:54:38,[T] Realização F01 [0] Coleta,closed,Perdões,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Perdigão,3846,2022-07-04 23:44:38,2022-07-07 11:54:37,[T] Realização F01 [0] Coleta,closed,Perdigão,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Pedra do Indaiá,3845,2022-07-04 23:44:37,2022-07-07 11:54:37,[T] Realização F01 [0] Coleta,closed,Pedra do Indaiá,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Papagaios,3844,2022-07-04 23:44:36,2022-07-07 11:54:37,[T] Realização F01 [0] Coleta,closed,Papagaios,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Pains,3843,2022-07-04 23:44:34,2022-07-07 11:54:37,[T] Realização F01 [0] Coleta,closed,Pains,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Onça de Pitangui,3842,2022-07-04 23:44:33,2022-07-07 11:55:06,[T] Realização F01 [0] Coleta,closed,Onça de Pitangui,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Mutum,3841,2022-07-04 23:44:32,2022-07-07 11:55:06,[T] Realização F01 [0] Coleta,closed,Mutum,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Morro da Garça,3840,2022-07-04 23:44:30,2022-07-07 11:55:05,[T] Realização F01 [0] Coleta,closed,Morro da Garça,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Morada Nova de Minas,3839,2022-07-04 23:41:29,2022-07-07 11:55:05,[T] Realização F01 [0] Coleta,closed,Morada Nova de Minas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Monjolos,3838,2022-07-04 23:41:28,2022-07-07 11:55:05,[T] Realização F01 [0] Coleta,closed,Monjolos,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Medeiros,3837,2022-07-04 23:41:26,2022-07-07 11:55:04,[T] Realização F01 [0] Coleta,closed,Medeiros,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Matozinhos,3836,2022-07-04 23:41:25,2022-07-07 11:55:04,[T] Realização F01 [0] Coleta,closed,Matozinhos,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Matias Cardoso,3835,2022-07-04 23:41:24,2022-07-07 11:55:04,[T] Realização F01 [0] Coleta,closed,Matias Cardoso,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Martinho Campos,3834,2022-07-04 23:41:23,2022-07-07 11:55:03,[T] Realização F01 [0] Coleta,closed,Martinho Campos,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Manhumirim,3833,2022-07-04 23:41:21,2022-07-07 11:55:03,[T] Realização F01 [0] Coleta,closed,Manhumirim,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Lagamar,3832,2022-07-04 23:41:20,2022-07-07 11:55:03,[T] Realização F01 [0] Coleta,closed,Lagamar,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - José Raydan,3831,2022-07-04 23:41:19,2022-07-07 11:55:02,[T] Realização F01 [0] Coleta,closed,José Raydan,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Joaíma,3830,2022-07-04 23:41:18,2022-07-07 11:55:02,[T] Realização F01 [0] Coleta,closed,Joaíma,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Ipanema,3829,2022-07-04 23:41:16,2022-07-07 11:55:02,[T] Realização F01 [0] Coleta,closed,Ipanema,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Iguatama,3828,2022-07-04 23:41:15,2022-07-07 11:55:02,[T] Realização F01 [0] Coleta,closed,Iguatama,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Ibiá,3827,2022-07-04 23:41:14,2022-07-07 11:55:01,[T] Realização F01 [0] Coleta,closed,Ibiá,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Funilândia,3826,2022-07-04 23:41:12,2022-07-07 11:55:01,[T] Realização F01 [0] Coleta,closed,Funilândia,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Fortuna de Minas,3825,2022-07-04 23:41:11,2022-07-07 11:55:00,[T] Realização F01 [0] Coleta,closed,Fortuna de Minas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Felisburgo,3824,2022-07-04 23:41:10,2022-07-07 11:55:00,[T] Realização F01 [0] Coleta,closed,Felisburgo,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Doresópolis,3823,2022-07-04 23:41:08,2022-07-07 11:55:00,[T] Realização F01 [0] Coleta,closed,Doresópolis,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Dom Joaquim,3822,2022-07-04 23:41:07,2022-07-07 11:54:59,[T] Realização F01 [0] Coleta,closed,Dom Joaquim,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Dom Bosco,3821,2022-07-04 23:41:06,2022-07-07 11:54:59,[T] Realização F01 [0] Coleta,closed,Dom Bosco,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Desterro do Melo,3820,2022-07-04 23:38:04,2022-07-07 11:54:59,[T] Realização F01 [0] Coleta,closed,Desterro do Melo,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Desterro de Entre Rios,3819,2022-07-04 23:38:03,2022-07-07 11:54:58,[T] Realização F01 [0] Coleta,closed,Desterro de Entre Rios,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Córrego Fundo,3818,2022-07-04 23:38:02,2022-07-07 11:54:58,[T] Realização F01 [0] Coleta,closed,Córrego Fundo,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Córrego Danta,3817,2022-07-04 23:38:00,2022-07-07 11:55:19,[T] Realização F01 [0] Coleta,closed,Córrego Danta,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Corinto,3816,2022-07-04 23:37:59,2022-07-07 11:55:18,[T] Realização F01 [0] Coleta,closed,Corinto,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Conceição do Mato Dentro,3815,2022-07-04 23:37:58,2022-07-07 11:55:18,[T] Realização F01 [0] Coleta,closed,Conceição do Mato Dentro,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Chalé,3814,2022-07-04 23:37:56,2022-07-07 11:55:18,[T] Realização F01 [0] Coleta,closed,Chalé,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Carlos Chagas,3813,2022-07-04 23:37:55,2022-07-07 11:55:17,[T] Realização F01 [0] Coleta,closed,Carlos Chagas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Capela Nova,3812,2022-07-04 23:37:54,2022-07-07 11:55:17,[T] Realização F01 [0] Coleta,closed,Capela Nova,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Campestre,3811,2022-07-04 23:37:52,2022-07-07 11:55:17,[T] Realização F01 [0] Coleta,closed,Campestre,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Caetanópolis,3810,2022-07-04 23:37:51,2022-07-07 11:55:16,[T] Realização F01 [0] Coleta,closed,Caetanópolis,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Cachoeira da Prata,3809,2022-07-04 23:37:50,2022-07-07 11:55:16,[T] Realização F01 [0] Coleta,closed,Cachoeira da Prata,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Buenópolis,3808,2022-07-04 23:37:49,2022-07-07 11:52:41,[T] Realização F01 [0] Coleta,closed,Buenópolis,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Brasilândia de Minas,3807,2022-07-04 23:37:47,2022-07-07 11:52:37,[T] Realização F01 [0] Coleta,closed,Brasilândia de Minas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Bonfinópolis de Minas,3806,2022-07-04 23:37:46,2022-07-07 11:52:35,[T] Realização F01 [0] Coleta,closed,Bonfinópolis de Minas,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Araújos,3805,2022-07-04 23:37:45,2022-07-07 11:52:33,[T] Realização F01 [0] Coleta,closed,Araújos,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Araçaí,3804,2022-07-04 23:37:44,2022-07-07 11:52:30,[T] Realização F01 [0] Coleta,closed,Araçaí,7,4,2022,7/2022,7/2022,27
+Coleta de Despesas - Relatórios e Contas Públicas - Antônio Prado de Minas,3803,2022-07-04 23:37:42,2022-07-07 11:52:25,[T] Realização F01 [0] Coleta,closed,Antônio Prado de Minas,7,4,2022,7/2022,7/2022,27
 Coleta de Orçamentos - Legislação - Taquaraçu de Minas,3622,2022-06-10 19:40:30,2022-06-14 01:12:45,[T] Realização F01 [0] Coleta,closed,Taquaraçu de Minas,6,10,2022,6/2022,6/2022,24
 Coleta de Orçamentos - Legislação - Wenceslau Braz,3621,2022-06-10 19:40:29,2022-06-14 01:12:51,[T] Realização F01 [0] Coleta,closed,Wenceslau Braz,6,10,2022,6/2022,6/2022,24
 Coleta de Orçamentos - Legislação - Silvianópolis,3620,2022-06-10 19:40:27,2022-06-14 01:12:43,[T] Realização F01 [0] Coleta,closed,Silvianópolis,6,10,2022,6/2022,6/2022,24

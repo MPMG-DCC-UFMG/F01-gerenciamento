@@ -1,9 +1,9 @@
 ,Informações,Licitações,Repasses,Empenhos,Pagamentos,Relatorios,Leis Orçamentárias,Contas Públicas,Contratos,Concurso Publico,Receitas,Terceiro Setor,Orçamento,Conselhos Municipais,Servidores,Diárias,Obras,Estrutura Organizacional,Plano de Metas,Legislação
 Template 2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Porta Fácil (60),False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-Porta Fácil (46),True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+Porta Fácil (60),True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Porta Fácil (46),True,True,False,False,True,True,True,False,True,False,True,False,True,False,True,True,False,False,False,False
 Portla TP,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Memory,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+Memory,True,True,True,False,False,False,True,True,True,False,True,True,True,False,False,True,True,False,False,True
 Siplanweb,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Betha,True,True,True,True,False,False,True,True,True,True,True,True,True,True,True,True,True,False,False,True
 Sintese e Tecnologia,True,True,False,True,True,True,True,True,True,False,True,False,True,True,True,True,True,False,True,True
@@ -12,5 +12,5 @@ PT,True,True,False,False,True,True,True,True,True,True,True,True,True,False,Fals
 ADPM,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Municipal Net,False,True,True,False,True,False,True,True,True,False,True,True,True,False,True,True,False,False,False,False
 GRP,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-Template 1 (9),True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Template 1 (22),True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+Template 1 (22),True,True,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Template 1 (9),True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
