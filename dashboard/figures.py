@@ -175,8 +175,7 @@ def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Temp
 
 
 def plot_speed_epics(df, title):     
-    #BUG abril desaparece no update 
-
+    
     # Medindo velocidade
     current_speed = df["closed"].mean()          
     df["closed_cumsum"] = df["closed"].cumsum()
@@ -189,6 +188,10 @@ def plot_speed_epics(df, title):
     total_months = df.shape[0]
     ideal_speed = total_epics / total_months
     
+    ### descontando os não-coletáveis
+    total_coletaveis = total_epics - (10 * 15) # media 10 (de 5 ja verificados) x 15 templates
+    ideal_speed_discounted = total_coletaveis / total_months
+    
     # Plot
     fig =  px.bar(df, x="month", y="closed_cumsum", title=title, opacity=0.75, height=500,
                  labels={"closed_cumsum":"Epics concluídas (acumulado)", "month":"Mês"})
@@ -198,6 +201,8 @@ def plot_speed_epics(df, title):
                               name="Realizado", text=df))
     fig.add_trace(go.Scatter(x=df.month, y=[i * ideal_speed for i in range(1, total_months+1)], 
                               name="Planejado"))    
+    fig.add_trace(go.Scatter(x=df.month, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], 
+                              name="Planejado (coletável)"))    
     
     return fig
 

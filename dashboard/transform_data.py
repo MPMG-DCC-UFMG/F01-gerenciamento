@@ -190,12 +190,15 @@ def format_epics_data(epics_info, time_column, state):
     return df, df_count
 
 
-def process_epics(df, target_labels=['template', 'tag', 'subtag'], remove_orig_col=True):
+# Manter sincronizado com labels do repositorio:
+#   https://github.com/MPMG-DCC-UFMG/F01/labels
+def expand_states(df, target_labels=['template', 'tag', 'subtag'], remove_orig_col=True):
     
     for target_label in target_labels:
         df[target_label] = df.apply(lambda x: find_label(x['labels'], target_label), axis=1)
         
     df.loc[df.labels.astype(str).str.contains('não-localizado'), 'state'] = 'Não localizado'
+    df.loc[df.labels.astype(str).str.contains('não-coletável-timeout'), 'state'] = 'Não coletável (timeout)'
     df.loc[df.state == 'closed', 'state'] = 'Coletado'
     df.loc[df.state == 'open', 'state'] = 'Com epic criada'
     
@@ -212,18 +215,17 @@ def process_epics(df, target_labels=['template', 'tag', 'subtag'], remove_orig_c
 def summarize_epics(epics_id, repo, info_issues, open_column='open', closed_column='closed'):
     
     epics = extract_data.get_issues_by_number(repo, numbers=epics_id)
-    epics_info = pd.DataFrame(extract_data.get_issues_infos([epics], info_issues))
-    epics_info = epics_info.loc[epics_info['title'].str.find("Coletor para o template") != -1]
+    epics_info = pd.DataFrame(extract_data.get_issues_infos([epics], info_issues))   
+    epics_info = epics_info.loc[epics_info['title'].str.find("Coletor para") != -1]
     
     open_epics, count_open = format_epics_data(epics_info, time_column='created_at', state=open_column)
     closed_epics, count_closed = format_epics_data(epics_info, time_column='closed_at', state=closed_column)
+    epics_info = expand_states(epics_info)
 
     count_epics_month = count_open.merge(count_closed, on='month', how='outer')
     count_epics_month['month'] = string_to_datetime(count_epics_month['month'])
     count_epics_month = count_epics_month.sort_values(by='month', ascending=True)
     count_epics_month['month'] = count_epics_month['month'].dt.strftime("%m/%Y").astype(str)
         
-    epics_info = process_epics(epics_info)
-
     return epics_info, count_epics_month
      

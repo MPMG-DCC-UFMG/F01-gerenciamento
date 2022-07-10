@@ -65,7 +65,8 @@ def main_tranform_data(repo, creators, info_issues):
 def update_data_coletas(git_token, zh_token, closed_column='closed', open_column='open'):    
     
     """
-    Atualiza os dados das coletas
+    Atualiza os dados das coletas. 
+    Tempo estimado: ~5min (incluindo espera automática, devido a limites de requisições ao ZenHub)
     """
     
     repo_id='357557193'    

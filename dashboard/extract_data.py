@@ -104,6 +104,8 @@ def get_issues(repo, state='open'):
     return issues
 
 def get_issues_infos(all_issues, info_issues):
+    #TODO refactor: info_issues only increases, mixed epics and other issues 
+
     for i in all_issues:
         for issue in i:
             info_issues['title'].append(issue.title)
