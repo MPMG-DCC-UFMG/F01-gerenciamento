@@ -137,40 +137,83 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
-
 def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
-       
-    count_col = 'aux'
-    state_col = 'state'
-    total = 29  # reference: Siplanweb    
     
-    # Pre-process dataframes
+    #TODO automatizar
+    # Fonte: Sondagem automática 
+    nao_loc_autom = {
+        'Síntese tecnologia informatica': 4,
+        'PT': 4,
+        'Portal Facil (60)': 1,
+        'Portal Fácil (46)': 10,
+        'Memory': 8,
+        'Template1 (22)': 1,
+        'Template1 (9)': 1
+    }
+
+    # Fonte: Planilha Controle de Dados (#TODO transformar em Epics com "não-localizado")
+    nao_loc_manual = {
+        'Betha': 12, 
+        'Municipal Net': 12,
+        'Síntese tecnologia informatica': 2,
+    }
+
+    # Temporarily manual edits
+    for template, count in nao_loc_manual.items():
+        for i in range(count):
+            df = df.append({'template':template, 'state':'Não localizado', 'aux':1}, ignore_index=True)
+            
+    for template, count in nao_loc_autom.items():
+        for i in range(count):
+            df = df.append({'template':template, 'state':'Não localizado (autom.)', 'aux':1}, ignore_index=True)
+    
+    # Pre-process dataframes       
+    count_col = 'aux'
+    state_col = 'state'  
     top_templates_df = top_templates_df[top_templates_df['rank'] <= 15]
     df = top_templates_df.merge(df, how='left').fillna({state_col:'Estimado', count_col:1})     
+    
+    # agrupa na categoria 'nao localizado' para evitar poluir o dashboard com muitas cores
+    df.loc[df.state == 'Não coletável (timeout)', 'state'] = 'Não localizado' 
     templates = df['template'].dropna().unique()
+    
+    
+    total_ref = 29  # Siplanweb  
+    total = dict.fromkeys(templates, total_ref)
+    total['Betha'] = 35
+    total['ADPM'] = 19
     
     # Fill missing (estimated) epics in df
     for template in templates:        
         created =  df.groupby('template').count()[state_col][template]
-        missing = total - created                
-        rank = df[df.template == template]['rank'].values[0]        
+        missing = total[template] - created                
+        rank = df[df.template == template]['rank'].values[0]  #TODO drop rank?
         
         for i in range(missing):            
-            df = df.append({'template':template, state_col:'Estimado', 'rank':rank,count_col:1}, ignore_index=True)    
+            df = df.append({'template':template, state_col:'Estimado', 'rank':rank, count_col:1}, ignore_index=True)    
 
     # Add a better name for x values
     x = "template_rank"
     df[x] = df["template"] + " (" + df["rank"].astype(str) + "º)"
     df = df.sort_values(by=[state_col, x], ascending=[True, False])
+    xorder = df.groupby(['state','template_rank']).count()['rank'][
+        'Coletado'].sort_values(ascending=False).index.tolist()
+    y = df.copy()
     
     # Plot
     fig = px.bar(
-        df, y=count_col, x=x, color=state_col, height=800, width=1600, title=title,
-        color_discrete_map = {"Coletado":"green", "Com epic criada":"#64b5cd", 'Estimado':'lightblue', "Não localizado":"red"}, 
-        labels = {count_col:"#Coletores (total estimado pelo template Siplanweb)", x:"Template / Município"}, opacity=0.75 )    
+        df, y=count_col, x=x, color=state_col, height=800, width=1100, title=title,
+        color_discrete_map = {"Coletado":"green", "Com epic criada":"#64b5cd", 
+                              'Estimado':'lightblue', 'Não localizado':'red', 
+                              'Não localizado (autom.)':'#ff9e99'}, 
+        labels = {count_col:"#Coletores (total estimado pelo template Siplanweb)", 
+                  x:"Template / Município"}, opacity=0.75 )    
     
-    fig.update_layout(font=dict(size=20))     
+    fig.update_layout(xaxis={'categoryorder':'array', 'categoryarray':xorder})
 
+    fig.update_xaxes(tickangle=45)
+    fig.update_layout(font=dict(size=18))    
+    
     return fig
 
 
@@ -183,13 +226,16 @@ def plot_speed_epics(df, title):
     df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x:02d}/2022' for x in range(1,13)] + 
                                 ["01/2023", "02/2023"], columns=["month"]), how="right").fillna(0)          
         
-    ### baseado no Siplanweb: 29 coletores, 15 templates + 5 municipios
-    total_epics = 29 * (15 + 5)    
+    n_templates = 15 + 5            # 15 + 5 municipios
+    total_epics_by_template = 29    # Siplanweb    
+    
+    total_epics = total_epics_by_template * n_templates    
     total_months = df.shape[0]
     ideal_speed = total_epics / total_months
     
     ### descontando os não-coletáveis
-    total_coletaveis = total_epics - (10 * 15) # media 10 (de 5 ja verificados) x 15 templates
+    media_nao_coletavel = (12 + 12 + 12 + 8) / 4   # Siplanweb + Betha + MunicipalNet + ADPM    
+    total_coletaveis = total_epics - (media_nao_coletavel * (n_templates-4))   # apenas templates restantes
     ideal_speed_discounted = total_coletaveis / total_months
     
     # Plot
@@ -197,21 +243,23 @@ def plot_speed_epics(df, title):
                  labels={"closed_cumsum":"Epics concluídas (acumulado)", "month":"Mês"})
     
     fig.update_layout(yaxis = dict(tickmode = 'linear', tick0 = 0, dtick = 100))
-    fig.add_trace(go.Scatter(x=df.month, y=[i * current_speed for i in range(1, total_months+1)], 
-                              name="Realizado", text=df))
-    fig.add_trace(go.Scatter(x=df.month, y=[i * ideal_speed for i in range(1, total_months+1)], 
-                              name="Planejado"))    
-    fig.add_trace(go.Scatter(x=df.month, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], 
-                              name="Planejado (coletável)"))    
+    fig.add_traces([
+        go.Scatter(x=df.month, y=[i * ideal_speed for i in range(1, total_months+1)], name="Planejado",
+                  line=go.scatter.Line(color="#00CC96")),
+        go.Scatter(x=df.month, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], name="Planejado (coletável)",
+                  line=go.scatter.Line(color="#AB63FA")),
+        go.Scatter(x=df.month, y=[i * current_speed for i in range(1, total_months+1)], name="Realizado",
+                  line=go.scatter.Line(color="#EF553B"))#, text=df),
+    ])
     
     return fig
 
-
 def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
-  
+
     fig = px.imshow(
-        df, height=1700, width=1600, title=title,
-        color_continuous_scale=[(0, "green"), (0.33, 'lightgreen'), (0.66, "#64b5cd"), (1, 'lightblue')]
+        df, height=1700, width=1700, title=title,
+        color_continuous_scale=[(0, "green"), (0.25, 'lightgreen'), (0.5, "#64b5cd"), 
+                                (0.75, '#FFD700'), (1, 'lightblue')]
     )     
         
     fig.update_traces(opacity=0.75)
@@ -221,8 +269,8 @@ def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):
     fig.update_layout(
         coloraxis_colorbar=dict(
             title="Status", 
-            tickvals=[1,2,3,4],
-            ticktext=["Testado","Parametrizado","Implementado",'Previsto'],
+            tickvals=[1,2,3,4,5],
+            ticktext=["Testado","Parametrizado","Implementado","Em Implementação",'Previsto'],
             lenmode="pixels", 
             len=200), 
         font=dict(size=20)
