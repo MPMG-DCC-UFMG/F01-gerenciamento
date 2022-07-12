@@ -24,12 +24,14 @@ def main_tranform_data(repo, creators, info_issues):
     results = transform_data.fill_cities(df, nlp, list_municipios)
     municipios_df = pd.DataFrame(results, index=[0]).T.reset_index()
     
-    df = df.merge(municipios_df, left_on='title', right_on='index')[['title', 'number', 'created_at', 'closed_at', 'labels', 'state', 0]]
+    df = df.merge(municipios_df, left_on='title', right_on='index')[[
+        'title', 'number', 'created_at', 'closed_at', 'labels', 'state', 0]]
     df = df.rename(columns ={0: 'municipio'})
     df['municipio'] = df['municipio'].str.strip()
     
-    df = transform_data.filter_by_labels(df)
+    df = transform_data.filter_by_labels(df)    
     
+    # TODO Error format_date(line 39) if we remove
     df.to_csv("data/df.csv", index=False)
     df = pd.read_csv("data/df.csv")
     
@@ -78,9 +80,9 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     
     info_issues = {'title': [], 'number': [], 'created_at': [], 'closed_at': [], 'labels' : [], 'state': [] }
     
-    #TODO same at app.py / automatically get team members
     creators = ['carbo6ufmg', 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'albertoueda', 
-                'arthurnader', 'GabrielLimab', 'lucas-maia-96']
+                'arthurnader', 'GabrielLimab', 'lucas-maia-96', 'dalila20', 'AntonioNvs','GabiAraujo',
+                'rafaelmg7','jorgesilva2407']
     
     list_tags = ['Acesso à informação', 'Informações institucionais', 'Receitas', 'Despesas', 'Licitação', 'Contratos', 'Terceiro Setor', 'Concursos Públicos', 'Obras públicas', 'Servidores Públicos']
     
@@ -93,11 +95,10 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
        
     issues_epic_df, epics_id = transform_data.count_issues_epic(df, zh, repo_F01, repo_id)
     epics_info, count_epics_month = transform_data.summarize_epics(epics_id, repo_F01, info_issues)
-
     df_tags = transform_data.count_by_tags(issues_epic_df, list_tags)
     
+    # store dataframes
     df.to_csv("data/df.csv", index=False)
-
     count_month.to_csv("data/count_month.csv", index=False)
     week_status.to_csv('data/week_status.csv', index=False)
     

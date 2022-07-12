@@ -182,12 +182,7 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
-Coleta de Receitas - Ingressos de Receitas - Campos Gerais,3902,2022-07-07 11:01:27,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,7,7,2022,1/1970,7/2022,00
-Coleta de Receitas - Ingressos de Receitas - Rio Casca,3894,2022-07-07 10:58:17,0,[T] Realização F01 [0] Coleta,open,Rio Casca,7,7,2022,1/1970,7/2022,00
 Coleta de Receitas - Ingressos de Receitas - Formiga,3890,2022-07-07 10:58:12,0,[T] Realização F01 [0] Coleta,open,Formiga,7,7,2022,1/1970,7/2022,00
-Coleta de Receitas - Ingressos de Receitas - Congonhas,3889,2022-07-07 10:58:11,0,[T] Realização F01 [0] Coleta,open,Congonhas,7,7,2022,1/1970,7/2022,00
-Coleta de Receitas - Ingressos de Receitas - Botelhos,3886,2022-07-07 10:58:07,0,[T] Realização F01 [0] Coleta,open,Botelhos,7,7,2022,1/1970,7/2022,00
-Coleta de Receitas - Ingressos de Receitas - Sacramento,3883,2022-07-07 10:58:02,0,[T] Realização F01 [0] Coleta,open,Sacramento,7,7,2022,1/1970,7/2022,00
 Problema na visualização de passos de coleta dinâmica,3676,2022-06-15 12:06:46,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento [3] Processamento Dinâmico,open,,6,15,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Campos Gerais,3648,2022-06-13 11:58:46,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Itatiaiuçu,3647,2022-06-13 11:58:44,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,6,13,2022,1/1970,6/2022,00
@@ -1422,6 +1417,7 @@ Coleta de dados da Estrutura Organizacional de Governador Valadares.,505,2021-06
 Coleta de dados das receitas da prefeitura de Governador Valadares.,500,2021-06-02 15:41:14,2021-10-06 14:33:37,[E] Externa [0] Coleta,closed,Governador Valadares,6,2,2021,10/2021,6/2021,40
 Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 13:44:20,[2] Alta Prioridade [E] Externa [0] Coleta,closed,Congonhas,7,21,2021,10/2021,7/2021,43
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,7,20,2021,8/2021,7/2021,35
+Coleta de Receitas - Ingressos de Receitas - Campos Gerais,3902,2022-07-07 11:01:27,2022-07-11 11:24:30,[T] Realização F01 [0] Coleta,closed,Campos Gerais,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - Itatiaiuçu,3901,2022-07-07 11:01:25,2022-07-07 11:46:18,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Sarzedo,3900,2022-07-07 11:01:24,2022-07-07 11:46:47,[T] Realização F01 [0] Coleta,closed,Sarzedo,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Ijaci,3899,2022-07-07 11:01:23,2022-07-07 11:47:46,[T] Realização F01 [0] Coleta,closed,Ijaci,7,7,2022,7/2022,7/2022,27
@@ -1429,13 +1425,17 @@ Coleta de Receitas - Ingressos de Receitas - Itaguara,3898,2022-07-07 11:01:20,2
 Coleta de Receitas - Ingressos de Receitas - Mantena,3897,2022-07-07 11:01:19,2022-07-07 11:49:20,[T] Realização F01 [0] Coleta,closed,Mantena,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Paraguaçu,3896,2022-07-07 11:01:17,2022-07-07 11:49:46,[T] Realização F01 [0] Coleta,closed,Paraguaçu,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Raposos,3895,2022-07-07 11:01:16,2022-07-07 11:50:31,[T] Realização F01 [0] Coleta,closed,Raposos,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Rio Casca,3894,2022-07-07 10:58:17,2022-07-11 11:09:49,[T] Realização F01 [0] Coleta,closed,Rio Casca,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - Rio Doce,3893,2022-07-07 10:58:16,2022-07-07 11:53:08,[T] Realização F01 [0] Coleta,closed,Rio Doce,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - São José da Barra,3892,2022-07-07 10:58:15,2022-07-07 11:53:41,[T] Realização F01 [0] Coleta,closed,São José da Barra,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Alterosa,3891,2022-07-07 10:58:13,2022-07-07 11:54:10,[T] Realização F01 [0] Coleta,closed,Alterosa,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Congonhas,3889,2022-07-07 10:58:11,2022-07-11 16:54:36,[T] Realização F01 [0] Coleta,closed,Congonhas,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - Cataguases,3888,2022-07-07 10:58:10,2022-07-07 11:44:16,[T] Realização F01 [0] Coleta,closed,Cataguases,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Lagoa da Prata,3887,2022-07-07 10:58:08,2022-07-07 11:43:47,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Botelhos,3886,2022-07-07 10:58:07,2022-07-11 16:17:24,[T] Realização F01 [0] Coleta,closed,Botelhos,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - São Sebastião do Oeste,3885,2022-07-07 10:58:05,2022-07-07 11:42:29,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Bandeira do Sul,3884,2022-07-07 10:58:04,2022-07-07 11:41:41,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Sacramento,3883,2022-07-07 10:58:02,2022-07-11 11:06:13,[T] Realização F01 [0] Coleta,closed,Sacramento,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - Luz,3882,2022-07-07 10:58:00,2022-07-07 11:28:41,[T] Realização F01 [0] Coleta,closed,Luz,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Santo Antônio do Monte,3881,2022-07-07 10:57:59,2022-07-07 11:27:58,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Mariana,3880,2022-07-07 10:57:58,2022-07-07 11:55:25,[T] Realização F01 [0] Coleta,closed,Mariana,7,7,2022,7/2022,7/2022,27

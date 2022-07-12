@@ -39,6 +39,15 @@ def coleta_layout():
     count_open = count_month['open'].sum()
     count_closed = count_month['closed'].sum()
     municipios_cobertos = len(open_df['municipio'].tolist())
+
+    week_status = pd.read_csv('data/week_status.csv')
+    count_coletas_semana = week_status[-1:]['closed_at'].values[0]
+
+    epics = pd.read_csv('data/count_epics_month.csv')
+    count_closed_epics = epics['closed'].sum()
+    count_total_epics = 29 * 20  #NOTE estimado via Siplanweb
+
+    #TODO fix if necessary
     count_tags = len(df_tags.loc[df_tags['closed'] != 0]['closed'])
 
     fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10 = figures.create_figures_coleta()
@@ -49,118 +58,63 @@ def coleta_layout():
             dcc.Store(id="aggregate_data"),
             # empty Div to trigger javascript file for graph resizing
             html.Div(id="output-clientside"),
-            html.Div(
-                [
-                    html.Div(
-                        [
-                            html.Div(
-                                [
-                                    html.H3("F01 - Coletas",style={"margin-bottom": "0px"},),
-                                    html.H5( "", style={"margin-top": "0px"} ),
-                                ]
-                            )
-                        ],
-                        className="two-half column",
-                        id="title",
-                    ),
-                    html.Div(
-                        [   
-                            html.Button("Refresh Data", id="refresh-button"),
-                            html.Div(id='output-container-button', children=None),
-                            #html.A(html.Button('Refresh Page'),href='/'),
-                           
+            html.Div([ html.Div([ html.Div([
+                html.H3("F01 - Coletas",style={"margin-bottom": "0px"},),
+                html.H5( "", style={"margin-top": "0px"} ), ])], className="two-half column", id="title",),
+                    html.Div([   
+                        html.Button("Refresh Data", id="refresh-button"),
+                        html.Div(id='output-container-button', children=None),
+                        #html.A(html.Button('Refresh Page'),href='/'),                           
                         ],
                         className="one-third column",
                         id="button-git",
                     ),
-                    
-                   
                 ],
                 id="header",
                 className="row flex-display",
                 style={"margin-bottom": "25px"},
             ),
-            html.Div(
-                [
-                    html.Div(
-                        [
-                            html.Div(
-                                [
-                                    html.Div(
-                                        [html.H6(id="municipios"), html.P("Municípios Cobertos: {}".format(municipios_cobertos))],
-                                        id="div-municipios",
-                                        className="mini_container",
-                                    ),
-                                    html.Div(
-                                        [html.H6(id="tags"), html.P("Tags Cobertas: {}".format(count_tags))],
-                                        id="div-tags",
-                                        className="mini_container",
-                                    ),
-                                    html.Div(
-                                        [html.H6(id="coletas_fechadas"), html.P("Coletas Fechadas: {}".format(count_closed))],
-                                        id="div-coletas_fechadas",
-                                        className="mini_container",
-                                    ),
-                                    html.Div(
-                                        [html.H6(id="coletas_abertas"), html.P("Coletas Abertas: {}".format(count_open))],
-                                        id="div-coletas_abertas",
-                                        className="mini_container",
-                                    ),
-                                 
-                                ],
-                                id="info-container",
-                                className="row container-display",
-                            ),
-                        ],
-                        id="right-column",
-                        className="12 columns",
-                    ),
-                ],
-                className="row flex-display",
-            ),
-            html.Div([ html.Div(
-                [dcc.Graph(id="graph9", figure=fig9)], className="pretty_container 6 columns",)], className="row flex-display",),
-            html.Div([ html.Div(
-                [dcc.Graph(id="graph10", figure=fig10)], className="pretty_container 6 columns",)], className="row flex-display",),
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph1", figure=fig1)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph6", figure=fig6)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph2", figure=fig2)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph7", figure=fig7)],className="pretty_container 6 columns",),
-                ],
-                className="row flex-display",
-            ),
-            
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph3", figure=fig3)], className="pretty_container 12 columns",),
-                ],
-                className="row flex-display",
-            ),
+
+            # Resumo
+            html.Div([ html.Div( [ html.Div([
+                html.Div(
+                    [html.H6(id="tags"), html.P("Coletas concluídas (semana): {}".format(count_coletas_semana))],
+                    id="div-tags", className="mini_container",),
+                html.Div(
+                    [html.H6(id="coletas_fechadas"), html.P("Coletas concluídas / Total: {} / {}".format(
+                        count_closed, count_open))], id="div-coletas_fechadas", className="mini_container",),
+                html.Div(
+                    [html.H6(id="tags"), html.P("Epics / Total: {} / {} ({:.1f}%)".format(
+                        count_closed_epics, count_total_epics, 100*count_closed_epics/count_total_epics))],
+                    id="div-tags", className="mini_container",),
+                html.Div(
+                    [html.H6(id="municipios"), html.P("Municípios cobertos: {}".format(municipios_cobertos))],
+                    id="div-municipios", className="mini_container"),                    
+
+            ], id="info-container", className="row container-display",), 
+            ], id="right-column", className="12 columns", ), ], className="row flex-display",),
+
+            # Graficos
+            html.Div([ html.Div([dcc.Graph(
+                id="graph9", figure=fig9)], className="pretty_container 6 columns",)], className="row flex-display",),
+            html.Div([ html.Div([dcc.Graph(
+                id="graph10", figure=fig10)], className="pretty_container 6 columns",)], className="row flex-display",),
+            html.Div([ html.Div([dcc.Graph(
+                id="graph6", figure=fig6)], className="pretty_container 6 columns",) ], className="row flex-display",),
+            html.Div([ html.Div([dcc.Graph(
+                id="graph1", figure=fig1)], className="pretty_container 6 columns",) ],className="row flex-display", ),
+            html.Div([ html.Div([dcc.Graph(
+                id="graph7", figure=fig7)], className="pretty_container 6 columns",) ], className="row flex-display",),
+            html.Div([ html.Div([dcc.Graph(
+                id="graph3", figure=fig3)], className="pretty_container 6 columns",) ], className="row flex-display",),
   
-            #html.Div(
-            #    [
-            #        html.Div([dcc.Graph(id="graph4", figure=fig4)],className="pretty_container six columns",),
-            #        html.Div([dcc.Graph(id="graph5", figure=fig5)],className="pretty_container six columns",),
-            #    ],
-            #    className="row flex-display",
-            #),
+            #NOTE not being used 
+            # html.Div([ html.Div([dcc.Graph(
+            #     id="graph2", figure=fig2)], className="pretty_container 6 columns",) ], className="row flex-display",),
+            # html.Div([ html.Div([dcc.Graph(
+            #     id="graph4", figure=fig4)],className="pretty_container six columns",)],className="row flex-display",),
+            # html.Div([ html.Div([dcc.Graph(
+            #     id="graph5", figure=fig5)],className="pretty_container six columns",)],className="row flex-display",),
         ],
         id="mainContainer",
         style={"display": "flex", "flex-direction": "column"},

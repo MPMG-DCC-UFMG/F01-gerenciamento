@@ -49,9 +49,8 @@ def main(template_issue_coleta, template_issue_generalizacao):
             "Licitação", "Contratos", "Despesas", "Concursos Públicos", "Servidores", "Obras Públicas",
            "Terceiro Setor", "Diárias de viagem", "Orçamento" ]
     
-    creators = ["", 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'arthurnader', 'albertoueda',
-                'GabrielLimaB', 'lucas-maia-96',
-                'dalila20', 'AntonioNvs','GabiAraujo','rafaelmg7','jorgesilva2407']
+    creators = ["", 'asafeclemente', 'isabel-elise', 'arthurnader', 'albertoueda', 
+                'GabrielLimaB', 'lucas-maia-96', 'dalila20', 'AntonioNvs','GabiAraujo','rafaelmg7','jorgesilva2407']
 
     git_token = st.text_input("Entre com sua Token do GitHub.")
     
