@@ -1,6 +1,7 @@
 import pandas as pd
 import extract_data
 import re
+import json
 
 def count_issues_epic(info_issues, zh, repo_F01, repo_id_f01):
     
@@ -227,5 +228,36 @@ def summarize_epics(epics_id, repo, info_issues, open_column='open', closed_colu
     count_epics_month = count_epics_month.sort_values(by='month', ascending=True)
     count_epics_month['month'] = count_epics_month['month'].dt.strftime("%m/%Y").astype(str)
         
-    return epics_info, count_epics_month
-     
+    return epics_info, count_epics_month     
+
+# municipios = build_municipios_clusters_df('data/clusters.d3.json', 'data/part-00000', 'data/cluster-template.csv')
+def build_municipios_clusters_df(clusters_json_path, part_0000_path, cluster_template_path):
+    with open(clusters_json_path, 'r') as f:
+         clusters_json = json.loads(f.read())
+
+    municipios = []
+    for cluster in clusters_json['children']:
+        for municipio in cluster['children']:
+            new_row = [int(municipio['name']), int(cluster['name']), int(cluster['size']/10)]
+            municipios.append(new_row) 
+            
+    municipios = pd.DataFrame(municipios, columns=['municipio_id', 'cluster_id', 'cluster_size'],
+                            dtype=int)
+
+    nomes_municipios = pd.read_csv(part_0000_path, names=['municipio_id', 'municipio'])
+    nomes_municipios['municipio'] = nomes_municipios['municipio'].apply(lambda x: x.split('/')[-1][:-5])        
+    municipios = municipios.merge(nomes_municipios, on='municipio_id', how='left')
+
+    cluster_template = pd.read_csv(cluster_template_path)
+    cluster_template['template_name_size'] = cluster_template.template + \
+        ' (' + cluster_template.cluster_n_portais.astype(str) + ')' 
+    municipios = municipios.merge(cluster_template, on='cluster_id', how='left')
+    
+    municipios = municipios.sort_values(['cluster_size', 'template_name_size', 'municipio'], 
+                                        ascending=[False, True, True])
+    municipios = municipios[['municipio_id', 'municipio', 'template_name_size', 'template', 
+                             'cluster_id',	'cluster_size',	'cluster_rank', 'cluster_n_portais']]
+    
+    municipios.to_csv('data/municipios_clusters.csv', index=False)
+    
+    return municipios
