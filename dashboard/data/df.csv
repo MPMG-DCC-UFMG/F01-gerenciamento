@@ -182,6 +182,11 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
+Coleta de Despesas com Diárias - Itatiaiuçu,4111,2022-07-20 23:25:51,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,7,20,2022,1/1970,7/2022,00
+Coleta de Despesas com Diárias - Ijaci,4109,2022-07-20 23:25:48,0,[T] Realização F01 [0] Coleta,open,Ijaci,7,20,2022,1/1970,7/2022,00
+Coleta de Despesas com Diárias - Congonhas,4099,2022-07-20 23:22:39,0,[T] Realização F01 [0] Coleta,open,Congonhas,7,20,2022,1/1970,7/2022,00
+Coleta de Despesas com Diárias - Botelhos,4096,2022-07-20 23:22:35,0,[T] Realização F01 [0] Coleta,open,Botelhos,7,20,2022,1/1970,7/2022,00
+Coleta de Despesas com Diárias - Sacramento,4093,2022-07-20 23:22:31,0,[T] Realização F01 [0] Coleta,open,Sacramento,7,20,2022,1/1970,7/2022,00
 Problema na visualização de passos de coleta dinâmica,3676,2022-06-15 12:06:46,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento [3] Processamento Dinâmico,open,,6,15,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Campos Gerais,3648,2022-06-13 11:58:46,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Itatiaiuçu,3647,2022-06-13 11:58:44,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,6,13,2022,1/1970,6/2022,00
@@ -341,27 +346,27 @@ Coleta de Despesas - Pagamentos - Bonfinópolis de Minas,4022,2022-07-19 23:35:4
 Coleta de Despesas - Pagamentos - Araújos,4021,2022-07-19 23:35:47,0,[T] Realização F01 [0] Coleta,open,Araújos,7,19,2022,1/1970,7/2022,00
 Coleta de Despesas - Pagamentos - Araçaí,4020,2022-07-19 23:35:45,0,[T] Realização F01 [0] Coleta,open,Araçaí,7,19,2022,1/1970,7/2022,00
 Coleta de Despesas - Pagamentos - Antônio Prado de Minas,4019,2022-07-19 23:35:44,0,[T] Realização F01 [0] Coleta,open,Antônio Prado de Minas,7,19,2022,1/1970,7/2022,00
-Coleta de Receitas - São Sebastião do Rio Verde,3973,2022-07-18 14:46:52,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Rio Verde,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Presidente Bernardes,3972,2022-07-18 14:46:51,0,[T] Realização F01 [0] Coleta,open,Presidente Bernardes,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Passa Quatro,3971,2022-07-18 14:46:48,0,[T] Realização F01 [0] Coleta,open,Passa Quatro,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Resplendor,3970,2022-07-18 14:43:50,0,[T] Realização F01 [0] Coleta,open,Resplendor,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Olímpio Noronha,3969,2022-07-18 14:43:48,0,[T] Realização F01 [0] Coleta,open,Olímpio Noronha,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Confins,3968,2022-07-18 14:43:47,0,[T] Realização F01 [0] Coleta,open,Confins,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Jesuânia,3967,2022-07-18 14:43:45,0,[T] Realização F01 [0] Coleta,open,Jesuânia,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Muriaé,3966,2022-07-18 14:43:44,0,[T] Realização F01 [0] Coleta,open,Muriaé,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Campos Altos,3965,2022-07-18 14:43:43,0,[T] Realização F01 [0] Coleta,open,Campos Altos,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Alagoa,3964,2022-07-18 14:43:41,0,[T] Realização F01 [0] Coleta,open,Alagoa,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Brumadinho,3963,2022-07-18 14:43:40,0,[T] Realização F01 [0] Coleta,open,Brumadinho,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Cristais,3962,2022-07-18 14:43:38,0,[T] Realização F01 [0] Coleta,open,Cristais,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Itabirito,3961,2022-07-18 14:43:37,0,[T] Realização F01 [0] Coleta,open,Itabirito,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Divinésia,3960,2022-07-18 14:43:36,0,[T] Realização F01 [0] Coleta,open,Divinésia,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Pouso Alto,3959,2022-07-18 14:43:34,0,[T] Realização F01 [0] Coleta,open,Pouso Alto,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Guanhães,3958,2022-07-18 14:43:33,0,[T] Realização F01 [0] Coleta,open,Guanhães,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Lassance,3957,2022-07-18 14:43:31,0,[T] Realização F01 [0] Coleta,open,Lassance,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Soledade de Minas,3956,2022-07-18 14:43:30,0,[T] Realização F01 [0] Coleta,open,Soledade de Minas,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Vespasiano,3955,2022-07-18 14:43:28,0,[T] Realização F01 [0] Coleta,open,Vespasiano,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Serranos,3954,2022-07-18 14:43:27,0,[T] Realização F01 [0] Coleta,open,Serranos,7,18,2022,1/1970,7/2022,00
-Coleta de Receitas - Virgínia,3953,2022-07-18 14:43:25,0,[T] Realização F01 [0] Coleta,open,Virgínia,7,18,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - São Sebastião do Rio Verde,4133,2022-07-21 14:21:20,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Rio Verde,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Presidente Bernardes,4132,2022-07-21 14:21:19,0,[T] Realização F01 [0] Coleta,open,Presidente Bernardes,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Passa Quatro,4131,2022-07-21 14:21:17,0,[T] Realização F01 [0] Coleta,open,Passa Quatro,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Resplendor,4130,2022-07-21 14:18:19,0,[T] Realização F01 [0] Coleta,open,Resplendor,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Olímpio Noronha,4129,2022-07-21 14:18:18,0,[T] Realização F01 [0] Coleta,open,Olímpio Noronha,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Confins,4128,2022-07-21 14:18:16,0,[T] Realização F01 [0] Coleta,open,Confins,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Jesuânia,4127,2022-07-21 14:18:15,0,[T] Realização F01 [0] Coleta,open,Jesuânia,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Muriaé,4126,2022-07-21 14:18:13,0,[T] Realização F01 [0] Coleta,open,Muriaé,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Campos Altos,4125,2022-07-21 14:18:11,0,[T] Realização F01 [0] Coleta,open,Campos Altos,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Alagoa,4124,2022-07-21 14:18:10,0,[T] Realização F01 [0] Coleta,open,Alagoa,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Brumadinho,4123,2022-07-21 14:18:08,0,[T] Realização F01 [0] Coleta,open,Brumadinho,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Cristais,4122,2022-07-21 14:18:07,0,[T] Realização F01 [0] Coleta,open,Cristais,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Itabirito,4121,2022-07-21 14:18:05,0,[T] Realização F01 [0] Coleta,open,Itabirito,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Divinésia,4120,2022-07-21 14:18:03,0,[T] Realização F01 [0] Coleta,open,Divinésia,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Pouso Alto,4119,2022-07-21 14:18:01,0,[T] Realização F01 [0] Coleta,open,Pouso Alto,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Guanhães,4118,2022-07-21 14:18:00,0,[T] Realização F01 [0] Coleta,open,Guanhães,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Lassance,4117,2022-07-21 14:17:58,0,[T] Realização F01 [0] Coleta,open,Lassance,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Soledade de Minas,4116,2022-07-21 14:17:57,0,[T] Realização F01 [0] Coleta,open,Soledade de Minas,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Vespasiano,4115,2022-07-21 14:17:55,0,[T] Realização F01 [0] Coleta,open,Vespasiano,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Serranos,4114,2022-07-21 14:17:54,0,[T] Realização F01 [0] Coleta,open,Serranos,7,21,2022,1/1970,7/2022,00
+Coleta de Informações Institucionais - Leis Municipais - Virgínia,4113,2022-07-21 14:17:52,0,[T] Realização F01 [0] Coleta,open,Virgínia,7,21,2022,1/1970,7/2022,00
 Coleta de Servidores - Piedade do Rio Grande,4018,2022-07-19 22:51:42,0,[T] Realização F01 [0] Coleta,open,Piedade do Rio Grande,7,19,2022,1/1970,7/2022,00
 Coleta de Servidores - Lagoa Dourada,4017,2022-07-19 22:51:41,0,[T] Realização F01 [0] Coleta,open,Lagoa Dourada,7,19,2022,1/1970,7/2022,00
 Coleta de Servidores - Conceição dos Ouros,4016,2022-07-19 22:51:40,0,[T] Realização F01 [0] Coleta,open,Conceição dos Ouros,7,19,2022,1/1970,7/2022,00
@@ -1547,6 +1552,27 @@ Coleta de dados da Estrutura Organizacional de Governador Valadares.,505,2021-06
 Coleta de dados das receitas da prefeitura de Governador Valadares.,500,2021-06-02 15:41:14,2021-10-06 14:33:37,[E] Externa [0] Coleta,closed,Governador Valadares,6,2,2021,10/2021,6/2021,40
 Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 13:44:20,[2] Alta Prioridade [E] Externa [0] Coleta,closed,Congonhas,7,21,2021,10/2021,7/2021,43
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,7,20,2021,8/2021,7/2021,35
+Coleta de Despesas com Diárias - Campos Gerais,4112,2022-07-20 23:25:52,2022-07-21 11:09:43,[T] Realização F01 [0] Coleta,closed,Campos Gerais,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Sarzedo,4110,2022-07-20 23:25:49,2022-07-21 01:03:49,[T] Realização F01 [0] Coleta,closed,Sarzedo,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Itaguara,4108,2022-07-20 23:25:47,2022-07-21 01:05:34,[T] Realização F01 [0] Coleta,closed,Itaguara,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Mantena,4107,2022-07-20 23:25:45,2022-07-21 01:07:19,[T] Realização F01 [0] Coleta,closed,Mantena,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Paraguaçu,4106,2022-07-20 23:25:44,2022-07-21 01:07:46,[T] Realização F01 [0] Coleta,closed,Paraguaçu,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Raposos,4105,2022-07-20 23:25:43,2022-07-21 01:09:14,[T] Realização F01 [0] Coleta,closed,Raposos,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Rio Casca,4104,2022-07-20 23:22:46,2022-07-21 01:15:39,[T] Realização F01 [0] Coleta,closed,Rio Casca,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Rio Doce,4103,2022-07-20 23:22:45,2022-07-21 01:12:40,[T] Realização F01 [0] Coleta,closed,Rio Doce,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - São José da Barra,4102,2022-07-20 23:22:43,2022-07-21 11:02:14,[T] Realização F01 [0] Coleta,closed,São José da Barra,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Alterosa,4101,2022-07-20 23:22:42,2022-07-21 01:16:23,[T] Realização F01 [0] Coleta,closed,Alterosa,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Formiga,4100,2022-07-20 23:22:40,2022-07-21 11:01:17,[T] Realização F01 [0] Coleta,closed,Formiga,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Cataguases,4098,2022-07-20 23:22:38,2022-07-21 01:19:51,[T] Realização F01 [0] Coleta,closed,Cataguases,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Lagoa da Prata,4097,2022-07-20 23:22:36,2022-07-21 01:17:09,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - São Sebastião do Oeste,4095,2022-07-20 23:22:33,2022-07-21 18:47:56,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Bandeira do Sul,4094,2022-07-20 23:22:32,2022-07-21 01:18:06,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Luz,4092,2022-07-20 23:22:29,2022-07-21 10:53:45,[T] Realização F01 [0] Coleta,closed,Luz,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Santo Antônio do Monte,4091,2022-07-20 23:22:28,2022-07-21 01:01:30,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Mariana,4090,2022-07-20 23:22:26,2022-07-21 11:11:21,[T] Realização F01 [0] Coleta,closed,Mariana,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Itapeva,4089,2022-07-20 23:22:25,2022-07-21 10:53:02,[T] Realização F01 [0] Coleta,closed,Itapeva,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Cláudio,4088,2022-07-20 23:22:23,2022-07-21 01:22:36,[T] Realização F01 [0] Coleta,closed,Cláudio,7,20,2022,7/2022,7/2022,29
+Coleta de Despesas com Diárias - Alto Rio Doce,4087,2022-07-20 23:22:22,2022-07-20 23:27:22,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,7,20,2022,7/2022,7/2022,29
 Coleta de Receitas - Ingressos de Receitas - Campos Gerais,3902,2022-07-07 11:01:27,2022-07-11 11:24:30,[T] Realização F01 [0] Coleta,closed,Campos Gerais,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - Itatiaiuçu,3901,2022-07-07 11:01:25,2022-07-07 11:46:18,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Sarzedo,3900,2022-07-07 11:01:24,2022-07-07 11:46:47,[T] Realização F01 [0] Coleta,closed,Sarzedo,7,7,2022,7/2022,7/2022,27
@@ -3151,3 +3177,24 @@ Coleta de Contratos - Caranaíba,3911,2022-07-13 18:04:54,2022-07-14 00:25:10,[T
 Coleta de Contratos - Luminárias,3910,2022-07-13 18:04:53,2022-07-14 00:25:10,[T] Realização F01 [0] Coleta,closed,Luminárias,7,13,2022,7/2022,7/2022,28
 Coleta de Contratos - Casa Grande,3909,2022-07-13 18:04:51,2022-07-14 00:25:10,[T] Realização F01 [0] Coleta,closed,Casa Grande,7,13,2022,7/2022,7/2022,28
 Coleta de Contratos - Barroso,3908,2022-07-13 18:04:50,2022-07-14 00:25:09,[T] Realização F01 [0] Coleta,closed,Barroso,7,13,2022,7/2022,7/2022,28
+Coleta de Receitas - São Sebastião do Rio Verde,3973,2022-07-18 14:46:52,2022-07-21 13:08:17,[T] Realização F01 [0] Coleta,closed,São Sebastião do Rio Verde,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Presidente Bernardes,3972,2022-07-18 14:46:51,2022-07-21 13:08:17,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Passa Quatro,3971,2022-07-18 14:46:48,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Passa Quatro,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Resplendor,3970,2022-07-18 14:43:50,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Resplendor,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Olímpio Noronha,3969,2022-07-18 14:43:48,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Confins,3968,2022-07-18 14:43:47,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Confins,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Jesuânia,3967,2022-07-18 14:43:45,2022-07-21 13:08:18,[T] Realização F01 [0] Coleta,closed,Jesuânia,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Muriaé,3966,2022-07-18 14:43:44,2022-07-21 13:40:37,[T] Realização F01 [0] Coleta,closed,Muriaé,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Campos Altos,3965,2022-07-18 14:43:43,2022-07-21 13:08:18,[T] Realização F01 [0] Coleta,closed,Campos Altos,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Alagoa,3964,2022-07-18 14:43:41,2022-07-21 13:08:18,[T] Realização F01 [0] Coleta,closed,Alagoa,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Brumadinho,3963,2022-07-18 14:43:40,2022-07-21 13:40:36,[T] Realização F01 [0] Coleta,closed,Brumadinho,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Cristais,3962,2022-07-18 14:43:38,2022-07-21 13:08:18,[T] Realização F01 [0] Coleta,closed,Cristais,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Itabirito,3961,2022-07-18 14:43:37,2022-07-21 13:08:17,[T] Realização F01 [0] Coleta,closed,Itabirito,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Divinésia,3960,2022-07-18 14:43:36,2022-07-21 13:08:17,[T] Realização F01 [0] Coleta,closed,Divinésia,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Pouso Alto,3959,2022-07-18 14:43:34,2022-07-21 13:08:17,[T] Realização F01 [0] Coleta,closed,Pouso Alto,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Guanhães,3958,2022-07-18 14:43:33,2022-07-21 13:41:26,[T] Realização F01 [0] Coleta,closed,Guanhães,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Lassance,3957,2022-07-18 14:43:31,2022-07-21 13:40:36,[T] Realização F01 [0] Coleta,closed,Lassance,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Soledade de Minas,3956,2022-07-18 14:43:30,2022-07-21 13:40:36,[T] Realização F01 [0] Coleta,closed,Soledade de Minas,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Vespasiano,3955,2022-07-18 14:43:28,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Vespasiano,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Serranos,3954,2022-07-18 14:43:27,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Serranos,7,18,2022,7/2022,7/2022,29
+Coleta de Receitas - Virgínia,3953,2022-07-18 14:43:25,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Virgínia,7,18,2022,7/2022,7/2022,29

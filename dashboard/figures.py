@@ -153,7 +153,7 @@ def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Temp
 
     # Fonte: Planilha Controle de Dados (#TODO transformar em Epics com "não-localizado")
     nao_loc_manual = {
-        'Betha': 12, 
+        # 'Betha': 12, 
         'Municipal Net': 12,
         'Síntese tecnologia informatica': 2,
     }
@@ -177,10 +177,9 @@ def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Temp
     df.loc[df.state == 'Não coletável (timeout)', 'state'] = 'Não localizado' 
     templates = df['template'].dropna().unique()
     
-    
     total_ref = 29  # Siplanweb  
     total = dict.fromkeys(templates, total_ref)
-    total['Betha'] = 35
+    total['Betha'] = 33
     total['ADPM'] = 19
     
     # Fill missing (estimated) epics in df
