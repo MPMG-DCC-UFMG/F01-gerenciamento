@@ -59,7 +59,7 @@ def main(template_issue_coleta, template_issue_generalizacao):
     user = st.selectbox("Nome do usuário no github. (Essa informação será utilizada para te atribuir como responsável por essa issue.", 
                         options=creators)
     
-    tag = st.text_input("Entre com a tag da solicitação.")
+    tag = st.text_input("Entre com a tag - subtag da solicitação.")
     
     tipo = st.selectbox("Qual o tipo de issue?", options=[ "", 'Coleta', 'Teste de generalização'])
       
@@ -76,8 +76,13 @@ def main(template_issue_coleta, template_issue_generalizacao):
     
     b1 = st.button('Show Issues', key=0)
     if b1:
-        
-        st.markdown("### Atenção humano, você está criando uma issue de {}!".format(tipo))
+
+        num_issues = len(issues.items())
+
+        if num_issues == 1:
+            st.markdown("### Atenção humano, você está criando uma issue de {}!".format(tipo))
+        else:
+            st.markdown("### Atenção humano, você está criando {} issues de {}!".format(num_issues, tipo))
     
         logtxtbox = st.empty()
         logtxt = ''
