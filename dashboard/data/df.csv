@@ -182,7 +182,6 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
-Coleta de Receitas - Ingressos de Receitas - Formiga,3890,2022-07-07 10:58:12,0,[T] Realização F01 [0] Coleta,open,Formiga,7,7,2022,1/1970,7/2022,00
 Problema na visualização de passos de coleta dinâmica,3676,2022-06-15 12:06:46,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento [3] Processamento Dinâmico,open,,6,15,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Campos Gerais,3648,2022-06-13 11:58:46,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Itatiaiuçu,3647,2022-06-13 11:58:44,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,6,13,2022,1/1970,6/2022,00
@@ -277,6 +276,137 @@ Coleta de dados de Relatórios Fiscais de Paracatu,957,2021-11-25 01:55:39,2021-
 Coleta de dados das Contas Públicas de Paracatu,955,2021-11-25 01:53:30,0,[E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,11,25,2021,1/1970,11/2021,00
 Coleta de dados das Contas Públicas de Paracatu,956,2021-11-25 01:53:39,2021-11-26 18:33:57,[E] Externa [T] Realização F01 [0] Coleta,closed,Paracatu,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de Elói Mendes,901,2021-11-12 13:10:46,0,[E] Externa [T] Realização F01 [0] Coleta,open,Elói Mendes,11,12,2021,1/1970,11/2021,00
+Coleta de Despesas - Pagamentos - Vieiras,4083,2022-07-19 23:45:59,0,[T] Realização F01 [0] Coleta,open,Vieiras,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Vargem Bonita,4082,2022-07-19 23:45:58,0,[T] Realização F01 [0] Coleta,open,Vargem Bonita,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Uruana de Minas,4081,2022-07-19 23:45:56,0,[T] Realização F01 [0] Coleta,open,Uruana de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Taparuba,4080,2022-07-19 23:45:55,0,[T] Realização F01 [0] Coleta,open,Taparuba,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - São José da Varginha,4079,2022-07-19 23:45:53,0,[T] Realização F01 [0] Coleta,open,São José da Varginha,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Serranópolis de Minas,4078,2022-07-19 23:45:52,0,[T] Realização F01 [0] Coleta,open,Serranópolis de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Santo Antônio do Rio Abaixo,4077,2022-07-19 23:45:51,0,[T] Realização F01 [0] Coleta,open,Santo Antônio do Rio Abaixo,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Santana de Pirapama,4076,2022-07-19 23:45:49,0,[T] Realização F01 [0] Coleta,open,Santana de Pirapama,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Santa Rosa da Serra,4075,2022-07-19 23:45:48,0,[T] Realização F01 [0] Coleta,open,Santa Rosa da Serra,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Santa Maria do Salto,4074,2022-07-19 23:42:50,0,[T] Realização F01 [0] Coleta,open,Santa Maria do Salto,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Santa Margarida,4073,2022-07-19 23:42:49,0,[T] Realização F01 [0] Coleta,open,Santa Margarida,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Salinas,4072,2022-07-19 23:42:48,0,[T] Realização F01 [0] Coleta,open,Salinas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Rubelita,4071,2022-07-19 23:42:46,0,[T] Realização F01 [0] Coleta,open,Rubelita,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Ribeirão Vermelho,4070,2022-07-19 23:42:45,0,[T] Realização F01 [0] Coleta,open,Ribeirão Vermelho,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Riachinho,4069,2022-07-19 23:42:44,0,[T] Realização F01 [0] Coleta,open,Riachinho,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Prudente de Morais,4068,2022-07-19 23:42:42,0,[T] Realização F01 [0] Coleta,open,Prudente de Morais,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Presidente Olegário,4067,2022-07-19 23:42:41,0,[T] Realização F01 [0] Coleta,open,Presidente Olegário,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Porteirinha,4066,2022-07-19 23:42:40,0,[T] Realização F01 [0] Coleta,open,Porteirinha,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Piumhi,4065,2022-07-19 23:42:38,0,[T] Realização F01 [0] Coleta,open,Piumhi,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Pitangui,4064,2022-07-19 23:42:37,0,[T] Realização F01 [0] Coleta,open,Pitangui,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Perdões,4063,2022-07-19 23:42:35,0,[T] Realização F01 [0] Coleta,open,Perdões,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Perdigão,4062,2022-07-19 23:42:34,0,[T] Realização F01 [0] Coleta,open,Perdigão,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Pedra do Indaiá,4061,2022-07-19 23:42:33,0,[T] Realização F01 [0] Coleta,open,Pedra do Indaiá,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Papagaios,4060,2022-07-19 23:42:31,0,[T] Realização F01 [0] Coleta,open,Papagaios,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Pains,4059,2022-07-19 23:42:30,0,[T] Realização F01 [0] Coleta,open,Pains,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Onça de Pitangui,4058,2022-07-19 23:42:29,0,[T] Realização F01 [0] Coleta,open,Onça de Pitangui,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Mutum,4057,2022-07-19 23:42:27,0,[T] Realização F01 [0] Coleta,open,Mutum,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Morro da Garça,4056,2022-07-19 23:42:26,0,[T] Realização F01 [0] Coleta,open,Morro da Garça,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Morada Nova de Minas,4055,2022-07-19 23:39:28,0,[T] Realização F01 [0] Coleta,open,Morada Nova de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Monjolos,4054,2022-07-19 23:39:27,0,[T] Realização F01 [0] Coleta,open,Monjolos,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Medeiros,4053,2022-07-19 23:39:26,0,[T] Realização F01 [0] Coleta,open,Medeiros,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Matozinhos,4052,2022-07-19 23:39:24,0,[T] Realização F01 [0] Coleta,open,Matozinhos,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Matias Cardoso,4051,2022-07-19 23:39:23,0,[T] Realização F01 [0] Coleta,open,Matias Cardoso,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Martinho Campos,4050,2022-07-19 23:39:22,0,[T] Realização F01 [0] Coleta,open,Martinho Campos,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Manhumirim,4049,2022-07-19 23:39:20,0,[T] Realização F01 [0] Coleta,open,Manhumirim,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Lagamar,4048,2022-07-19 23:39:19,0,[T] Realização F01 [0] Coleta,open,Lagamar,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - José Raydan,4047,2022-07-19 23:39:18,0,[T] Realização F01 [0] Coleta,open,José Raydan,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Joaíma,4046,2022-07-19 23:39:16,0,[T] Realização F01 [0] Coleta,open,Joaíma,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Ipanema,4045,2022-07-19 23:39:15,0,[T] Realização F01 [0] Coleta,open,Ipanema,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Iguatama,4044,2022-07-19 23:39:13,0,[T] Realização F01 [0] Coleta,open,Iguatama,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Ibiá,4043,2022-07-19 23:39:12,0,[T] Realização F01 [0] Coleta,open,Ibiá,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Funilândia,4042,2022-07-19 23:39:11,0,[T] Realização F01 [0] Coleta,open,Funilândia,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Fortuna de Minas,4041,2022-07-19 23:39:09,0,[T] Realização F01 [0] Coleta,open,Fortuna de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Felisburgo,4040,2022-07-19 23:39:08,0,[T] Realização F01 [0] Coleta,open,Felisburgo,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Doresópolis,4039,2022-07-19 23:39:07,0,[T] Realização F01 [0] Coleta,open,Doresópolis,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Dom Joaquim,4038,2022-07-19 23:39:06,0,[T] Realização F01 [0] Coleta,open,Dom Joaquim,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Dom Bosco,4037,2022-07-19 23:39:04,0,[T] Realização F01 [0] Coleta,open,Dom Bosco,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Desterro do Melo,4036,2022-07-19 23:36:07,0,[T] Realização F01 [0] Coleta,open,Desterro do Melo,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Desterro de Entre Rios,4035,2022-07-19 23:36:05,0,[T] Realização F01 [0] Coleta,open,Desterro de Entre Rios,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Córrego Fundo,4034,2022-07-19 23:36:04,0,[T] Realização F01 [0] Coleta,open,Córrego Fundo,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Córrego Danta,4033,2022-07-19 23:36:03,0,[T] Realização F01 [0] Coleta,open,Córrego Danta,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Corinto,4032,2022-07-19 23:36:01,0,[T] Realização F01 [0] Coleta,open,Corinto,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Conceição do Mato Dentro,4031,2022-07-19 23:36:00,0,[T] Realização F01 [0] Coleta,open,Conceição do Mato Dentro,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Chalé,4030,2022-07-19 23:35:58,0,[T] Realização F01 [0] Coleta,open,Chalé,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Carlos Chagas,4029,2022-07-19 23:35:57,0,[T] Realização F01 [0] Coleta,open,Carlos Chagas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Capela Nova,4028,2022-07-19 23:35:56,0,[T] Realização F01 [0] Coleta,open,Capela Nova,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Campestre,4027,2022-07-19 23:35:55,0,[T] Realização F01 [0] Coleta,open,Campestre,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Caetanópolis,4026,2022-07-19 23:35:53,0,[T] Realização F01 [0] Coleta,open,Caetanópolis,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Cachoeira da Prata,4025,2022-07-19 23:35:52,0,[T] Realização F01 [0] Coleta,open,Cachoeira da Prata,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Buenópolis,4024,2022-07-19 23:35:51,0,[T] Realização F01 [0] Coleta,open,Buenópolis,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Brasilândia de Minas,4023,2022-07-19 23:35:49,0,[T] Realização F01 [0] Coleta,open,Brasilândia de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Bonfinópolis de Minas,4022,2022-07-19 23:35:48,0,[T] Realização F01 [0] Coleta,open,Bonfinópolis de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Araújos,4021,2022-07-19 23:35:47,0,[T] Realização F01 [0] Coleta,open,Araújos,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Araçaí,4020,2022-07-19 23:35:45,0,[T] Realização F01 [0] Coleta,open,Araçaí,7,19,2022,1/1970,7/2022,00
+Coleta de Despesas - Pagamentos - Antônio Prado de Minas,4019,2022-07-19 23:35:44,0,[T] Realização F01 [0] Coleta,open,Antônio Prado de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Receitas - São Sebastião do Rio Verde,3973,2022-07-18 14:46:52,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Rio Verde,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Presidente Bernardes,3972,2022-07-18 14:46:51,0,[T] Realização F01 [0] Coleta,open,Presidente Bernardes,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Passa Quatro,3971,2022-07-18 14:46:48,0,[T] Realização F01 [0] Coleta,open,Passa Quatro,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Resplendor,3970,2022-07-18 14:43:50,0,[T] Realização F01 [0] Coleta,open,Resplendor,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Olímpio Noronha,3969,2022-07-18 14:43:48,0,[T] Realização F01 [0] Coleta,open,Olímpio Noronha,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Confins,3968,2022-07-18 14:43:47,0,[T] Realização F01 [0] Coleta,open,Confins,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Jesuânia,3967,2022-07-18 14:43:45,0,[T] Realização F01 [0] Coleta,open,Jesuânia,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Muriaé,3966,2022-07-18 14:43:44,0,[T] Realização F01 [0] Coleta,open,Muriaé,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Campos Altos,3965,2022-07-18 14:43:43,0,[T] Realização F01 [0] Coleta,open,Campos Altos,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Alagoa,3964,2022-07-18 14:43:41,0,[T] Realização F01 [0] Coleta,open,Alagoa,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Brumadinho,3963,2022-07-18 14:43:40,0,[T] Realização F01 [0] Coleta,open,Brumadinho,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Cristais,3962,2022-07-18 14:43:38,0,[T] Realização F01 [0] Coleta,open,Cristais,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Itabirito,3961,2022-07-18 14:43:37,0,[T] Realização F01 [0] Coleta,open,Itabirito,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Divinésia,3960,2022-07-18 14:43:36,0,[T] Realização F01 [0] Coleta,open,Divinésia,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Pouso Alto,3959,2022-07-18 14:43:34,0,[T] Realização F01 [0] Coleta,open,Pouso Alto,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Guanhães,3958,2022-07-18 14:43:33,0,[T] Realização F01 [0] Coleta,open,Guanhães,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Lassance,3957,2022-07-18 14:43:31,0,[T] Realização F01 [0] Coleta,open,Lassance,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Soledade de Minas,3956,2022-07-18 14:43:30,0,[T] Realização F01 [0] Coleta,open,Soledade de Minas,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Vespasiano,3955,2022-07-18 14:43:28,0,[T] Realização F01 [0] Coleta,open,Vespasiano,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Serranos,3954,2022-07-18 14:43:27,0,[T] Realização F01 [0] Coleta,open,Serranos,7,18,2022,1/1970,7/2022,00
+Coleta de Receitas - Virgínia,3953,2022-07-18 14:43:25,0,[T] Realização F01 [0] Coleta,open,Virgínia,7,18,2022,1/1970,7/2022,00
+Coleta de Servidores - Piedade do Rio Grande,4018,2022-07-19 22:51:42,0,[T] Realização F01 [0] Coleta,open,Piedade do Rio Grande,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Lagoa Dourada,4017,2022-07-19 22:51:41,0,[T] Realização F01 [0] Coleta,open,Lagoa Dourada,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Conceição dos Ouros,4016,2022-07-19 22:51:40,0,[T] Realização F01 [0] Coleta,open,Conceição dos Ouros,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Ervália,4015,2022-07-19 22:51:38,0,[T] Realização F01 [0] Coleta,open,Ervália,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Resende Costa,4014,2022-07-19 22:51:37,0,[T] Realização F01 [0] Coleta,open,Resende Costa,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Ritápolis,4013,2022-07-19 22:51:36,0,[T] Realização F01 [0] Coleta,open,Ritápolis,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Silveirânia,4012,2022-07-19 22:51:34,0,[T] Realização F01 [0] Coleta,open,Silveirânia,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - São Geraldo,4011,2022-07-19 22:51:33,0,[T] Realização F01 [0] Coleta,open,São Geraldo,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Santana do Jacaré,4010,2022-07-19 22:48:36,0,[T] Realização F01 [0] Coleta,open,Santana do Jacaré,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Belo Vale,4009,2022-07-19 22:48:35,0,[T] Realização F01 [0] Coleta,open,Belo Vale,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - São Tiago,4008,2022-07-19 22:48:33,0,[T] Realização F01 [0] Coleta,open,São Tiago,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Ingaí,4007,2022-07-19 22:48:32,0,[T] Realização F01 [0] Coleta,open,Ingaí,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Alfredo Vasconcelos,4006,2022-07-19 22:48:31,0,[T] Realização F01 [0] Coleta,open,Alfredo Vasconcelos,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Antônio Carlos,4005,2022-07-19 22:48:30,0,[T] Realização F01 [0] Coleta,open,Antônio Carlos,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Prados,4004,2022-07-19 22:48:28,0,[T] Realização F01 [0] Coleta,open,Prados,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - São João del Rei,4003,2022-07-19 22:48:27,0,[T] Realização F01 [0] Coleta,open,São João del Rei,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Santa Cruz de Minas,4002,2022-07-19 22:48:26,0,[T] Realização F01 [0] Coleta,open,Santa Cruz de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Ibituruna,4001,2022-07-19 22:48:24,0,[T] Realização F01 [0] Coleta,open,Ibituruna,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Queluzito,4000,2022-07-19 22:48:23,0,[T] Realização F01 [0] Coleta,open,Queluzito,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Descoberto,3999,2022-07-19 22:48:22,0,[T] Realização F01 [0] Coleta,open,Descoberto,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Jeceaba,3998,2022-07-19 22:48:20,0,[T] Realização F01 [0] Coleta,open,Jeceaba,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Rio Acima,3997,2022-07-19 22:48:19,0,[T] Realização F01 [0] Coleta,open,Rio Acima,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Carrancas,3996,2022-07-19 22:48:17,0,[T] Realização F01 [0] Coleta,open,Carrancas,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Itutinga,3995,2022-07-19 22:48:16,0,[T] Realização F01 [0] Coleta,open,Itutinga,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Visconde do Rio Branco,3994,2022-07-19 22:48:15,0,[T] Realização F01 [0] Coleta,open,Visconde do Rio Branco,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Tiradentes,3993,2022-07-19 22:48:13,0,[T] Realização F01 [0] Coleta,open,Tiradentes,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Itumirim,3992,2022-07-19 22:48:12,0,[T] Realização F01 [0] Coleta,open,Itumirim,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Ressaquinha,3991,2022-07-19 22:45:13,0,[T] Realização F01 [0] Coleta,open,Ressaquinha,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Conceição da Aparecida,3990,2022-07-19 22:45:11,0,[T] Realização F01 [0] Coleta,open,Conceição da Aparecida,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - São Vicente de Minas,3989,2022-07-19 22:45:10,0,[T] Realização F01 [0] Coleta,open,São Vicente de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Santa Bárbara do Tugúrio,3988,2022-07-19 22:45:08,0,[T] Realização F01 [0] Coleta,open,Santa Bárbara do Tugúrio,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Carandaí,3987,2022-07-19 22:45:07,0,[T] Realização F01 [0] Coleta,open,Carandaí,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Coronel Xavier Chaves,3986,2022-07-19 22:45:06,0,[T] Realização F01 [0] Coleta,open,Coronel Xavier Chaves,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Conceição da Barra de Minas,3985,2022-07-19 22:45:04,0,[T] Realização F01 [0] Coleta,open,Conceição da Barra de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Santana dos Montes,3984,2022-07-19 22:45:03,0,[T] Realização F01 [0] Coleta,open,Santana dos Montes,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Entre Rios de Minas,3983,2022-07-19 22:45:01,0,[T] Realização F01 [0] Coleta,open,Entre Rios de Minas,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Nazareno,3982,2022-07-19 22:45:00,0,[T] Realização F01 [0] Coleta,open,Nazareno,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - São Brás do Suaçuí,3981,2022-07-19 22:44:58,0,[T] Realização F01 [0] Coleta,open,São Brás do Suaçuí,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Careaçu,3980,2022-07-19 22:44:57,0,[T] Realização F01 [0] Coleta,open,Careaçu,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Dores de Campos,3979,2022-07-19 22:44:55,0,[T] Realização F01 [0] Coleta,open,Dores de Campos,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Catas Altas da Noruega,3978,2022-07-19 22:44:54,0,[T] Realização F01 [0] Coleta,open,Catas Altas da Noruega,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Caranaíba,3977,2022-07-19 22:44:53,0,[T] Realização F01 [0] Coleta,open,Caranaíba,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Luminárias,3976,2022-07-19 22:44:51,0,[T] Realização F01 [0] Coleta,open,Luminárias,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Casa Grande,3975,2022-07-19 22:44:50,0,[T] Realização F01 [0] Coleta,open,Casa Grande,7,19,2022,1/1970,7/2022,00
+Coleta de Servidores - Barroso,3974,2022-07-19 22:44:49,0,[T] Realização F01 [0] Coleta,open,Barroso,7,19,2022,1/1970,7/2022,00
 Coleta de Servidores Publicos - Agentes Politicos - Itacarambi,3318,2022-05-11 23:20:22,2022-05-20 00:58:31,[T] Realização F01 [0] Coleta,closed,Itacarambi,5,11,2022,5/2022,5/2022,20
 Coleta de Servidores Publicos - Agentes Politicos - Montezuma,3317,2022-05-11 23:20:21,2022-05-20 00:58:50,[T] Realização F01 [0] Coleta,closed,Montezuma,5,11,2022,5/2022,5/2022,20
 Coleta de Servidores Publicos - Agentes Politicos - Manga,3316,2022-05-11 23:20:19,2022-05-20 00:58:05,[T] Realização F01 [0] Coleta,closed,Manga,5,11,2022,5/2022,5/2022,20
@@ -1429,6 +1559,7 @@ Coleta de Receitas - Ingressos de Receitas - Rio Casca,3894,2022-07-07 10:58:17,
 Coleta de Receitas - Ingressos de Receitas - Rio Doce,3893,2022-07-07 10:58:16,2022-07-07 11:53:08,[T] Realização F01 [0] Coleta,closed,Rio Doce,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - São José da Barra,3892,2022-07-07 10:58:15,2022-07-07 11:53:41,[T] Realização F01 [0] Coleta,closed,São José da Barra,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Alterosa,3891,2022-07-07 10:58:13,2022-07-07 11:54:10,[T] Realização F01 [0] Coleta,closed,Alterosa,7,7,2022,7/2022,7/2022,27
+Coleta de Receitas - Ingressos de Receitas - Formiga,3890,2022-07-07 10:58:12,2022-07-13 01:14:49,[T] Realização F01 [0] Coleta,closed,Formiga,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - Congonhas,3889,2022-07-07 10:58:11,2022-07-11 16:54:36,[T] Realização F01 [0] Coleta,closed,Congonhas,7,7,2022,7/2022,7/2022,28
 Coleta de Receitas - Ingressos de Receitas - Cataguases,3888,2022-07-07 10:58:10,2022-07-07 11:44:16,[T] Realização F01 [0] Coleta,closed,Cataguases,7,7,2022,7/2022,7/2022,27
 Coleta de Receitas - Ingressos de Receitas - Lagoa da Prata,3887,2022-07-07 10:58:08,2022-07-07 11:43:47,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,7,7,2022,7/2022,7/2022,27
@@ -2975,3 +3106,48 @@ Coleta de Despesas - Biquinhas,3065,2022-05-09 12:14:56,2022-05-11 13:06:49,[T] 
 Coleta de Despesas - Arinos,3064,2022-05-09 12:14:54,2022-05-11 13:06:45,[T] Realização F01 [0] Coleta,closed,Arinos,5,9,2022,5/2022,5/2022,19
 Coleta de Despesas - Abaeté,3063,2022-05-09 12:14:53,2022-05-11 13:06:41,[T] Realização F01 [0] Coleta,closed,Abaeté,5,9,2022,5/2022,5/2022,19
 Página de detalhes não atualiza o fim da coleta,2559,2022-04-01 12:16:20,2022-06-23 17:55:55,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,closed,Página,4,1,2022,6/2022,4/2022,25
+Coleta de Contratos - Piedade do Rio Grande,3952,2022-07-13 18:11:48,2022-07-14 00:24:56,[T] Realização F01 [0] Coleta,closed,Piedade do Rio Grande,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Lagoa Dourada,3951,2022-07-13 18:11:47,2022-07-14 00:24:56,[T] Realização F01 [0] Coleta,closed,Lagoa Dourada,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Conceição dos Ouros,3950,2022-07-13 18:11:45,2022-07-14 00:24:56,[T] Realização F01 [0] Coleta,closed,Conceição dos Ouros,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Ervália,3949,2022-07-13 18:11:44,2022-07-14 00:24:56,[T] Realização F01 [0] Coleta,closed,Ervália,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Resende Costa,3948,2022-07-13 18:11:42,2022-07-14 00:24:55,[T] Realização F01 [0] Coleta,closed,Resende Costa,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Ritápolis,3947,2022-07-13 18:11:41,2022-07-14 00:24:55,[T] Realização F01 [0] Coleta,closed,Ritápolis,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Silveirânia,3946,2022-07-13 18:11:40,2022-07-14 00:24:55,[T] Realização F01 [0] Coleta,closed,Silveirânia,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - São Geraldo,3945,2022-07-13 18:11:38,2022-07-14 00:24:54,[T] Realização F01 [0] Coleta,closed,São Geraldo,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Santana do Jacaré,3944,2022-07-13 18:08:40,2022-07-14 00:24:54,[T] Realização F01 [0] Coleta,closed,Santana do Jacaré,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Belo Vale,3943,2022-07-13 18:08:39,2022-07-14 00:24:54,[T] Realização F01 [0] Coleta,closed,Belo Vale,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - São Tiago,3942,2022-07-13 18:08:37,2022-07-14 00:24:54,[T] Realização F01 [0] Coleta,closed,São Tiago,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Ingaí,3941,2022-07-13 18:08:35,2022-07-14 00:24:53,[T] Realização F01 [0] Coleta,closed,Ingaí,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Alfredo Vasconcelos,3940,2022-07-13 18:08:34,2022-07-14 00:24:53,[T] Realização F01 [0] Coleta,closed,Alfredo Vasconcelos,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Antônio Carlos,3939,2022-07-13 18:08:33,2022-07-14 00:24:53,[T] Realização F01 [0] Coleta,closed,Antônio Carlos,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Prados,3938,2022-07-13 18:08:31,2022-07-14 00:24:52,[T] Realização F01 [0] Coleta,closed,Prados,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - São João del Rei,3937,2022-07-13 18:08:30,2022-07-14 00:24:52,[T] Realização F01 [0] Coleta,closed,São João del Rei,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Santa Cruz de Minas,3936,2022-07-13 18:08:28,2022-07-14 00:24:52,[T] Realização F01 [0] Coleta,closed,Santa Cruz de Minas,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Ibituruna,3935,2022-07-13 18:08:27,2022-07-14 00:24:52,[T] Realização F01 [0] Coleta,closed,Ibituruna,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Queluzito,3934,2022-07-13 18:08:25,2022-07-14 00:24:51,[T] Realização F01 [0] Coleta,closed,Queluzito,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Descoberto,3933,2022-07-13 18:08:24,2022-07-14 00:24:51,[T] Realização F01 [0] Coleta,closed,Descoberto,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Jeceaba,3932,2022-07-13 18:08:22,2022-07-14 00:24:51,[T] Realização F01 [0] Coleta,closed,Jeceaba,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Rio Acima,3931,2022-07-13 18:08:21,2022-07-14 00:24:50,[T] Realização F01 [0] Coleta,closed,Rio Acima,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Carrancas,3930,2022-07-13 18:08:19,2022-07-14 00:24:50,[T] Realização F01 [0] Coleta,closed,Carrancas,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Itutinga,3929,2022-07-13 18:08:18,2022-07-14 00:24:50,[T] Realização F01 [0] Coleta,closed,Itutinga,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Visconde do Rio Branco,3928,2022-07-13 18:08:17,2022-07-14 00:24:50,[T] Realização F01 [0] Coleta,closed,Visconde do Rio Branco,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Tiradentes,3927,2022-07-13 18:08:15,2022-07-14 00:25:15,[T] Realização F01 [0] Coleta,closed,Tiradentes,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Itumirim,3926,2022-07-13 18:08:13,2022-07-14 00:25:15,[T] Realização F01 [0] Coleta,closed,Itumirim,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Ressaquinha,3925,2022-07-13 18:05:15,2022-07-14 00:25:14,[T] Realização F01 [0] Coleta,closed,Ressaquinha,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Conceição da Aparecida,3924,2022-07-13 18:05:14,2022-07-14 00:25:14,[T] Realização F01 [0] Coleta,closed,Conceição da Aparecida,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - São Vicente de Minas,3923,2022-07-13 18:05:12,2022-07-14 00:25:14,[T] Realização F01 [0] Coleta,closed,São Vicente de Minas,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Santa Bárbara do Tugúrio,3922,2022-07-13 18:05:11,2022-07-14 00:25:14,[T] Realização F01 [0] Coleta,closed,Santa Bárbara do Tugúrio,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Carandaí,3921,2022-07-13 18:05:09,2022-07-14 00:25:13,[T] Realização F01 [0] Coleta,closed,Carandaí,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Coronel Xavier Chaves,3920,2022-07-13 18:05:08,2022-07-14 00:25:13,[T] Realização F01 [0] Coleta,closed,Coronel Xavier Chaves,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Conceição da Barra de Minas,3919,2022-07-13 18:05:07,2022-07-14 00:25:13,[T] Realização F01 [0] Coleta,closed,Conceição da Barra de Minas,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Santana dos Montes,3918,2022-07-13 18:05:05,2022-07-14 00:25:12,[T] Realização F01 [0] Coleta,closed,Santana dos Montes,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Entre Rios de Minas,3917,2022-07-13 18:05:04,2022-07-14 00:25:12,[T] Realização F01 [0] Coleta,closed,Entre Rios de Minas,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Nazareno,3916,2022-07-13 18:05:02,2022-07-14 00:25:12,[T] Realização F01 [0] Coleta,closed,Nazareno,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - São Brás do Suaçuí,3915,2022-07-13 18:05:00,2022-07-14 00:25:11,[T] Realização F01 [0] Coleta,closed,São Brás do Suaçuí,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Careaçu,3914,2022-07-13 18:04:59,2022-07-14 00:25:11,[T] Realização F01 [0] Coleta,closed,Careaçu,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Dores de Campos,3913,2022-07-13 18:04:57,2022-07-14 00:25:11,[T] Realização F01 [0] Coleta,closed,Dores de Campos,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Catas Altas da Noruega,3912,2022-07-13 18:04:56,2022-07-14 00:25:11,[T] Realização F01 [0] Coleta,closed,Catas Altas da Noruega,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Caranaíba,3911,2022-07-13 18:04:54,2022-07-14 00:25:10,[T] Realização F01 [0] Coleta,closed,Caranaíba,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Luminárias,3910,2022-07-13 18:04:53,2022-07-14 00:25:10,[T] Realização F01 [0] Coleta,closed,Luminárias,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Casa Grande,3909,2022-07-13 18:04:51,2022-07-14 00:25:10,[T] Realização F01 [0] Coleta,closed,Casa Grande,7,13,2022,7/2022,7/2022,28
+Coleta de Contratos - Barroso,3908,2022-07-13 18:04:50,2022-07-14 00:25:09,[T] Realização F01 [0] Coleta,closed,Barroso,7,13,2022,7/2022,7/2022,28

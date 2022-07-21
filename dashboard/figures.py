@@ -278,6 +278,31 @@ def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):
     
     return fig
 
+def plot_pre_coleta(df, title='Resultados da Sondagem Automática'):
+    df = df.sort_index(axis=0)
+    df = df.reindex(sorted(df.columns), axis=1)
+
+    fig = px.imshow(
+        df, height=900, width=800, title=title,
+        # color_continuous_scale=[(0, "red"), (1, 'lightblue')]   # 2-state
+        color_continuous_scale=[(0, "white"), (0.5, "red"), (1, 'lightblue')]  # 3-state
+    )     
+        
+    fig.update_traces(opacity=0.75)
+    fig.update_xaxes(tickangle=-90, side="top")
+    fig.update_xaxes(showgrid=True, gridwidth=5)
+    
+    fig.update_layout(
+        coloraxis_colorbar=dict(
+            title="Subtag", 
+            tickvals=[-1, 0, 1],
+            ticktext=['Indeterminado', 'Não localizada', 'Localizada'],
+            lenmode="pixels", 
+            len=140), 
+        font=dict(size=14)
+    )
+    
+    return fig
 
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
@@ -363,3 +388,22 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
         y_column='template', x_column='title', hue="state")
 
     return fig1, fig2, fig3, fig4
+
+
+def create_figures_automacao():
+    
+    #NOTE muitos erros no nome do portal 
+    s = pd.read_csv('data/resultados_templates.csv', index_col=0).astype(int)
+    s = s.rename(index={
+        'Porta Fácil (60)': 'Portal Facil (60)',
+        'Porta Fácil (46)': 'Portal Fácil (46)',
+        'Template 1 (22)': 'Template1 (22)',
+        'Template 1 (9)': 'Template1 (9)',
+        'Portla TP': 'Portal TP',
+    })
+    s.loc['GRP'] = -1
+
+    fig1 = plot_pre_coleta(s, title='Resultados da Sondagem Automática (' + 
+                    str(s.shape[0]) + ' templates x ' + str(s.shape[1]) + ' subtags )')
+
+    return fig1

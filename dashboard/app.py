@@ -88,7 +88,7 @@ def coleta_layout():
                         count_closed_epics, count_total_epics, 100*count_closed_epics/count_total_epics))],
                     id="div-tags", className="mini_container",),
                 html.Div(
-                    [html.H6(id="municipios"), html.P("Municípios cobertos: {}".format(municipios_cobertos))],
+                    [html.H6(id="municipios"), html.P("Municípios relacionados: {}".format(municipios_cobertos))],
                     id="div-municipios", className="mini_container"),                    
 
             ], id="info-container", className="row container-display",), 
@@ -139,7 +139,7 @@ def desenvolvimento_layout():
                         [
                             html.Div(
                                 [
-                                    html.H3("F01 - Desenvolvimento",style={"margin-bottom": "0px"},),
+                                    html.H3("F01 - Validação",style={"margin-bottom": "0px"},),
                                     html.H5( "", style={"margin-top": "0px"} ),
                                 ]
                             )
@@ -194,7 +194,44 @@ def desenvolvimento_layout():
     
     return layout
 
-app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}], external_stylesheets=[dbc.themes.BOOTSTRAP])
+
+def automacao_layout():
+    
+    fig1 = figures.create_figures_automacao()
+      
+    # Create app layout
+    layout = html.Div([
+            dcc.Store(id="aggregate_data"),
+            # empty Div to trigger javascript file for graph resizing
+            html.Div(id="output-clientside"),
+            html.Div([ html.Div([ html.Div( [
+                
+                html.H3("F01 - Automação",style={"margin-bottom": "0px"},),
+                
+                html.H5( "", style={"margin-top": "0px"} ),] ) ],  
+                    className="two-half column", id="title", ),
+                    html.Div( [   
+                        html.Button("Refresh Data", id="refresh-button"),
+                        html.Div(id='output-container-button', children=None), ],
+                        className="one-third column", id="button-git",
+                    ), ], id="header", className="row flex-display",
+                style={"margin-bottom": "25px"},
+            ),
+            
+            html.Div([ html.Div([
+                dcc.Graph(id="graph4", figure=fig1)], 
+                className="pretty_container 6 columns",)], className="row flex-display",
+            ),            
+        
+        ], id="mainContainer",  style={"display": "flex", "flex-direction": "column"},
+    )
+    
+    return layout
+
+#---------------------------------------------------------------------------------------------
+
+app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}], 
+                external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 sidebar = html.Div(
     [
@@ -210,7 +247,8 @@ sidebar = html.Div(
         dbc.Nav(
             [
                 dbc.NavLink("Coleta", href="/", active="exact"),
-                dbc.NavLink("Desenvolvimento", href="/page-1", active="exact"),
+                dbc.NavLink("Validação", href="/validacao", active="exact"),
+                dbc.NavLink("Automação", href="/automacao", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -271,11 +309,16 @@ def render_page_content(pathname):
         layout = coleta_layout()
         return layout
 
-    elif pathname == "/page-1":
+    elif pathname == "/validacao":
         app.logger.info('Renderizando layout de desenvolvimento...')
         layout = desenvolvimento_layout()
         return layout
 
+    elif pathname == "/automacao":
+        app.logger.info('Renderizando layout de automação...')
+        layout = automacao_layout()
+        return layout
+    
     return dbc.Jumbotron(
         [
             html.H1("404: Not found", className="text-danger"),
