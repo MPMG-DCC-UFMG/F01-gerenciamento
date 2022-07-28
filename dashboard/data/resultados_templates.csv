@@ -1,16 +1,16 @@
 ,Informações,Licitações,Repasses,Empenhos,Pagamentos,Relatorios,Leis Orçamentárias,Contas Públicas,Contratos,Concurso Publico,Receitas,Terceiro Setor,Orçamento,Conselhos Municipais,Servidores,Diárias,Obras,Estrutura Organizacional,Plano de Metas,Legislação
-Template 2,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Porta Fácil (60),True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Porta Fácil (46),True,True,False,False,True,True,True,False,True,False,True,False,True,False,True,True,False,False,False,False
-Portla TP,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Memory,True,True,True,False,False,False,True,True,True,False,True,True,True,False,False,True,True,False,False,True
-Siplanweb,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
-Betha,True,True,True,True,False,False,True,True,True,True,True,True,True,True,True,True,True,False,False,True
-Sintese e Tecnologia,True,True,False,True,True,True,True,True,True,False,True,False,True,True,True,True,True,False,True,True
-ABO,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-PT,True,True,False,False,True,True,True,True,True,True,True,True,True,False,False,True,True,True,True,True
-ADPM,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
-Municipal Net,False,True,True,False,True,False,True,True,True,False,True,True,True,False,True,True,False,False,False,False
-GRP,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-Template 1 (22),True,True,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Template 1 (9),True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
+Template 2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Portal Facil (60),1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Portal Fácil (46),1,1,0,0,1,1,1,0,1,0,1,0,1,0,1,1,0,0,0,0
+Portal TP,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Memory,1,1,1,0,0,0,1,1,1,0,1,1,1,0,0,1,1,0,0,1
+Siplanweb,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+Betha,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1
+Síntese tecnologia informatica,1,1,0,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1
+ABO,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+PT,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1
+ADPM,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+Municipal Net,0,1,1,0,1,0,1,1,1,0,1,1,1,0,1,1,0,0,0,0
+GRP,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Template1 (22),1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Template1 (9),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1

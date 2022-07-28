@@ -198,8 +198,8 @@ def expand_states(df, target_labels=['template', 'tag', 'subtag'], remove_orig_c
     for target_label in target_labels:
         df[target_label] = df.apply(lambda x: find_label(x['labels'], target_label), axis=1)
         
-    df.loc[df.labels.astype(str).str.contains('não-localizado'), 'state'] = 'Não localizado'
-    df.loc[df.labels.astype(str).str.contains('não-coletável-timeout'), 'state'] = 'Não coletável (timeout)'
+    # NOTE todas epics com label 'não-*' estão sendo agrupadas como 'Não coletável'
+    df.loc[df.labels.astype(str).str.contains('não-'), 'state'] = 'Não coletável'    
     df.loc[df.state == 'closed', 'state'] = 'Coletado'
     df.loc[df.state == 'open', 'state'] = 'Com epic criada'
     

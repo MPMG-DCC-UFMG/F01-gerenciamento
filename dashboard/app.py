@@ -44,6 +44,9 @@ def coleta_layout():
     count_coletas_semana = week_status[-1:]['closed_at'].values[0]
 
     epics = pd.read_csv('data/count_epics_month.csv')
+    
+    #TODO this number should match:
+    #https://github.com/MPMG-DCC-UFMG/F01/issues?page=4&q=label%3Aepic+sort%3Acreated-asc+label%3A%22Realiza%C3%A7%C3%A3o+F01%22+is%3Aclosed
     count_closed_epics = epics['closed'].sum()
     count_total_epics = 29 * 20  #NOTE estimado via Siplanweb
 

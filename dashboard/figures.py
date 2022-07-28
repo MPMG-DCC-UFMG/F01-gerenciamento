@@ -137,45 +137,38 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
-def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
+# TODO melhorar automacao
+def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
+
+    templates_ja_analisados = ['ADPM', 'Betha', 'Municipal Net', 'Siplanweb']
+    s = sondagem_df[sondagem_df == 0].count(axis=1)
+    s = s[s != 0]
+    s = s.drop(templates_ja_analisados)
+    s = s.sort_index()
+    nao_loc_autom = dict(s)
     
-    #TODO automatizar
-    # Fonte: Sondagem automática 
-    nao_loc_autom = {
-        'Síntese tecnologia informatica': 4,
-        'PT': 4,
-        'Portal Facil (60)': 1,
-        'Portal Fácil (46)': 10,
-        'Memory': 8,
-        'Template1 (22)': 1,
-        'Template1 (9)': 1
-    }
-
     # Fonte: Planilha Controle de Dados (#TODO transformar em Epics com "não-localizado")
-    nao_loc_manual = {
-        # 'Betha': 12, 
-        'Municipal Net': 12,
-        'Síntese tecnologia informatica': 2,
-    }
-
-    # Temporarily manual edits
-    for template, count in nao_loc_manual.items():
-        for i in range(count):
-            df = df.append({'template':template, 'state':'Não localizado', 'aux':1}, ignore_index=True)
-            
+    nao_loc_manual = {'Municipal Net': 12}
+    coletado_autom = {'Template2': 4}
+    
     for template, count in nao_loc_autom.items():
         for i in range(count):
-            df = df.append({'template':template, 'state':'Não localizado (autom.)', 'aux':1}, ignore_index=True)
+            df = df.append({'template':template, 'state':'Não coletável (autom.)', 'aux':1}, ignore_index=True)
+            
+    for template, count in nao_loc_manual.items():
+        for i in range(count):
+            df = df.append({'template':template, 'state':'Não coletável', 'aux':1}, ignore_index=True)
+            
+    for template, count in coletado_autom.items():
+        for i in range(count):
+            df = df.append({'template':template, 'state':'Coletado (autom.)', 'aux':1}, ignore_index=True)
     
     # Pre-process dataframes       
     count_col = 'aux'
     state_col = 'state'  
     top_templates_df = top_templates_df[top_templates_df['rank'] <= 15]
-    df = top_templates_df.merge(df, how='left').fillna({state_col:'Estimado', count_col:1})     
-    
-    # agrupa na categoria 'nao localizado' para evitar poluir o dashboard com muitas cores
-    df.loc[df.state == 'Não coletável (timeout)', 'state'] = 'Não localizado' 
-    templates = df['template'].dropna().unique()
+    df = top_templates_df.merge(df, how='left').fillna({state_col:'Estimado', count_col:1})
+    templates = df['template'].dropna().unique()    
     
     total_ref = 29  # Siplanweb  
     total = dict.fromkeys(templates, total_ref)
@@ -197,24 +190,24 @@ def plot_status_epics(df, top_templates_df, title='Visão Geral - Epics por Temp
     df = df.sort_values(by=[state_col, x], ascending=[True, False])
     xorder = df.groupby(['state','template_rank']).count()['rank'][
         'Coletado'].sort_values(ascending=False).index.tolist()
-    y = df.copy()
-    
+
     # Plot
     fig = px.bar(
         df, y=count_col, x=x, color=state_col, height=800, width=1100, title=title,
-        color_discrete_map = {"Coletado":"green", "Com epic criada":"#64b5cd", 
-                              'Estimado':'lightblue', 'Não localizado':'red', 
-                              'Não localizado (autom.)':'#ff9e99'}, 
+        color_discrete_map = {"Coletado":"green", 
+                              "Coletado (autom.)":"#92d696", 
+                              "Com epic criada":"#64b5cd", 
+                              'Estimado':'lightblue', 
+                              'Não coletável':'red', 
+                              'Não coletável (autom.)':'#ff9e99'}, 
         labels = {count_col:"#Coletores (total estimado pelo template Siplanweb)", 
                   x:"Template / Município"}, opacity=0.75 )    
     
     fig.update_layout(xaxis={'categoryorder':'array', 'categoryarray':xorder})
-
     fig.update_xaxes(tickangle=45)
     fig.update_layout(font=dict(size=18))    
     
     return fig
-
 
 def plot_speed_epics(df, title):     
     
@@ -307,7 +300,8 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
     count_month = pd.read_csv("data/count_month.csv")
     week_status = pd.read_csv('data/week_status.csv')    
-    count_epics_month = pd.read_csv("data/count_epics_month.csv")                    
+    count_epics_month = pd.read_csv("data/count_epics_month.csv")              
+    sondagem_df = pd.read_csv('data/resultados_templates.csv', index_col=0).astype(int)      
           
     issues_epic_df = pd.read_csv("data/issues_epic_df.csv")
     epics_df = pd.read_csv("data/epics.csv")
@@ -350,7 +344,7 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
         x_column='template', y2_column=open_colum, y1_column=closed_colum, 
         name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     
-    fig9 = plot_status_epics(epics_df, top_templates_df)
+    fig9 = plot_status_epics(epics_df, top_templates_df, sondagem_df)
     fig10 = plot_speed_epics(count_epics_month, title='Coleta - Conclusão de Epics por Mês')
 
     return fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10
@@ -391,16 +385,17 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
 
 def create_figures_automacao():
     
-    #NOTE muitos erros no nome do portal 
     s = pd.read_csv('data/resultados_templates.csv', index_col=0).astype(int)
-    s = s.rename(index={
-        'Porta Fácil (60)': 'Portal Facil (60)',
-        'Porta Fácil (46)': 'Portal Fácil (46)',
-        'Template 1 (22)': 'Template1 (22)',
-        'Template 1 (9)': 'Template1 (9)',
-        'Portla TP': 'Portal TP',
-    })
-    s.loc['GRP'] = -1
+    
+    #NOTE correcao de erros nos nomes dos portais 
+    # s = s.rename(index={
+    #     'Porta Fácil (60)': 'Portal Facil (60)',
+    #     'Porta Fácil (46)': 'Portal Fácil (46)',
+    #     'Template 1 (22)': 'Template1 (22)',
+    #     'Template 1 (9)': 'Template1 (9)',
+    #     'Portla TP': 'Portal TP',
+    # })
+    # s.loc['GRP'] = -1
 
     fig1 = plot_pre_coleta(s, title='Resultados da Sondagem Automática (' + 
                     str(s.shape[0]) + ' templates x ' + str(s.shape[1]) + ' subtags )')
