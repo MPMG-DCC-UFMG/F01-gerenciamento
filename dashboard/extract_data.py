@@ -103,10 +103,13 @@ def get_issues(repo, state='open'):
     
     return issues
 
-def get_issues_infos(all_issues, info_issues):
-    #TODO refactor: info_issues only increases, mixed epics and other issues 
-
-    for i in all_issues:
+def add_issues_info(issues_to_add, info_issues=None):
+    
+    if info_issues is None:
+        info_issues = {'title': [], 'number': [], 'created_at': [], 
+                       'closed_at': [], 'labels' : [], 'state': [] }
+    
+    for i in issues_to_add:
         for issue in i:
             info_issues['title'].append(issue.title)
             info_issues['number'].append(issue.number)
@@ -169,18 +172,15 @@ def fill_pipeline_array(df, pipeline_name):
     
     return df
 
-def get_all_issues(repo, creators, info_issues):
+def get_all_issues(repo, creators):
     
     all_open_issues = get_issues_by_creator(repo, creators, state='open')
-    info_issues = get_issues_infos(all_open_issues, info_issues) 
+    info_issues = add_issues_info(all_open_issues) 
     
     all_closed_issues = get_issues_by_creator(repo, creators, state='closed')
-    info_issues = get_issues_infos(all_closed_issues, info_issues) 
+    info_issues = add_issues_info(all_closed_issues, info_issues) 
 
-    df = pd.DataFrame(info_issues)
-
-    return df
-
+    return info_issues
 
 def print_zenhub_api_usage(zh_token, repo_id):
     session = requests.Session()

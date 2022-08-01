@@ -213,10 +213,10 @@ def expand_states(df, target_labels=['template', 'tag', 'subtag'], remove_orig_c
 
 # To check the epics info:
 #   https://github.com/MPMG-DCC-UFMG/F01/issues?q=is%3Aclosed+is%3Aissue+label%3AEpic+-label%3Adevelopment
-def summarize_epics(epics_id, repo, info_issues, open_column='open', closed_column='closed'):
+def summarize_epics(epics_id, repo, open_column='open', closed_column='closed'):
     
     epics = extract_data.get_issues_by_number(repo, numbers=epics_id)
-    epics_info = pd.DataFrame(extract_data.get_issues_infos([epics], info_issues))   
+    epics_info = pd.DataFrame(extract_data.add_issues_info([epics]))   
     epics_info = epics_info.loc[epics_info['title'].str.find("Coletor para") != -1]
     
     open_epics, count_open = format_epics_data(epics_info, time_column='created_at', state=open_column)

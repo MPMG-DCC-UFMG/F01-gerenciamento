@@ -11,12 +11,14 @@ import utils
 import spacy
 nlp = spacy.load('pt_core_news_sm')
 
-def main_tranform_data(repo, creators, info_issues):
+#TODO move to transform_data
+def main_tranform_data(repo, creators):
     
     list_municipios = utils.loader_data(column_name='municipio', path_to_read='data/municipios.csv')
     list_items = utils.loader_data(column_name='tag', path_to_read='data/itens.csv')
     
-    df = extract_data.get_all_issues(repo, creators, info_issues)
+    info_issues = extract_data.get_all_issues(repo, creators)
+    df = pd.DataFrame(info_issues)
     
     df['lower_title'] = df['title'].str.lower()
     df = transform_data.filter_(df, column_name='lower_title')
@@ -62,7 +64,7 @@ def main_tranform_data(repo, creators, info_issues):
     closed_df = closed_df.sort_values('municipio')
     open_df = open_df.sort_values('municipio')
     
-    return info_issues, df, open_df, closed_df
+    return df, open_df, closed_df
 
 def update_data_coletas(git_token, zh_token, closed_column='closed', open_column='open'):    
     
@@ -78,39 +80,36 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     repo_C01 = g.get_repo("MPMG-DCC-UFMG/C01")
     repo_F01 = g.get_repo("MPMG-DCC-UFMG/F01")
     
-    info_issues = {'title': [], 'number': [], 'created_at': [], 'closed_at': [], 'labels' : [], 'state': [] }
-    
     creators = ['carbo6ufmg', 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'albertoueda', 
                 'arthurnader', 'GabrielLimab', 'lucas-maia-96', 'dalila20', 'AntonioNvs','GabiAraujo',
                 'rafaelmg7','jorgesilva2407']
     
-    list_tags = ['Acesso à informação', 'Informações institucionais', 'Receitas', 'Despesas', 'Licitação', 'Contratos', 'Terceiro Setor', 'Concursos Públicos', 'Obras públicas', 'Servidores Públicos']
-    
-    info_issues, df, open_df, closed_df = main_tranform_data(repo_C01, creators, info_issues)
+    df, open_df, closed_df = main_tranform_data(repo_C01, creators)
+    open_df.to_csv("data/open_df.csv", index=False)
+    closed_df.to_csv("data/closed_df.csv", index=False)
 
     count_month = transform_data.count_by_month(open_df, closed_df)
+    count_month.to_csv("data/count_month.csv", index=False)
     
     df['week'] =  pd.to_datetime(df['closed_at']).dt.strftime('%W')
     week_status = transform_data.count_by_week(df, column_to_group='week', time_column='closed_at')
+    week_status.to_csv('data/week_status.csv', index=False)    
+    df.to_csv("data/df.csv", index=False)
        
     issues_epic_df, epics_id = transform_data.count_issues_epic(df, zh, repo_F01, repo_id)
-    epics_info, count_epics_month = transform_data.summarize_epics(epics_id, repo_F01, info_issues)
-    df_tags = transform_data.count_by_tags(issues_epic_df, list_tags)
-    
-    # store dataframes
-    df.to_csv("data/df.csv", index=False)
-    count_month.to_csv("data/count_month.csv", index=False)
-    week_status.to_csv('data/week_status.csv', index=False)
-    
     aux = pd.DataFrame([['Habeas Data','Licitação', 4.0, 0.0]], columns=['template','tag','closed', 'open'])
     issues_epic_df = pd.concat([issues_epic_df, aux])
     issues_epic_df.to_csv("data/issues_epic_df.csv", index=False)
-    count_epics_month.to_csv("data/count_epics_month.csv", index=False) 
+
+    epics_info, count_epics_month = transform_data.summarize_epics(epics_id, repo_F01)
     epics_info.to_csv("data/epics.csv", index=False) 
-    df_tags.to_csv("data/df_tags.csv", index=False)
-    
-    open_df.to_csv("data/open_df.csv", index=False)
-    closed_df.to_csv("data/closed_df.csv", index=False)
+    count_epics_month.to_csv("data/count_epics_month.csv", index=False) 
+
+    list_tags = ['Acesso à informação', 'Informações institucionais', 'Receitas', 'Despesas', 'Licitação', 'Contratos', 
+                 'Terceiro Setor', 'Concursos Públicos', 'Obras públicas', 'Servidores Públicos']
+                     
+    df_tags = transform_data.count_by_tags(issues_epic_df, list_tags)
+    df_tags.to_csv("data/df_tags.csv", index=False)    
     
 def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', open_column='open'):
     

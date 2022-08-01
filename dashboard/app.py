@@ -293,11 +293,12 @@ def refresh(n_clicks):
     else:        
         app.logger.info('Atualizando dados de coletas...')
         main_etl.update_data_coletas(git_token, zh_token)
-
-        app.logger.info('Atualizando dados de desenvolvimento...')
-        main_etl.update_data_desenvolvimento(git_token, zh_token)
         
-        app.logger.info('Dados de coleta e desenvolvimento atualizados.')
+        #TODO automatizar (#8)
+        # app.logger.info('Atualizando dados de desenvolvimento...')
+        # main_etl.update_data_desenvolvimento(git_token, zh_token)
+        
+        app.logger.info('Dados atualizados.')
         html.A(href='/')
         
         
