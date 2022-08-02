@@ -199,7 +199,9 @@ def expand_states(df, target_labels=['template', 'tag', 'subtag'], remove_orig_c
         df[target_label] = df.apply(lambda x: find_label(x['labels'], target_label), axis=1)
         
     # NOTE todas epics com label 'não-*' estão sendo agrupadas como 'Não coletável'
-    df.loc[df.labels.astype(str).str.contains('não-'), 'state'] = 'Não coletável'    
+    df.loc[df.labels.astype(str).str.contains('não-'), 'state'] = 'Não coletável'   
+    
+    df.loc[df.labels.astype(str).str.contains('bloqueada'), 'state'] = 'Com bloqueio'    
     df.loc[df.state == 'closed', 'state'] = 'Coletado'
     df.loc[df.state == 'open', 'state'] = 'Com epic criada'
     
