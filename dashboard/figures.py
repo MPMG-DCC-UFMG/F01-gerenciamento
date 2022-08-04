@@ -162,7 +162,7 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
     for template, count in coletado_autom.items():
         for i in range(count):
             df = df.append({'template':template, 'state':'Coletado (autom.)', 'aux':1}, ignore_index=True)
-    
+            
     # Pre-process dataframes       
     count_col = 'aux'
     state_col = 'state'  
@@ -179,11 +179,12 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
     for template in templates:        
         created =  df.groupby('template').count()[state_col][template]
         missing = total[template] - created                
-        rank = df[df.template == template]['rank'].values[0]  #TODO drop rank?
+        rank = df[df.template == template]['rank'].values[0]
         
         for i in range(missing):            
-            df = df.append({'template':template, state_col:'Estimado', 'rank':rank, count_col:1}, ignore_index=True)    
-
+            df = df.append({'template':template, state_col:'Estimado', 
+                            'rank':rank, count_col:1}, ignore_index=True)    
+        
     # Add a better name for x values
     x = "template_rank"
     df[x] = df["template"] + " (" + df["rank"].astype(str) + "º)"
@@ -194,9 +195,10 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
     # Plot
     fig = px.bar(
         df, y=count_col, x=x, color=state_col, height=800, width=1100, title=title,
-        color_discrete_map = {"Coletado":"green", 
-                              "Coletado (autom.)":"#92d696", 
-                              "Com epic criada":"#64b5cd", 
+        color_discrete_map = {'Coletado':'green', 
+                              'Coletado (autom.)':'#92d696', 
+                              'Com bloqueio':'#9F2B68',
+                              'Com epic criada':'#64b5cd', 
                               'Estimado':'lightblue', 
                               'Não coletável':'red', 
                               'Não coletável (autom.)':'#ff9e99'}, 
