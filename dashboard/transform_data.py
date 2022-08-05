@@ -57,7 +57,6 @@ def fill_cities(df, nlp, list_municipios):
 
   return results
 
-
 def fill_gaps(open_df, closed_df):
     
     for idx, row in open_df.iterrows():
@@ -95,7 +94,6 @@ def filter_by_labels(df, label_column='labels', labels_filter=['bug']):
         df = df.loc[~df[label_column].str.contains(i)]
     
     return df
-    
 
 def find_label(item_labels, target_label):    
     
@@ -129,17 +127,6 @@ def sort_columns(df, date_format="%m/%Y"):
     new_columns.insert(0, df.columns[0])
     
     return new_columns
-
-def format_date(df, time_column, status):
-    
-    df['month'] = pd.DatetimeIndex(df[time_column]).month
-    df['day'] = pd.DatetimeIndex(df[time_column]).day
-    df['year'] = pd.DatetimeIndex(df[time_column]).year
-    
-    
-    df['format_date_{}'.format(status)] = df['month'].astype(str) + '/' + df['year'].astype(str)
-    
-    return df
 
 def count_by_week(df, column_to_group='week', time_column='closed_at'):
     
@@ -177,19 +164,34 @@ def count_by_month(open_df, closed_df, closed_colum='closed', open_column='open'
     
     return pd.DataFrame(result)
 
-def format_epics_data(epics_info, time_column, state):
+def format_date(df, time_column, status):
     
-    df = epics_info.loc[epics_info['state']==state]
+    df['month'] = pd.DatetimeIndex(df[time_column]).month
+    df['day'] = pd.DatetimeIndex(df[time_column]).day
+    df['year'] = pd.DatetimeIndex(df[time_column]).year    
+    df['format_date_{}'.format(status)] = df['month'].astype(str) + '/' + df['year'].astype(str)
     
-    if state == 'closed':
-        df[time_column] = df[time_column].fillna(0)
+    return df
 
-    df = format_date(df, time_column=time_column, status=state)
-    df_count = df.groupby('format_date_{}'.format(state)).agg({'title': 'count'}).reset_index().rename(
-        columns={'title': state, 'format_date_{}'.format(state): 'month'})
+def count_closed_epics_by_month(epics):
     
-    return df, df_count
+    epics = epics[~epics.closed_at.isna()]
+    epics = format_date(epics, 'closed_at', '')
+    epics = epics.rename(columns={'format_date_': 'month_year'}) #TODO include month_year in epics.csv
 
+    count = epics.groupby(['month_year','state']).agg({'git_issue': 'count'})
+    count = count.reset_index()
+    count = count.pivot(index='month_year', columns='state', values='git_issue')
+    count = count.fillna(0)
+    count['closed'] = count.sum(axis=1) 
+    
+    # sort by closing date
+    count = count.reset_index()
+    count['month_year'] = string_to_datetime(count['month_year'])
+    count = count.sort_values(by='month_year', ascending=True)    
+    count['month_year'] = count['month_year'].dt.strftime("%m/%Y")
+    
+    return count
 
 # Manter sincronizado com labels do repositorio:
 #   https://github.com/MPMG-DCC-UFMG/F01/labels
@@ -213,25 +215,17 @@ def expand_states(df, target_labels=['template', 'tag', 'subtag'], remove_orig_c
     
     return df
 
-# To check the epics info:
-#   https://github.com/MPMG-DCC-UFMG/F01/issues?q=is%3Aclosed+is%3Aissue+label%3AEpic+-label%3Adevelopment
-def summarize_epics(epics_id, repo, open_column='open', closed_column='closed'):
+def summarize_epics(epics_id, repo):
     
     epics = extract_data.get_issues_by_number(repo, numbers=epics_id)
-    epics_info = pd.DataFrame(extract_data.add_issues_info([epics]))   
-    epics_info = epics_info.loc[epics_info['title'].str.find("Coletor para") != -1]
-    
-    open_epics, count_open = format_epics_data(epics_info, time_column='created_at', state=open_column)
-    closed_epics, count_closed = format_epics_data(epics_info, time_column='closed_at', state=closed_column)
-    epics_info = expand_states(epics_info)
+    epics = pd.DataFrame(extract_data.add_issues_info([epics]))   
+    epics = epics.loc[epics['title'].str.find("Coletor para") != -1]
+    epics = expand_states(epics)
 
-    count_epics_month = count_open.merge(count_closed, on='month', how='outer')
-    count_epics_month['month'] = string_to_datetime(count_epics_month['month'])
-    count_epics_month = count_epics_month.sort_values(by='month', ascending=True)
-    count_epics_month['month'] = count_epics_month['month'].dt.strftime("%m/%Y").astype(str)
+    count_epics_month =  count_closed_epics_by_month(epics)
         
-    return epics_info, count_epics_month     
-
+    return epics, count_epics_month     
+    
 # municipios = build_municipios_clusters_df('data/clusters.d3.json', 'data/part-00000', 'data/cluster-template.csv')
 def build_municipios_clusters_df(clusters_json_path, part_0000_path, cluster_template_path):
     with open(clusters_json_path, 'r') as f:

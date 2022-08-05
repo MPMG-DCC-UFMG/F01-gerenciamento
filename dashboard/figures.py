@@ -69,13 +69,15 @@ def stack_by_tag (df, y_column, title, tag_column='tag', template_column='templa
 def plot_status_mes(count_month, x_column, title, y1_column, y2_column, name1=None, name2=None, cumulative_enabled=True):
                     
     fig = go.Figure()
-    fig.add_trace(go.Histogram(
-        histfunc='sum',
-        y=count_month[y1_column],
-        x = x_column,
-        cumulative_enabled=cumulative_enabled,
-        name=name1,
-        marker_color='#F03C33'))
+
+    #TODO check if necessary
+    # fig.add_trace(go.Histogram(
+    #     histfunc='sum',
+    #     y=count_month[y1_column],
+    #     x = x_column,
+    #     cumulative_enabled=cumulative_enabled,
+    #     name=name1,
+    #     marker_color='#F03C33'))
     
     fig.add_trace(go.Histogram(
         histfunc='sum', y=count_month[y2_column], 
@@ -212,14 +214,17 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
     return fig
 
 def plot_speed_epics(df, title):     
-    
-    # Medindo velocidade
-    current_speed = df["closed"].mean()          
+            
+    # Medindo velocidade atual
+    velocidade_total = df["closed"].mean()          
     df["closed_cumsum"] = df["closed"].cumsum()
-    
+    velocidade_coleta = df["Coletado"].mean()          
+    df["coletado_cumsum"] = df["Coletado"].cumsum()         
+    df["naocoletado_cumsum"] = df["Não coletável"].cumsum()   
+
     df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x:02d}/2022' for x in range(1,13)] + 
-                                ["01/2023", "02/2023"], columns=["month"]), how="right").fillna(0)          
-        
+                                ["01/2023", "02/2023"], columns=["month_year"]), how="right").fillna(0)       
+    # Baselines
     n_templates = 15 + 5            # 15 + 5 municipios
     total_epics_by_template = 29    # Siplanweb    
     
@@ -227,23 +232,24 @@ def plot_speed_epics(df, title):
     total_months = df.shape[0]
     ideal_speed = total_epics / total_months
     
-    ### descontando os não-coletáveis
     media_nao_coletavel = (12 + 12 + 12 + 8) / 4   # Siplanweb + Betha + MunicipalNet + ADPM    
     total_coletaveis = total_epics - (media_nao_coletavel * (n_templates-4))   # apenas templates restantes
     ideal_speed_discounted = total_coletaveis / total_months
-    
+            
     # Plot
-    fig =  px.bar(df, x="month", y="closed_cumsum", title=title, opacity=0.75, height=500,
-                 labels={"closed_cumsum":"Epics concluídas (acumulado)", "month":"Mês"})
-    
+    fig =  px.bar(df, x="month_year", y=["coletado_cumsum", "naocoletado_cumsum"], title=title, opacity=0.5, height=500,
+                 labels={"value":"Epics concluídas (acumulado)", "month_year":"Mês", 'variable':''})
+
     fig.update_layout(yaxis = dict(tickmode = 'linear', tick0 = 0, dtick = 100))
     fig.add_traces([
-        go.Scatter(x=df.month, y=[i * ideal_speed for i in range(1, total_months+1)], name="Planejado",
-                  line=go.scatter.Line(color="#00CC96")),
-        go.Scatter(x=df.month, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], name="Planejado (coletável)",
-                  line=go.scatter.Line(color="#AB63FA")),
-        go.Scatter(x=df.month, y=[i * current_speed for i in range(1, total_months+1)], name="Realizado",
-                  line=go.scatter.Line(color="#EF553B"))#, text=df),
+        go.Scatter(x=df.month_year, y=[i * ideal_speed for i in range(1, total_months+1)], name="Planejado", opacity=1,
+                  line=go.scatter.Line(color='#ef553b')), #color="red" ff6692 ef553b     
+        go.Scatter(x=df.month_year, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], name="Planejado (coletável)",
+                  line=go.scatter.Line(color="#00CC96")), #AB63FA
+        go.Scatter(x=df.month_year, y=[i * velocidade_coleta for i in range(1, total_months+1)], name="Realizado",
+                  line=go.scatter.Line(color="#636efa"), opacity=1),#, text=df), #8c86ff
+        # go.Scatter(x=df.month_year, y=[i * velocidade_total for i in range(1, total_months+1)], name="Total Fechado",
+        #           line=go.scatter.Line(color="blue"), opacity=0.1),
     ])
     
     return fig
@@ -323,7 +329,7 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
         y1_column=open_colum, y2_column=closed_colum )
     
     fig2 = plot_status_mes(count_epics_month, title='Quantidade de templates cobertos por mês',
-        x_column=count_epics_month['month'].tolist(), name1='Coletas a realizar',
+        x_column=count_epics_month.index.tolist(), name1='Coletas a realizar',
         name2="Coletas realizadas", y1_column=open_colum, y2_column=closed_colum)
     
     fig6 = plot_status_week(week_status, title='Coletas fechadas por semana',
