@@ -233,7 +233,7 @@ def plot_speed_epics(df, title):
     ideal_speed = total_epics / total_months
     
     media_nao_coletavel = (12 + 12 + 12 + 8) / 4   # Siplanweb + Betha + MunicipalNet + ADPM    
-    total_coletaveis = total_epics - (media_nao_coletavel * (n_templates-4))   # apenas templates restantes
+    total_coletaveis = total_epics - (media_nao_coletavel * n_templates)
     ideal_speed_discounted = total_coletaveis / total_months
             
     # Plot

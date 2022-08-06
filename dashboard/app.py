@@ -45,8 +45,10 @@ def coleta_layout():
 
     epics = pd.read_csv('data/count_epics_month.csv')
     
-    count_closed_epics = epics['closed'].sum()
-    count_total_epics = 29 * 20  #NOTE estimado via Siplanweb
+    count_closed_epics = epics['closed'].sum().astype(int)
+    count_total_epics = 29 * 20                          #NOTE estimado via Siplanweb
+    count_coletado_epics = epics['Coletado'].sum().astype(int)
+    count_total_coletavel = count_total_epics - (20*11)  #NOTE media nao-coletavel dos 4 primeiros templates
 
     #TODO fix if necessary
     count_tags = len(df_tags.loc[df_tags['closed'] != 0]['closed'])
@@ -78,19 +80,22 @@ def coleta_layout():
 
             # Resumo
             html.Div([ html.Div( [ html.Div([
-                html.Div(
-                    [html.H6(id="tags"), html.P("Coletas concluídas (semana): {}".format(count_coletas_semana))],
-                    id="div-tags", className="mini_container",),
-                html.Div(
-                    [html.H6(id="coletas_fechadas"), html.P("Coletas concluídas / Total: {} / {}".format(
-                        count_closed, count_open))], id="div-coletas_fechadas", className="mini_container",),
-                html.Div(
-                    [html.H6(id="tags"), html.P("Epics / Total: {} / {} ({:.1f}%)".format(
-                        count_closed_epics, count_total_epics, 100*count_closed_epics/count_total_epics))],
-                    id="div-tags", className="mini_container",),
-                html.Div(
-                    [html.H6(id="municipios"), html.P("Municípios relacionados: {}".format(municipios_cobertos))],
-                    id="div-municipios", className="mini_container"),                    
+                html.Div([
+                    html.H6(id="coletas_fechadas"), 
+                    html.P('Coletas concluídas na semana: {}'.format(count_coletas_semana)),
+                    html.P('Coletas concluídas no total / abertas: {} / {}'.format(count_closed, count_open)),
+                    html.P('Municípios relacionados: {}'.format(municipios_cobertos))
+                ], id="div-coletas_fechadas", className="mini_container",),
+
+                html.Div([
+                    html.H6(id="tags"), 
+                    html.P('Epics concluídas (total): {} / {} ({:.1f}%)'.format(
+                        count_closed_epics, count_total_epics, 
+                        100*count_closed_epics/count_total_epics,)), 
+                    html.P("Epics concluídas (coletável): {} / {} ({:.1f}%)".format(
+                        count_coletado_epics, count_total_coletavel, 
+                        100*count_coletado_epics/count_total_coletavel))
+                ], id="div-tags", className="mini_container",),
 
             ], id="info-container", className="row container-display",), 
             ], id="right-column", className="12 columns", ), ], className="row flex-display",),

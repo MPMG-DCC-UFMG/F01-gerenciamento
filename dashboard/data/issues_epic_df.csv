@@ -10,43 +10,45 @@ Betha,Despesas,127.0,0.0
 Siplanweb,Servidores Públicos,122.0,0.0
 Síntese tecnologia informatica,Servidores,121.0,12.0
 Siplanweb,Informações Institucionais,97.0,0.0
-Síntese tecnologia informatica,Proventos de Aposentadoria,88.0,0.0
 Síntese tecnologia informatica,Licitação,88.0,0.0
+Síntese tecnologia informatica,Proventos de Aposentadoria,88.0,0.0
 Siplanweb,Despesas com diárias,88.0,8.0
 Síntese tecnologia informatica,Relatórios Despesas com Pessoal,88.0,0.0
 Betha,Receitas,78.0,0.0
 Betha,Licitação,75.0,0.0
 Siplanweb,Acesso à Informação,72.0,4.0
-Síntese tecnologia informatica,Dados dos Servidores,66.0,19.0
 ADPM,Despesas,66.0,0.0
-Siplanweb,Licitação,61.0,0.0
+Síntese tecnologia informatica,Dados dos Servidores,66.0,19.0
+Memory,Receitas,65.0,0.0
 Siplanweb,Receitas,61.0,0.0
+Siplanweb,Licitação,61.0,0.0
 Síntese tecnologia informatica,Proventos de Pensão,53.0,1.0
 Betha,Terceiro Setor,52.0,0.0
 Betha,Acesso à Informação,52.0,0.0
-PT,Obras Públicas,45.0,0.0
-PT,Servidores Públicos,45.0,0.0
 PT,Contratos,45.0,0.0
 PT,Despesas,45.0,45.0
-ADPM,Receitas,44.0,0.0
+PT,Obras Públicas,45.0,0.0
+PT,Servidores Públicos,45.0,0.0
 ADPM,Orçamento,44.0,0.0
+ADPM,Receitas,44.0,0.0
 ADPM,Acesso à Informação,44.0,0.0
 PT,Licitação,43.0,0.0
+ABO,Informações Institucionais,41.0,1.0
 Betha,Servidores Públicos,26.0,26.0
 GRP,Licitação,26.0,0.0
-Betha,Orçamento,26.0,0.0
-Betha,Obras Públicas,26.0,0.0
 Betha,Informações Institucionais,26.0,0.0
 Betha,Despesas com diárias,26.0,0.0
+Betha,Obras Públicas,26.0,0.0
+Betha,Orçamento,26.0,0.0
 Betha,Contratos,26.0,0.0
 Template2,Licitação,25.0,0.0
+ADPM,Contratos,22.0,0.0
 ADPM,Licitação,22.0,0.0
 ADPM,Despesas com diárias,22.0,0.0
-ADPM,Contratos,22.0,0.0
+ABO,Terceiro Setor,21.0,0.0
+ABO,Despesas,21.0,21.0
 ABO,Contratos,21.0,0.0
 ABO,Receitas,21.0,0.0
-ABO,Informações Institucionais,21.0,0.0
-ABO,Despesas,21.0,21.0
 ABO,Despesas com diárias,20.0,1.0
 ABO,Orçamento,19.0,2.0
 ABO,Concursos Públicos,17.0,4.0
@@ -54,11 +56,9 @@ Template1,Licitação,8.0,2.0
 Fiorilli,Licitação,6.0,0.0
 Portal Facil (5),Licitação,4.0,0.0
 Síntese tecnologia informatica,Contratos,0.0,86.0
-Portaltp,Licitação,0.0,1.0
-Portal Facil (46),Licitação,0.0,4.0
-Municipal Net,Licitação,0.0,1.0
-ABO,Terceiro Setor,0.0,21.0
 ABO,Licitação,0.0,13.0
+Municipal Net,Licitação,0.0,1.0
+Portal Facil (46),Licitação,0.0,4.0
 Template1 (22),Licitação,0.0,20.0
-Memory,Receitas,0.0,65.0
+Portaltp,Licitação,0.0,1.0
 Habeas Data,Licitação,4.0,0.0
