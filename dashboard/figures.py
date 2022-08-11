@@ -237,14 +237,14 @@ def plot_speed_epics(df, title):
     ideal_speed_discounted = total_coletaveis / total_months
             
     # Plot
-    fig =  px.bar(df, x="month_year", y=["coletado_cumsum", "naocoletado_cumsum"], title=title, opacity=0.5, height=500,
+    fig =  px.bar(df, x="month_year", y="coletado_cumsum", title=title, opacity=0.5, height=500, width=1000, #, "naocoletado_cumsum"
                  labels={"value":"Epics concluídas (acumulado)", "month_year":"Mês", 'variable':''})
 
     fig.update_layout(yaxis = dict(tickmode = 'linear', tick0 = 0, dtick = 100))
     fig.add_traces([
         go.Scatter(x=df.month_year, y=[i * ideal_speed for i in range(1, total_months+1)], name="Planejado", opacity=1,
                   line=go.scatter.Line(color='#ef553b')), #color="red" ff6692 ef553b     
-        go.Scatter(x=df.month_year, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], name="Planejado (coletável)",
+        go.Scatter(x=df.month_year, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], name="Coletável",
                   line=go.scatter.Line(color="#00CC96")), #AB63FA
         go.Scatter(x=df.month_year, y=[i * velocidade_coleta for i in range(1, total_months+1)], name="Realizado",
                   line=go.scatter.Line(color="#636efa"), opacity=1),#, text=df), #8c86ff

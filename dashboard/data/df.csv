@@ -162,7 +162,6 @@ Coleta de dados de Leis Orçamentárias de Divinópolis,829,2021-10-22 14:36:39,
 Coleta de dados dos Processos Licitatórios de Divinópolis,633,2021-07-20 14:44:02,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Divinópolis,7,20,2021,1/1970,7/2021,00
 Coleta de dados de Dispensa e Inexigibilidade de Pará de Minas,629,2021-07-20 13:48:43,0,[E] Externa [T] Realização F01 [0] Coleta,open,Pará de Minas,7,20,2021,1/1970,7/2021,00
 Coleta de dados de Licitações de Pará de Minas,628,2021-07-20 13:23:51,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Pará de Minas,7,20,2021,1/1970,7/2021,00
-Coleta de dados de Licitações de Uberaba,624,2021-07-19 16:10:29,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Uberaba,7,19,2021,1/1970,7/2021,00
 Coleta de dados de Obras de Uberaba,623,2021-07-19 14:47:23,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberaba,7,19,2021,1/1970,7/2021,00
 Coleta dos dados de Prestação de contas de Uberaba,606,2021-07-15 14:39:40,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberaba,7,15,2021,1/1970,7/2021,00
 Coleta de dados de Receitas de Uberaba,603,2021-07-15 14:19:16,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberaba,7,15,2021,1/1970,7/2021,00
@@ -182,6 +181,8 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,7,6,2021,1/1970,7/2021,00
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,7,21,2021,1/1970,7/2021,00
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Congonhas,5104,2022-08-10 19:39:22,0,[T] Realização F01 [0] Coleta,open,Congonhas,8,10,2022,1/1970,8/2022,00
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Cláudio,5093,2022-08-10 19:39:06,0,[T] Realização F01 [0] Coleta,open,Cláudio,8,10,2022,1/1970,8/2022,00
 Problema na visualização de passos de coleta dinâmica,3676,2022-06-15 12:06:46,0,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento [3] Processamento Dinâmico,open,,6,15,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Campos Gerais,3648,2022-06-13 11:58:46,0,[T] Realização F01 [0] Coleta,open,Campos Gerais,6,13,2022,1/1970,6/2022,00
 Coleta de Servidores Públicos - Servidores Ativos - Itatiaiuçu,3647,2022-06-13 11:58:44,0,[T] Realização F01 [0] Coleta,open,Itatiaiuçu,6,13,2022,1/1970,6/2022,00
@@ -235,54 +236,73 @@ Coleta de dados de Relatórios Fiscais de Paracatu,957,2021-11-25 01:55:39,2021-
 Coleta de dados das Contas Públicas de Paracatu,955,2021-11-25 01:53:30,0,[E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,11,25,2021,1/1970,11/2021,00
 Coleta de dados das Contas Públicas de Paracatu,956,2021-11-25 01:53:39,2021-11-26 18:33:57,[E] Externa [T] Realização F01 [0] Coleta,closed,Paracatu,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de Elói Mendes,901,2021-11-12 13:10:46,0,[E] Externa [T] Realização F01 [0] Coleta,open,Elói Mendes,11,12,2021,1/1970,11/2021,00
-Coleta de Despesas - Contas Públicas - Piedade do Rio Grande,4864,2022-08-04 22:00:01,0,[T] Realização F01 [0] Coleta,open,Piedade do Rio Grande,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Lagoa Dourada,4863,2022-08-04 21:59:59,0,[T] Realização F01 [0] Coleta,open,Lagoa Dourada,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Conceição dos Ouros,4862,2022-08-04 21:59:57,0,[T] Realização F01 [0] Coleta,open,Conceição dos Ouros,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Ervália,4861,2022-08-04 21:59:56,0,[T] Realização F01 [0] Coleta,open,Ervália,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Resende Costa,4860,2022-08-04 21:59:53,0,[T] Realização F01 [0] Coleta,open,Resende Costa,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Ritápolis,4859,2022-08-04 21:59:52,0,[T] Realização F01 [0] Coleta,open,Ritápolis,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Silveirânia,4858,2022-08-04 21:59:50,0,[T] Realização F01 [0] Coleta,open,Silveirânia,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - São Geraldo,4857,2022-08-04 21:59:49,0,[T] Realização F01 [0] Coleta,open,São Geraldo,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Santana do Jacaré,4856,2022-08-04 21:56:53,0,[T] Realização F01 [0] Coleta,open,Santana do Jacaré,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Belo Vale,4855,2022-08-04 21:56:51,0,[T] Realização F01 [0] Coleta,open,Belo Vale,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - São Tiago,4854,2022-08-04 21:56:50,0,[T] Realização F01 [0] Coleta,open,São Tiago,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Ingaí,4853,2022-08-04 21:56:49,0,[T] Realização F01 [0] Coleta,open,Ingaí,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Alfredo Vasconcelos,4852,2022-08-04 21:56:47,0,[T] Realização F01 [0] Coleta,open,Alfredo Vasconcelos,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Antônio Carlos,4851,2022-08-04 21:56:46,0,[T] Realização F01 [0] Coleta,open,Antônio Carlos,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Prados,4850,2022-08-04 21:56:45,0,[T] Realização F01 [0] Coleta,open,Prados,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - São João del Rei,4849,2022-08-04 21:56:44,0,[T] Realização F01 [0] Coleta,open,São João del Rei,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Santa Cruz de Minas,4848,2022-08-04 21:56:42,0,[T] Realização F01 [0] Coleta,open,Santa Cruz de Minas,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Ibituruna,4847,2022-08-04 21:56:41,0,[T] Realização F01 [0] Coleta,open,Ibituruna,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Queluzito,4846,2022-08-04 21:56:40,0,[T] Realização F01 [0] Coleta,open,Queluzito,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Descoberto,4845,2022-08-04 21:56:38,0,[T] Realização F01 [0] Coleta,open,Descoberto,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Jeceaba,4844,2022-08-04 21:56:37,0,[T] Realização F01 [0] Coleta,open,Jeceaba,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Rio Acima,4843,2022-08-04 21:56:35,0,[T] Realização F01 [0] Coleta,open,Rio Acima,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Carrancas,4842,2022-08-04 21:56:34,0,[T] Realização F01 [0] Coleta,open,Carrancas,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Itutinga,4841,2022-08-04 21:56:33,0,[T] Realização F01 [0] Coleta,open,Itutinga,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Visconde do Rio Branco,4840,2022-08-04 21:56:31,0,[T] Realização F01 [0] Coleta,open,Visconde do Rio Branco,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Tiradentes,4839,2022-08-04 21:56:30,0,[T] Realização F01 [0] Coleta,open,Tiradentes,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Itumirim,4838,2022-08-04 21:56:28,0,[T] Realização F01 [0] Coleta,open,Itumirim,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Ressaquinha,4837,2022-08-04 21:53:30,0,[T] Realização F01 [0] Coleta,open,Ressaquinha,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Conceição da Aparecida,4836,2022-08-04 21:53:29,0,[T] Realização F01 [0] Coleta,open,Conceição da Aparecida,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - São Vicente de Minas,4835,2022-08-04 21:53:28,0,[T] Realização F01 [0] Coleta,open,São Vicente de Minas,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Santa Bárbara do Tugúrio,4834,2022-08-04 21:53:26,0,[T] Realização F01 [0] Coleta,open,Santa Bárbara do Tugúrio,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Carandaí,4833,2022-08-04 21:53:25,0,[T] Realização F01 [0] Coleta,open,Carandaí,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Coronel Xavier Chaves,4832,2022-08-04 21:53:23,0,[T] Realização F01 [0] Coleta,open,Coronel Xavier Chaves,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Conceição da Barra de Minas,4831,2022-08-04 21:53:22,0,[T] Realização F01 [0] Coleta,open,Conceição da Barra de Minas,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Santana dos Montes,4830,2022-08-04 21:53:21,0,[T] Realização F01 [0] Coleta,open,Santana dos Montes,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Entre Rios de Minas,4829,2022-08-04 21:53:19,0,[T] Realização F01 [0] Coleta,open,Entre Rios de Minas,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Nazareno,4828,2022-08-04 21:53:18,0,[T] Realização F01 [0] Coleta,open,Nazareno,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - São Brás do Suaçuí,4827,2022-08-04 21:53:17,0,[T] Realização F01 [0] Coleta,open,São Brás do Suaçuí,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Careaçu,4826,2022-08-04 21:53:15,0,[T] Realização F01 [0] Coleta,open,Careaçu,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Dores de Campos,4825,2022-08-04 21:53:14,0,[T] Realização F01 [0] Coleta,open,Dores de Campos,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Catas Altas da Noruega,4824,2022-08-04 21:53:13,0,[T] Realização F01 [0] Coleta,open,Catas Altas da Noruega,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Caranaíba,4823,2022-08-04 21:53:11,0,[T] Realização F01 [0] Coleta,open,Caranaíba,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Luminárias,4822,2022-08-04 21:53:10,0,[T] Realização F01 [0] Coleta,open,Luminárias,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Casa Grande,4821,2022-08-04 21:53:08,0,[T] Realização F01 [0] Coleta,open,Casa Grande,8,4,2022,1/1970,8/2022,00
-Coleta de Despesas - Contas Públicas - Barroso,4820,2022-08-04 21:53:07,0,[T] Realização F01 [0] Coleta,open,Barroso,8,4,2022,1/1970,8/2022,00
-Coleta de Informações Institucionais - Registro das Competências - Olímpio Noronha,4927,2022-08-05 12:42:50,0,[T] Realização F01 [0] Coleta,open,Olímpio Noronha,8,5,2022,1/1970,8/2022,00
+Coleta de Despesas - Piedade do Rio Grande,5164,2022-08-11 03:04:41,0,[T] Realização F01 [0] Coleta,open,Piedade do Rio Grande,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Lagoa Dourada,5163,2022-08-11 03:04:40,0,[T] Realização F01 [0] Coleta,open,Lagoa Dourada,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Conceição dos Ouros,5162,2022-08-11 03:04:39,0,[T] Realização F01 [0] Coleta,open,Conceição dos Ouros,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Ervália,5161,2022-08-11 03:04:38,0,[T] Realização F01 [0] Coleta,open,Ervália,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Resende Costa,5160,2022-08-11 03:04:36,0,[T] Realização F01 [0] Coleta,open,Resende Costa,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Ritápolis,5159,2022-08-11 03:04:35,0,[T] Realização F01 [0] Coleta,open,Ritápolis,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Silveirânia,5158,2022-08-11 03:04:34,0,[T] Realização F01 [0] Coleta,open,Silveirânia,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - São Geraldo,5157,2022-08-11 03:04:32,0,[T] Realização F01 [0] Coleta,open,São Geraldo,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Santana do Jacaré,5156,2022-08-11 03:01:34,0,[T] Realização F01 [0] Coleta,open,Santana do Jacaré,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Belo Vale,5155,2022-08-11 03:01:33,0,[T] Realização F01 [0] Coleta,open,Belo Vale,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - São Tiago,5154,2022-08-11 03:01:32,0,[T] Realização F01 [0] Coleta,open,São Tiago,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Ingaí,5153,2022-08-11 03:01:30,0,[T] Realização F01 [0] Coleta,open,Ingaí,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Alfredo Vasconcelos,5152,2022-08-11 03:01:29,0,[T] Realização F01 [0] Coleta,open,Alfredo Vasconcelos,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Antônio Carlos,5151,2022-08-11 03:01:28,0,[T] Realização F01 [0] Coleta,open,Antônio Carlos,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Prados,5150,2022-08-11 03:01:26,0,[T] Realização F01 [0] Coleta,open,Prados,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - São João del Rei,5149,2022-08-11 03:01:25,0,[T] Realização F01 [0] Coleta,open,São João del Rei,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Santa Cruz de Minas,5148,2022-08-11 03:01:24,0,[T] Realização F01 [0] Coleta,open,Santa Cruz de Minas,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Ibituruna,5147,2022-08-11 03:01:22,0,[T] Realização F01 [0] Coleta,open,Ibituruna,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Queluzito,5146,2022-08-11 03:01:21,0,[T] Realização F01 [0] Coleta,open,Queluzito,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Descoberto,5145,2022-08-11 03:01:20,0,[T] Realização F01 [0] Coleta,open,Descoberto,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Jeceaba,5144,2022-08-11 03:01:18,0,[T] Realização F01 [0] Coleta,open,Jeceaba,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Rio Acima,5143,2022-08-11 03:01:17,0,[T] Realização F01 [0] Coleta,open,Rio Acima,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Carrancas,5142,2022-08-11 03:01:16,0,[T] Realização F01 [0] Coleta,open,Carrancas,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Itutinga,5141,2022-08-11 03:01:14,0,[T] Realização F01 [0] Coleta,open,Itutinga,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Visconde do Rio Branco,5140,2022-08-11 03:01:13,0,[T] Realização F01 [0] Coleta,open,Visconde do Rio Branco,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Tiradentes,5139,2022-08-11 03:01:12,0,[T] Realização F01 [0] Coleta,open,Tiradentes,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Itumirim,5138,2022-08-11 03:01:10,0,[T] Realização F01 [0] Coleta,open,Itumirim,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Ressaquinha,5137,2022-08-11 02:58:12,0,[T] Realização F01 [0] Coleta,open,Ressaquinha,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Conceição da Aparecida,5136,2022-08-11 02:58:11,0,[T] Realização F01 [0] Coleta,open,Conceição da Aparecida,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - São Vicente de Minas,5135,2022-08-11 02:58:10,0,[T] Realização F01 [0] Coleta,open,São Vicente de Minas,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Santa Bárbara do Tugúrio,5134,2022-08-11 02:58:08,0,[T] Realização F01 [0] Coleta,open,Santa Bárbara do Tugúrio,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Carandaí,5133,2022-08-11 02:58:07,0,[T] Realização F01 [0] Coleta,open,Carandaí,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Coronel Xavier Chaves,5132,2022-08-11 02:58:05,0,[T] Realização F01 [0] Coleta,open,Coronel Xavier Chaves,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Conceição da Barra de Minas,5131,2022-08-11 02:58:04,0,[T] Realização F01 [0] Coleta,open,Conceição da Barra de Minas,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Santana dos Montes,5130,2022-08-11 02:58:03,0,[T] Realização F01 [0] Coleta,open,Santana dos Montes,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Entre Rios de Minas,5129,2022-08-11 02:58:01,0,[T] Realização F01 [0] Coleta,open,Entre Rios de Minas,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Nazareno,5128,2022-08-11 02:58:00,0,[T] Realização F01 [0] Coleta,open,Nazareno,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - São Brás do Suaçuí,5127,2022-08-11 02:57:58,0,[T] Realização F01 [0] Coleta,open,São Brás do Suaçuí,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Careaçu,5126,2022-08-11 02:57:57,0,[T] Realização F01 [0] Coleta,open,Careaçu,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Dores de Campos,5125,2022-08-11 02:57:56,0,[T] Realização F01 [0] Coleta,open,Dores de Campos,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Catas Altas da Noruega,5124,2022-08-11 02:57:54,0,[T] Realização F01 [0] Coleta,open,Catas Altas da Noruega,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Caranaíba,5123,2022-08-11 02:57:53,0,[T] Realização F01 [0] Coleta,open,Caranaíba,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Luminárias,5122,2022-08-11 02:57:52,0,[T] Realização F01 [0] Coleta,open,Luminárias,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Casa Grande,5121,2022-08-11 02:57:51,0,[T] Realização F01 [0] Coleta,open,Casa Grande,8,11,2022,1/1970,8/2022,00
+Coleta de Despesas - Barroso,5120,2022-08-11 02:57:49,0,[T] Realização F01 [0] Coleta,open,Barroso,8,11,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - São Sebastião do Rio Verde,5003,2022-08-09 18:02:38,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Rio Verde,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Presidente Bernardes,5002,2022-08-09 18:02:37,0,[T] Realização F01 [0] Coleta,open,Presidente Bernardes,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Passa Quatro,5001,2022-08-09 18:02:35,0,[T] Realização F01 [0] Coleta,open,Passa Quatro,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Resplendor,5000,2022-08-09 17:59:37,0,[T] Realização F01 [0] Coleta,open,Resplendor,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Olímpio Noronha,4999,2022-08-09 17:59:35,0,[T] Realização F01 [0] Coleta,open,Olímpio Noronha,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Confins,4998,2022-08-09 17:59:34,0,[T] Realização F01 [0] Coleta,open,Confins,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Jesuânia,4997,2022-08-09 17:59:33,0,[T] Realização F01 [0] Coleta,open,Jesuânia,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Muriaé,4996,2022-08-09 17:59:31,0,[T] Realização F01 [0] Coleta,open,Muriaé,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Campos Altos,4995,2022-08-09 17:59:30,0,[T] Realização F01 [0] Coleta,open,Campos Altos,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Alagoa,4994,2022-08-09 17:59:28,0,[T] Realização F01 [0] Coleta,open,Alagoa,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Brumadinho,4993,2022-08-09 17:59:27,0,[T] Realização F01 [0] Coleta,open,Brumadinho,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Cristais,4992,2022-08-09 17:59:26,0,[T] Realização F01 [0] Coleta,open,Cristais,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Itabirito,4991,2022-08-09 17:59:24,0,[T] Realização F01 [0] Coleta,open,Itabirito,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Divinésia,4990,2022-08-09 17:59:23,0,[T] Realização F01 [0] Coleta,open,Divinésia,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Pouso Alto,4989,2022-08-09 17:59:22,0,[T] Realização F01 [0] Coleta,open,Pouso Alto,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Guanhães,4988,2022-08-09 17:59:20,0,[T] Realização F01 [0] Coleta,open,Guanhães,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Lassance,4987,2022-08-09 17:59:19,0,[T] Realização F01 [0] Coleta,open,Lassance,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Soledade de Minas,4986,2022-08-09 17:59:18,0,[T] Realização F01 [0] Coleta,open,Soledade de Minas,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Vespasiano,4985,2022-08-09 17:59:16,0,[T] Realização F01 [0] Coleta,open,Vespasiano,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Serranos,4984,2022-08-09 17:59:15,0,[T] Realização F01 [0] Coleta,open,Serranos,8,9,2022,1/1970,8/2022,00
+Coleta de Servidores - Relatórios Despesas Com Pessoal - Virgínia,4983,2022-08-09 17:59:13,0,[T] Realização F01 [0] Coleta,open,Virgínia,8,9,2022,1/1970,8/2022,00
 Coleta de Despesa com Diária - Olímpio Noronha,4659,2022-08-02 18:06:15,0,[T] Realização F01 [0] Coleta,open,Olímpio Noronha,8,2,2022,1/1970,8/2022,00
-Coleta de Despesas - Relatórios e Contas Públicas - Olímpio Noronha,4434,2022-07-28 13:37:30,0,[T] Realização F01 [0] Coleta,open,Olímpio Noronha,7,28,2022,1/1970,7/2022,00
 Coleta de Despesas - Empenhos e Pagamentos - São Sebastião do Rio Verde,4272,2022-07-25 21:44:45,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Rio Verde,7,25,2022,1/1970,7/2022,00
 Coleta de Despesas - Empenhos e Pagamentos - Presidente Bernardes,4271,2022-07-25 21:44:44,0,[T] Realização F01 [0] Coleta,open,Presidente Bernardes,7,25,2022,1/1970,7/2022,00
 Coleta de Despesas - Empenhos e Pagamentos - Passa Quatro,4270,2022-07-25 21:44:42,0,[T] Realização F01 [0] Coleta,open,Passa Quatro,7,25,2022,1/1970,7/2022,00
@@ -304,7 +324,6 @@ Coleta de Despesas - Empenhos e Pagamentos - Soledade de Minas,4255,2022-07-25 2
 Coleta de Despesas - Empenhos e Pagamentos - Vespasiano,4254,2022-07-25 21:41:24,0,[T] Realização F01 [0] Coleta,open,Vespasiano,7,25,2022,1/1970,7/2022,00
 Coleta de Despesas - Empenhos e Pagamentos - Serranos,4253,2022-07-25 21:41:23,0,[T] Realização F01 [0] Coleta,open,Serranos,7,25,2022,1/1970,7/2022,00
 Coleta de Despesas - Empenhos e Pagamentos - Virgínia,4252,2022-07-25 21:41:22,0,[T] Realização F01 [0] Coleta,open,Virgínia,7,25,2022,1/1970,7/2022,00
-Coleta de Orçamento - Passa Quatro,4547,2022-08-02 12:32:34,0,[T] Realização F01 [0] Coleta,open,Passa Quatro,8,2,2022,1/1970,8/2022,00
 Coleta de Orçamento - Cristais,4538,2022-08-02 12:29:24,0,[T] Realização F01 [0] Coleta,open,Cristais,8,2,2022,1/1970,8/2022,00
 Coleta de Concurso Público - São Sebastião do Rio Verde,4459,2022-07-28 15:10:14,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Rio Verde,7,28,2022,1/1970,7/2022,00
 Coleta de Concurso Público - Alagoa,4450,2022-07-28 15:07:06,0,[T] Realização F01 [0] Coleta,open,Alagoa,7,28,2022,1/1970,7/2022,00
@@ -1443,6 +1462,7 @@ Coleta de dados das licitações da prefeitura de Governador Valadares.,497,2021
 Coleta dos Relatórios Fiscais de Paracatu (Já foi pedido em outra especificação),665,2021-07-26 13:29:57,2021-07-26 13:38:40,[0] Coleta,closed,Paracatu,7,26,2021,7/2021,7/2021,30
 Coleta de dados de Empenhos de Teófilo Otoni,648,2021-07-22 12:56:17,2021-10-19 14:46:39,[E] Externa [T] Realização F01 [0] Coleta,closed,Teófilo Otoni,7,22,2021,10/2021,7/2021,42
 Coleta de dados de Licitações de Pouso Alegre,634,2021-07-20 15:18:42,2021-10-11 13:50:03,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,closed,Pouso Alegre,7,20,2021,10/2021,7/2021,41
+Coleta de dados de Licitações de Uberaba,624,2021-07-19 16:10:29,2022-08-08 18:10:39,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,closed,Uberaba,7,19,2021,8/2022,7/2021,32
 Coleta da Legislação de Montes Claros,599,2021-07-15 12:48:31,2021-09-22 20:41:34,[E] Externa [0] Coleta,closed,Montes Claros,7,15,2021,9/2021,7/2021,38
 Coleta de dados de Convênios de Montes Claros,582,2021-07-13 15:08:22,2021-09-22 20:21:05,[E] Externa [0] Coleta,closed,Montes Claros,7,13,2021,9/2021,7/2021,38
 Coleta de dados de Compras e Licitações do portal de transparência da prefeitura de Betim.,579,2021-07-13 13:35:38,2021-09-24 01:00:01,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,closed,Betim,7,13,2021,9/2021,7/2021,38
@@ -1450,6 +1470,30 @@ Coleta de dados da Estrutura Organizacional de Governador Valadares.,505,2021-06
 Coleta de dados das receitas da prefeitura de Governador Valadares.,500,2021-06-02 15:41:14,2021-10-06 14:33:37,[E] Externa [0] Coleta,closed,Governador Valadares,6,2,2021,10/2021,6/2021,40
 Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 13:44:20,[2] Alta Prioridade [E] Externa [0] Coleta,closed,Congonhas,7,21,2021,10/2021,7/2021,43
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,7,20,2021,8/2021,7/2021,35
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Campos Gerais,5117,2022-08-10 19:42:37,2022-08-11 00:01:20,[T] Realização F01 [0] Coleta,closed,Campos Gerais,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Itatiaiuçu,5116,2022-08-10 19:42:35,2022-08-10 23:59:28,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Sarzedo,5115,2022-08-10 19:42:34,2022-08-10 23:58:40,[T] Realização F01 [0] Coleta,closed,Sarzedo,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Ijaci,5114,2022-08-10 19:42:32,2022-08-10 23:57:45,[T] Realização F01 [0] Coleta,closed,Ijaci,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Itaguara,5113,2022-08-10 19:42:31,2022-08-10 23:57:12,[T] Realização F01 [0] Coleta,closed,Itaguara,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Mantena,5112,2022-08-10 19:42:29,2022-08-10 23:56:44,[T] Realização F01 [0] Coleta,closed,Mantena,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Paraguaçu,5111,2022-08-10 19:42:28,2022-08-10 23:55:07,[T] Realização F01 [0] Coleta,closed,Paraguaçu,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Raposos,5110,2022-08-10 19:42:27,2022-08-10 23:54:00,[T] Realização F01 [0] Coleta,closed,Raposos,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Rio Casca,5109,2022-08-10 19:39:28,2022-08-10 23:53:05,[T] Realização F01 [0] Coleta,closed,Rio Casca,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Rio Doce,5108,2022-08-10 19:39:27,2022-08-10 23:51:31,[T] Realização F01 [0] Coleta,closed,Rio Doce,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - São José da Barra,5107,2022-08-10 19:39:26,2022-08-10 23:50:35,[T] Realização F01 [0] Coleta,closed,São José da Barra,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Alterosa,5106,2022-08-10 19:39:24,2022-08-10 20:11:27,[T] Realização F01 [0] Coleta,closed,Alterosa,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Formiga,5105,2022-08-10 19:39:23,2022-08-10 20:10:51,[T] Realização F01 [0] Coleta,closed,Formiga,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Cataguases,5103,2022-08-10 19:39:20,2022-08-10 20:09:38,[T] Realização F01 [0] Coleta,closed,Cataguases,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Lagoa da Prata,5102,2022-08-10 19:39:19,2022-08-10 20:09:10,[T] Realização F01 [0] Coleta,closed,Lagoa da Prata,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Botelhos,5101,2022-08-10 19:39:17,2022-08-11 01:44:24,[T] Realização F01 [0] Coleta,closed,Botelhos,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - São Sebastião do Oeste,5100,2022-08-10 19:39:16,2022-08-11 00:49:04,[T] Realização F01 [0] Coleta,closed,São Sebastião do Oeste,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Bandeira do Sul,5099,2022-08-10 19:39:14,2022-08-10 20:05:28,[T] Realização F01 [0] Coleta,closed,Bandeira do Sul,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Sacramento,5098,2022-08-10 19:39:13,2022-08-11 01:46:43,[T] Realização F01 [0] Coleta,closed,Sacramento,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Luz,5097,2022-08-10 19:39:11,2022-08-11 00:01:45,[T] Realização F01 [0] Coleta,closed,Luz,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Santo Antônio do Monte,5096,2022-08-10 19:39:10,2022-08-10 20:04:08,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Monte,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Mariana,5095,2022-08-10 19:39:09,2022-08-10 20:01:40,[T] Realização F01 [0] Coleta,closed,Mariana,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Itapeva,5094,2022-08-10 19:39:07,2022-08-10 19:57:08,[T] Realização F01 [0] Coleta,closed,Itapeva,8,10,2022,8/2022,8/2022,32
+Coleta de Servidores Públicos - Total da Folha de Pagamento - Alto Rio Doce,5092,2022-08-10 19:39:04,2022-08-10 19:55:43,[T] Realização F01 [0] Coleta,closed,Alto Rio Doce,8,10,2022,8/2022,8/2022,32
 Coleta de Receitas - Receitas - Campos Gerais,4575,2022-08-02 13:00:26,2022-08-04 10:56:10,[T] Realização F01 [0] Coleta,closed,Campos Gerais,8,2,2022,8/2022,8/2022,31
 Coleta de Receitas - Receitas - Itatiaiuçu,4574,2022-08-02 13:00:24,2022-08-04 10:56:10,[T] Realização F01 [0] Coleta,closed,Itatiaiuçu,8,2,2022,8/2022,8/2022,31
 Coleta de Receitas - Receitas - Sarzedo,4573,2022-08-02 13:00:22,2022-08-04 10:55:29,[T] Realização F01 [0] Coleta,closed,Sarzedo,8,2,2022,8/2022,8/2022,31
@@ -3596,6 +3640,51 @@ Coleta de Despesas - Biquinhas,3065,2022-05-09 12:14:56,2022-05-11 13:06:49,[T] 
 Coleta de Despesas - Arinos,3064,2022-05-09 12:14:54,2022-05-11 13:06:45,[T] Realização F01 [0] Coleta,closed,Arinos,5,9,2022,5/2022,5/2022,19
 Coleta de Despesas - Abaeté,3063,2022-05-09 12:14:53,2022-05-11 13:06:41,[T] Realização F01 [0] Coleta,closed,Abaeté,5,9,2022,5/2022,5/2022,19
 Página de detalhes não atualiza o fim da coleta,2559,2022-04-01 12:16:20,2022-06-23 17:55:55,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,closed,Página,4,1,2022,6/2022,4/2022,25
+Coleta de Despesas - Contas Públicas - Piedade do Rio Grande,4864,2022-08-04 22:00:01,2022-08-11 03:14:39,[T] Realização F01 [0] Coleta,closed,Piedade do Rio Grande,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Lagoa Dourada,4863,2022-08-04 21:59:59,2022-08-11 03:14:31,[T] Realização F01 [0] Coleta,closed,Lagoa Dourada,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Conceição dos Ouros,4862,2022-08-04 21:59:57,2022-08-11 03:14:36,[T] Realização F01 [0] Coleta,closed,Conceição dos Ouros,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Ervália,4861,2022-08-04 21:59:56,2022-08-11 03:14:33,[T] Realização F01 [0] Coleta,closed,Ervália,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Resende Costa,4860,2022-08-04 21:59:53,2022-08-11 03:14:21,[T] Realização F01 [0] Coleta,closed,Resende Costa,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Ritápolis,4859,2022-08-04 21:59:52,2022-08-11 03:14:27,[T] Realização F01 [0] Coleta,closed,Ritápolis,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Silveirânia,4858,2022-08-04 21:59:50,2022-08-11 03:14:26,[T] Realização F01 [0] Coleta,closed,Silveirânia,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - São Geraldo,4857,2022-08-04 21:59:49,2022-08-11 03:14:20,[T] Realização F01 [0] Coleta,closed,São Geraldo,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Santana do Jacaré,4856,2022-08-04 21:56:53,2022-08-11 03:14:13,[T] Realização F01 [0] Coleta,closed,Santana do Jacaré,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Belo Vale,4855,2022-08-04 21:56:51,2022-08-11 03:14:18,[T] Realização F01 [0] Coleta,closed,Belo Vale,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - São Tiago,4854,2022-08-04 21:56:50,2022-08-11 03:14:07,[T] Realização F01 [0] Coleta,closed,São Tiago,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Ingaí,4853,2022-08-04 21:56:49,2022-08-11 03:14:03,[T] Realização F01 [0] Coleta,closed,Ingaí,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Alfredo Vasconcelos,4852,2022-08-04 21:56:47,2022-08-11 03:14:10,[T] Realização F01 [0] Coleta,closed,Alfredo Vasconcelos,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Antônio Carlos,4851,2022-08-04 21:56:46,2022-08-11 03:14:02,[T] Realização F01 [0] Coleta,closed,Antônio Carlos,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Prados,4850,2022-08-04 21:56:45,2022-08-11 03:14:08,[T] Realização F01 [0] Coleta,closed,Prados,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - São João del Rei,4849,2022-08-04 21:56:44,2022-08-11 03:14:00,[T] Realização F01 [0] Coleta,closed,São João del Rei,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Santa Cruz de Minas,4848,2022-08-04 21:56:42,2022-08-11 03:13:45,[T] Realização F01 [0] Coleta,closed,Santa Cruz de Minas,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Ibituruna,4847,2022-08-04 21:56:41,2022-08-11 03:13:46,[T] Realização F01 [0] Coleta,closed,Ibituruna,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Queluzito,4846,2022-08-04 21:56:40,2022-08-11 03:13:58,[T] Realização F01 [0] Coleta,closed,Queluzito,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Descoberto,4845,2022-08-04 21:56:38,2022-08-11 03:13:44,[T] Realização F01 [0] Coleta,closed,Descoberto,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Jeceaba,4844,2022-08-04 21:56:37,2022-08-11 03:13:41,[T] Realização F01 [0] Coleta,closed,Jeceaba,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Rio Acima,4843,2022-08-04 21:56:35,2022-08-11 03:13:25,[T] Realização F01 [0] Coleta,closed,Rio Acima,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Carrancas,4842,2022-08-04 21:56:34,2022-08-11 03:13:27,[T] Realização F01 [0] Coleta,closed,Carrancas,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Itutinga,4841,2022-08-04 21:56:33,2022-08-11 03:13:22,[T] Realização F01 [0] Coleta,closed,Itutinga,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Visconde do Rio Branco,4840,2022-08-04 21:56:31,2022-08-11 03:13:14,[T] Realização F01 [0] Coleta,closed,Visconde do Rio Branco,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Tiradentes,4839,2022-08-04 21:56:30,2022-08-11 03:13:20,[T] Realização F01 [0] Coleta,closed,Tiradentes,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Itumirim,4838,2022-08-04 21:56:28,2022-08-11 03:13:16,[T] Realização F01 [0] Coleta,closed,Itumirim,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Ressaquinha,4837,2022-08-04 21:53:30,2022-08-11 03:13:17,[T] Realização F01 [0] Coleta,closed,Ressaquinha,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Conceição da Aparecida,4836,2022-08-04 21:53:29,2022-08-11 03:13:09,[T] Realização F01 [0] Coleta,closed,Conceição da Aparecida,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - São Vicente de Minas,4835,2022-08-04 21:53:28,2022-08-11 03:13:10,[T] Realização F01 [0] Coleta,closed,São Vicente de Minas,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Santa Bárbara do Tugúrio,4834,2022-08-04 21:53:26,2022-08-11 03:13:07,[T] Realização F01 [0] Coleta,closed,Santa Bárbara do Tugúrio,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Carandaí,4833,2022-08-04 21:53:25,2022-08-11 03:13:03,[T] Realização F01 [0] Coleta,closed,Carandaí,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Coronel Xavier Chaves,4832,2022-08-04 21:53:23,2022-08-11 03:13:00,[T] Realização F01 [0] Coleta,closed,Coronel Xavier Chaves,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Conceição da Barra de Minas,4831,2022-08-04 21:53:22,2022-08-11 03:12:56,[T] Realização F01 [0] Coleta,closed,Conceição da Barra de Minas,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Santana dos Montes,4830,2022-08-04 21:53:21,2022-08-11 03:12:53,[T] Realização F01 [0] Coleta,closed,Santana dos Montes,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Entre Rios de Minas,4829,2022-08-04 21:53:19,2022-08-11 03:12:49,[T] Realização F01 [0] Coleta,closed,Entre Rios de Minas,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Nazareno,4828,2022-08-04 21:53:18,2022-08-11 03:12:46,[T] Realização F01 [0] Coleta,closed,Nazareno,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - São Brás do Suaçuí,4827,2022-08-04 21:53:17,2022-08-11 03:12:41,[T] Realização F01 [0] Coleta,closed,São Brás do Suaçuí,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Careaçu,4826,2022-08-04 21:53:15,2022-08-11 03:12:38,[T] Realização F01 [0] Coleta,closed,Careaçu,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Dores de Campos,4825,2022-08-04 21:53:14,2022-08-11 03:12:34,[T] Realização F01 [0] Coleta,closed,Dores de Campos,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Catas Altas da Noruega,4824,2022-08-04 21:53:13,2022-08-11 03:12:29,[T] Realização F01 [0] Coleta,closed,Catas Altas da Noruega,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Caranaíba,4823,2022-08-04 21:53:11,2022-08-11 03:12:22,[T] Realização F01 [0] Coleta,closed,Caranaíba,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Luminárias,4822,2022-08-04 21:53:10,2022-08-11 03:12:08,[T] Realização F01 [0] Coleta,closed,Luminárias,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Casa Grande,4821,2022-08-04 21:53:08,2022-08-11 03:12:01,[T] Realização F01 [0] Coleta,closed,Casa Grande,8,4,2022,8/2022,8/2022,32
+Coleta de Despesas - Contas Públicas - Barroso,4820,2022-08-04 21:53:07,2022-08-11 03:11:54,[T] Realização F01 [0] Coleta,closed,Barroso,8,4,2022,8/2022,8/2022,32
 Coleta de Despesas - Leis Orçamentárias - Piedade do Rio Grande,4391,2022-07-28 01:03:19,2022-08-04 20:29:27,[T] Realização F01 [0] Coleta,closed,Piedade do Rio Grande,7,28,2022,8/2022,7/2022,31
 Coleta de Despesas - Leis Orçamentárias - Lagoa Dourada,4390,2022-07-28 01:03:17,2022-08-04 20:29:32,[T] Realização F01 [0] Coleta,closed,Lagoa Dourada,7,28,2022,8/2022,7/2022,31
 Coleta de Despesas - Leis Orçamentárias - Conceição dos Ouros,4389,2022-07-28 01:03:16,2022-08-04 20:29:16,[T] Realização F01 [0] Coleta,closed,Conceição dos Ouros,7,28,2022,8/2022,7/2022,31
@@ -3690,6 +3779,7 @@ Coleta de Informações Institucionais - Registro das Competências - São Sebas
 Coleta de Informações Institucionais - Registro das Competências - Presidente Bernardes,4930,2022-08-05 12:45:51,2022-08-05 12:49:59,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,8,5,2022,8/2022,8/2022,31
 Coleta de Informações Institucionais - Registro das Competências - Passa Quatro,4929,2022-08-05 12:45:50,2022-08-05 13:36:32,[T] Realização F01 [0] Coleta,closed,Passa Quatro,8,5,2022,8/2022,8/2022,31
 Coleta de Informações Institucionais - Registro das Competências - Resplendor,4928,2022-08-05 12:42:51,2022-08-05 13:36:31,[T] Realização F01 [0] Coleta,closed,Resplendor,8,5,2022,8/2022,8/2022,31
+Coleta de Informações Institucionais - Registro das Competências - Olímpio Noronha,4927,2022-08-05 12:42:50,2022-08-09 17:28:11,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,8,5,2022,8/2022,8/2022,32
 Coleta de Informações Institucionais - Registro das Competências - Confins,4926,2022-08-05 12:42:49,2022-08-05 13:27:41,[T] Realização F01 [0] Coleta,closed,Confins,8,5,2022,8/2022,8/2022,31
 Coleta de Informações Institucionais - Registro das Competências - Jesuânia,4925,2022-08-05 12:42:47,2022-08-05 13:24:52,[T] Realização F01 [0] Coleta,closed,Jesuânia,8,5,2022,8/2022,8/2022,31
 Coleta de Informações Institucionais - Registro das Competências - Muriaé,4924,2022-08-05 12:42:45,2022-08-05 13:24:33,[T] Realização F01 [0] Coleta,closed,Muriaé,8,5,2022,8/2022,8/2022,31
@@ -3730,6 +3820,7 @@ Coleta de Despesas - Relatórios e Contas Públicas - São Sebastião do Rio Ver
 Coleta de Despesas - Relatórios e Contas Públicas - Presidente Bernardes,4437,2022-07-28 13:40:31,2022-08-01 13:36:00,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,7,28,2022,8/2022,7/2022,31
 Coleta de Despesas - Relatórios e Contas Públicas - Passa Quatro,4436,2022-07-28 13:40:29,2022-08-01 13:36:10,[T] Realização F01 [0] Coleta,closed,Passa Quatro,7,28,2022,8/2022,7/2022,31
 Coleta de Despesas - Relatórios e Contas Públicas - Resplendor,4435,2022-07-28 13:37:32,2022-08-01 13:36:21,[T] Realização F01 [0] Coleta,closed,Resplendor,7,28,2022,8/2022,7/2022,31
+Coleta de Despesas - Relatórios e Contas Públicas - Olímpio Noronha,4434,2022-07-28 13:37:30,2022-08-09 17:29:22,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,7,28,2022,8/2022,7/2022,32
 Coleta de Despesas - Relatórios e Contas Públicas - Confins,4433,2022-07-28 13:37:29,2022-08-01 13:35:39,[T] Realização F01 [0] Coleta,closed,Confins,7,28,2022,8/2022,7/2022,31
 Coleta de Despesas - Relatórios e Contas Públicas - Jesuânia,4432,2022-07-28 13:37:27,2022-08-01 13:35:30,[T] Realização F01 [0] Coleta,closed,Jesuânia,7,28,2022,8/2022,7/2022,31
 Coleta de Despesas - Relatórios e Contas Públicas - Muriaé,4431,2022-07-28 13:37:26,2022-08-01 13:35:20,[T] Realização F01 [0] Coleta,closed,Muriaé,7,28,2022,8/2022,7/2022,31
@@ -3788,6 +3879,90 @@ Coleta de Informações Institucionais - Leis Municipais - Soledade de Minas,411
 Coleta de Informações Institucionais - Leis Municipais - Vespasiano,4115,2022-07-21 14:17:55,2022-07-22 12:43:59,[T] Realização F01 [0] Coleta,closed,Vespasiano,7,21,2022,7/2022,7/2022,29
 Coleta de Informações Institucionais - Leis Municipais - Serranos,4114,2022-07-21 14:17:54,2022-07-22 12:42:26,[T] Realização F01 [0] Coleta,closed,Serranos,7,21,2022,7/2022,7/2022,29
 Coleta de Informações Institucionais - Leis Municipais - Virgínia,4113,2022-07-21 14:17:52,2022-07-22 12:43:36,[T] Realização F01 [0] Coleta,closed,Virgínia,7,21,2022,7/2022,7/2022,29
+Coleta de Acesso à Informação - Informações - São Sebastião do Rio Verde,5091,2022-08-10 18:07:24,2022-08-10 18:38:10,[T] Realização F01 [0] Coleta,closed,São Sebastião do Rio Verde,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Presidente Bernardes,5090,2022-08-10 18:07:22,2022-08-10 18:38:13,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Passa Quatro,5089,2022-08-10 18:07:20,2022-08-10 18:38:13,[T] Realização F01 [0] Coleta,closed,Passa Quatro,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Resplendor,5088,2022-08-10 18:04:21,2022-08-10 18:38:12,[T] Realização F01 [0] Coleta,closed,Resplendor,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Olímpio Noronha,5087,2022-08-10 18:04:19,2022-08-10 18:38:12,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Confins,5086,2022-08-10 18:04:18,2022-08-10 18:38:12,[T] Realização F01 [0] Coleta,closed,Confins,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Jesuânia,5085,2022-08-10 18:04:17,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Jesuânia,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Muriaé,5084,2022-08-10 18:04:15,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Muriaé,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Campos Altos,5083,2022-08-10 18:04:13,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Campos Altos,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Alagoa,5082,2022-08-10 18:04:12,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Alagoa,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Brumadinho,5081,2022-08-10 18:04:10,2022-08-10 18:38:10,[T] Realização F01 [0] Coleta,closed,Brumadinho,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Cristais,5080,2022-08-10 18:04:09,2022-08-10 18:38:13,[T] Realização F01 [0] Coleta,closed,Cristais,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Itabirito,5079,2022-08-10 18:04:07,2022-08-10 18:38:12,[T] Realização F01 [0] Coleta,closed,Itabirito,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Divinésia,5078,2022-08-10 18:04:06,2022-08-10 18:38:12,[T] Realização F01 [0] Coleta,closed,Divinésia,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Pouso Alto,5077,2022-08-10 18:04:04,2022-08-10 18:38:12,[T] Realização F01 [0] Coleta,closed,Pouso Alto,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Guanhães,5076,2022-08-10 18:04:03,2022-08-10 18:38:12,[T] Realização F01 [0] Coleta,closed,Guanhães,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Lassance,5075,2022-08-10 18:04:01,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Lassance,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Soledade de Minas,5074,2022-08-10 18:04:00,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Soledade de Minas,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Vespasiano,5073,2022-08-10 18:03:59,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Vespasiano,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Serranos,5072,2022-08-10 18:03:57,2022-08-10 18:38:11,[T] Realização F01 [0] Coleta,closed,Serranos,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Informações - Virgínia,5071,2022-08-10 18:03:56,2022-08-10 18:38:10,[T] Realização F01 [0] Coleta,closed,Virgínia,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - São Sebastião do Rio Verde,5024,2022-08-09 20:57:42,2022-08-09 21:26:39,[T] Realização F01 [0] Coleta,closed,São Sebastião do Rio Verde,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Presidente Bernardes,5023,2022-08-09 20:57:40,2022-08-09 21:26:41,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Passa Quatro,5022,2022-08-09 20:57:39,2022-08-09 21:26:41,[T] Realização F01 [0] Coleta,closed,Passa Quatro,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Resplendor,5021,2022-08-09 20:54:42,2022-08-09 21:26:41,[T] Realização F01 [0] Coleta,closed,Resplendor,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Olímpio Noronha,5020,2022-08-09 20:54:41,2022-08-09 21:26:41,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Confins,5019,2022-08-09 20:54:39,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Confins,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Jesuânia,5018,2022-08-09 20:54:38,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Jesuânia,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Muriaé,5017,2022-08-09 20:54:37,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Muriaé,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Campos Altos,5016,2022-08-09 20:54:35,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Campos Altos,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Alagoa,5015,2022-08-09 20:54:34,2022-08-09 21:26:39,[T] Realização F01 [0] Coleta,closed,Alagoa,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Brumadinho,5014,2022-08-09 20:54:33,2022-08-09 21:26:39,[T] Realização F01 [0] Coleta,closed,Brumadinho,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Cristais,5013,2022-08-09 20:54:31,2022-08-09 21:26:41,[T] Realização F01 [0] Coleta,closed,Cristais,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Itabirito,5012,2022-08-09 20:54:30,2022-08-09 21:26:41,[T] Realização F01 [0] Coleta,closed,Itabirito,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Divinésia,5011,2022-08-09 20:54:29,2022-08-09 21:26:41,[T] Realização F01 [0] Coleta,closed,Divinésia,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Pouso Alto,5010,2022-08-09 20:54:27,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Pouso Alto,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Guanhães,5009,2022-08-09 20:54:26,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Guanhães,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Lassance,5008,2022-08-09 20:54:25,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Lassance,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Soledade de Minas,5007,2022-08-09 20:54:23,2022-08-09 21:26:40,[T] Realização F01 [0] Coleta,closed,Soledade de Minas,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Vespasiano,5006,2022-08-09 20:54:22,2022-08-09 21:26:39,[T] Realização F01 [0] Coleta,closed,Vespasiano,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Serranos,5005,2022-08-09 20:54:21,2022-08-09 21:26:39,[T] Realização F01 [0] Coleta,closed,Serranos,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Requisitos Exigidos - Virgínia,5004,2022-08-09 20:54:19,2022-08-09 21:26:39,[T] Realização F01 [0] Coleta,closed,Virgínia,8,9,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - São Sebastião do Rio Verde,4982,2022-08-08 21:20:37,2022-08-09 20:30:44,[T] Realização F01 [0] Coleta,closed,São Sebastião do Rio Verde,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Presidente Bernardes,4981,2022-08-08 21:20:35,2022-08-09 20:30:47,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Passa Quatro,4980,2022-08-08 21:20:34,2022-08-09 20:30:47,[T] Realização F01 [0] Coleta,closed,Passa Quatro,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Resplendor,4979,2022-08-08 21:17:35,2022-08-09 20:30:46,[T] Realização F01 [0] Coleta,closed,Resplendor,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Olímpio Noronha,4978,2022-08-08 21:17:34,2022-08-09 20:30:46,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Confins,4977,2022-08-08 21:17:32,2022-08-09 20:30:46,[T] Realização F01 [0] Coleta,closed,Confins,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Jesuânia,4976,2022-08-08 21:17:31,2022-08-09 20:30:45,[T] Realização F01 [0] Coleta,closed,Jesuânia,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Muriaé,4975,2022-08-08 21:17:29,2022-08-09 20:30:45,[T] Realização F01 [0] Coleta,closed,Muriaé,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Campos Altos,4974,2022-08-08 21:17:28,2022-08-09 20:30:45,[T] Realização F01 [0] Coleta,closed,Campos Altos,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Alagoa,4973,2022-08-08 21:17:26,2022-08-09 20:30:45,[T] Realização F01 [0] Coleta,closed,Alagoa,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Brumadinho,4972,2022-08-08 21:17:25,2022-08-09 20:30:44,[T] Realização F01 [0] Coleta,closed,Brumadinho,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Cristais,4971,2022-08-08 21:17:24,2022-08-09 20:30:47,[T] Realização F01 [0] Coleta,closed,Cristais,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Itabirito,4970,2022-08-08 21:17:22,2022-08-09 20:30:47,[T] Realização F01 [0] Coleta,closed,Itabirito,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Divinésia,4969,2022-08-08 21:17:21,2022-08-09 20:30:46,[T] Realização F01 [0] Coleta,closed,Divinésia,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Pouso Alto,4968,2022-08-08 21:17:19,2022-08-09 20:30:46,[T] Realização F01 [0] Coleta,closed,Pouso Alto,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Guanhães,4967,2022-08-08 21:17:18,2022-08-09 20:30:46,[T] Realização F01 [0] Coleta,closed,Guanhães,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Lassance,4966,2022-08-08 21:17:16,2022-08-09 20:30:46,[T] Realização F01 [0] Coleta,closed,Lassance,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Soledade de Minas,4965,2022-08-08 21:17:15,2022-08-09 20:30:45,[T] Realização F01 [0] Coleta,closed,Soledade de Minas,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Vespasiano,4964,2022-08-08 21:17:13,2022-08-09 20:30:45,[T] Realização F01 [0] Coleta,closed,Vespasiano,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Serranos,4963,2022-08-08 21:17:12,2022-08-09 20:30:45,[T] Realização F01 [0] Coleta,closed,Serranos,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Virgínia,4962,2022-08-08 21:17:10,2022-08-09 20:30:44,[T] Realização F01 [0] Coleta,closed,Virgínia,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - São Sebastião do Rio Verde,4961,2022-08-08 17:20:40,2022-08-08 18:10:41,[T] Realização F01 [0] Coleta,closed,São Sebastião do Rio Verde,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Presidente Bernardes,4960,2022-08-08 17:20:38,2022-08-08 18:10:41,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Passa Quatro,4959,2022-08-08 17:20:37,2022-08-08 18:10:41,[T] Realização F01 [0] Coleta,closed,Passa Quatro,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Resplendor,4958,2022-08-08 17:17:39,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Resplendor,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Olímpio Noronha,4957,2022-08-08 17:17:37,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Confins,4956,2022-08-08 17:17:36,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Confins,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Jesuânia,4955,2022-08-08 17:17:34,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Jesuânia,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Muriaé,4954,2022-08-08 17:17:32,2022-08-08 18:10:39,[T] Realização F01 [0] Coleta,closed,Muriaé,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Campos Altos,4953,2022-08-08 17:17:31,2022-08-08 18:10:39,[T] Realização F01 [0] Coleta,closed,Campos Altos,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Alagoa,4952,2022-08-08 17:17:29,2022-08-08 18:10:39,[T] Realização F01 [0] Coleta,closed,Alagoa,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Brumadinho,4951,2022-08-08 17:17:28,2022-08-08 18:49:02,[T] Realização F01 [0] Coleta,closed,Brumadinho,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Cristais,4950,2022-08-08 17:17:27,2022-08-08 18:10:41,[T] Realização F01 [0] Coleta,closed,Cristais,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Itabirito,4949,2022-08-08 17:17:25,2022-08-08 18:10:41,[T] Realização F01 [0] Coleta,closed,Itabirito,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Divinésia,4948,2022-08-08 17:17:24,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Divinésia,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Pouso Alto,4947,2022-08-08 17:17:22,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Pouso Alto,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Guanhães,4946,2022-08-08 17:17:21,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Guanhães,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Lassance,4945,2022-08-08 17:17:19,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Lassance,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Soledade de Minas,4944,2022-08-08 17:17:18,2022-08-08 18:10:40,[T] Realização F01 [0] Coleta,closed,Soledade de Minas,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Vespasiano,4943,2022-08-08 17:17:16,2022-08-08 18:10:39,[T] Realização F01 [0] Coleta,closed,Vespasiano,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Serranos,4942,2022-08-08 17:17:15,2022-08-08 18:10:39,[T] Realização F01 [0] Coleta,closed,Serranos,8,8,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Relatório Estatístico - Virgínia,4941,2022-08-08 17:17:13,2022-08-08 18:10:39,[T] Realização F01 [0] Coleta,closed,Virgínia,8,8,2022,8/2022,8/2022,32
 Coleta de Terceiro Setor - São Sebastião do Rio Verde,4819,2022-08-04 21:23:25,2022-08-05 12:57:05,[T] Realização F01 [0] Coleta,closed,São Sebastião do Rio Verde,8,4,2022,8/2022,8/2022,31
 Coleta de Terceiro Setor - Presidente Bernardes,4818,2022-08-04 21:23:23,2022-08-05 12:57:02,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,8,4,2022,8/2022,8/2022,31
 Coleta de Terceiro Setor - Passa Quatro,4817,2022-08-04 21:23:22,2022-08-05 12:57:04,[T] Realização F01 [0] Coleta,closed,Passa Quatro,8,4,2022,8/2022,8/2022,31
@@ -3811,6 +3986,7 @@ Coleta de Terceiro Setor - Serranos,4800,2022-08-04 21:20:01,2022-08-05 12:57:02
 Coleta de Terceiro Setor - Virgínia,4799,2022-08-04 21:20:00,2022-08-05 12:57:02,[T] Realização F01 [0] Coleta,closed,Virgínia,8,4,2022,8/2022,8/2022,31
 Coleta de Orçamento - São Sebastião do Rio Verde,4549,2022-08-02 12:32:37,2022-08-02 14:25:09,[T] Realização F01 [0] Coleta,closed,São Sebastião do Rio Verde,8,2,2022,8/2022,8/2022,31
 Coleta de Orçamento - Presidente Bernardes,4548,2022-08-02 12:32:35,2022-08-02 14:25:08,[T] Realização F01 [0] Coleta,closed,Presidente Bernardes,8,2,2022,8/2022,8/2022,31
+Coleta de Orçamento - Passa Quatro,4547,2022-08-02 12:32:34,2022-08-09 20:30:09,[T] Realização F01 [0] Coleta,closed,Passa Quatro,8,2,2022,8/2022,8/2022,32
 Coleta de Orçamento - Resplendor,4546,2022-08-02 12:29:35,2022-08-02 14:26:08,[T] Realização F01 [0] Coleta,closed,Resplendor,8,2,2022,8/2022,8/2022,31
 Coleta de Orçamento - Olímpio Noronha,4545,2022-08-02 12:29:34,2022-08-02 14:25:08,[T] Realização F01 [0] Coleta,closed,Olímpio Noronha,8,2,2022,8/2022,8/2022,31
 Coleta de Orçamento - Confins,4544,2022-08-02 12:29:33,2022-08-02 14:25:08,[T] Realização F01 [0] Coleta,closed,Confins,8,2,2022,8/2022,8/2022,31
@@ -3887,6 +4063,51 @@ Coleta de Receitas - Soledade de Minas,3956,2022-07-18 14:43:30,2022-07-21 13:40
 Coleta de Receitas - Vespasiano,3955,2022-07-18 14:43:28,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Vespasiano,7,18,2022,7/2022,7/2022,29
 Coleta de Receitas - Serranos,3954,2022-07-18 14:43:27,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Serranos,7,18,2022,7/2022,7/2022,29
 Coleta de Receitas - Virgínia,3953,2022-07-18 14:43:25,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Virgínia,7,18,2022,7/2022,7/2022,29
+Coleta de Acesso à Informação - Dados Abertos - Piedade do Rio Grande,5069,2022-08-10 02:14:43,2022-08-10 22:47:34,[T] Realização F01 [0] Coleta,closed,Piedade do Rio Grande,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Lagoa Dourada,5068,2022-08-10 02:14:41,2022-08-10 22:47:33,[T] Realização F01 [0] Coleta,closed,Lagoa Dourada,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Conceição dos Ouros,5067,2022-08-10 02:14:40,2022-08-10 22:47:33,[T] Realização F01 [0] Coleta,closed,Conceição dos Ouros,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Ervália,5066,2022-08-10 02:14:39,2022-08-10 22:47:33,[T] Realização F01 [0] Coleta,closed,Ervália,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Resende Costa,5065,2022-08-10 02:14:38,2022-08-10 22:47:32,[T] Realização F01 [0] Coleta,closed,Resende Costa,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Ritápolis,5064,2022-08-10 02:14:36,2022-08-10 22:47:32,[T] Realização F01 [0] Coleta,closed,Ritápolis,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Silveirânia,5063,2022-08-10 02:14:35,2022-08-10 22:47:32,[T] Realização F01 [0] Coleta,closed,Silveirânia,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - São Geraldo,5062,2022-08-10 02:14:33,2022-08-10 22:47:32,[T] Realização F01 [0] Coleta,closed,São Geraldo,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Santana do Jacaré,5061,2022-08-10 02:11:37,2022-08-10 22:47:31,[T] Realização F01 [0] Coleta,closed,Santana do Jacaré,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Belo Vale,5060,2022-08-10 02:11:35,2022-08-10 22:47:31,[T] Realização F01 [0] Coleta,closed,Belo Vale,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - São Tiago,5059,2022-08-10 02:11:34,2022-08-10 22:47:31,[T] Realização F01 [0] Coleta,closed,São Tiago,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Ingaí,5058,2022-08-10 02:11:33,2022-08-10 22:47:31,[T] Realização F01 [0] Coleta,closed,Ingaí,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Alfredo Vasconcelos,5057,2022-08-10 02:11:31,2022-08-10 22:47:30,[T] Realização F01 [0] Coleta,closed,Alfredo Vasconcelos,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Antônio Carlos,5056,2022-08-10 02:11:30,2022-08-10 22:47:30,[T] Realização F01 [0] Coleta,closed,Antônio Carlos,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Prados,5055,2022-08-10 02:11:29,2022-08-10 22:47:30,[T] Realização F01 [0] Coleta,closed,Prados,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - São João del Rei,5054,2022-08-10 02:11:28,2022-08-10 22:47:30,[T] Realização F01 [0] Coleta,closed,São João del Rei,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Santa Cruz de Minas,5053,2022-08-10 02:11:26,2022-08-10 22:47:29,[T] Realização F01 [0] Coleta,closed,Santa Cruz de Minas,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Ibituruna,5052,2022-08-10 02:11:25,2022-08-10 22:47:28,[T] Realização F01 [0] Coleta,closed,Ibituruna,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Queluzito,5051,2022-08-10 02:11:23,2022-08-10 22:47:27,[T] Realização F01 [0] Coleta,closed,Queluzito,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Descoberto,5050,2022-08-10 02:11:22,2022-08-10 22:47:27,[T] Realização F01 [0] Coleta,closed,Descoberto,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Jeceaba,5049,2022-08-10 02:11:21,2022-08-10 22:47:27,[T] Realização F01 [0] Coleta,closed,Jeceaba,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Rio Acima,5048,2022-08-10 02:11:19,2022-08-10 22:47:27,[T] Realização F01 [0] Coleta,closed,Rio Acima,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Carrancas,5047,2022-08-10 02:11:18,2022-08-10 22:47:26,[T] Realização F01 [0] Coleta,closed,Carrancas,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Itutinga,5046,2022-08-10 02:11:17,2022-08-10 22:47:26,[T] Realização F01 [0] Coleta,closed,Itutinga,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Visconde do Rio Branco,5045,2022-08-10 02:11:16,2022-08-10 22:47:26,[T] Realização F01 [0] Coleta,closed,Visconde do Rio Branco,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Tiradentes,5044,2022-08-10 02:11:14,2022-08-10 22:47:52,[T] Realização F01 [0] Coleta,closed,Tiradentes,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Itumirim,5043,2022-08-10 02:11:13,2022-08-10 22:47:52,[T] Realização F01 [0] Coleta,closed,Itumirim,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Ressaquinha,5042,2022-08-10 02:08:16,2022-08-10 22:47:52,[T] Realização F01 [0] Coleta,closed,Ressaquinha,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Conceição da Aparecida,5041,2022-08-10 02:08:15,2022-08-10 22:47:52,[T] Realização F01 [0] Coleta,closed,Conceição da Aparecida,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - São Vicente de Minas,5040,2022-08-10 02:08:13,2022-08-10 22:47:51,[T] Realização F01 [0] Coleta,closed,São Vicente de Minas,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Santa Bárbara do Tugúrio,5039,2022-08-10 02:08:12,2022-08-10 22:47:51,[T] Realização F01 [0] Coleta,closed,Santa Bárbara do Tugúrio,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Carandaí,5038,2022-08-10 02:08:11,2022-08-10 22:47:51,[T] Realização F01 [0] Coleta,closed,Carandaí,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Coronel Xavier Chaves,5037,2022-08-10 02:08:09,2022-08-10 22:47:50,[T] Realização F01 [0] Coleta,closed,Coronel Xavier Chaves,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Conceição da Barra de Minas,5036,2022-08-10 02:08:08,2022-08-10 22:47:50,[T] Realização F01 [0] Coleta,closed,Conceição da Barra de Minas,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Santana dos Montes,5035,2022-08-10 02:08:07,2022-08-10 22:47:50,[T] Realização F01 [0] Coleta,closed,Santana dos Montes,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Entre Rios de Minas,5034,2022-08-10 02:08:06,2022-08-10 22:47:50,[T] Realização F01 [0] Coleta,closed,Entre Rios de Minas,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Nazareno,5033,2022-08-10 02:08:04,2022-08-10 22:47:49,[T] Realização F01 [0] Coleta,closed,Nazareno,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - São Brás do Suaçuí,5032,2022-08-10 02:08:03,2022-08-10 22:47:49,[T] Realização F01 [0] Coleta,closed,São Brás do Suaçuí,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Careaçu,5031,2022-08-10 02:08:02,2022-08-10 22:47:49,[T] Realização F01 [0] Coleta,closed,Careaçu,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Dores de Campos,5030,2022-08-10 02:08:00,2022-08-10 22:47:48,[T] Realização F01 [0] Coleta,closed,Dores de Campos,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Catas Altas da Noruega,5029,2022-08-10 02:07:59,2022-08-10 22:47:48,[T] Realização F01 [0] Coleta,closed,Catas Altas da Noruega,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Caranaíba,5028,2022-08-10 02:07:57,2022-08-10 22:47:48,[T] Realização F01 [0] Coleta,closed,Caranaíba,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Luminárias,5027,2022-08-10 02:07:56,2022-08-10 22:47:48,[T] Realização F01 [0] Coleta,closed,Luminárias,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Casa Grande,5026,2022-08-10 02:07:55,2022-08-10 22:47:47,[T] Realização F01 [0] Coleta,closed,Casa Grande,8,10,2022,8/2022,8/2022,32
+Coleta de Acesso à Informação - Dados Abertos - Barroso,5025,2022-08-10 02:07:54,2022-08-10 22:47:47,[T] Realização F01 [0] Coleta,closed,Barroso,8,10,2022,8/2022,8/2022,32
 Coleta de Obras Publicas - Piedade do Rio Grande,4910,2022-08-04 23:04:23,2022-08-04 23:49:16,[T] Realização F01 [0] Coleta,closed,Piedade do Rio Grande,8,4,2022,8/2022,8/2022,31
 Coleta de Obras Publicas - Lagoa Dourada,4909,2022-08-04 23:04:21,2022-08-04 23:49:15,[T] Realização F01 [0] Coleta,closed,Lagoa Dourada,8,4,2022,8/2022,8/2022,31
 Coleta de Obras Publicas - Conceição dos Ouros,4908,2022-08-04 23:04:20,2022-08-04 23:49:15,[T] Realização F01 [0] Coleta,closed,Conceição dos Ouros,8,4,2022,8/2022,8/2022,31
