@@ -105,10 +105,7 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     epics_info.to_csv("data/epics.csv", index=False) 
     count_epics_month.to_csv("data/count_epics_month.csv", index=False) 
 
-    list_tags = ['Acesso à informação', 'Informações institucionais', 'Receitas', 'Despesas', 'Licitação', 'Contratos', 
-                 'Terceiro Setor', 'Concursos Públicos', 'Obras públicas', 'Servidores Públicos']
-                     
-    df_tags = transform_data.count_by_tags(issues_epic_df, list_tags)
+    df_tags = transform_data.count_by_tags(issues_epic_df)
     df_tags.to_csv("data/df_tags.csv", index=False)    
     
 def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', open_column='open'):

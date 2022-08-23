@@ -98,7 +98,7 @@ def filter_by_labels(df, label_column='labels', labels_filter=['bug']):
 def find_label(item_labels, target_label):    
     
     item_labels = str(item_labels)
-    found = re.match(r'.*"' + target_label + r'-([^"]*?)"', item_labels)    
+    found = re.match(r'.*"' + target_label + r' - ([^"]*?)"', item_labels)    
     
     if found: 
         return found.group(1)
@@ -140,16 +140,18 @@ def count_by_week(df, column_to_group='week', time_column='closed_at'):
     
     return week_status
 
-def count_by_tags(df, list_tags, closed_colum='closed', open_column='open', tag_column='tag'):
+def count_by_tags(df, list_tags=None, closed_colum='closed', open_column='open', tag_column='tag'):
     
     df_tags = df.groupby(tag_column).agg({open_column: 'sum', closed_colum: 'sum'}).reset_index()
 
-    aux = pd.unique(df_tags[tag_column]).tolist()
-    unused_tags = list(set(list_tags) - set(aux) )
-    
-    unused_tags = pd.DataFrame(
-        {tag_column: unused_tags, open_column: [0]*len(unused_tags), closed_colum: [0]*len(unused_tags)})
-    df_tags = pd.concat([df_tags, unused_tags])
+    # se list_tags for fornecido, acrescenta as tags faltantes, senao lista somente as tags existentes
+    if list_tags:
+        aux = pd.unique(df_tags[tag_column]).tolist()
+        unused_tags = list(set(list_tags) - set(aux) )
+        
+        unused_tags = pd.DataFrame(
+            {tag_column: unused_tags, open_column: [0]*len(unused_tags), closed_colum: [0]*len(unused_tags)})
+        df_tags = pd.concat([df_tags, unused_tags])
         
     return df_tags
 

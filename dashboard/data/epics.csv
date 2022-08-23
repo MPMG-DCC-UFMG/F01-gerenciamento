@@ -2,163 +2,176 @@ title,git_issue,created_at,closed_at,state,template,tag,subtag,aux
 Coletor para o template ADPM - Despesas - Geral,512,2022-05-09 13:17:54,2022-06-08 16:19:23,Coletado,ADPM,Despesas,,1
 Coletor para o template Síntese Tecnologia e informatica - Servidores Públicos - Dispêndios,1326,2022-07-21 20:10:03,2022-07-21 20:12:10,Não coletável,Síntese tecnologia informatica,Servidores Públicos,Dispêndios,1
 Coletor para o template Síntese Tecnologia e informatica - Servidores Públicos - Auxílios,1325,2022-07-21 20:08:55,2022-07-21 20:12:10,Não coletável,Síntese tecnologia informatica,Servidores Públicos,Auxílios,1
+Coletor para o template Memory (66) - Despesas - Leis Orçamentárias,1328,2022-07-25 12:05:14,2022-07-26 12:45:45,Coletado,Memory,Despesas,,1
 Coletor para o template ADPM - Acesso à Informação - Informações,968,2022-06-23 16:06:21,2022-06-23 16:10:40,Coletado,ADPM,Acesso à Informação,Informações,1
-Coletor para o template ABO - Despesas - Empenhos e Pagamentos,1329,2022-07-25 17:39:43,,Com epic criada,ABO,Despesas,Pagamentos,1
-Coletor para o template Memory (66) - Despesas - Leis Orçamentárias,1328,2022-07-25 12:05:14,2022-07-26 12:45:45,Coletado,Memory,Despesas,Leis Orçamentárias,1
+Coletor para o template ABO - Despesas - Leis Orçamentárias,1330,2022-07-26 17:37:44,2022-07-27 13:03:00,Coletado,ABO,Despesas,,1
 Coletor para template ADPM - Informações institucionais do município,904,2022-06-22 15:18:50,2022-06-22 15:20:10,Não coletável,ADPM,Informações Institucionais,,1
-Coletor para o template ABO - Despesas - Leis Orçamentárias,1330,2022-07-26 17:37:44,2022-07-27 13:03:00,Coletado,ABO,Despesas,Leis Orçamentárias,1
-Coletor para o template Memory (66) - Despesas - Empenhos,1420,2022-07-27 11:26:56,2022-07-27 11:28:29,Não coletável,Memory,Despesas,empenhos,1
+Coletor para o template ABO - Despesas - Empenhos e Pagamentos,1329,2022-07-25 17:39:43,,Com epic criada,ABO,Despesas,Pagamentos,1
 Coletor para o template Síntese e Tecnologia - Servidores Públicos - Agentes Politicos,515,2022-05-11 23:20:53,2022-05-20 01:03:08,Coletado,Síntese tecnologia informatica,Servidores Públicos,,1
+"Coletor para o template PT - Despesas - PPA, LDO e LOA",1421,2022-07-28 00:51:55,2022-08-18 04:26:11,Coletado,PT,Despesas,Relatórios,1
+Coletor para o template Memory (66) - Despesas - Empenhos,1420,2022-07-27 11:26:56,2022-07-27 11:28:29,Não coletável,Memory,Despesas,Empenhos,1
 Coletor para o template ABO - Informações institucionais - Leis Municipais,1233,2022-07-18 13:40:34,2022-07-22 12:48:03,Coletado,ABO,Informações Institucionais,Leis Municipais,1
-"Coletor para o template PT - Despesas - PPA, LDO e LOA",1421,2022-07-28 00:51:55,2022-08-04 20:25:46,Coletado,PT,Despesas,Leis Orçamentárias,1
-Coletor para o template ABO - Despesas - Relatórios e Contas Públicas,1422,2022-07-28 13:09:35,2022-08-02 17:58:15,Coletado,,Despesas,Contas Públicas,1
 Coletor para o template ABO - Contratos,1327,2022-07-22 14:46:49,2022-07-28 15:02:08,Coletado,ABO,Contratos,,1
-Coletor para o template ABO - Obras Públicas,1045,2022-07-13 20:39:56,2022-07-28 15:19:08,Não coletável,ABO,Obras Públicas,,1
 Coletor para o template ABO - Concurso Público,1423,2022-07-28 15:05:39,2022-08-02 14:18:27,Coletado,ABO,Concursos Públicos,,1
+Coletor para o template ABO - Obras Públicas,1045,2022-07-13 20:39:56,2022-07-28 15:19:08,Não coletável,ABO,Obras Públicas,,1
+Coletor para o template ABO - Despesas - Relatórios e Contas Públicas,1422,2022-07-28 13:09:35,2022-08-02 17:58:15,Coletado,,Despesas,Contas Públicas,1
 Coletor para o template da Betha (37) (Licitações),81,2021-11-08 18:48:29,2022-01-14 13:49:20,Coletado,Betha,Licitação,,1
 Coletor para o Template1 (9) (Licitações),83,2021-11-08 19:09:27,,Com epic criada,Template1,Licitação,,1
-Coletor para o template Siplanweb - Terceiro Setor - Convênios,482,2022-04-18 11:46:42,2022-04-28 11:54:56,Coletado,Siplanweb,Terceiro Setor,,1
 Coletor para o template da Fiorilli sociedade civil (7) (Licitações),87,2021-11-10 17:10:52,2022-01-28 13:40:51,Coletado,Fiorilli,Licitação,,1
-Coletor para o template da Portaltp (61) (Licitações) ,93,2021-11-19 10:24:52,,Com epic criada,Portaltp,Licitação,,1
-Coletor para o template da Portal Fácil (5) (Licitações),89,2021-11-19 10:11:08,2021-12-13 10:33:29,Coletado,Portal Facil (5),Licitação,,1
-Coletor para o template da Portal Fácil (46) (Licitações) ,95,2021-11-19 10:35:27,,Com epic criada,Portal Facil (46),Licitação,,1
-Coletor para o template ADPM (22) - Licitações,186,2022-01-17 13:33:20,2022-01-26 13:20:54,Não coletável,ADPM,Licitação,,1
 Coletor para o template da Memory (66) - Licitações,91,2021-11-19 10:19:39,,Não coletável,Memory,Licitação,,1
-Coletor para o template Betha - Despesas - Relatórios e Contas Públicas,110,2021-12-14 17:04:57,2022-03-14 10:30:53,Coletado,Betha,Despesas,Contas Públicas,1
-Coletor para o template da PT (45) (Licitações),96,2021-11-19 10:37:23,2022-01-20 14:51:32,Coletado,PT,Licitação,,1
-Coletor para o template Síntese Tecnologia e informatica - Despesas - Empenhos Anulados,327,2022-02-14 19:46:44,2022-02-23 13:04:31,Coletado,Síntese tecnologia informatica,Despesas,empenhos,1
+Coletor para o template da Portaltp (61) (Licitações) ,93,2021-11-19 10:24:52,,Com epic criada,Portaltp,Licitação,,1
+Coletor para o template da Portal Fácil (46) (Licitações) ,95,2021-11-19 10:35:27,,Com epic criada,Portal Facil (46),Licitação,,1
+Coletor para o template Siplanweb - Terceiro Setor - Convênios,482,2022-04-18 11:46:42,2022-04-28 11:54:56,Coletado,Siplanweb,Terceiro Setor,,1
+Coletor para o template da Portal Fácil (5) (Licitações),89,2021-11-19 10:11:08,2021-12-13 10:33:29,Coletado,Portal Facil (5),Licitação,,1
+Coletor para o template ADPM (22) - Licitações,186,2022-01-17 13:33:20,2022-01-26 13:20:54,Não coletável,ADPM,Licitação,,1
 Coletor para o template Siplanweb - Acesso à Informação - Requisitos Exigidos,478,2022-04-06 11:37:32,2022-04-18 11:44:33,Coletado,Siplanweb,Acesso à Informação,Requisitos Exigidos,1
+Coletor para o template da PT (45) (Licitações),96,2021-11-19 10:37:23,2022-01-20 14:51:32,Coletado,PT,Licitação,,1
+Coletor para o template Betha - Despesas - Relatórios e Contas Públicas,110,2021-12-14 17:04:57,2022-03-14 10:30:53,Coletado,Betha,Despesas,Contas Públicas,1
 Coletor para o template ABO - Licitações,187,2022-01-17 13:34:01,,Com epic criada,ABO,Licitação,,1
-Coletor para o template Betha - Acesso à Informação - Dados Abertos,313,2022-02-11 11:24:40,2022-07-13 02:09:32,Não coletável,Betha,Acesso à Informação,Dados Abertos,1
+Coletor para o template Síntese Tecnologia e informatica - Despesas - Empenhos Anulados,327,2022-02-14 19:46:44,2022-02-23 13:04:31,Coletado,Síntese tecnologia informatica,Despesas,Empenhos,1
 Coletor para o template Síntese Tecnologia e Informática - Despesas - Contas Públicas,190,2022-01-26 16:42:07,2022-02-17 16:18:49,Coletado,Síntese tecnologia informatica,Despesas,Contas Públicas,1
 Coletor para o template Síntese Tecnologia e informatica - Servidores Públicos - Folha de Pagamento,292,2022-02-04 21:11:08,2022-05-19 00:55:59,Coletado,Síntese tecnologia informatica,Servidores Públicos,,1
 Coletor para o template Betha - Servidores Públicos - Dispêndios,312,2022-02-11 11:23:47,2022-07-13 02:12:36,Não coletável,Betha,Servidores Públicos,Dispêndios,1
-Coletor para o template Síntese Tecnologia e informatica - Despesas - Empenhos Emitidos,329,2022-02-21 13:40:41,2022-03-02 21:57:17,Coletado,Síntese tecnologia informatica,Despesas,Empenhos Emitidos,1
-Coletor para o template Siplanweb - Despesas - Pagamentos,330,2022-02-23 13:22:53,2022-03-02 18:29:24,Coletado,Siplanweb,Despesas,Pagamentos,1
-Coletor para o template Siplanweb - Servidores Públicos - Auxílios,487,2022-04-22 22:59:04,2022-04-22 23:18:20,Não coletável,Siplanweb,Servidores Públicos,Auxílios,1
-Coletor para o template ADPM (22) - Obras Públicas,757,2022-05-17 23:18:10,2022-05-17 23:20:48,Não coletável,ADPM,Obras Públicas,,1
+Coletor para o template Betha - Acesso à Informação - Dados Abertos,313,2022-02-11 11:24:40,2022-07-13 02:09:32,Não coletável,Betha,Acesso à Informação,Dados Abertos,1
 Coletor para o template Betha - Despesas com diárias,317,2022-02-11 11:28:20,2022-07-21 23:44:13,Coletado,Betha,Despesas com diárias,,1
-Coletor para o template Síntese Tecnologia e informatica - Despesas - Empenhos Liquidados,332,2022-03-02 21:54:23,2022-03-07 16:37:30,Coletado,Síntese tecnologia informatica,Despesas,Empenhos Liquidados,1
-Coletor para o template Siplanweb - Concursos Públicos,493,2022-04-22 23:07:58,2022-04-22 23:18:21,Não coletável,Siplanweb,Concursos Públicos,,1
-Coletor para o template Siplanweb - Terceiro Setor - Repasses,492,2022-04-22 23:05:58,2022-04-22 23:18:21,Não coletável,Siplanweb,Terceiro Setor,Repasses,1
-Coletor para o template Siplanweb - Informações Institucionais - Unidades Administrativas,496,2022-04-22 23:15:48,2022-04-22 23:18:22,Não coletável,Siplanweb,Informações Institucionais,Unidades Administrativas,1
-Coletor para o template Siplanweb - Informações Institucionais - Estrutura Organizacional,494,2022-04-22 23:14:11,2022-04-22 23:18:22,Não coletável,Siplanweb,Informações Institucionais,Estrutura Organizacional,1
-Coletor para o template Siplanweb - Informações Institucionais - Registro das Competências,495,2022-04-22 23:15:03,2022-04-22 23:18:22,Não coletável,Siplanweb,Informações Institucionais,Registro das Competências,1
+Coletor para o template Síntese Tecnologia e informatica - Despesas - Empenhos Emitidos,329,2022-02-21 13:40:41,2022-03-02 21:57:17,Coletado,Síntese tecnologia informatica,Despesas,,1
+Coletor para o template ADPM (22) - Obras Públicas,757,2022-05-17 23:18:10,2022-05-17 23:20:48,Não coletável,ADPM,Obras Públicas,,1
+Coletor para o template Síntese Tecnologia e informatica - Despesas - Empenhos Liquidados,332,2022-03-02 21:54:23,2022-03-07 16:37:30,Coletado,Síntese tecnologia informatica,Despesas,,1
+Coletor para o template Siplanweb - Servidores Públicos - Auxílios,487,2022-04-22 22:59:04,2022-04-22 23:18:20,Não coletável,Siplanweb,Servidores Públicos,Auxílios,1
 Coletor para o template Siplanweb - Acesso à Informação - Informações,491,2022-04-22 23:05:04,2022-04-22 23:18:21,Não coletável,Siplanweb,Acesso à Informação,Informações,1
+Coletor para o template Siplanweb - Terceiro Setor - Repasses,492,2022-04-22 23:05:58,2022-04-22 23:18:21,Não coletável,Siplanweb,Terceiro Setor,Repasses,1
+Coletor para o template Siplanweb - Concursos Públicos,493,2022-04-22 23:07:58,2022-04-22 23:18:21,Não coletável,Siplanweb,Concursos Públicos,,1
+Coletor para o template Siplanweb - Informações Institucionais - Registro das Competências,495,2022-04-22 23:15:03,2022-04-22 23:18:22,Não coletável,Siplanweb,Informações Institucionais,Registro das Competências,1
+Coletor para o template Siplanweb - Despesas - Pagamentos,330,2022-02-23 13:22:53,2022-03-02 18:29:24,Coletado,Siplanweb,Despesas,Pagamentos,1
 Coletor para o template Siplanweb - Informações Institucionais - Conselhos Municipais,497,2022-04-22 23:16:30,2022-04-22 23:18:20,Não coletável,Siplanweb,Informações Institucionais,Conselhos Municipais,1
+Coletor para o template Siplanweb - Informações Institucionais - Estrutura Organizacional,494,2022-04-22 23:14:11,2022-04-22 23:18:22,Não coletável,Siplanweb,Informações Institucionais,Estrutura Organizacional,1
+Coletor para o template Siplanweb - Informações Institucionais - Unidades Administrativas,496,2022-04-22 23:15:48,2022-04-22 23:18:22,Não coletável,Siplanweb,Informações Institucionais,Unidades Administrativas,1
 Coletor para o template ADPM (22) - Contratos,498,2022-04-25 12:29:48,2022-05-23 12:06:18,Coletado,ADPM,Contratos,,1
 Coletor para o template Memory (66) - Acesso à Informação - Informações,1664,2022-08-02 11:42:18,2022-08-02 12:30:21,Coletado,Memory,Acesso à Informação,Informações,1
-Coletor para o template Síntese Tecnologia e informatica - Pagamentos,376,2022-03-08 16:50:50,2022-03-11 00:43:28,Coletado,Síntese tecnologia informatica,Despesas,Pagamentos,1
-Coletor para o template Memory (66) - Acesso à Informação - Relatório Estatístico,1665,2022-08-02 13:17:49,2022-08-02 14:02:43,Coletado,Memory,Acesso à Informação,Relatório Estatístico,1
 Coletor para o template Siplanweb - Terceiro Setor - Aditivos,499,2022-04-25 19:09:57,2022-05-02 13:41:46,Coletado,Siplanweb,Terceiro Setor,,1
 Coletor para Template Memory - Obras Públicas,1667,2022-08-02 14:23:39,2022-08-03 22:27:30,Não coletável,Memory,Obras Públicas,,1
-Coletor para o template ABO - Orçamento,1666,2022-08-02 14:20:04,2022-08-09 20:30:13,Coletado,ABO,Orçamento,,1
+Coletor para o template Memory (66) - Acesso à Informação - Relatório Estatístico,1665,2022-08-02 13:17:49,2022-08-02 14:02:43,Coletado,Memory,Acesso à Informação,Relatório Estatístico,1
 Coletor para o template Memory - Receitas,1668,2022-08-02 14:29:40,2022-08-05 13:34:10,Coletado,Memory,Receitas,,1
-Coletor para o template da Portal Fácil (60) (Licitações) ,94,2021-11-19 10:34:34,,Com epic criada,Portal Facil (60),Licitação,,1
-Coletor para o template ABO - Informações Institucionais - Estrutura Organizacional,1669,2022-08-02 17:32:22,2022-08-02 18:09:32,Não coletável,ABO,Informações Institucionais,Estrutura Organizacional,1
-Coletor para o template da Siplanweb (61) (Licitações),92,2021-11-19 10:22:54,2022-01-21 12:41:37,Coletado,Siplanweb,Licitação,,1
-Coletor para o template ABO - Despesas com diárias,1670,2022-08-02 18:01:12,2022-08-04 14:32:18,Coletado,ABO,Despesas com diárias,,1
-Coletor para o template Siplanweb - Despesas - Relatórios,377,2022-03-10 19:05:22,2022-08-04 20:36:46,Coletado,Siplanweb,Despesas,Relatórios,1
-Coletor para o template ABO - Informações Institucionais - Unidades Administrativas,1671,2022-08-02 18:17:57,2022-08-02 18:18:12,Não coletável,ABO,Informações Institucionais,Unidades Administrativas,1
+Coletor para o template Síntese Tecnologia e informatica - Pagamentos,376,2022-03-08 16:50:50,2022-03-11 00:43:28,Coletado,Síntese tecnologia informatica,Despesas,Pagamentos,1
 Coletor para o template Sinplanweb - Contas Públicas,504,2022-04-28 12:28:33,2022-05-06 12:48:14,Coletado,Siplanweb,Despesas,Contas Públicas,1
+Coletor para o template da Siplanweb (61) (Licitações),92,2021-11-19 10:22:54,2022-01-21 12:41:37,Coletado,Siplanweb,Licitação,,1
+Coletor para o template ABO - Orçamento,1666,2022-08-02 14:20:04,2022-08-09 20:30:13,Coletado,ABO,Orçamento,,1
+Coletor para o template ABO - Despesas com diárias,1670,2022-08-02 18:01:12,2022-08-04 14:32:18,Coletado,ABO,Despesas com diárias,,1
+Coletor para o template ABO - Informações Institucionais - Unidades Administrativas,1671,2022-08-02 18:17:57,2022-08-02 18:18:12,Não coletável,ABO,Informações Institucionais,Unidades Administrativas,1
+Coletor para o template ABO - Informações Institucionais - Estrutura Organizacional,1669,2022-08-02 17:32:22,2022-08-02 18:09:32,Não coletável,ABO,Informações Institucionais,Estrutura Organizacional,1
+Coletor para o template da Portal Fácil (60) (Licitações) ,94,2021-11-19 10:34:34,,Com epic criada,Portal Facil (60),Licitação,,1
+Coletor para o template Siplanweb - Despesas - Relatórios,377,2022-03-10 19:05:22,2022-08-04 20:36:46,Coletado,Siplanweb,Despesas,Relatórios,1
 Coletor para o template Síntese Tecnologia e Informática - Despesas - Relatório Orçamentário,379,2022-03-14 13:01:04,2022-03-17 16:47:17,Coletado,Síntese tecnologia informatica,Despesas,Relatórios,1
 Coletor para o template Siplanweb - Informações Institucionais - Leis Municipais,510,2022-05-09 10:57:27,2022-05-18 21:43:08,Coletado,Siplanweb,Informações Institucionais,Leis Municipais,1
+Coletor para o template ADPM (22) - Concursos Públicos,758,2022-05-18 00:07:35,2022-05-18 00:07:40,Não coletável,ADPM,Concursos Públicos,,1
 Coletor para o template ADPM (22) - Terceiro Setor,889,2022-05-27 14:26:03,2022-05-27 14:26:21,Não coletável,ADPM,Terceiro Setor,,1
 Coletor para o template ADPM (22) - Receitas - Arrecadação e Classificação,759,2022-05-18 12:42:53,2022-05-23 11:53:20,Coletado,ADPM,Receitas,Arrecadação e Classificação,1
-Coletor para o template ADPM (22) - Concursos Públicos,758,2022-05-18 00:07:35,2022-05-18 00:07:40,Não coletável,ADPM,Concursos Públicos,,1
-Coletor para o template Betha - Servidores Públicos - Total da Folha de Pagamento,892,2022-05-27 15:00:48,,Com epic criada,Betha,Servidores Públicos,Dados de Remuneração,1
 Coletor para o template ABO - Informações Institucionais - Conselhos Municipais,1761,2022-08-03 14:02:35,2022-08-03 14:02:53,Não coletável,ABO,Informações Institucionais,Conselhos Municipais,1
 Coletor para o template Municipal net - Licitações,82,2021-11-08 19:01:23,,Com bloqueio,Municipal Net,Licitação,,1
-Coletor para o template Siplanweb - Despesas - Empenhos,191,2022-01-26 16:43:30,2022-02-25 09:33:41,Coletado,Siplanweb,Despesas,empenhos,1
 Coletor para o template Betha - Obras Públicas,898,2022-06-14 10:44:32,2022-06-15 11:40:39,Coletado,Betha,Obras Públicas,,1
-Coletor para o template GRP - despesas,195,2022-01-26 16:51:45,,Com epic criada,GRP,Despesas,,1
 Coletor para o Template2 - Despesas,194,2022-01-26 16:50:01,,Com epic criada,Template2,Despesas,,1
-Coletor para o portal PT - Despesas,193,2022-01-26 16:49:03,,Com epic criada,PT,Despesas,,1
+Coletor para o template Siplanweb - Despesas - Empenhos,191,2022-01-26 16:43:30,2022-02-25 09:33:41,Coletado,Siplanweb,Despesas,Empenhos,1
 Coletor para o template Portaltp - Despesas,192,2022-01-26 16:44:50,,Com epic criada,Portaltp,Despesas,,1
+Coletor para o template GRP - despesas,195,2022-01-26 16:51:45,,Com epic criada,GRP,Despesas,,1
+Coletor para o template Betha - Servidores Públicos - Total da Folha de Pagamento,892,2022-05-27 15:00:48,2022-08-12 19:47:07,Coletado,Betha,Servidores Públicos,Dados de Remuneração,1
+Coletor para o portal PT - Despesas,193,2022-01-26 16:49:03,,Com epic criada,PT,Despesas,,1
+Coletor para o template ABO - Terceiro Setor,1766,2022-08-04 21:27:19,2022-08-05 12:57:02,Coletado,ABO,Terceiro Setor,,1
+Coletor para o template Memory (66) - Acesso à Informação - Dados Abertos,1764,2022-08-04 15:38:43,2022-08-04 15:38:57,Não coletável,Memory,Acesso à Informação,Dados Abertos,1
 Coletor para o template Memory (66) - Acesso à Informação - Requisitos Exigidos,1762,2022-08-04 12:06:37,2022-08-04 15:36:41,Coletado,Memory,Acesso à Informação,Requisitos Exigidos,1
 Coletor para o template ABO - Informações Institucionais - Registro das Competências,1763,2022-08-04 15:19:59,2022-08-09 17:56:12,Coletado,ABO,Informações Institucionais,Registro das Competências,1
-Coletor para o template PT - Despesas - Prestação de Contas,1765,2022-08-04 20:35:31,2022-08-11 03:11:40,Coletado,PT,Despesas,Contas Públicas,1
-Coletor para o template Memory (66) - Acesso à Informação - Dados Abertos,1764,2022-08-04 15:38:43,2022-08-04 15:38:57,Não coletável,Memory,Acesso à Informação,Dados Abertos,1
 Coletor para o template PT - Obras Públicas,1767,2022-08-04 22:53:17,2022-08-04 23:48:01,Coletado,PT,Obras Públicas,,1
-Coletor para o template ABO - Terceiro Setor,1766,2022-08-04 21:27:19,2022-08-05 12:57:02,Coletado,ABO,Terceiro Setor,,1
+Coletor para o template PT - Despesas - Prestação de Contas,1765,2022-08-04 20:35:31,2022-08-18 04:25:45,Coletado,PT,Despesas,Contas Públicas,1
+Coletor para o template Siplanweb - Servidores Públicos - Pessoal,417,2022-03-22 22:07:24,2022-04-04 20:29:50,Coletado,Siplanweb,Servidores Públicos,,1
 Coletor para o template Betha - Acesso à Informação - Relatório Estatístico,899,2022-06-20 11:01:25,2022-06-20 12:03:36,Coletado,Betha,Acesso à Informação,Relatório Estatístico,1
-Coletor para o template Siplanweb - Servidores Públicos - Pessoal,417,2022-03-22 22:07:24,2022-04-04 20:29:50,Coletado,Siplanweb,Servidores Públicos,Pessoal,1
 Coletor para o template Sinplanweb - Depesas com Diarias,481,2022-04-16 14:49:01,2022-04-22 14:15:14,Coletado,Siplanweb,Despesas com diárias,,1
 Coletor para o template Betha - Informações Institucionais - Conselhos Municipais,1038,2022-07-13 01:41:46,2022-07-13 01:47:24,Não coletável,Betha,Informações Institucionais,Conselhos Municipais,1
 Coletor para o template ABO - Acesso à Informação - Relatório Estatístico,1768,2022-08-08 16:56:48,2022-08-08 18:49:05,Coletado,ABO,Acesso à Informação,Relatório Estatístico,1
-Coletor para o template ABO - Acesso à Informação - Dados Abertos,1769,2022-08-08 21:07:58,2022-08-09 20:30:45,Coletado,ABO,Acesso à Informação,Dados Abertos,1
 Coletor para o template PT - Servidores - Folha Salarial,1234,2022-07-19 22:19:13,2022-08-03 21:10:46,Coletado,PT,Servidores Públicos,Registro por lotação,1
-Coletor para o template da Habeas data (Licitações),77,2021-11-05 14:24:51,2021-11-12 14:12:13,Coletado,Habeas Data,Licitação,,1
 Coletor para o template Memory (66) - Despesas - Pagamentos,1235,2022-07-19 23:25:14,2022-07-22 13:10:08,Coletado,Memory,Despesas,Pagamentos,1
-Coletor para o template ABO - Servidores - Relatórios Despesas com Pessoal,1771,2022-08-09 17:26:54,,Com epic criada,ABO,Servidores,Relatórios Despesas com Pessoal,1
 Coletor para o template da GRP (27) (Licitações),86,2021-11-09 20:41:52,2022-01-23 19:29:40,Coletado,GRP,Licitação,,1
-Coletor para o template PT - Orçamento - Legislação,1773,2022-08-09 20:41:58,2022-08-09 20:42:21,Coletado,PT,Orçamento,Legislação,1
-Coletor para o template ABO - Acesso à Informação - Requisitos Exigidos,1772,2022-08-09 20:37:53,2022-08-09 21:26:39,Coletado,ABO,Acesso à Informação,Requisitos Exigidos,1
+Coletor para o template ABO - Acesso à Informação - Dados Abertos,1769,2022-08-08 21:07:58,2022-08-09 20:30:45,Coletado,ABO,Acesso à Informação,Dados Abertos,1
 Coletor para o template Memory - Concursos Públicos,1770,2022-08-09 13:37:18,2022-08-09 15:03:49,Coletado,Memory,Concursos Públicos,,1
-Coletor para o template Memory (66) - Terceiro Setor,1776,2022-08-10 12:42:08,2022-08-10 13:02:29,Não coletável,Memory,Terceiro Setor,,1
-Coletor para o template ABO - Acesso à Informação - Informações,1777,2022-08-10 17:59:12,2022-08-10 18:38:19,Coletado,ABO,Acesso à Informação,Informações,1
-Coletor para o template PT - Terceiro Setor - Dados de Parcerias,1775,2022-08-10 01:08:09,2022-08-10 01:08:15,Coletado,PT,Terceiro Setor,Dados de Parcerias,1
+Coletor para o template da Habeas data (Licitações),77,2021-11-05 14:24:51,2021-11-12 14:12:13,Coletado,Habeas Data,Licitação,,1
+Coletor para o template PT - Orçamento - Legislação,1773,2022-08-09 20:41:58,2022-08-09 20:42:21,Coletado,PT,Orçamento,Legislação,1
 Coletor para o template PT - Forma pela qual se dá o acesso à informação - Bases de dados abertos,1774,2022-08-09 21:38:27,2022-08-10 22:49:35,Coletado,PT,Acesso à Informação,Dados Abertos,1
-Coletor para o Template2 (28) (Licitações),97,2021-11-19 10:39:38,2022-02-18 13:52:28,Coletado,Template2,Licitação,,1
-Coletor para o template ADPM (22) - Receitas - Previsão e Classificação,884,2022-05-23 13:40:34,2022-05-24 11:39:02,Coletado,ADPM,Receitas,Previsão e Classificação,1
+Coletor para o template PT - Terceiro Setor - Aditivos,1775,2022-08-10 01:08:09,2022-08-10 01:08:15,Coletado,PT,Terceiro Setor,Dados de Parcerias,1
+Coletor para o template Memory (66) - Terceiro Setor,1776,2022-08-10 12:42:08,2022-08-10 13:02:29,Não coletável,Memory,Terceiro Setor,,1
+Coletor para o template ABO - Servidores - Relatórios Despesas com Pessoal,1771,2022-08-09 17:26:54,,Com epic criada,ABO,Servidores,Relatórios Despesas com Pessoal,1
+Coletor para o template ABO - Acesso à Informação - Informações,1777,2022-08-10 17:59:12,2022-08-10 18:38:19,Coletado,ABO,Acesso à Informação,Informações,1
+Coletor para o template ABO - Acesso à Informação - Requisitos Exigidos,1772,2022-08-09 20:37:53,2022-08-09 21:26:39,Coletado,ABO,Acesso à Informação,Requisitos Exigidos,1
+Coletor para o template PT - Receitas,1780,2022-08-11 20:31:01,,Com epic criada,PT,Receitas,,1
 Coletor para o template PT - Despesas - Despesas,1778,2022-08-11 02:39:39,,Com epic criada,PT,Despesas,Pagamentos,1
-Coletor para o template Síntese Tecnologia e Informática -Licitações,90,2021-11-19 10:18:38,2022-05-23 20:25:08,Coletado,Síntese tecnologia informatica,Licitação,,1
+Coletor para o template ADPM (22) - Receitas - Previsão e Classificação,884,2022-05-23 13:40:34,2022-05-24 11:39:02,Coletado,ADPM,Receitas,Previsão e Classificação,1
+Coletor para o template PT - Acesso à Informação - Requisitos Exigidos,1781,2022-08-11 21:24:48,2022-08-12 01:39:08,Coletado,PT,Acesso à Informação,Requisitos Exigidos,1
+Coletor para o template Memory - Despesas com Diárias,1779,2022-08-11 14:04:14,2022-08-18 14:55:04,Coletado,Memory,Despesas com diárias,,1
+Coletor para o Template2 (28) (Licitações),97,2021-11-19 10:39:38,2022-02-18 13:52:28,Coletado,Template2,Licitação,,1
 Coletor para o template Sinplanweb - Contratos,476,2022-04-04 12:44:35,2022-04-14 15:08:03,Coletado,Siplanweb,Contratos,,1
-Coletor para o template Betha - Servidores Públicos - Quadro de Pessoal,885,2022-05-23 22:24:56,2022-06-03 03:11:21,Coletado,Betha,Servidores Públicos,,1
+Coletor para o template Síntese Tecnologia e Informática -Licitações,90,2021-11-19 10:18:38,2022-05-23 20:25:08,Coletado,Síntese tecnologia informatica,Licitação,,1
 Coletor para o template Betha - Servidores Públicos - Servidores Inativos,886,2022-05-23 22:36:50,,Com bloqueio,Betha,Servidores Públicos,Dados dos Servidores,1
-Coletor para o template ADPM - Despesas - Específicas,887,2022-05-24 15:14:04,2022-06-08 16:19:26,Coletado,ADPM,Despesas,,1
+Coletor para o template Betha - Servidores Públicos - Quadro de Pessoal,885,2022-05-23 22:24:56,2022-06-03 03:11:21,Coletado,Betha,Servidores Públicos,,1
+Coletor para o template Memory - Informações Institucionais - Leis Municipais,1784,2022-08-17 18:53:42,2022-08-18 20:29:23,Coletado,Memory,Informações Institucionais,Leis Municipais,1
+Coletor para o template PT - Acesso à Informação - Informações,1786,2022-08-17 22:25:23,2022-08-17 22:51:34,Coletado,PT,Acesso à Informação,Informações,1
+Coletor para o template PT - Despesas - Relatórios LRF,1785,2022-08-17 21:56:39,2022-08-22 21:55:18,Coletado,PT,Despesas,Relatórios,1
+Coletor para o template PT - Terceiro Setor - Dados de Parcerias - Convênios,1853,2022-08-18 19:06:59,2022-08-18 20:15:26,Coletado,PT,Terceiro Setor,Dados de Parcerias,1
+Coletor para o template PT - Despesas com Diárias,1855,2022-08-18 21:32:56,,Com epic criada,PT,Despesas com diárias,,1
+Coletor para o template Memory (66) - Orçamentos - Execução,1858,2022-08-19 14:43:53,2022-08-19 15:18:26,Coletado,Memory,Orçamento,Execução,1
 Coletor para o template ABO - Receitas,1046,2022-07-13 22:18:13,2022-07-21 13:41:31,Coletado,ABO,Receitas,,1
+Coletor para o template PT - Orçamento - Execução,1859,2022-08-22 22:17:33,2022-08-22 22:17:39,Coletado,PT,Orçamento,Execução,1
+Coletor para o template Memory (66) - Orçamentos - Legislação,1857,2022-08-19 12:16:18,2022-08-19 12:54:46,Coletado,Memory,Orçamento,Legislação,1
+Coletor para o template PT - Obras Públicas,1854,2022-08-18 20:56:49,2022-08-18 21:01:38,Não coletável,PT,Concursos Públicos,,1
+Coletor para o Template1 (22) - Licitações,185,2022-01-17 13:32:49,,Com epic criada,Template1 (22),Licitação,,1
+Coletor para o template ADPM - Despesas - Específicas,887,2022-05-24 15:14:04,2022-06-08 16:19:26,Coletado,ADPM,Despesas,,1
 Coletor para o template ADPM - Despesas - Leis Orçamentárias,888,2022-05-24 15:15:56,2022-06-08 16:19:28,Coletado,ADPM,Despesas,,1
-Coletor para o template Betha - Servidores Públicos - Dados de Remuneração,109,2021-12-14 17:04:34,2022-07-13 02:20:26,Não coletável,Betha,Servidores Públicos,Dados de Remuneração,1
 Coletor para o template Sinplanweb - Receita Orçamentária,483,2022-04-18 23:43:08,2022-04-29 02:06:38,Coletado,Siplanweb,Receitas,,1
-Coletor para o template Síntese Tecnologia e informatica - Obras Públicas,307,2022-02-11 11:13:38,,Com epic criada,Síntese tecnologia informatica,Obras Públicas,,1
-Coletor para o template Síntese Tecnologia e informatica - Receitas	,309,2022-02-11 11:19:43,,Com epic criada,Síntese tecnologia informatica,Receitas,,1
+Coletor para o template Betha - Servidores Públicos - Dados de Remuneração,109,2021-12-14 17:04:34,2022-07-13 02:20:26,Não coletável,Betha,Servidores Públicos,Dados de Remuneração,1
 Coletor para o template Síntese Tecnologia e informatica - Contratos,306,2022-02-11 11:11:59,,Com epic criada,Síntese tecnologia informatica,Contratos,,1
-Coletor para o template Síntese Tecnologia e informatica - Acesso à Informação,308,2022-02-11 11:18:47,,Com epic criada,Síntese tecnologia informatica,Acesso à Informação,,1
-Coletor para o template Betha - Terceiro Setor - Aditivos,315,2022-02-11 11:26:42,2022-07-13 01:56:30,Coletado,Betha,Terceiro Setor,Dados de Parcerias,1
+Coletor para o template Síntese Tecnologia e informatica - Receitas	,309,2022-02-11 11:19:43,,Com epic criada,Síntese tecnologia informatica,Receitas,,1
 Coletor para o template Betha - Orçamento - Execução,320,2022-02-11 11:31:16,2022-07-13 01:49:20,Não coletável,Betha,Orçamento,Execução,1
-Coletor para o template Síntese Tecnologia e informatica - Terceiro Setor,310,2022-02-11 11:21:15,,Com epic criada,Síntese tecnologia informatica,Terceiro Setor,,1
-Coletor para o template Betha - Informações Institucionais - Registro das Competências,319,2022-02-11 11:29:43,2022-07-13 01:47:24,Não coletável,Betha,Informações Institucionais,Registro das Competências,1
+Coletor para o template Síntese Tecnologia e informatica - Acesso à Informação,308,2022-02-11 11:18:47,,Com epic criada,Síntese tecnologia informatica,Acesso à Informação,,1
 Coletor para o template Betha - Servidores Públicos - Auxílios,311,2022-02-11 11:23:02,2022-07-13 02:10:25,Não coletável,Betha,Servidores Públicos,Auxílios,1
-Coletor para o template Síntese Tecnologia e informatica - Despesas com diárias,322,2022-02-11 11:32:39,,Com epic criada,Síntese tecnologia informatica,Despesas com diárias,,1
-Coletor para o template Betha - Acesso à Informação - Informações,318,2022-02-11 11:29:33,2022-07-13 02:04:45,Não coletável,Betha,Acesso à Informação,Informações,1
+Coletor para o template Síntese Tecnologia e informatica - Terceiro Setor,310,2022-02-11 11:21:15,,Com epic criada,Síntese tecnologia informatica,Terceiro Setor,,1
+Coletor para o template Betha - Terceiro Setor - Aditivos,315,2022-02-11 11:26:42,2022-07-13 01:56:30,Coletado,Betha,Terceiro Setor,Dados de Parcerias,1
 Coletor para o template Betha - Receitas - Receitas,314,2022-02-11 11:25:35,2022-08-04 10:56:19,Coletado,Betha,Receitas,Dados das receitas,1
 Coletor para o template Betha - Concursos Públicos,316,2022-02-11 11:27:26,2022-07-13 01:51:58,Não coletável,Betha,Concursos Públicos,,1
-Coletor para o template Síntese Tecnologia e informatica - Orçamento,323,2022-02-11 11:33:21,,Com epic criada,Síntese tecnologia informatica,Orçamento,,1
+Coletor para o template Síntese Tecnologia e informatica - Despesas com diárias,322,2022-02-11 11:32:39,,Com epic criada,Síntese tecnologia informatica,Despesas com diárias,,1
+Coletor para o template Betha - Informações Institucionais - Registro das Competências,319,2022-02-11 11:29:43,2022-07-13 01:47:24,Não coletável,Betha,Informações Institucionais,Registro das Competências,1
 Coletor para o template Síntese Tecnologia e informatica - Concursos Públicos	,321,2022-02-11 11:32:03,,Com epic criada,Síntese tecnologia informatica,Concursos Públicos,,1
+Coletor para o template Síntese Tecnologia e informatica - Orçamento,323,2022-02-11 11:33:21,,Com epic criada,Síntese tecnologia informatica,Orçamento,,1
 Coletor para o template Síntese Tecnologia e informatica - Informações Institucionais,324,2022-02-11 11:34:10,,Com epic criada,Síntese tecnologia informatica,Informações Institucionais,,1
-Coletor para o template Betha - Despesas - Empenhos e Pagamentos,326,2022-02-11 14:36:51,2022-03-22 22:10:47,Coletado,Betha,Despesas,empenhos,1
+Coletor para o template Betha - Acesso à Informação - Informações,318,2022-02-11 11:29:33,2022-07-13 02:04:45,Não coletável,Betha,Acesso à Informação,Informações,1
+Coletor para o template Síntese Tecnologia e informatica - Obras Públicas,307,2022-02-11 11:13:38,,Com epic criada,Síntese tecnologia informatica,Obras Públicas,,1
+Coletor para o template Betha - Despesas - Leis orçamentárias,325,2022-02-11 14:36:47,2022-03-14 10:30:09,Coletado,Betha,Despesas,,1
 Coletor para o template Betha - Servidores Públicos - Servidores Ativos,890,2022-05-27 14:58:02,,Com bloqueio,Betha,Servidores Públicos,Dados dos Servidores,1
 Coletor para o template Betha - Acesso à Informação - Requisitos Exigidos,969,2022-06-27 20:20:02,2022-06-28 10:47:54,Coletado,Betha,Acesso à Informação,Requisitos Exigidos,1
-Coletor para o template Betha - Despesas - Leis orçamentárias,325,2022-02-11 14:36:47,2022-03-14 10:30:09,Coletado,Betha,Despesas,Leis Orçamentárias,1
-Coletor para o template Siplanweb - Despesas - Contas Públicas,331,2022-03-02 18:04:19,2022-03-25 02:28:38,Coletado,Siplanweb,Despesas,Contas Públicas,1
 Coletor para o template Betha - Servidores Públicos - Servidores Contratados,891,2022-05-27 14:59:44,,Com bloqueio,Betha,Servidores Públicos,,1
+Coletor para o template Siplanweb - Despesas - Contas Públicas,331,2022-03-02 18:04:19,2022-03-25 02:28:38,Coletado,Siplanweb,Despesas,Contas Públicas,1
+Coletor para o template Betha - Despesas - Empenhos e Pagamentos,326,2022-02-11 14:36:51,2022-03-22 22:10:47,Coletado,Betha,Despesas,Empenhos,1
 Coletor para o template Betha - Contratos,893,2022-05-30 10:45:26,2022-06-28 11:03:22,Coletado,Betha,Contratos,,1
 Coletor para o template Betha - Receitas - Maiores Arrecadações,971,2022-06-29 11:04:45,2022-06-29 12:46:01,Coletado,Betha,Receitas,Dados das receitas,1
 Coletor para o template ADPM (22) - Despesas com Diárias,894,2022-05-30 13:19:15,2022-06-06 12:32:46,Coletado,ADPM,Despesas com diárias,,1
-Coletor para o template Siplanweb - Despesas - Leis Orçamentárias,380,2022-03-18 00:56:56,2022-03-31 13:22:48,Coletado,Siplanweb,Despesas,Leis Orçamentárias,1
+Coletor para o template Siplanweb - Despesas - Leis Orçamentárias,380,2022-03-18 00:56:56,2022-03-31 13:22:48,Coletado,Siplanweb,Despesas,,1
 Coletor para o template Síntese Tecnologia e Informática - Despesas - Relatório Gestão Fiscal,378,2022-03-14 12:16:35,2022-03-15 17:57:28,Coletado,Síntese tecnologia informatica,Despesas,Relatórios,1
-Coletor para o template ADPM (22) - Orçamento - Execução,896,2022-06-03 00:56:27,2022-06-10 15:08:31,Coletado,ADPM,Orçamento,Execução,1
 Coletor para o template Siplanweb - Servidores Públicos - Relatórios Mensais de Despesas,475,2022-03-31 13:52:45,2022-04-18 23:44:39,Coletado,Siplanweb,Servidores Públicos,Relatórios Despesas com Pessoal,1
-Coletor para o template Betha - Orçamento - Legislação,1043,2022-07-13 02:21:15,2022-07-28 10:53:19,Coletado,Betha,Orçamento,Legislação,1
-Coletor para Uberlândia - Licitações,484,2022-04-20 01:24:10,,Com epic criada,Prefeitura,Licitação,,1
-Coletor para o template Siplanweb - Obras Públicas,480,2022-04-13 11:34:34,2022-04-13 11:54:40,Não coletável,Siplanweb,Obras Públicas,,1
-Coletor para Juiz de Fora - Despesas,485,2022-04-20 01:27:40,,Com epic criada,Prefeitura,Despesas,,1
-Coletor para template ADPM - Acesso à Informação - Dados Abertos,906,2022-06-23 14:23:05,2022-06-23 14:23:25,Não coletável,ADPM,Acesso à Informação,Dados Abertos,1
-Coletor para o template Siplanweb - Acesso à Informação - Dados Abertos,490,2022-04-22 23:04:00,2022-04-22 23:18:21,Não coletável,Siplanweb,Acesso à Informação,Dados Abertos,1
 Coletor para o template ADPM (22) - Orçamento - Legislação,897,2022-06-08 00:37:54,2022-06-14 01:12:58,Coletado,ADPM,Orçamento,Legislação,1
+Coletor para o template Betha - Orçamento - Legislação,1043,2022-07-13 02:21:15,2022-07-28 10:53:19,Coletado,Betha,Orçamento,Legislação,1
+Coletor para Uberlândia - Licitações,484,2022-04-20 01:24:10,,Com epic criada,,Licitação,,1
+Coletor para Juiz de Fora - Despesas,485,2022-04-20 01:27:40,,Com epic criada,,Despesas,,1
+Coletor para Betim - Licitações,486,2022-04-20 01:29:27,,Com epic criada,,Licitação,,1
+Coletor para o template Siplanweb - Obras Públicas,480,2022-04-13 11:34:34,2022-04-13 11:54:40,Não coletável,Siplanweb,Obras Públicas,,1
+Coletor para o template Siplanweb - Acesso à Informação - Dados Abertos,490,2022-04-22 23:04:00,2022-04-22 23:18:21,Não coletável,Siplanweb,Acesso à Informação,Dados Abertos,1
+Coletor para o template ADPM (22) - Orçamento - Execução,896,2022-06-03 00:56:27,2022-06-10 15:08:31,Coletado,ADPM,Orçamento,Execução,1
 Coletor para o template Siplanweb - Acesso à Informação - Relatório Estatístico,489,2022-04-22 23:02:37,2022-04-22 23:18:20,Não coletável,Siplanweb,Acesso à Informação,Relatório Estatístico,1
-Coletor para o template Siplanweb - Servidores Públicos - Dispêndios,488,2022-04-22 23:00:10,2022-04-22 23:18:20,Não coletável,Siplanweb,Servidores Públicos,Dispêndios,1
-Coletor para Betim - Licitações,486,2022-04-20 01:29:27,,Com epic criada,Prefeitura,Licitação,,1
-Coletor para o template Siplanweb - Orçamento - Legislação,506,2022-05-02 12:47:46,2022-05-19 10:32:14,Coletado,Siplanweb,Orçamento,Legislação,1
+Coletor para template ADPM - Acesso à Informação - Dados Abertos,906,2022-06-23 14:23:05,2022-06-23 14:23:25,Não coletável,ADPM,Acesso à Informação,Dados Abertos,1
 Coletor para template ADPM - Acesso a Informação - Relatório Estatístico,905,2022-06-23 14:20:13,2022-06-23 14:20:54,Não coletável,ADPM,Acesso à Informação,Relatório Estatístico,1
-Coletor para o template Memory (66) - Despesas - Relatórios e Contas Públicas,972,2022-07-04 23:33:23,2022-07-07 11:55:45,Coletado,Memory,Despesas,Contas Públicas,1
+Coletor para o template Siplanweb - Servidores Públicos - Dispêndios,488,2022-04-22 23:00:10,2022-04-22 23:18:20,Não coletável,Siplanweb,Servidores Públicos,Dispêndios,1
 Coletor para o template ADPM - Acesso à Informação - Requisitos Exigidos,967,2022-06-23 15:55:57,2022-06-23 16:04:14,Coletado,ADPM,Acesso à Informação,Requisitos Exigidos,1
+Coletor para o template Siplanweb - Orçamento - Legislação,506,2022-05-02 12:47:46,2022-05-19 10:32:14,Coletado,Siplanweb,Orçamento,Legislação,1
 Coletor para o template ADPM (22) - Servidores,970,2022-06-28 13:45:26,2022-06-28 13:49:25,Não coletável,ADPM,Servidores Públicos,,1
-Coletor para o template Betha - Terceiro Setor - Repasses,1042,2022-07-13 02:19:16,2022-07-26 12:41:26,Coletado,Betha,Terceiro Setor,Repasses,1
+Coletor para o template Memory (66) - Despesas - Relatórios e Contas Públicas,972,2022-07-04 23:33:23,2022-07-07 11:55:45,Coletado,Memory,Despesas,Relatórios de Gestão Fiscal,1
 Coletor para o template Betha - Receitas - Ingressos de Receitas,973,2022-07-07 10:36:55,2022-07-13 01:15:01,Coletado,Betha,Receitas,Dados das receitas,1
 Coletor para o template Betha - Informações Institucionais - Unidades Administrativas,1039,2022-07-13 01:43:05,2022-07-13 01:47:24,Não coletável,Betha,Informações Institucionais,Unidades Administrativas,1
-Coletor para o template PT - Contratos,975,2022-07-07 19:44:23,2022-07-14 00:22:55,Coletado,PT,Contratos,,1
-Coletor para o template Betha - Informações Institucionais - Leis Municipais,1044,2022-07-13 02:22:36,2022-07-28 19:41:05,Coletado,Betha,Informações Institucionais,Leis Municipais,1
 Coletor para o template Betha - Informações Institucionais - Estrutura Organizacional,1040,2022-07-13 01:46:05,2022-07-13 01:47:23,Não coletável,Betha,Informações Institucionais,Estrutura Organizacional,1
+Coletor para o template Betha - Terceiro Setor - Repasses,1042,2022-07-13 02:19:16,2022-07-26 12:41:26,Coletado,Betha,Terceiro Setor,Repasses,1
+Coletor para o template Betha - Informações Institucionais - Leis Municipais,1044,2022-07-13 02:22:36,2022-07-28 19:41:05,Coletado,Betha,Informações Institucionais,Leis Municipais,1
 Coletor para o template Betha - Terceiro Setor - Convênios,1041,2022-07-13 02:18:12,2022-07-26 11:13:12,Coletado,Betha,Terceiro Setor,Dados de Parcerias,1
+Coletor para o template PT - Contratos,975,2022-07-07 19:44:23,2022-07-14 00:22:55,Coletado,PT,Contratos,,1

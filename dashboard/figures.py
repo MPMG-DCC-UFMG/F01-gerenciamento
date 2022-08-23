@@ -218,7 +218,8 @@ def plot_speed_epics(df, title):
     # Medindo velocidade atual
     velocidade_total = df["closed"].mean()          
     df["closed_cumsum"] = df["closed"].cumsum()
-    velocidade_coleta = df["Coletado"].mean()          
+    velocidade_coleta = df["Coletado"].mean()       
+    velocidade_mes_anterior = df["Coletado"][:-1].mean()          
     df["coletado_cumsum"] = df["Coletado"].cumsum()         
     df["naocoletado_cumsum"] = df["Não coletável"].cumsum()   
 
@@ -248,6 +249,8 @@ def plot_speed_epics(df, title):
                   line=go.scatter.Line(color="#00CC96")), #AB63FA
         go.Scatter(x=df.month_year, y=[i * velocidade_coleta for i in range(1, total_months+1)], name="Realizado",
                   line=go.scatter.Line(color="#636efa"), opacity=1),#, text=df), #8c86ff
+        go.Scatter(x=df.month_year, y=[i * velocidade_mes_anterior for i in range(1, total_months+1)], name="Mês anterior",
+                  line=go.scatter.Line(color="#636efa"), opacity=0.2),#, text=df), #8c86ff
         # go.Scatter(x=df.month_year, y=[i * velocidade_total for i in range(1, total_months+1)], name="Total Fechado",
         #           line=go.scatter.Line(color="blue"), opacity=0.1),
     ])
