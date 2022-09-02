@@ -138,7 +138,7 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     fig.update_traces(opacity=0.75, showlegend=showlegend)
     
     return fig
-
+    
 # TODO melhorar automacao
 def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
 
@@ -150,7 +150,7 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
     nao_loc_autom = dict(s)
     
     # Fonte: Planilha Controle de Dados (#TODO transformar em Epics com "não-localizado")
-    nao_loc_manual = {'Municipal Net': 12}
+    nao_loc_manual = {'Municipal Net': 12, 'PT': 4}
     coletado_autom = {'Template2': 4}
     
     for template, count in nao_loc_autom.items():
@@ -164,18 +164,19 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
     for template, count in coletado_autom.items():
         for i in range(count):
             df = df.append({'template':template, 'state':'Coletado (autom.)', 'aux':1}, ignore_index=True)
-            
+       
     # Pre-process dataframes       
     count_col = 'aux'
     state_col = 'state'  
     top_templates_df = top_templates_df[top_templates_df['rank'] <= 15]
-    df = top_templates_df.merge(df, how='left').fillna({state_col:'Estimado', count_col:1})
+    df = top_templates_df.merge(df, how='left').fillna({state_col:'Estimado', count_col:1})   
     templates = df['template'].dropna().unique()    
     
     total_ref = 29  # Siplanweb  
     total = dict.fromkeys(templates, total_ref)
     total['Betha'] = 33
     total['ADPM'] = 19
+    total['PT'] = 28
     
     # Fill missing (estimated) epics in df
     for template in templates:        
@@ -185,7 +186,7 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
         
         for i in range(missing):            
             df = df.append({'template':template, state_col:'Estimado', 
-                            'rank':rank, count_col:1}, ignore_index=True)    
+                            'rank':rank, count_col:1}, ignore_index=True)           
         
     # Add a better name for x values
     x = "template_rank"
@@ -204,7 +205,7 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
                               'Estimado':'lightblue', 
                               'Não coletável':'red', 
                               'Não coletável (autom.)':'#ff9e99'}, 
-        labels = {count_col:"#Coletores (total estimado pelo template Siplanweb)", 
+        labels = {count_col:"#Coletores", 
                   x:"Template / Município"}, opacity=0.75 )    
     
     fig.update_layout(xaxis={'categoryorder':'array', 'categoryarray':xorder})
@@ -212,6 +213,7 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
     fig.update_layout(font=dict(size=18))    
     
     return fig
+
 
 def plot_speed_epics(df, title):     
             
@@ -260,7 +262,7 @@ def plot_speed_epics(df, title):
 def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
 
     fig = px.imshow(
-        df, height=1700, width=1700, title=title,
+        df, height=1800, width=1700, title=title,
         color_continuous_scale=[(0, "green"), (0.25, 'lightgreen'), (0.5, "#64b5cd"), 
                                 (0.75, '#FFD700'), (1, 'lightblue')]
     )     
