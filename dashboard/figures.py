@@ -138,11 +138,13 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     fig.update_traces(opacity=0.75, showlegend=showlegend)
     
     return fig
-    
+
+
 # TODO melhorar automacao
 def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
 
-    templates_ja_analisados = ['ADPM', 'Betha', 'Municipal Net', 'Siplanweb']
+    # resultados do buscador de subtags (sondagem)
+    templates_ja_analisados = ['ADPM', 'Betha', 'Municipal Net', 'Siplanweb', 'Memory']
     s = sondagem_df[sondagem_df == 0].count(axis=1)
     s = s[s != 0]
     s = s.drop(templates_ja_analisados)
@@ -167,37 +169,37 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
        
     # Pre-process dataframes       
     count_col = 'aux'
-    state_col = 'state'  
+    name_col  = 'template_size'
     top_templates_df = top_templates_df[top_templates_df['rank'] <= 15]
-    df = top_templates_df.merge(df, how='left').fillna({state_col:'Estimado', count_col:1})   
-    templates = df['template'].dropna().unique()    
+    df = top_templates_df.merge(df, how='left').fillna({'state':'Estimado', count_col:1})   
+    templates = df['template'].dropna().unique() 
     
     total_ref = 29  # Siplanweb  
     total = dict.fromkeys(templates, total_ref)
     total['Betha'] = 33
     total['ADPM'] = 19
     total['PT'] = 28
+    total['Memory'] = 23
+    total['ABO'] = 23
     
     # Fill missing (estimated) epics in df
     for template in templates:        
-        created =  df.groupby('template').count()[state_col][template]
-        missing = total[template] - created                
-        rank = df[df.template == template]['rank'].values[0]
-        
+        created =  df.groupby('template').count()['state'][template]
+        missing = total[template] - created
+        size = df[df.template == template]['size'].values[0]
+        name = df[df.template == template][name_col].values[0]
+
         for i in range(missing):            
-            df = df.append({'template':template, state_col:'Estimado', 
-                            'rank':rank, count_col:1}, ignore_index=True)           
+            df = df.append({'template':template, 'state':'Estimado', name_col:name,
+                            'size':size, count_col:1}, ignore_index=True)           
         
-    # Add a better name for x values
-    x = "template_rank"
-    df[x] = df["template"] + " (" + df["rank"].astype(str) + "º)"
-    df = df.sort_values(by=[state_col, x], ascending=[True, False])
-    xorder = df.groupby(['state','template_rank']).count()['rank'][
+    df = df.sort_values(by=['state', name_col], ascending=[True,False])
+    xorder = df.groupby(['state', name_col]).count()['template'][
         'Coletado'].sort_values(ascending=False).index.tolist()
 
     # Plot
     fig = px.bar(
-        df, y=count_col, x=x, color=state_col, height=800, width=1100, title=title,
+        df, y=count_col, x=name_col, color='state', height=800, width=1100, title=title,
         color_discrete_map = {'Coletado':'green', 
                               'Coletado (autom.)':'#92d696', 
                               'Com bloqueio':'#9F2B68',
@@ -206,7 +208,7 @@ def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - E
                               'Não coletável':'red', 
                               'Não coletável (autom.)':'#ff9e99'}, 
         labels = {count_col:"#Coletores", 
-                  x:"Template / Município"}, opacity=0.75 )    
+                  name_col:"Template / Município"}, opacity=0.75 )    
     
     fig.update_layout(xaxis={'categoryorder':'array', 'categoryarray':xorder})
     fig.update_xaxes(tickangle=45)

@@ -1,7 +1,7 @@
 template,tag,closed,open
  Síntese tecnologia informatica, Despesas,602.0,0.0
  Siplanweb, Despesas,387.0,46.0
- Siplanweb, Contratos,205.0,14.0
+ Siplanweb, Contratos,206.0,13.0
  Memory, Informações Institucionais,198.0,0.0
  Memory, Acesso à Informação,198.0,0.0
  Memory, Despesas,198.0,0.0
@@ -27,13 +27,14 @@ template,tag,closed,open
  Memory, Despesas com diárias,66.0,0.0
  ADPM, Despesas,66.0,0.0
  Memory, Receitas,66.0,0.0
+ ABO, Despesas,63.0,0.0
  Betha, Obras Públicas,62.0,0.0
- Siplanweb, Receitas,61.0,0.0
  Siplanweb, Licitação,61.0,0.0
+ Siplanweb, Receitas,61.0,0.0
  Síntese tecnologia informatica, Proventos de Pensão,53.0,1.0
  Betha, Servidores Públicos,52.0,26.0
- Betha, Acesso à Informação,52.0,0.0
  Betha, Terceiro Setor,52.0,0.0
+ Betha, Acesso à Informação,52.0,0.0
  PT, Terceiro Setor,47.0,0.0
  PT, Servidores Públicos,47.0,0.0
  PT, Obras Públicas,47.0,0.0
@@ -46,7 +47,7 @@ template,tag,closed,open
  PT, Licitação,43.0,0.0
  ABO, Licitação,42.0,0.0
  ABO, Informações Institucionais,42.0,0.0
- ABO, Despesas,42.0,0.0
+ PT, Informações Institucionais,40.0,7.0
  PT, Receitas,36.0,11.0
  Betha, Informações Institucionais,26.0,0.0
  Betha, Orçamento,26.0,0.0
@@ -54,12 +55,12 @@ template,tag,closed,open
  GRP, Licitação,26.0,0.0
  Betha, Despesas com diárias,26.0,0.0
  Template2, Licitação,25.0,0.0
+ Template1 (22), Licitação,22.0,0.0
  ADPM, Licitação,22.0,0.0
  ADPM, Despesas com diárias,22.0,0.0
  ADPM, Contratos,22.0,0.0
  ABO, Terceiro Setor,21.0,0.0
  ABO, Relatórios Despesas com Pessoal,21.0,0.0
- Template1 (22), Licitação,21.0,1.0
  ABO, Contratos,21.0,0.0
  ABO, Despesas com diárias,21.0,0.0
  ABO, Orçamento,21.0,0.0

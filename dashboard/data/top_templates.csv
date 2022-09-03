@@ -1,26 +1,26 @@
-rank,template
-1,Síntese tecnologia informatica
-2,Memory
-3,Siplanweb
-4,Portaltp
-5,Portal Facil (60)
-6,Portal Fácil (46)
-7,PT
-8,Template2
-9,GRP
-10,Betha
-11,Template1 (22)
-12,ADPM
-13,ABO
-14,Municipal Net
-15,Template1 (9)
-16,Fiorilli
-17,Habeas Data
-18,Horusdm
-19,ADPM (7)
-20,Betha (7)
-1,(m) Uberlândia
-2,(m) Juiz de Fora
-3,(m) Betim
-4,(m) Teófilo Otoni
-5,(m) Varginha
+rank,size,template,template_size
+1,88,Síntese tecnologia informatica,Síntese tecnologia (88)
+2,66,Memory,Memory (66)
+3,61,Siplanweb,Siplanweb (61)
+4,61,Portaltp,PortalTP (61)
+5,60,Portal Facil (60),Portal Fácil (60)
+6,46,Portal Fácil (46),Portal Fácil (46)
+7,45,PT,PT (45)
+8,28,Template2,Template2 (28)
+9,27,GRP,GRP (27)
+10,26,Betha,Betha (26)
+11,22,Template1 (22),Template1 (22)
+12,22,ADPM,ADPM (22)
+13,21,ABO,ABO (21)
+14,11,Municipal Net,Municipal Net (11)
+15,9,Template1 (9),Template1 (9)
+16,7,Fiorilli,Fiorilli (7)
+17,7,Habeas Data,Habeas Data (7)
+18,7,Horusdm,Horusdm (7)
+19,7,ADPM (7),ADPM (7)
+20,7,Betha (7),Betha (7)
+1,1,(m) Uberlândia,(m) Uberlândia
+2,1,(m) Juiz de Fora,(m) Juiz de Fora
+3,1,(m) Betim,(m) Betim
+4,1,(m) Teófilo Otoni,(m) Teófilo Otoni
+5,1,(m) Varginha,(m) Varginha

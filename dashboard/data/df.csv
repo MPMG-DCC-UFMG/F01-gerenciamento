@@ -93,7 +93,6 @@ Coleta de Licitações de Pará de Minas,1147,2022-01-05 13:17:17,0,[T] Realiza�
 Coleta de Licitações de Nova Era,1146,2022-01-05 13:15:47,0,[T] Realização F01 [0] Coleta,open,Nova Era,1,5,2022,1/1970,1/2022,00
 Coleta de Licitações de João Monlevade,1145,2022-01-05 13:14:02,0,[T] Realização F01 [0] Coleta,open,João Monlevade,1,5,2022,1/1970,1/2022,00
 Coleta de Licitações de Itabirito,1144,2022-01-05 13:11:27,0,[T] Realização F01 [0] Coleta,open,Itabirito,1,5,2022,1/1970,1/2022,00
-Coleta de Licitações de Cruzeiro da Fortaleza,1141,2022-01-05 12:58:23,0,[T] Realização F01 [0] Coleta,open,Cruzeiro da Fortaleza,1,5,2022,1/1970,1/2022,00
 Coleta de Licitações de São José da Barra de 2021 até 2017 (Outro Template),1089,2021-12-14 13:40:23,0,[T] Realização F01 [0] Coleta,open,São José da Barra,12,14,2021,1/1970,12/2021,00
 Coleta de Licitações de São José da Barra de 2016 até 2012 (Outro Template),1088,2021-12-14 13:39:32,0,[T] Realização F01 [0] Coleta,open,São José da Barra,12,14,2021,1/1970,12/2021,00
 Coleta de Licitações de Paraguaçu de 2021 até 2017,1073,2021-12-14 13:17:30,0,[T] Realização F01 [0] Coleta,open,Paraguaçu,12,14,2021,1/1970,12/2021,00
@@ -209,6 +208,13 @@ Coleta de dados de Relatórios Fiscais de Paracatu,957,2021-11-25 01:55:39,2021-
 Coleta de dados das Contas Públicas de Paracatu,955,2021-11-25 01:53:30,0,[E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,11,25,2021,1/1970,11/2021,00
 Coleta de dados das Contas Públicas de Paracatu,956,2021-11-25 01:53:39,2021-11-26 18:33:57,[E] Externa [T] Realização F01 [0] Coleta,closed,Paracatu,11,25,2021,11/2021,11/2021,47
 Coleta de Licitações de Elói Mendes,901,2021-11-12 13:10:46,0,[E] Externa [T] Realização F01 [0] Coleta,open,Elói Mendes,11,12,2021,1/1970,11/2021,00
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Silveirânia,6120,2022-09-02 01:22:27,0,[T] Realização F01 [0] Coleta,open,Silveirânia,9,2,2022,1/1970,9/2022,00
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Belo Vale,6117,2022-09-02 01:19:28,0,[T] Realização F01 [0] Coleta,open,Belo Vale,9,2,2022,1/1970,9/2022,00
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Descoberto,6107,2022-09-02 01:19:15,0,[T] Realização F01 [0] Coleta,open,Descoberto,9,2,2022,1/1970,9/2022,00
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Ressaquinha,6099,2022-09-02 01:16:08,0,[T] Realização F01 [0] Coleta,open,Ressaquinha,9,2,2022,1/1970,9/2022,00
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Coronel Xavier Chaves,6095,2022-09-02 01:16:03,0,[T] Realização F01 [0] Coleta,open,Coronel Xavier Chaves,9,2,2022,1/1970,9/2022,00
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Conceição da Barra de Minas,6094,2022-09-02 01:16:01,0,[T] Realização F01 [0] Coleta,open,Conceição da Barra de Minas,9,2,2022,1/1970,9/2022,00
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Careaçu,6089,2022-09-02 01:15:55,0,[T] Realização F01 [0] Coleta,open,Careaçu,9,2,2022,1/1970,9/2022,00
 Coleta de Receitas - São Geraldo,5955,2022-08-30 00:19:49,0,[T] Realização F01 [0] Coleta,open,São Geraldo,8,30,2022,1/1970,8/2022,00
 Coleta de Receitas - Belo Vale,5953,2022-08-30 00:19:46,0,[T] Realização F01 [0] Coleta,open,Belo Vale,8,30,2022,1/1970,8/2022,00
 Coleta de Receitas - São João del Rei,5947,2022-08-30 00:19:39,0,[T] Realização F01 [0] Coleta,open,São João del Rei,8,30,2022,1/1970,8/2022,00
@@ -1342,6 +1348,7 @@ Coleta de Licitações de Luminárias ,1212,2022-01-11 14:20:18,2022-01-20 22:49
 Coleta de Licitações de Casa Grande,1211,2022-01-11 14:17:35,2022-01-20 22:49:56,[T] Realização F01 [0] Coleta,closed,Casa Grande,1,11,2022,1/2022,1/2022,03
 Coleta de Licitações de Barroso,1210,2022-01-11 14:15:40,2022-01-20 22:49:48,[T] Realização F01 [0] Coleta,closed,Barroso,1,11,2022,1/2022,1/2022,03
 Coleta de Licitações de Divinópolis,1142,2022-01-05 13:02:54,2022-01-21 13:16:49,[T] Realização F01 [0] Coleta,closed,Divinópolis,1,5,2022,1/2022,1/2022,03
+Coleta de Licitações de Cruzeiro da Fortaleza,1141,2022-01-05 12:58:23,2022-09-01 22:30:53,[T] Realização F01 [0] Coleta,closed,Cruzeiro da Fortaleza,1,5,2022,9/2022,1/2022,35
 Coleta de Licitações de Serrania de 2016 até 2012,1096,2021-12-14 14:02:24,2022-01-04 14:18:16,[T] Realização F01,closed,Serrania,12,14,2021,1/2022,12/2021,01
 Coleta de Licitações de Serrania de 2016 até 2012,1094,2021-12-14 13:54:45,2022-01-07 13:40:54,[T] Realização F01 [0] Coleta,closed,Serrania,12,14,2021,1/2022,12/2021,01
 Coleta de Licitações de Serrania de 2021 até 2017 ,1095,2021-12-14 13:55:15,2022-01-07 13:40:51,[T] Realização F01 [0] Coleta,closed,Serrania,12,14,2021,1/2022,12/2021,01
@@ -4136,6 +4143,46 @@ Coleta de Despesas - Biquinhas,3065,2022-05-09 12:14:56,2022-05-11 13:06:49,[T] 
 Coleta de Despesas - Arinos,3064,2022-05-09 12:14:54,2022-05-11 13:06:45,[T] Realização F01 [0] Coleta,closed,Arinos,5,9,2022,5/2022,5/2022,19
 Coleta de Despesas - Abaeté,3063,2022-05-09 12:14:53,2022-05-11 13:06:41,[T] Realização F01 [0] Coleta,closed,Abaeté,5,9,2022,5/2022,5/2022,19
 Página de detalhes não atualiza o fim da coleta,2559,2022-04-01 12:16:20,2022-06-23 17:55:55,[1] Bug [2] Alta Prioridade [E] Externa [0] Desenvolvimento,closed,Página,4,1,2022,6/2022,4/2022,25
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Santana de Cataguases,6129,2022-09-02 01:22:40,2022-09-02 17:23:30,[T] Realização F01 [0] Coleta,closed,Santana de Cataguases,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Itaverava,6128,2022-09-02 01:22:38,2022-09-02 17:23:48,[T] Realização F01 [0] Coleta,closed,Itaverava,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Camacho,6127,2022-09-02 01:22:37,2022-09-02 17:24:05,[T] Realização F01 [0] Coleta,closed,Camacho,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Piedade do Rio Grande,6126,2022-09-02 01:22:36,2022-09-02 17:24:16,[T] Realização F01 [0] Coleta,closed,Piedade do Rio Grande,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Lagoa Dourada,6125,2022-09-02 01:22:34,2022-09-02 17:24:31,[T] Realização F01 [0] Coleta,closed,Lagoa Dourada,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Conceição dos Ouros,6124,2022-09-02 01:22:33,2022-09-02 17:24:44,[T] Realização F01 [0] Coleta,closed,Conceição dos Ouros,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Ervália,6123,2022-09-02 01:22:32,2022-09-02 17:24:58,[T] Realização F01 [0] Coleta,closed,Ervália,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Resende Costa,6122,2022-09-02 01:22:30,2022-09-02 17:25:10,[T] Realização F01 [0] Coleta,closed,Resende Costa,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Ritápolis,6121,2022-09-02 01:22:29,2022-09-02 17:25:26,[T] Realização F01 [0] Coleta,closed,Ritápolis,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - São Geraldo,6119,2022-09-02 01:19:30,2022-09-02 17:25:51,[T] Realização F01 [0] Coleta,closed,São Geraldo,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Santana do Jacaré,6118,2022-09-02 01:19:29,2022-09-02 17:26:05,[T] Realização F01 [0] Coleta,closed,Santana do Jacaré,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - São Tiago,6116,2022-09-02 01:19:27,2022-09-02 17:26:28,[T] Realização F01 [0] Coleta,closed,São Tiago,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Ingaí,6115,2022-09-02 01:19:26,2022-09-02 17:26:41,[T] Realização F01 [0] Coleta,closed,Ingaí,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Alfredo Vasconcelos,6114,2022-09-02 01:19:24,2022-09-02 17:26:54,[T] Realização F01 [0] Coleta,closed,Alfredo Vasconcelos,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Antônio Carlos,6113,2022-09-02 01:19:23,2022-09-02 17:27:07,[T] Realização F01 [0] Coleta,closed,Antônio Carlos,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Prados,6112,2022-09-02 01:19:21,2022-09-02 17:27:24,[T] Realização F01 [0] Coleta,closed,Prados,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - São João del Rei,6111,2022-09-02 01:19:20,2022-09-02 17:27:44,[T] Realização F01 [0] Coleta,closed,São João del Rei,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Santa Cruz de Minas,6110,2022-09-02 01:19:19,2022-09-02 17:23:04,[T] Realização F01 [0] Coleta,closed,Santa Cruz de Minas,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Ibituruna,6109,2022-09-02 01:19:18,2022-09-02 17:22:50,[T] Realização F01 [0] Coleta,closed,Ibituruna,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Queluzito,6108,2022-09-02 01:19:16,2022-09-02 17:22:39,[T] Realização F01 [0] Coleta,closed,Queluzito,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Jeceaba,6106,2022-09-02 01:19:14,2022-09-02 17:22:13,[T] Realização F01 [0] Coleta,closed,Jeceaba,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Rio Acima,6105,2022-09-02 01:19:12,2022-09-02 17:21:58,[T] Realização F01 [0] Coleta,closed,Rio Acima,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Carrancas,6104,2022-09-02 01:19:11,2022-09-02 17:21:42,[T] Realização F01 [0] Coleta,closed,Carrancas,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Itutinga,6103,2022-09-02 01:19:10,2022-09-02 17:21:27,[T] Realização F01 [0] Coleta,closed,Itutinga,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Visconde do Rio Branco,6102,2022-09-02 01:19:08,2022-09-02 17:21:14,[T] Realização F01 [0] Coleta,closed,Visconde do Rio Branco,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Tiradentes,6101,2022-09-02 01:19:07,2022-09-02 17:21:01,[T] Realização F01 [0] Coleta,closed,Tiradentes,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Itumirim,6100,2022-09-02 01:16:09,2022-09-02 17:20:48,[T] Realização F01 [0] Coleta,closed,Itumirim,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - São Vicente de Minas,6098,2022-09-02 01:16:07,2022-09-02 17:20:28,[T] Realização F01 [0] Coleta,closed,São Vicente de Minas,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Santa Bárbara do Tugúrio,6097,2022-09-02 01:16:05,2022-09-02 17:20:14,[T] Realização F01 [0] Coleta,closed,Santa Bárbara do Tugúrio,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Carandaí,6096,2022-09-02 01:16:04,2022-09-02 17:19:59,[T] Realização F01 [0] Coleta,closed,Carandaí,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Santana dos Montes,6093,2022-09-02 01:16:00,2022-09-02 17:19:18,[T] Realização F01 [0] Coleta,closed,Santana dos Montes,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Entre Rios de Minas,6092,2022-09-02 01:15:58,2022-09-02 17:19:04,[T] Realização F01 [0] Coleta,closed,Entre Rios de Minas,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Nazareno,6091,2022-09-02 01:15:57,2022-09-02 17:18:53,[T] Realização F01 [0] Coleta,closed,Nazareno,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - São Brás do Suaçuí,6090,2022-09-02 01:15:56,2022-09-02 17:18:41,[T] Realização F01 [0] Coleta,closed,São Brás do Suaçuí,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Dores de Campos,6088,2022-09-02 01:15:53,2022-09-02 17:34:53,[T] Realização F01 [0] Coleta,closed,Dores de Campos,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Catas Altas da Noruega,6087,2022-09-02 01:15:52,2022-09-02 17:18:02,[T] Realização F01 [0] Coleta,closed,Catas Altas da Noruega,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Caranaíba,6086,2022-09-02 01:15:51,2022-09-02 17:17:48,[T] Realização F01 [0] Coleta,closed,Caranaíba,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Luminárias,6085,2022-09-02 01:15:49,2022-09-02 17:17:36,[T] Realização F01 [0] Coleta,closed,Luminárias,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Casa Grande,6084,2022-09-02 01:15:48,2022-09-02 17:17:25,[T] Realização F01 [0] Coleta,closed,Casa Grande,9,2,2022,9/2022,9/2022,35
+Coleta de Informações Institucionais do Município - Estrutura Organizacional - Barroso,6083,2022-09-02 01:15:46,2022-09-02 17:17:07,[T] Realização F01 [0] Coleta,closed,Barroso,9,2,2022,9/2022,9/2022,35
 Coleta de Receitas - Santana de Cataguases,5965,2022-08-30 00:22:58,2022-09-01 17:13:50,[T] Realização F01 [0] Coleta,closed,Santana de Cataguases,8,30,2022,9/2022,8/2022,35
 Coleta de Receitas - Itaverava,5964,2022-08-30 00:22:57,2022-08-31 22:14:29,[T] Realização F01 [0] Coleta,closed,Itaverava,8,30,2022,8/2022,8/2022,35
 Coleta de Receitas - Camacho,5963,2022-08-30 00:22:56,2022-08-31 22:14:40,[T] Realização F01 [0] Coleta,closed,Camacho,8,30,2022,8/2022,8/2022,35
@@ -4754,6 +4801,53 @@ Coleta de Receitas - Soledade de Minas,3956,2022-07-18 14:43:30,2022-07-21 13:40
 Coleta de Receitas - Vespasiano,3955,2022-07-18 14:43:28,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Vespasiano,7,18,2022,7/2022,7/2022,29
 Coleta de Receitas - Serranos,3954,2022-07-18 14:43:27,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Serranos,7,18,2022,7/2022,7/2022,29
 Coleta de Receitas - Virgínia,3953,2022-07-18 14:43:25,2022-07-21 13:08:16,[T] Realização F01 [0] Coleta,closed,Virgínia,7,18,2022,7/2022,7/2022,29
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Santana de Cataguases,6176,2022-09-02 01:43:09,2022-09-02 02:21:03,[T] Realização F01 [0] Coleta,closed,Santana de Cataguases,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Itaverava,6175,2022-09-02 01:43:08,2022-09-02 02:21:03,[T] Realização F01 [0] Coleta,closed,Itaverava,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Camacho,6174,2022-09-02 01:43:07,2022-09-02 02:21:03,[T] Realização F01 [0] Coleta,closed,Camacho,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Piedade do Rio Grande,6173,2022-09-02 01:43:06,2022-09-02 02:21:02,[T] Realização F01 [0] Coleta,closed,Piedade do Rio Grande,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Lagoa Dourada,6172,2022-09-02 01:43:04,2022-09-02 02:21:02,[T] Realização F01 [0] Coleta,closed,Lagoa Dourada,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Conceição dos Ouros,6171,2022-09-02 01:43:03,2022-09-02 02:21:02,[T] Realização F01 [0] Coleta,closed,Conceição dos Ouros,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Ervália,6170,2022-09-02 01:43:01,2022-09-02 02:21:02,[T] Realização F01 [0] Coleta,closed,Ervália,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Resende Costa,6169,2022-09-02 01:43:00,2022-09-02 02:21:01,[T] Realização F01 [0] Coleta,closed,Resende Costa,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Ritápolis,6168,2022-09-02 01:42:58,2022-09-02 02:21:01,[T] Realização F01 [0] Coleta,closed,Ritápolis,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Silveirânia,6167,2022-09-02 01:42:57,2022-09-02 02:21:01,[T] Realização F01 [0] Coleta,closed,Silveirânia,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - São Geraldo,6166,2022-09-02 01:40:00,2022-09-02 02:21:01,[T] Realização F01 [0] Coleta,closed,São Geraldo,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Santana do Jacaré,6165,2022-09-02 01:39:58,2022-09-02 02:21:00,[T] Realização F01 [0] Coleta,closed,Santana do Jacaré,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Belo Vale,6164,2022-09-02 01:39:57,2022-09-02 02:21:00,[T] Realização F01 [0] Coleta,closed,Belo Vale,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - São Tiago,6163,2022-09-02 01:39:56,2022-09-02 02:21:00,[T] Realização F01 [0] Coleta,closed,São Tiago,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Ingaí,6162,2022-09-02 01:39:54,2022-09-02 02:21:00,[T] Realização F01 [0] Coleta,closed,Ingaí,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Alfredo Vasconcelos,6161,2022-09-02 01:39:53,2022-09-02 02:20:59,[T] Realização F01 [0] Coleta,closed,Alfredo Vasconcelos,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Antônio Carlos,6160,2022-09-02 01:39:52,2022-09-02 02:20:59,[T] Realização F01 [0] Coleta,closed,Antônio Carlos,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Prados,6159,2022-09-02 01:39:50,2022-09-02 02:20:59,[T] Realização F01 [0] Coleta,closed,Prados,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - São João del Rei,6158,2022-09-02 01:39:49,2022-09-02 02:20:59,[T] Realização F01 [0] Coleta,closed,São João del Rei,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Santa Cruz de Minas,6157,2022-09-02 01:39:48,2022-09-02 02:20:58,[T] Realização F01 [0] Coleta,closed,Santa Cruz de Minas,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Ibituruna,6156,2022-09-02 01:39:46,2022-09-02 02:20:58,[T] Realização F01 [0] Coleta,closed,Ibituruna,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Queluzito,6155,2022-09-02 01:39:45,2022-09-02 02:20:58,[T] Realização F01 [0] Coleta,closed,Queluzito,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Descoberto,6154,2022-09-02 01:39:44,2022-09-02 02:20:58,[T] Realização F01 [0] Coleta,closed,Descoberto,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Jeceaba,6153,2022-09-02 01:39:43,2022-09-02 02:20:58,[T] Realização F01 [0] Coleta,closed,Jeceaba,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Rio Acima,6152,2022-09-02 01:39:41,2022-09-02 02:20:57,[T] Realização F01 [0] Coleta,closed,Rio Acima,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Carrancas,6151,2022-09-02 01:39:40,2022-09-02 02:21:20,[T] Realização F01 [0] Coleta,closed,Carrancas,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Itutinga,6150,2022-09-02 01:39:39,2022-09-02 02:21:19,[T] Realização F01 [0] Coleta,closed,Itutinga,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Visconde do Rio Branco,6149,2022-09-02 01:39:37,2022-09-02 02:21:19,[T] Realização F01 [0] Coleta,closed,Visconde do Rio Branco,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Tiradentes,6148,2022-09-02 01:39:36,2022-09-02 02:21:19,[T] Realização F01 [0] Coleta,closed,Tiradentes,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Itumirim,6147,2022-09-02 01:36:40,2022-09-02 02:21:19,[T] Realização F01 [0] Coleta,closed,Itumirim,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Ressaquinha,6146,2022-09-02 01:36:38,2022-09-02 02:21:18,[T] Realização F01 [0] Coleta,closed,Ressaquinha,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - São Vicente de Minas,6145,2022-09-02 01:36:37,2022-09-02 02:21:18,[T] Realização F01 [0] Coleta,closed,São Vicente de Minas,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Santa Bárbara do Tugúrio,6144,2022-09-02 01:36:36,2022-09-02 02:21:18,[T] Realização F01 [0] Coleta,closed,Santa Bárbara do Tugúrio,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Carandaí,6143,2022-09-02 01:36:35,2022-09-02 02:21:17,[T] Realização F01 [0] Coleta,closed,Carandaí,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Coronel Xavier Chaves,6142,2022-09-02 01:36:33,2022-09-02 02:21:17,[T] Realização F01 [0] Coleta,closed,Coronel Xavier Chaves,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Conceição da Barra de Minas,6141,2022-09-02 01:36:32,2022-09-02 02:21:17,[T] Realização F01 [0] Coleta,closed,Conceição da Barra de Minas,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Santana dos Montes,6140,2022-09-02 01:36:31,2022-09-02 02:21:17,[T] Realização F01 [0] Coleta,closed,Santana dos Montes,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Entre Rios de Minas,6139,2022-09-02 01:36:29,2022-09-02 02:21:16,[T] Realização F01 [0] Coleta,closed,Entre Rios de Minas,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Nazareno,6138,2022-09-02 01:36:28,2022-09-02 02:21:16,[T] Realização F01 [0] Coleta,closed,Nazareno,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - São Brás do Suaçuí,6137,2022-09-02 01:36:26,2022-09-02 02:21:16,[T] Realização F01 [0] Coleta,closed,São Brás do Suaçuí,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Careaçu,6136,2022-09-02 01:36:25,2022-09-02 02:21:15,[T] Realização F01 [0] Coleta,closed,Careaçu,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Dores de Campos,6135,2022-09-02 01:36:24,2022-09-02 02:21:15,[T] Realização F01 [0] Coleta,closed,Dores de Campos,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Catas Altas da Noruega,6134,2022-09-02 01:36:23,2022-09-02 02:21:15,[T] Realização F01 [0] Coleta,closed,Catas Altas da Noruega,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Caranaíba,6133,2022-09-02 01:36:21,2022-09-02 02:21:15,[T] Realização F01 [0] Coleta,closed,Caranaíba,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Luminárias,6132,2022-09-02 01:36:20,2022-09-02 02:21:14,[T] Realização F01 [0] Coleta,closed,Luminárias,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Casa Grande,6131,2022-09-02 01:36:18,2022-09-02 02:21:14,[T] Realização F01 [0] Coleta,closed,Casa Grande,9,2,2022,9/2022,9/2022,35
+Coleta de Servidores - Relatório Mensal de Despesas com Pessoal - Barroso,6130,2022-09-02 01:36:17,2022-09-02 02:21:14,[T] Realização F01 [0] Coleta,closed,Barroso,9,2,2022,9/2022,9/2022,35
 Coleta de Despesas com Diárias - Santana de Cataguases,5826,2022-08-25 01:35:52,2022-08-25 02:13:00,[T] Realização F01 [0] Coleta,closed,Santana de Cataguases,8,25,2022,8/2022,8/2022,34
 Coleta de Despesas com Diárias - Itaverava,5825,2022-08-25 01:35:51,2022-08-25 02:13:00,[T] Realização F01 [0] Coleta,closed,Itaverava,8,25,2022,8/2022,8/2022,34
 Coleta de Despesas com Diárias - Camacho,5824,2022-08-25 01:35:50,2022-08-25 02:12:59,[T] Realização F01 [0] Coleta,closed,Camacho,8,25,2022,8/2022,8/2022,34
