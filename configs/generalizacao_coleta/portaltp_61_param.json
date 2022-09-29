@@ -1,0 +1,244 @@
+{"Abre Campo":
+    {"param_url":"http://abrecampo-mg.portaltp.com.br/",
+     "data_path":"abre_campo"},
+
+ "Almenara":
+     {"param_url":"https://almenara-mg.portaltp.com.br/",
+      "data_path":"almenara"},
+
+ "Berizal":
+     {"param_url":"https://berizal-mg.portaltp.com.br/",
+      "data_path":"berizal"},
+
+ "Caiana":
+     {"param_url":"https://caiana-mg.portaltp.com.br/",
+      "data_path":"caiana"},
+
+ "Caldas":
+     {"param_url":"https://caldas-mg.portaltp.com.br/",
+      "data_path":"caldas"},
+
+ "Caparaó":
+     {"param_url":"https://caparao-mg.portaltp.com.br/",
+      "data_path":"caparao"},
+
+ "Carbonita":
+     {"param_url":"https://carbonita-mg.portaltp.com.br/",
+      "data_path":"carbonita"},
+
+ "Central de Minas":
+     {"param_url":"https://centraldeminas-mg.portaltp.com.br/",
+      "data_path":"central_de_minas"},
+
+ "Congonhas do Norte":
+     {"param_url":"http://congonhasdonorte-mg.portaltp.com.br/",
+      "data_path":"congonhas do_norte"},
+
+ "Cordisburgo":
+     {"param_url":"https://cordisburgo-mg.portaltp.com.br/",
+      "data_path":"cordisburgo"},
+
+ "Divino das Laranjeiras":
+     {"param_url":"http://divinodaslaranjeiras-mg.portaltp.com.br/",
+      "data_path":"divino_das_laranjeiras"},
+
+ "Espera Feliz":
+     {"param_url":"https://esperafeliz-mg.portaltp.com.br/",
+      "data_path":"espera_feliz"},
+
+ "Extrema":
+     {"param_url":"https://extrema-mg.portaltp.com.br/",
+      "data_path":"extrema"},
+
+ "Faria Lemos":
+     {"param_url":"https://farialemos-mg.portaltp.com.br/",
+      "data_path":"faria_lemos"},
+
+ "Fortaleza de Minas":
+     {"param_url":"http://fortalezademinas-mg.portaltp.com.br/",
+      "data_path":"fortaleza_de_minas"},
+
+ "Galiléia":
+     {"param_url":"http://galileia-mg.portaltp.com.br/",
+      "data_path":"galileia"},
+
+ "Gonzaga":
+     {"param_url":"https://gonzaga-mg.portaltp.com.br/",
+      "data_path":"gonzaga"},
+
+ "Itambacuri":
+     {"param_url":"https://itambacuri-mg.portaltp.com.br/",
+      "data_path":"itambacuri"},
+
+ "Jaboticatubas":
+     {"param_url":"https://jaboticatubas-mg.portaltp.com.br/",
+      "data_path":"jaboticatubas"},
+
+ "Jacinto":
+     {"param_url":"https://jacinto-mg.portaltp.com.br/",
+      "data_path":"jacinto"},
+
+ "Jampruca":
+     {"param_url":"https://jampruca-mg.portaltp.com.br/",
+      "data_path":"jampruca"},
+
+ "Januária":
+     {"param_url":"https://januaria-mg.portaltp.com.br/",
+      "data_path":"januaria"},
+
+ "José Gonçalves de Minas":
+     {"param_url":"http://josegoncalvesdeminas-mg.portaltp.com.br/",
+      "data_path":"jose_goncalves_de_minas"},
+
+ "João Monlevade":
+     {"param_url":"https://portaltransparenciajm.portaltp.com.br/",
+      "data_path":"joao_monlevade"},
+
+ "Lajinha":
+     {"param_url":"https://lajinha-mg.portaltp.com.br/",
+      "data_path":"lajinha"},
+
+ "Liberdade":
+     {"param_url":"https://cmliberdade-mg.portaltp.com.br/",
+      "data_path":"liberdade"},
+
+ "Manhuaçu":
+     {"param_url":"https://manhuacu-mg.portaltp.com.br/",
+      "data_path":"manhuacu"},
+
+ "Martins Soares":
+     {"param_url":"https://martinssoares-mg.portaltp.com.br/",
+      "data_path":"martins_soares"},
+
+ "Moeda":
+     {"param_url":"https://moeda-mg.portaltp.com.br/",
+      "data_path":"moeda"},
+
+ "Montalvânia":
+     {"param_url":"https://montalvania-mg.portaltp.com.br/",
+      "data_path":"montalvania"},
+
+ "Morro do Pilar":
+     {"param_url":"https://morrodopilar-mg.portaltp.com.br/",
+      "data_path":"morro_do_pilar"},
+
+ "Nacip Raydan":
+     {"param_url":"https://nacipraydan-mg.portaltp.com.br/",
+      "data_path":"nacip_raydan"},
+
+ "Nanuque":
+     {"param_url":"https://nanuque-mg.portaltp.com.br/",
+      "data_path":"nanuque"},
+
+ "Ninheira":
+     {"param_url":"https://ninheira-mg.portaltp.com.br/",
+      "data_path":"ninheira"},
+
+ "Nova Resende":
+     {"param_url":"https://novaresende-mg.portaltp.com.br/",
+      "data_path":"nova_resende"},
+
+ "Palmópolis":
+     {"param_url":"https://palmopolis-mg.portaltp.com.br/",
+      "data_path":"palmopolis"},
+
+ "Poté":
+     {"param_url":"https://pote-mg.portaltp.com.br/",
+      "data_path":"pote"},
+
+ "Presidente Juscelino":
+     {"param_url":"https://presidentejuscelino-mg.portaltp.com.br/",
+      "data_path":"presidente_juscelino"},
+
+ "Rio Piracicaba":
+     {"param_url":"https://riopiracicaba-mg.portaltp.com.br/",
+      "data_path":"rio_piracicaba"},
+
+ "Rio do Prado":
+     {"param_url":"https://riodoprado-mg.portaltp.com.br/",
+      "data_path":"rio_do_prado"},
+
+ "Rubim":
+     {"param_url":"https://rubim-mg.portaltp.com.br/",
+      "data_path":"rubim"},
+
+ "Santa Bárbara do Leste":
+     {"param_url":"http://santabarbaradoleste-mg.portaltp.com.br/",
+      "data_path":"santa_barbara_do_leste"},
+
+ "Santa Rita de Minas":
+     {"param_url":"http://santaritademinas-mg.portaltp.com.br/",
+      "data_path":"santa_rita_de_minas"},
+
+ "Santa Rita do Itueto":
+     {"param_url":"https://santaritadoitueto-mg.portaltp.com.br/",
+      "data_path":"santa_rita_do_itueto"},
+
+ "Santana do Manhuaçu":
+     {"param_url":"https://santanadomanhuacu-mg.portaltp.com.br/",
+      "data_path":"santana_do_manhuacu"},
+
+ "Senhora do Porto":
+     {"param_url":"https://senhoradoporto-mg.portaltp.com.br/",
+      "data_path":"senhora_do_porto"},
+
+ "São Domingos do Prata":
+     {"param_url":"https://saodomingosdoprata-mg.portaltp.com.br/",
+      "data_path":"sao_domingos_do_prata"},
+
+ "São Francisco do Glória":
+     {"param_url":"https://saofranciscodogloria-mg.portaltp.com.br/",
+      "data_path":"sao_francisco_do_gloria"},
+
+ "São Félix de Minas":
+     {"param_url":"http://saofelixdeminas-mg.portaltp.com.br/",
+      "data_path":"sao_felix_de_minas"},
+
+ "São Geraldo da Piedade":
+     {"param_url":"https://saogeraldodapiedade-mg.portaltp.com.br/",
+      "data_path":"sao_geraldo_da_piedade"},
+
+ "São Geraldo do Baixio":
+     {"param_url":"https://saogeraldodobaixio-mg.portaltp.com.br/",
+      "data_path":"sao_geraldo_do_baixio"},
+
+ "São José da Safira":
+     {"param_url":"http://saojosedasafira-mg.portaltp.com.br/",
+      "data_path":"sao_jose_da_safira"},
+
+ "São José do Divino":
+     {"param_url":"http://saojosedodivino-mg.portaltp.com.br/",
+      "data_path":"sao_jose_do_divino"},
+
+ "São João do Manteninha":
+     {"param_url":"https://saojoaodomanteninha-mg.portaltp.com.br/",
+      "data_path":"sao_joao_do_manteninha"},
+
+ "São João do Paraíso":
+     {"param_url":"https://saojoaodoparaiso-mg.portaltp.com.br/",
+      "data_path":"sao_joao_do_paraiso"},
+
+ "São Pedro dos Ferros":
+     {"param_url":"https://saopedrodosferros-mg.portaltp.com.br/",
+      "data_path":"sao_pedro_dos_ferros"},
+
+ "Taiobeiras":
+     {"param_url":"https://taiobeiras-mg.portaltp.com.br/",
+      "data_path":"taiobeiras"},
+
+ "Três Corações":
+     {"param_url":"https://trescoracoes-mg.portaltp.com.br/",
+      "data_path":"tres_coracoes"},
+
+ "Vargem Alegre":
+     {"param_url":"https://vargemalegre-mg.portaltp.com.br/",
+      "data_path":"vargem_alegre"},
+
+ "Virgolândia":
+     {"param_url":"https://virgolandia-mg.portaltp.com.br/",
+      "data_path":"virgolandia"},
+
+ "Águas Formosas":
+     {"param_url":"http://aguasformosas-mg.portaltp.com.br/",
+      "data_path":"aguas_formosas"}
+}

@@ -1,0 +1,239 @@
+{"Maravilhas":
+	{"param_url":"https://maravilhasportaltransparencia.portalfacil.com.br/",
+	 "data_path":"maravilhas"},
+
+"Argirita":
+	{"param_url":"https://transparencia.argirita.mg.gov.br/",
+	 "data_path":"argirita"},
+
+"Santa Maria de Itabira":
+	{"param_url":"https://santamariadeitabiratp.portalfacil.com.br/transparencia",
+	 "data_path":"santa_maria_de_itabira"},
+
+"Pingo d'Água":
+	{"param_url":"http://www.pingodagua.mg.gov.br/transparencia",
+	 "data_path":"pingo_d'agua"},
+
+"Viçosa":
+	{"param_url":"https://transparencia.vicosa.mg.gov.br/",
+	 "data_path":"vicosa"},
+
+"São João Nepomuceno":
+	{"param_url":"https://www.sjnepomuceno.mg.gov.br/transparencia",
+	 "data_path":"sao_joao_nepomuceno"},
+
+"Sabinópolis":
+	{"param_url":"https://www.sabinopolis.mg.gov.br/transparencia",
+	 "data_path":"sabinopolis"},
+
+"Piracema":
+	{"param_url":"https://www.piracema.mg.gov.br/transparencia",
+	 "data_path":"piracema"},
+
+"Piedade de Caratinga":
+	{"param_url":"https://piedadedecaratingaportaltransparencia.portalfacil.com.br/",
+	 "data_path":"piedade_de_caratinga"},
+
+"Aimorés":
+	{"param_url":"https://www.aimores.mg.gov.br/transparencia",
+	 "data_path":"aimores"},
+
+"Cássia":
+	{"param_url":"https://cassiaportaltransparencia.portalfacil.com.br/",
+	 "data_path":"cassia"},
+
+"São Gonçalo do Pará":
+	{"param_url":"https://www.saogoncalodopara.mg.gov.br/transparencia",
+	 "data_path":"sao_goncalo_do_para"},
+
+"Bugre":
+	{"param_url":"https://www.bugre.mg.gov.br/transparencia",
+	 "data_path":"bugre"},
+
+"Machado":
+	{"param_url":"https://transparencia.machado.mg.gov.br/",
+	 "data_path":"machado"},
+
+"Monte Formoso":
+	{"param_url":"https://www.monteformoso.mg.gov.br/transparencia",
+	 "data_path":"monte_formoso"},
+
+"Peçanha":
+	{"param_url":"https://www.pecanha.mg.gov.br/transparencia",
+	 "data_path":"pecanha"},
+
+"Engenheiro Caldas":
+	{"param_url":"https://www.engenheirocaldas.mg.gov.br/transparencia",
+	 "data_path":"engenheiro_caldas"},
+
+"Orizânia":
+	{"param_url":"https://www.orizania.mg.gov.br/transparencia",
+	 "data_path":"orizania"},
+
+"Belo Oriente":
+	{"param_url":"https://www.belooriente.mg.gov.br/transparencia",
+	 "data_path":"belo_oriente"},
+
+"Itaobim":
+	{"param_url":"https://www.itaobim.mg.gov.br/transparencia",
+	 "data_path":"itaobim"},
+
+"Inhapim":
+	{"param_url":"https://www.inhapim.mg.gov.br/transparencia",
+	 "data_path":"inhapim"},
+
+"Jaguaraçu":
+	{"param_url":"https://www.jaguaracu.mg.gov.br/transparencia",
+	 "data_path":"jaguaracu"},
+
+"Pompéu":
+	{"param_url":"https://transparencia.pompeu.mg.gov.br/transparencia",
+	 "data_path":"pompeu"},
+
+"Ubaporanga":
+	{"param_url":"https://www.ubaporanga.mg.gov.br/transparencia",
+	 "data_path":"ubaporanga"},
+
+"Dom Cavati":
+	{"param_url":"https://www.domcavati.mg.gov.br/transparencia",
+	 "data_path":"dom_cavati"},
+
+"Bela Vista de Minas":
+	{"param_url":"https://www.belavistademinas.mg.gov.br/transparencia",
+	 "data_path":"bela_vista_de_minas"},
+
+"Sete Lagoas":
+	{"param_url":"https://transparencia.setelagoas.mg.gov.br/",
+	 "data_path":"sete_lagoas"},
+
+"Acaiaca":
+	{"param_url":"https://transparencia.acaiaca.mg.gov.br/",
+	 "data_path":"acaiaca"},
+
+"São João do Oriente":
+	{"param_url":"https://www.saojoaodooriente.mg.gov.br/transparencia",
+	 "data_path":"sao_joao_do_oriente"},
+
+"Córrego Novo":
+	{"param_url":"http://www.corregonovo.mg.gov.br/transparencia",
+	 "data_path":"corrego_novo"},
+
+"Nova Serrana":
+	{"param_url":"https://transparencia.novaserrana.mg.gov.br/",
+	 "data_path":"nova_serrana"},
+
+"Antônio Dias":
+	{"param_url":"https://www.antoniodias.mg.gov.br/transparencia",
+	 "data_path":"antonio_dias"},
+
+"Conceição de Ipanema":
+	{"param_url":"https://www.conceicaodeipanema.mg.gov.br/transparencia",
+	 "data_path":"conceicao_de_ipanema"},
+
+"Bicas":
+	{"param_url":"https://www.bicas.mg.gov.br/transparencia",
+	 "data_path":"bicas"},
+
+"São Tomás de Aquino":
+	{"param_url":"https://www.staquino.mg.gov.br/transparencia",
+	 "data_path":"sao_tomas_de_aquino"},
+
+"Três Marias":
+	{"param_url":"https://www.tresmarias.mg.gov.br/transparencia",
+	 "data_path":"tres_marias"},
+
+"Cajuri":
+	{"param_url":"https://www.cajuri.mg.gov.br/transparencia",
+	 "data_path":"cajuri"},
+
+"Barão de Cocais":
+	{"param_url":"https://www.baraodecocais.mg.gov.br/transparencia",
+	 "data_path":"barao_de_cocais"},
+
+"Naque":
+	{"param_url":"https://www.naque.mg.gov.br/transparencia",
+	 "data_path":"naque"},
+
+"Ponto dos Volantes":
+	{"param_url":"https://www.pontodosvolantes.mg.gov.br/transparencia",
+	 "data_path":"ponto_dos_volantes"},
+
+"Ipaba":
+	{"param_url":"https://www.ipaba.mg.gov.br/transparencia",
+	 "data_path":"ipaba"},
+
+"Mesquita":
+	{"param_url":"https://www.mesquita.mg.gov.br/transparencia",
+	 "data_path":"mesquita"},
+
+"Dionísio":
+	{"param_url":"https://www.dionisio.mg.gov.br/transparencia",
+	 "data_path":"dionisio"},
+
+"Fernandes Tourinho":
+	{"param_url":"https://www.fernandestourinho.mg.gov.br/transparencia",
+	 "data_path":"fernandes_tourinho"},
+
+"Medina":
+	{"param_url":"https://www.medina.mg.gov.br/transparencia",
+	 "data_path":"medina"},
+
+"Palma":
+	{"param_url":"https://transparencia.palma.mg.gov.br/",
+	 "data_path":"palma"},
+
+"Angelândia":
+	{"param_url":"https://www.angelandia.mg.gov.br/transparencia",
+	 "data_path":"angelandia"},
+
+"Raul Soares":
+	{"param_url":"https://www.raulsoares.mg.gov.br/transparencia",
+	 "data_path":"raul_soares"},
+
+"São José do Mantimento":
+	{"param_url":"https://www.pmsjmantimento.mg.gov.br/transparencia",
+	 "data_path":"sao_jose_do_mantimento"},
+
+"Salto da Divisa":
+	{"param_url":"https://www.saltodadivisa.mg.gov.br/transparencia",
+	 "data_path":"salto_da_divisa"},
+
+"Capetinga":
+	{"param_url":"https://transparencia.capetinga.mg.gov.br/transparencia",
+	 "data_path":"capetinga"},
+
+"Cambuí":
+	{"param_url":"https://transparencia.prefeituradecambui.mg.gov.br/transparencia",
+	 "data_path":"cambui"},
+
+"Joanésia":
+	{"param_url":"https://www.joanesia.mg.gov.br/transparencia",
+	 "data_path":"joanesia"},
+
+"Araçuaí":
+	{"param_url":"https://www.aracuai.mg.gov.br/transparencia",
+	 "data_path":"aracuai"},
+
+"Paiva":
+	{"param_url":"https://www.paiva.mg.gov.br/transparencia",
+	 "data_path":"paiva"},
+
+"Bom Jesus do Galho":
+	{"param_url":"https://www.bomjesusdogalho.mg.gov.br/transparencia",
+	 "data_path":"bom_jesus_do_galho"},
+
+"Urucânia":
+	{"param_url":"https://www.urucania.mg.gov.br/transparencia",
+	 "data_path":"urucania"},
+
+"Vermelho Novo":
+	{"param_url":"https://transparencia.vermelhonovo.mg.gov.br/transparencia",
+	 "data_path":"vermelho_novo"},
+
+"Alvarenga":
+	{"param_url":"https://www.alvarenga.mg.gov.br/transparencia",
+	 "data_path":"alvarenga"},
+
+"Guapé":
+	{"param_url":"https://transparencia.guape.mg.gov.br/transparencia",
+	 "data_path":"guape"}}

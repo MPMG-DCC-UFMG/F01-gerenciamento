@@ -1,0 +1,88 @@
+{"Rio Paranaíba":
+    {"param_url":"http://prefriopara.ddns.net:8444/transparencia/",
+     "data_path":"rio_paranaiba"},
+
+ "Cascalho Rico":
+     {"param_url":"http://138.0.191.102:8444/transparencia/",
+      "data_path":"cascalho_rico"},
+
+ "Patos de Minas":
+     {"param_url":"https://transparencia.patosdeminas.mg.gov.br/",
+      "data_path":"patos_de_minas"},
+
+ "Perdizes":
+     {"param_url":"http://138.118.240.126:8444/transparencia/",
+      "data_path":"perdizes"},
+
+ "Carmo do Paranaíba":
+     {"param_url":"http://sistemas.carmodoparanaiba.mg.gov.br:8444/transparencia/",
+      "data_path":"carmo_do_paranaiba"},
+
+ "Tiros":
+     {"param_url":"http://179.189.92.246:8444/transparencia/",
+      "data_path":"tiros"},
+
+ "Centralina":
+     {"param_url":"http://centralinamg.ddns.net:8444/transparencia/",
+      "data_path":"centralina"},
+
+ "Pratinha":
+     {"param_url":"http://187.94.253.162:8445/transparencia/",
+      "data_path":"pratinha"},
+
+ "São Gotardo":
+     {"param_url":"http://transparencia.saogotardo.mg.gov.br/",
+      "data_path":"sao_gotardo"},
+
+ "Indianópolis":
+     {"param_url":"http://186.232.11.254:8444/transparencia/",
+      "data_path":"indianopolis"},
+
+ "Iturama":
+     {"param_url":"http://200.233.183.165:8444/transparencia/",
+      "data_path":"iturama"},
+
+ "Nova Ponte":
+     {"param_url":"http://portal.novaponte.mg.gov.br:8444/transparencia/",
+      "data_path":"nova_ponte"},
+
+ "Conceição das Alagoas":
+     {"param_url":"http://187.72.75.161:8444/transparencia/",
+      "data_path":"conceicao_das_alagoas"},
+
+ "Pedrinópolis":
+     {"param_url":"http://pedrinopolis.ddns.com.br:8444/transparencia/",
+      "data_path":"pedrinopolis"},
+
+ "Araxá":
+     {"param_url":"http://201.62.57.11:8445/transparencia/",
+      "data_path":"araxa"},
+
+ "Veríssimo":
+     {"param_url":"http://pmvportaldatransparencia.com.br:8444/transparencia/",
+      "data_path":"verissimo"},
+
+ "Campo Florido":
+     {"param_url":"http://transparencia.campoflorido.mg.gov.br:8444/transparencia",
+      "data_path":"campo_florido"},
+
+ "Estrela do Sul":
+     {"param_url":"http://187.44.64.138:8445/transparencia/",
+      "data_path":"estrela_do_sul"},
+
+ "Água Comprida":
+     {"param_url":"http://138.122.49.239:8444/transparencia/",
+      "data_path":"agua_comprida"},
+
+ "Serra do Salitre":
+     {"param_url":"http://187.62.86.129:8444/transparencia/",
+      "data_path":"serra_do_salitre"}, 
+
+ "Cruzeiro da Fortaleza":
+     {"param_url":"http://138.0.67.146:8444/transparencia/",
+      "data_path":"cruzeiro_da_fortaleza"},
+
+ "Tupaciguara":
+     {"param_url":"http://187.44.70.188:8444/transparencia/",
+      "data_path":"tupaciguara"}
+}
