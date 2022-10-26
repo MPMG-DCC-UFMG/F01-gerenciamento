@@ -63,7 +63,7 @@ def create_and_run_coletor(config):
     #    os.makedirs(config['data_path'])
 
     try:
-        r_creator = requests.post(API_ADDRESS, data=config)
+        r_creator = requests.post(API_ADDRESS, json=config)
         configuracao_do_coletor_criado = r_creator.json()
     
         id_crawler = configuracao_do_coletor_criado['id']
