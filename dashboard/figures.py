@@ -339,8 +339,6 @@ def create_figures_automacao():
 
     return fig1
 
-
-# TODO melhorar automacao
 def plot_status_epics(df, top_templates_df, sondagem_df, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
 
     # resultados do buscador de subtags (sondagem)

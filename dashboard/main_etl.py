@@ -101,9 +101,10 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     issues_epic_df = pd.concat([issues_epic_df, aux])
     issues_epic_df.to_csv("data/issues_epic_df.csv", index=False)
 
-    epics_info, count_epics_month = transform_data.summarize_epics(epics_id, repo_F01)
-    epics_info.to_csv("data/epics.csv", index=False) 
+    epics_info, count_epics_month, count_epics_week = transform_data.summarize_epics(epics_id, repo_F01)
     count_epics_month.to_csv("data/count_epics_month.csv", index=False) 
+    count_epics_week.to_csv("data/count_epics_week.csv", index=False) 
+    epics_info.to_csv("data/epics.csv", index=False) 
 
     df_tags = transform_data.count_by_tags(issues_epic_df)
     df_tags.to_csv("data/df_tags.csv", index=False)    
