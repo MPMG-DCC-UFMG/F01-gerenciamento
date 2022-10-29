@@ -19,7 +19,6 @@ def count_issues_epic(info_issues, zh, repo_F01, repo_id_f01):
     return df, epics_id
 
 def issues_matrix(df, state_column, time_column):
-    
     issues_df = df.copy()
     
     issues_df = issues_df[['title','municipio', time_column]]
@@ -98,13 +97,6 @@ def find_label(item_labels, target_label):
     
     return None
 
-def datetime_to_string(x):
-    
-    try:
-        return x.strftime("%-m/%Y")
-    except:
-        return pd.NaT
-
 def filter_(df, column_name, pattern='coleta'):
     
     df = df.loc[df[column_name].str.contains(pattern)]
@@ -120,18 +112,49 @@ def sort_columns(df, date_format="%m/%Y"):
     new_columns.insert(0, df.columns[0])
     
     return new_columns
+    
+def datetime_to_string(x):
+    
+    try:
+        return x.strftime("%-m/%Y")
+    except:
+        return pd.NaT
+
+def string_to_datetime(x):
+    
+    try:
+        return pd.to_datetime(x, format='%m/%Y')
+    except:
+        return pd.NaT
+    
+def format_date(df, time_column, status):
+    df['day'] = pd.DatetimeIndex(df[time_column]).day
+    df['month'] = pd.DatetimeIndex(df[time_column]).month
+    df['year'] = pd.DatetimeIndex(df[time_column]).year        
+    df['week'] =  pd.to_datetime(df[time_column]).dt.strftime('%W')
+    
+    df['week_year'] = df['week'].astype(str) + '/' + df['year'].astype(str)    
+    df['format_date_{}'.format(status)] = df['month'].astype(str) + '/' + df['year'].astype(str)
+        
+    return df
 
 def count_by_week(df, column_to_group='week', time_column='closed_at'):
     
-    df = df.loc[df['format_date_closed'] != "1/1970"]
-    df = format_date(df, time_column='format_date_closed', status='closed')
-    df[column_to_group] = df[column_to_group].astype(str)  + "/" + df['year'].astype(str)
-    week_status = df.groupby([column_to_group]).count().reset_index()[[column_to_group, time_column]]
-    new = week_status[column_to_group].str.split('/', expand=True)
-    result = pd.concat([week_status, new], axis=1)
-    week_status = result.sort_values([1, 0], ascending=[True, True])
+    df = df.loc[df[time_column] != "1/1970"]
+    df = format_date(df, time_column=time_column, status='closed')
     
-    return week_status
+    # df['week'] = '14/2022'
+    df[column_to_group] = df[column_to_group].astype(str)  + "/" + df['year'].astype(str)
+    
+    df = df.groupby([column_to_group]).count().reset_index()[[column_to_group, time_column]]
+
+    new_cols = df[column_to_group].str.split('/', expand=True)
+    new_cols.columns = [column_to_group[0], 'year']
+    df = pd.concat([df, new_cols], axis=1)
+
+    df = df.sort_values(['year', column_to_group[0]], ascending=[True, True])
+    
+    return df
 
 def count_by_tags(df, list_tags=None, closed_colum='closed', open_column='open', tag_column='tag'):
     
@@ -212,24 +235,6 @@ def build_municipios_clusters_df(clusters_json_path, part_0000_path, cluster_tem
     municipios.to_csv('data/municipios_clusters.csv', index=False)
     
     return municipios
-
-def string_to_datetime(x, dateformat='%m/%Y'):
-    
-    try:
-        return pd.to_datetime(x, format=dateformat)
-    except:
-        return pd.NaT
-    
-def format_date(df, time_column, status):
-    df['day'] = pd.DatetimeIndex(df[time_column]).day
-    df['month'] = pd.DatetimeIndex(df[time_column]).month
-    df['year'] = pd.DatetimeIndex(df[time_column]).year    
-    df['week'] = pd.DatetimeIndex(df[time_column]).isocalendar().week.values
-    
-    df['week_year'] = df['week'].astype(str) + '/' + df['year'].astype(str)    
-    df['format_date_{}'.format(status)] = df['month'].astype(str) + '/' + df['year'].astype(str)
-        
-    return df
 
 def count_closed_epics(epics):
     

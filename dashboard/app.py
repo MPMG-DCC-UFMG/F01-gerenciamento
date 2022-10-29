@@ -29,6 +29,11 @@ CONTENT_STYLE = {
     "padding": "2rem 1rem",
 }
 
+def html_div_chart(fig):
+    return html.Div([ 
+        html.Div([ dcc.Graph(figure=fig) ], # id=f'graph{i}', 
+        className="pretty_container 6 columns",)], 
+        className="row flex-display",)
 
 def coleta_layout():
     
@@ -50,10 +55,7 @@ def coleta_layout():
     count_coletado_epics = epics['Coletado'].sum().astype(int)
     count_total_coletavel = count_total_epics - (20*11)  #NOTE media nao-coletavel dos 4 primeiros templates
 
-    #TODO fix if necessary
-    count_tags = len(df_tags.loc[df_tags['closed'] != 0]['closed'])
-
-    fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10 = figures.create_figures_coleta()
+    figs = figures.create_figures_coleta()
       
     # Create app layout
     layout = html.Div(
@@ -65,18 +67,12 @@ def coleta_layout():
                 html.H3("F01 - Coletas",style={"margin-bottom": "0px"},),
                 html.H5( "", style={"margin-top": "0px"} ), ])], className="two-half column", id="title",),
                     html.Div([   
-                        html.Button("Refresh Data", id="refresh-button"),
-                        html.Div(id='output-container-button', children=None),
-                        #html.A(html.Button('Refresh Page'),href='/'),                           
-                        ],
-                        className="one-third column",
-                        id="button-git",
-                    ),
-                ],
+                            html.Button("Refresh Data", id="refresh-button"),
+                            html.Div(id='output-container-button', children=None),
+                        ], className="one-third column", id="button-git", ), ],
                 id="header",
                 className="row flex-display",
-                style={"margin-bottom": "25px"},
-            ),
+                style={"margin-bottom": "25px"},),
 
             # Resumo
             html.Div([ html.Div( [ html.Div([
@@ -101,26 +97,10 @@ def coleta_layout():
             ], id="right-column", className="12 columns", ), ], className="row flex-display",),
 
             # Graficos
-            html.Div([ html.Div([dcc.Graph(
-                id="graph9", figure=fig9)], className="pretty_container 6 columns",)], className="row flex-display",),
-            html.Div([ html.Div([dcc.Graph(
-                id="graph10", figure=fig10)], className="pretty_container 6 columns",)], className="row flex-display",),
-            html.Div([ html.Div([dcc.Graph(
-                id="graph6", figure=fig6)], className="pretty_container 6 columns",) ], className="row flex-display",),
-            html.Div([ html.Div([dcc.Graph(
-                id="graph1", figure=fig1)], className="pretty_container 6 columns",) ],className="row flex-display", ),
-            html.Div([ html.Div([dcc.Graph(
-                id="graph7", figure=fig7)], className="pretty_container 6 columns",) ], className="row flex-display",),
-            html.Div([ html.Div([dcc.Graph(
-                id="graph3", figure=fig3)], className="pretty_container 6 columns",) ], className="row flex-display",),
-  
-            #NOTE not being used 
-            # html.Div([ html.Div([dcc.Graph(
-            #     id="graph2", figure=fig2)], className="pretty_container 6 columns",) ], className="row flex-display",),
-            # html.Div([ html.Div([dcc.Graph(
-            #     id="graph4", figure=fig4)],className="pretty_container six columns",)],className="row flex-display",),
-            # html.Div([ html.Div([dcc.Graph(
-            #     id="graph5", figure=fig5)],className="pretty_container six columns",)],className="row flex-display",),
+            html_div_chart(figs[0]),
+            html_div_chart(figs[1]),
+            html_div_chart(figs[2]),
+            html_div_chart(figs[3]),
         ],
         id="mainContainer",
         style={"display": "flex", "flex-direction": "column"},

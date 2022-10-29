@@ -235,57 +235,40 @@ def plot_pre_coleta(df, title='Resultados da Sondagem Automática'):
 
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
-    count_month = pd.read_csv("data/count_month.csv")
     week_status = pd.read_csv('data/week_status.csv')    
-    count_epics_month = pd.read_csv("data/count_epics_month.csv")              
+    count_epics_month = pd.read_csv("data/count_epics_month.csv")    
+    count_epics_week = pd.read_csv("data/count_epics_week.csv")              
     sondagem_df = pd.read_csv('data/resultados_templates.csv', index_col=0).astype(int)      
           
-    issues_epic_df = pd.read_csv("data/issues_epic_df.csv")
     epics_df = pd.read_csv("data/epics.csv")
     top_templates_df = pd.read_csv("data/top_templates.csv")
-
-    df_tags = pd.read_csv("data/df_tags.csv")
-    df = pd.read_csv("data/df.csv")
     open_df = pd.read_csv("data/open_df.csv")
-    closed_df= pd.read_csv("data/closed_df.csv")
 
     x = open_df.columns[1:].tolist()
     z = open_df.columns[1:]
     y = 'municipio'    
-    
-    fig1 = plot_status_mes(count_month, title='Coletas por mês',
-        x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",
-        y1_column=open_colum, y2_column=closed_colum )
-    
-    fig2 = plot_status_mes(count_epics_month, title='Quantidade de templates cobertos por mês',
-        x_column=count_epics_month.index.tolist(), name1='Coletas a realizar',
-        name2="Coletas realizadas", y1_column=open_colum, y2_column=closed_colum)
-    
-    fig6 = plot_status_week(week_status, title='Coletas fechadas por semana',
-        y_column='closed_at', x_column='week',
-        xaxis_title_text='Semanas')
-                  
-    fig7 = dropdown_stack(issues_epic_df, title="Coletas por template", 
-        x_column='template', y2_column=open_colum, y1_column=closed_colum, 
-        name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
-    
-    fig3 = plot_stack(df_tags, title="Coletas por tag", 
-            x_column='tag', y2_column=open_colum, y1_column=closed_colum,
-            name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
-    
-    fig4 = create_heatmap(open_df, x, y, z, "Coletas a realizar")
-    
-    fig5 = create_heatmap(closed_df, x, y, z, "Coletas realizadas")
 
-    fig8 = create_barplot(issues_epic_df, title="Coletas por Template: Realizadas X Planejadas (com issue) X Estimadas",
-        x_column='template', y2_column=open_colum, y1_column=closed_colum, 
-        name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
-    
-    fig9 = plot_status_epics(epics_df, top_templates_df, sondagem_df)
-    fig10 = plot_speed_epics(count_epics_month, title='Coleta - Conclusão de Epics por Mês')
-
-    return fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, fig10
-
+    return [
+        plot_status_epics(epics_df, top_templates_df, sondagem_df),
+        plot_speed_epics(count_epics_month, title='Coleta - Conclusão de Epics por Mês'),
+        plot_status_week(
+            week_status, title='Coletas fechadas por semana',
+            y_column='closed_at', x_column='week', xaxis_title_text='Semanas'),
+        plot_status_week(
+            count_epics_week, title='Epics fechadas por semana',
+            y_column='Coletado', x_column='week_year', xaxis_title_text='Semanas')
+        # plot_status_mes(
+        #     count_month, title='Coletas por mês',
+        #     x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",
+        #     y1_column=open_colum, y2_column=closed_colum )
+        # plot_stack(
+        #     df_tags, title="Coletas por tag", x_column='tag', y2_column=open_colum, 
+        #     y1_column=closed_colum, name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
+        # dropdown_stack(
+        #     issues_epic_df, title="Coletas por template", 
+        #     x_column='template', y2_column=open_colum, y1_column=closed_colum, 
+        #     name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
+    ]
 
 def create_figures_dev(closed_colum='closed', open_colum='open'):
     
