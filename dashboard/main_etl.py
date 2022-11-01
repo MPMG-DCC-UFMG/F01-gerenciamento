@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 from github import Github
 from zenhub import Zenhub
 
@@ -93,7 +92,7 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     count_month = transform_data.count_by_month(open_df, closed_df)
     count_month.to_csv("data/count_month.csv", index=False)
     
-    week_status = transform_data.count_by_week(df, column_to_group='week', time_column='closed_at')
+    week_status = transform_data.count_by_week(df, time_column='closed_at')
     week_status.to_csv('data/week_status.csv', index=False)    
     df.to_csv("data/df.csv", index=False)
        
@@ -146,7 +145,7 @@ def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', ope
     info_issues_dev = transform_data.format_date(info_issues_dev, time_column='created_at', status='created')
     
     # info_issues_dev['week'] =  pd.to_datetime(info_issues_dev['closed_at']).dt.strftime('%W')
-    week_status = transform_data.count_by_week(info_issues_dev, column_to_group='week', time_column='closed_at')
+    week_status = transform_data.count_by_week(info_issues_dev, time_column='closed_at')
 
     closed_df = info_issues_dev.pivot_table(
         values='title', index=['id'], columns='format_date_closed', aggfunc='count').fillna(0).reset_index()

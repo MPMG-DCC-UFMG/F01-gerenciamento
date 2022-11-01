@@ -1,6 +1,5 @@
 import pandas as pd
-import plotly
-
+import datetime    
 import plotly.graph_objects as go 
 import plotly.figure_factory as ff
 import plotly.express as px
@@ -101,12 +100,11 @@ def plot_status_week(week_status, title, y_column, x_column, xaxis_title_text):
         x = week_status[x_column].astype(str) ,
         marker_color='#3E79FA'))
     
-    fig.update_traces(opacity=0.70)
-    
+    fig.update_traces(opacity=0.70)    
     fig.update_layout(
         xaxis_title_text=xaxis_title_text, bargap=0, autosize=True, title=title)
 
-    return fig
+    return fig 
 
 def create_heatmap(df, x, y, z, title):
     
@@ -139,17 +137,36 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
-def plot_speed_epics(df, title):     
-            
-    # Medindo velocidade atual
-    velocidade_total = df["closed"].mean()          
-    df["closed_cumsum"] = df["closed"].cumsum()
-    velocidade_coleta = df["Coletado"].mean()       
-    velocidade_mes_anterior = df["Coletado"][:-1].mean()          
+def plot_speed_epics(df, df_week, title):     
+
+    # Medindo velocidade atual nas ultimas semanas
+    ultimas_semanas = []
+    d = datetime.date.today()
+    uma_semana = datetime.timedelta(weeks=1)
+    for i in range(8):
+        year, week, _ = d.isocalendar()
+        ultimas_semanas.append(f'{week}/{year}')
+        d -= uma_semana
+
+    df_week = df_week.merge( 
+        pd.DataFrame(reversed(ultimas_semanas), columns=['week_year']), 
+        how="outer").fillna(0)      
+    
+    # ultimas 8 semanas / 2
+    velocidade_coleta = df_week["Coletado"][-8:].sum() / 2       # alternativa: df["Coletado"].mean()
+    velocidade_mes_anterior = df_week["Coletado"][-8:-4].sum()   # alternativa: df["Coletado"][:-1].mean() 
+    print(f'Epics coletadas no último mês: {velocidade_coleta}')
+    print(f'Epics coletadas no mês anterior: {velocidade_mes_anterior}')
+    
+    # Medindo velocidade atual por mes em media
+    velocidade_total = df["closed"].mean()      
+    
+    df["closed_cumsum"] = df["closed"].cumsum()        
     df["coletado_cumsum"] = df["Coletado"].cumsum()         
     df["naocoletado_cumsum"] = df["Não coletável"].cumsum()   
-
-    df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x:02d}/2022' for x in range(1,13)] + 
+    
+    # Determinando meses para plotar
+    df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x}/2022' for x in range(1,13)] + 
                                 ["01/2023", "02/2023"], columns=["month_year"]), how="right").fillna(0)       
     # Baselines
     n_templates = 15 + 5            # 15 + 5 municipios
@@ -177,6 +194,8 @@ def plot_speed_epics(df, title):
                   line=go.scatter.Line(color="#636efa"), opacity=1),#, text=df), #8c86ff
         go.Scatter(x=df.month_year, y=[i * velocidade_mes_anterior for i in range(1, total_months+1)], name="Mês anterior",
                   line=go.scatter.Line(color="#636efa"), opacity=0.2),#, text=df), #8c86ff
+        
+        # Inclui todas epics fechadas, inclusive não-coletaveis
         # go.Scatter(x=df.month_year, y=[i * velocidade_total for i in range(1, total_months+1)], name="Total Fechado",
         #           line=go.scatter.Line(color="blue"), opacity=0.1),
     ])
@@ -250,7 +269,8 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
 
     return [
         plot_status_epics(epics_df, top_templates_df, sondagem_df),
-        plot_speed_epics(count_epics_month, title='Coleta - Conclusão de Epics por Mês'),
+        plot_speed_epics(
+            count_epics_month, count_epics_week, title='Coleta - Conclusão de Epics por Mês'),
         plot_status_week(
             week_status, title='Coletas fechadas por semana',
             y_column='closed_at', x_column='week', xaxis_title_text='Semanas'),

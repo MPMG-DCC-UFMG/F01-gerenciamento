@@ -1,7 +1,8 @@
 import pandas as pd
-import extract_data
 import re
 import json
+import datetime
+import extract_data
 
 def count_issues_epic(info_issues, zh, repo_F01, repo_id_f01):
     
@@ -107,8 +108,8 @@ def sort_columns(df, date_format="%m/%Y"):
     
     date = pd.Series(df.columns[1:])
     
-    datetime = date.apply(string_to_datetime)
-    new_columns = list(datetime.sort_values().apply(datetime_to_string))
+    date = date.apply(string_to_datetime)
+    new_columns = list(date.sort_values().apply(datetime_to_string))
     new_columns.insert(0, df.columns[0])
     
     return new_columns
@@ -120,8 +121,7 @@ def datetime_to_string(x):
     except:
         return pd.NaT
 
-def string_to_datetime(x):
-    
+def string_to_datetime(x):    
     try:
         return pd.to_datetime(x, format='%m/%Y')
     except:
@@ -130,29 +130,55 @@ def string_to_datetime(x):
 def format_date(df, time_column, status):
     df['day'] = pd.DatetimeIndex(df[time_column]).day
     df['month'] = pd.DatetimeIndex(df[time_column]).month
-    df['year'] = pd.DatetimeIndex(df[time_column]).year        
-    df['week'] =  pd.to_datetime(df[time_column]).dt.strftime('%W')
+    df['year'] = pd.DatetimeIndex(df[time_column]).year    
+    df['week'] = pd.DatetimeIndex(df[time_column]).isocalendar().week.values
     
     df['week_year'] = df['week'].astype(str) + '/' + df['year'].astype(str)    
     df['format_date_{}'.format(status)] = df['month'].astype(str) + '/' + df['year'].astype(str)
         
     return df
 
-def count_by_week(df, column_to_group='week', time_column='closed_at'):
+def create_period_list(start=None, end=None):
+    period = []
     
-    df = df.loc[df[time_column] != "1/1970"]
+    if not start:
+        start = datetime.date(2021, 11, 8)
+    if not end:
+        end = datetime.date.today()
+        
+    d = start
+    one_week = datetime.timedelta(weeks=1)
+    
+    while d < end:
+        year, week, _ = d.isocalendar()
+        period.append(f'{week:02d}/{year}')
+        d += one_week
+
+    return period
+
+def count_by_week(df, time_column='closed_at'):
+    
+    df = df.loc[df[time_column] != "0"]
     df = format_date(df, time_column=time_column, status='closed')
     
-    # df['week'] = '14/2022'
-    df[column_to_group] = df[column_to_group].astype(str)  + "/" + df['year'].astype(str)
+    column_to_group = 'week_year'
+    
+    # ex: df['week'] = ['14/2022', ...]
+    df[column_to_group] = df['week'].astype(str)  + "/" + df['year'].astype(str)
     
     df = df.groupby([column_to_group]).count().reset_index()[[column_to_group, time_column]]
-
+    
+    list_all_weeks = create_period_list()
+    df = df.merge( pd.DataFrame(list_all_weeks, columns=[column_to_group]), how="right")
+    df = df.fillna(0)      
+    
     new_cols = df[column_to_group].str.split('/', expand=True)
-    new_cols.columns = [column_to_group[0], 'year']
+    new_cols.columns = ['week', 'year']
     df = pd.concat([df, new_cols], axis=1)
 
-    df = df.sort_values(['year', column_to_group[0]], ascending=[True, True])
+    df.week = df.week.astype(int) 
+    df = df.sort_values(['year', 'week'], ascending=[True, True])
+    df = df.reset_index(drop=True)
     
     return df
 
@@ -253,6 +279,12 @@ def count_closed_epics(epics):
         count['closed'] = count.sum(axis=1) 
         count = count.reset_index()        
 
+        # complete with periods without data
+        if period == 'week':            
+            list_all_weeks = create_period_list()
+            count = count.merge( pd.DataFrame(list_all_weeks, columns=['week_year']), how="right")
+            count = count.fillna(0)      
+        
         # sort by closing date
         count[period] = count[f'{period}_year'].apply(lambda x: int(x.split('/')[0]))
         count['year'] = count[f'{period}_year'].apply(lambda x: int(x.split('/')[1]))
@@ -272,4 +304,3 @@ def summarize_epics(epics_id, repo):
     count_epics_month, count_epics_week = count_closed_epics(epics)
         
     return epics, count_epics_month, count_epics_week     
-    
