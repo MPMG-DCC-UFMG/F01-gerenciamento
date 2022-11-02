@@ -63,7 +63,7 @@ def main_tranform_data(repo, creators):
     closed_df = closed_df.sort_values('municipio')
     open_df = open_df.sort_values('municipio')
 
-    df['week'] =  pd.to_datetime(df['closed_at']).dt.strftime('%W')
+    df['week'] =  pd.to_datetime(df['closed_at']).dt.strftime('%W') #TODO
     
     return df, open_df, closed_df
 

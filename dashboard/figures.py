@@ -273,7 +273,7 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
             count_epics_month, count_epics_week, title='Coleta - Conclusão de Epics por Mês'),
         plot_status_week(
             week_status, title='Coletas fechadas por semana',
-            y_column='closed_at', x_column='week', xaxis_title_text='Semanas'),
+            y_column='closed_at', x_column='week_year', xaxis_title_text='Semanas'),
         plot_status_week(
             count_epics_week, title='Epics fechadas por semana',
             y_column='Coletado', x_column='week_year', xaxis_title_text='Semanas')

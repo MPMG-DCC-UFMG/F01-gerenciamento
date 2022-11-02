@@ -142,7 +142,7 @@ def create_period_list(start=None, end=None):
     period = []
     
     if not start:
-        start = datetime.date(2021, 11, 8)
+        start = datetime.date(2022, 1, 5)
     if not end:
         end = datetime.date.today()
         
@@ -151,7 +151,7 @@ def create_period_list(start=None, end=None):
     
     while d < end:
         year, week, _ = d.isocalendar()
-        period.append(f'{week:02d}/{year}')
+        period.append(f'{week}/{year}')
         d += one_week
 
     return period
