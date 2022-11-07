@@ -146,8 +146,10 @@ def plot_speed_epics(df, df_week, title):
     # df["naocoletado_cumsum"] = df["Não coletável"].cumsum()  
     
     total_coletado_mes_anterior  = df['Coletado'][:-1].sum()
-    coletado_por_mes_atualizado = df_week['Coletado'][-4:].sum()  #df["Coletado"].mean()
-    coletado_por_mes_anterior   = df['Coletado'][-2:-1].values[0]
+    coletado_por_mes_atualizado = df_week['Coletado'][-4:].sum()  
+    coletado_por_mes_anterior   = df_week['Coletado'][-8:-4].sum() # df['Coletado'][-2:-1].values[0]
+    print(f'Coletado no ultimo mes   : {coletado_por_mes_atualizado}')
+    print(f'Coletado no penultimo mes: {coletado_por_mes_anterior}')
     # fechado_por_mes = df["closed"].mean()      
     # total_coletado  = df['Coletado'].sum()
 
