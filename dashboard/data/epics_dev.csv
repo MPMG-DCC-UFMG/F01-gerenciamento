@@ -1,21 +1,21 @@
-template_rank,Acesso à Informação: Dados Abertos,Acesso à Informação: Informações,Acesso à Informação: Relatório Estatístico,Acesso à Informação: Requisitos Exigidos,Concursos Públicos: Cópia do edital do concurso,Concursos Públicos: Dados do Concurso,Concursos Públicos: Divulgação,Contratos: Conteúdo integral,Contratos: Dados  dos contratos,Contratos: Gerar relatório,Despesas com diárias: Despesas com diárias,Despesas: Consulta,Despesas: Empenhos,Despesas: Gerar relatório,Despesas: Pagamentos,Despesas: Relatórios,Informações Institucionais: Conselhos Municipais,Informações Institucionais: Estrutura Organizacional,Informações Institucionais: Leis Municipais,Informações Institucionais: Registro das Competências,Informações Institucionais: Unidades Administrativas,Licitações: Editais,Licitações: Processos Licitatórios,Licitações: Inexigibilidade e Dispensa,Licitações: Resultados das licitações,Obras Públicas: Dados para acompanhamento,Orçamento: Execução,Orçamento: Legislação,Receitas: Dados das receitas,Servidores Públicos: Auxílios,Servidores Públicos: Dados de Remuneração,Servidores Públicos: Dados dos Servidores,Servidores Públicos: Dispêndios,Servidores Públicos: Proventos de Aposentadoria,Servidores Públicos: Proventos de Pensão,Servidores Públicos: Registro da remuneração,Servidores Públicos: Registro por lotação,Servidores Públicos: Relatórios Despesas com Pessoal,Terceiro Setor: Dados de Parcerias,Terceiro Setor: Repasses
-(m5) Betim,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-(m4) Juiz de Fora,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-(m1) Belo Horizonte,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-(m3) Uberlândia,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-(m2) Contagem,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-ABO (13º),5,5,5,3,1,1,1,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-ADPM (12º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-Betha (10º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,1,1,1,1,1,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-GRP (9º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,1,1,1,1,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-Memory (2º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,1,3,4,1,3,3,3,3,3,1,1,3,5,5,3,5,3,3,3,3,3,3,5
-Municipal Net (14º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-PT (7º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,1,1,1,1,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-Portal Facil (60) (5º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-Portal Fácil (46) (6º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-Portaltp (4º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-Siplanweb (3º),5,5,5,1,3,3,3,1,1,1,1,1,1,1,1,2,4,3,1,4,3,1,1,1,1,3,3,3,1,5,5,3,5,3,3,3,3,3,1,5
-Síntese tecnologia (1º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,1,5,1,1,1,1,1,3,5
-Template1 (22) (11º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-ADPM (7) (15º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
-Template2 (8º),5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+template_rank,Acesso à Informação: Dados Abertos,Acesso à Informação: Informações,Acesso à Informação: Relatório Estatístico,Acesso à Informação: Requisitos Exigidos,Concursos Públicos: Cópia do edital do concurso,Concursos Públicos: Dados do Concurso,Concursos Públicos: Divulgação de Recursos e Decisões,Contratos: Conteúdo integral,Contratos: Dados dos contratos,Contratos: Gerar relatório,Despesas com diárias: Despesas com diárias,Despesas: Consulta,Despesas: Empenhos,Despesas: Gerar relatório,Despesas: Pagamentos,Despesas: Relatórios,Informações Institucionais: Conselhos Municipais,Informações Institucionais: Estrutura Organizacional,Informações Institucionais: Leis Municipais,Informações Institucionais: Registro das Competências,Informações Institucionais: Unidades Administrativas,Licitações: Editais,Licitações: Processos Licitatórios,Licitações: Inexigibilidade e Dispensa,Licitações: Resultados de Licitações,Obras Públicas: Dados para acompanhamento,Orçamento: Execução,Orçamento: Legislação,Receitas: Dados das receitas,Servidores Públicos: Auxílios,Servidores Públicos: Dados de Remuneração,Servidores Públicos: Dados dos Servidores,Servidores Públicos: Dispêndios,Servidores Públicos: Proventos de Aposentadoria,Servidores Públicos: Proventos de Pensão,Servidores Públicos: Registro da remuneração,Servidores Públicos: Registro por lotação,Servidores Públicos: Relatórios Despesas com Pessoal,Terceiro Setor: Dados de Parcerias,Terceiro Setor: Repasses
+(m5) Betim,4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+(m4) Juiz de Fora,4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+(m1) Belo Horizonte,4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+(m3) Uberlândia,4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+(m2) Contagem,4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+ABO (13º),4,5,5,3,1,1,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+ADPM (12º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+Betha (10º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+GRP (9º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,3,3,3,1,1,1,1,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+Memory (2º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,3,1,3,3,3,3,3,1,1,3,5,5,3,5,3,3,3,3,3,3,5
+Municipal Net (14º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+PT (7º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+Portal Facil (60) (5º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+Portal Fácil (46) (6º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+Portaltp (4º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+Siplanweb (3º),4,5,5,1,3,3,3,1,1,1,1,1,1,1,1,2,3,3,1,3,3,1,1,1,1,3,3,3,1,5,5,3,5,3,3,3,3,3,1,5
+Síntese tecnologia (1º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,1,5,1,1,1,1,1,3,5
+Template1 (22) (11º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+ADPM (7) (15º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5
+Template2 (8º),4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,5

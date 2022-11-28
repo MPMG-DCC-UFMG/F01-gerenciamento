@@ -51,9 +51,11 @@ def coleta_layout():
     epics = pd.read_csv('data/count_epics_month.csv')
     
     count_closed_epics = epics['closed'].sum().astype(int)
-    count_total_epics = 29 * 20                          #NOTE estimado via Siplanweb
     count_coletado_epics = epics['Coletado'].sum().astype(int)
-    count_total_coletavel = count_total_epics - (20*11)  #NOTE media nao-coletavel dos 4 primeiros templates
+    
+    #NOTE estimativas baseada em 13 templates
+    count_total_epics = 25 * 20   
+    count_total_coletavel = count_total_epics - (7 * 20)
 
     figs = figures.create_figures_coleta()
       

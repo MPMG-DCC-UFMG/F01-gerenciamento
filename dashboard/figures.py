@@ -137,7 +137,6 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
-#TODO atualizar estimativa de coletável
 def plot_speed_epics(df, df_week, title):      
     
     df['coletado_cumsum'] = df['Coletado'].cumsum()   
@@ -159,20 +158,20 @@ def plot_speed_epics(df, df_week, title):
     
     # Baselines
     n_templates = 15 + 5            # 15 + 5 municipios
-    total_epics_by_template = 29    # Siplanweb    
+    total_epics_by_template = 25    # estimativas baseada em 13 templates    
+    media_nao_coletavel = 7         
     
     total_epics = total_epics_by_template * n_templates    
     total_months = df.shape[0]
     future_months = total_months - len(coletado_cumsum_anterior) + 1
     ideal_speed = total_epics / total_months
     
-    media_nao_coletavel = (12 + 12 + 12 + 8) / 4   # Siplanweb + Betha + MunicipalNet + ADPM    
     total_coletaveis = total_epics - (media_nao_coletavel * n_templates)
     ideal_speed_discounted = total_coletaveis / total_months
     
     previsao_mes_anterior = [total_coletado_mes_anterior + (i * coletado_por_mes_anterior) for i in range(future_months)]
     previsao_atual = [total_coletado_mes_anterior + (i * coletado_por_mes_atualizado) for i in range(future_months)]
-
+    
     # Plot
     fig =  px.bar(df, x="month_year", y='coletado_cumsum', title=title, opacity=0.5, height=500, width=1000,
                  labels={"value":"Epics concluídas (acumulado)", "month_year":"Mês", 'variable':''})
@@ -214,8 +213,9 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
     s = s.sort_index()
     nao_loc_autom = dict(s)
     
-    # Fonte: Planilha Controle de Dados (#TODO transformar em Epics com "não-localizado")
-    nao_loc_manual = {'Municipal Net (11)': 12, 'Portal Facil (46)': 5}
+    # Fonte: Planilha Controle de Dados
+    nao_loc_manual = {'Municipal Net (11)': 12, 'Portal Facil (46)': 7, 'Portaltp (61)': 7,
+                      'ADPM (7)': 8}
     coletado_autom = {'Template2 (28)': 4}
     
     for template, count in nao_loc_autom.items():
@@ -235,21 +235,25 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
     name_col  = 'shortname'
     top_templates = top_templates[top_templates['rank'] <= 15]
     df = top_templates.merge(df, how='left').fillna({'state':'Estimado', count_col:1})   
-    templates = df['template'].dropna().unique() 
-    
+    templates = df['template'].dropna().unique()     
+ 
     # TODO usar arquivo separado
-    total_ref = 29  # Siplanweb  
+    total_ref = 25  # media de 13 templates  
     total = dict.fromkeys(templates, total_ref)
-    total['Municipal Net (11)'] = 28
-    total['Betha (26)'] = 33
-    total['ADPM (22)'] = 19
-    total['PT (45)'] = 28
-    total['Memory (66)'] = 23
     total['ABO (21)'] = 23
-    total['Template1 (22)'] = 24
+    total['ADPM (7)'] = 19
+    total['ADPM (22)'] = 19
+    total['Betha (26)'] = 33
+    total['GRP (27)'] = 26
+    total['Memory (66)'] = 23
+    total['Municipal Net (11)'] = 28
     total['Portal Facil (60)'] = 18
     total['Portal Facil (46)'] = 19
-    
+    total['Portaltp (61)'] = 35
+    total['PT (45)'] = 29
+    total['Siplanweb (61)'] = 29
+    total['Template1 (22)'] = 24
+   
     # Fill missing (estimated) epics in df
     for template in templates:        
         created =  df.groupby('template').count()['state'][template]
@@ -286,57 +290,6 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
     fig.update_layout(font=dict(size=18))    
     
     return fig
-
-def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
-
-    fig = px.imshow(
-        df, height=1800, width=1700, title=title,
-        color_continuous_scale=[(0, "green"), (0.25, 'lightgreen'), (0.5, "#64b5cd"), 
-                                (0.75, '#FFD700'), (1, 'lightblue')]
-    )     
-        
-    fig.update_traces(opacity=0.75)
-    fig.update_xaxes(tickangle=-90, side="top")
-    fig.update_yaxes(showgrid=True, gridwidth=5)
-    
-    fig.update_layout(
-        coloraxis_colorbar=dict(
-            title="Status", 
-            tickvals=[1,2,3,4,5],
-            ticktext=["Testado","Parametrizado","Implementado","Em Implementação",'Previsto'],
-            lenmode="pixels", 
-            len=200), 
-        font=dict(size=20)
-    )
-    
-    return fig
-
-def plot_pre_coleta(df, title='Resultados da Sondagem Automática'):
-    df = df.sort_index(axis=0)
-    df = df.reindex(sorted(df.columns), axis=1)
-
-    fig = px.imshow(
-        df, height=900, width=800, title=title,
-        # color_continuous_scale=[(0, "red"), (1, 'lightblue')]   # 2-state
-        color_continuous_scale=[(0, "white"), (0.5, "red"), (1, 'lightblue')]  # 3-state
-    )     
-        
-    fig.update_traces(opacity=0.75)
-    fig.update_xaxes(tickangle=-90, side="top")
-    fig.update_xaxes(showgrid=True, gridwidth=5)
-    
-    fig.update_layout(
-        coloraxis_colorbar=dict(
-            title="Subtag", 
-            tickvals=[-1, 0, 1],
-            ticktext=['Indeterminado', 'Não localizada', 'Localizada'],
-            lenmode="pixels", 
-            len=140), 
-        font=dict(size=14)
-    )
-    
-    return fig
-
 
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
