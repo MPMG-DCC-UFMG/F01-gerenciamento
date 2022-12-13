@@ -103,6 +103,7 @@ def coleta_layout():
             html_div_chart(figs[1]),
             html_div_chart(figs[2]),
             html_div_chart(figs[3]),
+            html_div_chart(figs[4]),
         ],
         id="mainContainer",
         style={"display": "flex", "flex-direction": "column"},
@@ -113,7 +114,7 @@ def coleta_layout():
 
 def desenvolvimento_layout():
     
-    fig1, fig2, fig3, fig4 =  figures.create_figures_dev()
+    fig1, fig2, fig3, fig4, fig5 =  figures.create_figures_dev()
       
     # Create app layout
     layout = html.Div(
@@ -154,6 +155,12 @@ def desenvolvimento_layout():
             html.Div(
                 [
                     html.Div([dcc.Graph(id="graph4", figure=fig4)], className="pretty_container 6 columns",)
+                ],
+                className="row flex-display",
+            ),   
+            html.Div(
+                [
+                    html.Div([dcc.Graph(id="graph5", figure=fig5)], className="pretty_container 6 columns",)
                 ],
                 className="row flex-display",
             ),            

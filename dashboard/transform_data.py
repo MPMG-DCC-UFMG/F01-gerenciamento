@@ -269,6 +269,56 @@ def build_municipios_clusters_df(clusters_json_path, part_0000_path, cluster_tem
     
     return municipios
 
+
+def process_epics_for_tags(epics, top_templates, subtags):       
+    
+    templates = top_templates.template.unique()
+    epics = epics[epics.template.isin(templates)]
+    
+    epics = epics[(epics.tag.notnull()) & (epics.template.notnull())] 
+        
+    s = epics[(epics.subtag.isnull()) | (epics.subtag.str.contains('Todas'))][
+        ['template', 'tag', 'state']].copy()
+    all_subtags_ok  = s[s.state == 'Coletado']
+    all_subtags_nok = s[s.state == 'Não coletável']
+    
+    epics = epics[(epics.state == 'Coletado') | (epics.state == 'Não coletável')]
+    epics = epics[(epics.subtag.notnull()) & (epics.subtag.str.contains('Todas') == False)]
+    
+    # explode a lista de subtags em multiplas linhas
+    epics.subtag = epics.subtag.apply(eval)
+    epics = epics.explode('subtag')
+    epics['tag_subtag'] = epics['tag'] + ': ' + epics['subtag']
+    epics = epics.drop_duplicates(['tag_subtag', 'template']) 
+
+    epics = epics[['tag_subtag', 'template', 'state']]    
+    epics.loc[epics.state == 'Coletado', 'state'] = 2    
+    epics.loc[epics.state == 'Não coletável', 'state'] = 1          
+    
+    epics = epics.pivot(index='tag_subtag', columns='template', values='state')
+    epics = epics[epics.index.notnull()]
+    
+    # Adiciona templates e subtags faltantes
+    for t in [t for t in templates if t not in epics.columns]: 
+        epics[t] = 0
+    for s in [s for s in subtags if s not in epics.index]: 
+        epics = pd.concat([epics, pd.DataFrame(None, index=[s])])
+    
+    # Adiciona informacoes de epics que cobrem multiplas subtags
+    #TODO despesas com diarias vs. despesas, mesmo prefixo
+    for index, row in all_subtags_ok.iterrows():
+        epics.loc[epics.index.str.startswith(f'{row["tag"]}:'), row['template']] = 2
+    for index,row in all_subtags_nok.iterrows():
+        epics.loc[epics.index.str.startswith(f'{row["tag"]}:'), row['template']] = 1
+        
+    shortnames = {x:y for x,y in zip(top_templates.template.values, top_templates.shortname.values)} 
+    epics = epics.rename(columns=shortnames)
+    epics = epics.sort_index()
+    epics = epics.fillna(0)    
+    
+    return epics
+       
+
 def count_closed_epics(epics):
     
     epics = epics[~epics.closed_at.isna()]

@@ -4,8 +4,8 @@ from zenhub import Zenhub
 
 import figures as fig_module
 import extract_data
-import transform_data
 import utils
+from transform_data import *
 
 import spacy
 nlp = spacy.load('pt_core_news_sm')
@@ -20,9 +20,9 @@ def main_tranform_data(repo, creators):
     df = pd.DataFrame(info_issues)
     
     df['lower_title'] = df['title'].str.lower()
-    df = transform_data.filter_(df, column_name='lower_title')
+    df = filter_(df, column_name='lower_title')
 
-    results = transform_data.fill_cities(df, nlp, list_municipios)
+    results = fill_cities(df, nlp, list_municipios)
     municipios_df = pd.DataFrame(results, index=[0]).T.reset_index()
     
     df = df.merge(municipios_df, left_on='title', right_on='index')[[
@@ -30,7 +30,7 @@ def main_tranform_data(repo, creators):
     df = df.rename(columns ={0: 'municipio'})
     df['municipio'] = df['municipio'].str.strip()
     
-    df = transform_data.filter_by_labels(df)    
+    df = filter_by_labels(df)    
     
     # TODO Error format_date(line 39) if we remove
     df.to_csv("data/df.csv", index=False)
@@ -38,13 +38,13 @@ def main_tranform_data(repo, creators):
     
     df['closed_at'] = df['closed_at'].fillna(0)
 
-    df = transform_data.format_date(df, time_column='closed_at', status='closed')
-    df = transform_data.format_date(df, time_column='created_at', status='created')    
+    df = format_date(df, time_column='closed_at', status='closed')
+    df = format_date(df, time_column='created_at', status='created')    
 
-    closed_df = transform_data.issues_matrix(df, state_column='closed', time_column='format_date_closed')
-    open_df = transform_data.issues_matrix(df, state_column='open', time_column='format_date_created')
+    closed_df = issues_matrix(df, state_column='closed', time_column='format_date_closed')
+    open_df = issues_matrix(df, state_column='open', time_column='format_date_created')
     
-    columns_name = transform_data.sort_columns(open_df)
+    columns_name = sort_columns(open_df)
         
     open_df = open_df[columns_name]
     try:
@@ -58,12 +58,11 @@ def main_tranform_data(repo, creators):
     open_df[date_columns] = open_df[date_columns].astype(int)
     closed_df[date_columns] = closed_df[date_columns].astype(int)
     
-    closed_df = transform_data.fill_gaps(open_df, closed_df)
-
+    closed_df = fill_gaps(open_df, closed_df)
     closed_df = closed_df.sort_values('municipio')
     open_df = open_df.sort_values('municipio')
 
-    df['week'] =  pd.to_datetime(df['closed_at']).dt.strftime('%W') #TODO
+    df['week'] =  pd.to_datetime(df['closed_at']).dt.strftime('%W')
     
     return df, open_df, closed_df
 
@@ -89,26 +88,33 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     open_df.to_csv("data/open_df.csv", index=False)
     closed_df.to_csv("data/closed_df.csv", index=False)
 
-    count_month = transform_data.count_by_month(open_df, closed_df)
+    count_month = count_by_month(open_df, closed_df)
     count_month.to_csv("data/count_month.csv", index=False)
     
-    week_status = transform_data.count_by_week(df, time_column='closed_at')
+    week_status = count_by_week(df, time_column='closed_at')
     week_status.to_csv('data/week_status.csv', index=False)    
     df.to_csv("data/df.csv", index=False)
        
-    issues_epic_df, epics_id = transform_data.count_issues_epic(df, zh, repo_F01, repo_id)
+    issues_epic_df, epics_id = count_issues_epic(df, zh, repo_F01, repo_id)
     aux = pd.DataFrame([['Habeas Data','Licitação', 4.0, 0.0]], columns=['template','tag','closed', 'open'])
     issues_epic_df = pd.concat([issues_epic_df, aux])
     issues_epic_df.to_csv("data/issues_epic_df.csv", index=False)
 
-    epics_info, count_epics_month, count_epics_week = transform_data.summarize_epics(epics_id, repo_F01)
+    epics_info, count_epics_month, count_epics_week = summarize_epics(epics_id, repo_F01)
     count_epics_month.to_csv("data/count_epics_month.csv", index=False) 
     count_epics_week.to_csv("data/count_epics_week.csv", index=False) 
     epics_info.to_csv("data/epics.csv", index=False) 
 
-    df_tags = transform_data.count_by_tags(issues_epic_df)
+    df_tags = count_by_tags(issues_epic_df)
     df_tags.to_csv("data/df_tags.csv", index=False)    
-    
+
+    top_templates = pd.read_csv("data/top_templates.csv")    
+    epics_dev = pd.read_csv("data/epics_dev.csv", index_col="template_rank")
+    subtags = epics_dev.columns.to_list()
+    tags = process_epics_for_tags(epics_info, top_templates, subtags)
+    tags.to_csv('data/tags_epics.csv', index_label='subtag')
+   
+
 def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', open_column='open'):
     
     """
@@ -141,11 +147,11 @@ def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', ope
     info_issues_dev = pd.read_csv("data/info_issues_dev.csv")
 
     info_issues_dev['closed_at'] = info_issues_dev['closed_at'].fillna(0)
-    info_issues_dev = transform_data.format_date(info_issues_dev, time_column='closed_at', status='closed')
-    info_issues_dev = transform_data.format_date(info_issues_dev, time_column='created_at', status='created')
+    info_issues_dev = format_date(info_issues_dev, time_column='closed_at', status='closed')
+    info_issues_dev = format_date(info_issues_dev, time_column='created_at', status='created')
     
     # info_issues_dev['week'] =  pd.to_datetime(info_issues_dev['closed_at']).dt.strftime('%W')
-    week_status = transform_data.count_by_week(info_issues_dev, time_column='closed_at')
+    week_status = count_by_week(info_issues_dev, time_column='closed_at')
 
     closed_df = info_issues_dev.pivot_table(
         values='title', index=['id'], columns='format_date_closed', aggfunc='count').fillna(0).reset_index()
@@ -154,13 +160,13 @@ def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', ope
     open_df = info_issues_dev.pivot_table(
         values='title', index=['id'], columns='format_date_created', aggfunc='count').fillna(0).reset_index()
 
-    columns_name = transform_data.sort_columns(open_df)
+    columns_name = sort_columns(open_df)
     open_df = open_df[columns_name]
 
-    columns_name = transform_data.sort_columns(closed_df)
+    columns_name = sort_columns(closed_df)
     closed_df = closed_df[columns_name]
 
-    count_month_dev = transform_data.count_by_month(open_df, closed_df)
+    count_month_dev = count_by_month(open_df, closed_df)
 
     df = info_issues_dev.merge(exploded_df, left_on='id', right_on='issues')
     df = df.groupby(['template','tag', 'status'])['status'].count().unstack().reset_index().fillna(0)

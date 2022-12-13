@@ -137,6 +137,42 @@ def create_barplot(df, title, x_column, y1_column, y2_column, name1=None, name2=
     
     return fig
 
+def plot_tags_coletadas(epics):
+    
+    n_templates_cobertos = epics[epics == 2].count(axis=1).values
+    n_subtags_pendentes  = epics[epics == 0].count(axis=0).values
+
+    y = [f'({n}) {tag}' for n, tag in zip(n_templates_cobertos, epics.index)]
+    x = [t for n, t in sorted(zip(n_subtags_pendentes, epics.columns))]
+
+    tot_coletado = sum(n_templates_cobertos)
+    tot_nao_coletavel = epics[epics == 1].count().sum()
+    tot = len(x) * len(y)
+    
+    title = f'Subtags por Template<br><sup>{len(y)} subtags x {len(x)} templates '
+    title += f'- Coletado: {tot_coletado} ({round( tot_coletado*100/tot , 1)}%) '
+    title += f'- Não-Coletável: {tot_nao_coletavel} ({round( tot_nao_coletavel*100/tot , 1)}%)'
+    title += f'- Fechado: {tot_coletado+tot_nao_coletavel} ({round( (tot_coletado+tot_nao_coletavel)*100/tot , 1)}%)</sup>'
+    
+    fig = px.imshow(
+        epics[x], y=y, height=1150, width=800, title=title, 
+        color_continuous_scale=[(0, '#B9E3C6'), (0.5, '#D81E5B'), (1, '#59C9A5')])     
+        
+    fig.update_traces(opacity=0.80)
+    fig.update_xaxes(tickangle=-90, side="top")
+    fig.update_yaxes(showgrid=True, gridwidth=2, side='right')
+    fig.update_layout(
+        coloraxis_colorbar=dict(
+            title="Status", lenmode='pixels', len=90, x=1.2, y=0.95, 
+            tickvals=[0,1,2],
+            ticktext=['Previsto', 'Não coletável', 'Coletado']), 
+        font=dict(size=12))
+    
+    fig.write_image('fig/tags.png', scale=3)    
+    
+    return fig
+
+
 def plot_speed_epics(df, df_week, title):      
     
     df['coletado_cumsum'] = df['Coletado'].cumsum()   
@@ -176,7 +212,10 @@ def plot_speed_epics(df, df_week, title):
     fig =  px.bar(df, x="month_year", y='coletado_cumsum', title=title, opacity=0.5, height=500, width=1000,
                  labels={"value":"Epics concluídas (acumulado)", "month_year":"Mês", 'variable':''})
 
-    fig.update_layout(yaxis = dict(tickmode = 'linear', tick0 = 0, dtick = 100))
+    fig.update_layout(
+        yaxis = dict(tickmode = 'linear', tick0 = 0, dtick = 100),
+        legend = dict(x = 0.015, y = 0.97),
+    )
     fig.add_traces([
         go.Scatter(x=df.month_year, y=[i * ideal_speed for i in range(1, total_months+1)], name="Planejado", opacity=1,
                   line=go.scatter.Line(color='#ef553b')), #color="red" ff6692 ef553b     
@@ -291,11 +330,36 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
     
     return fig
 
+def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
+
+    fig = px.imshow(
+        df, height=1800, width=1700, title=title,
+        color_continuous_scale=[(0, "green"), (0.25, 'lightgreen'), (0.5, "#64b5cd"), 
+                                (0.75, '#FFD700'), (1, 'lightblue')]
+    )     
+        
+    fig.update_traces(opacity=0.75)
+    fig.update_xaxes(tickangle=-90, side="top")
+    fig.update_yaxes(showgrid=True, gridwidth=5)
+    
+    fig.update_layout(
+        coloraxis_colorbar=dict(
+            title="Status", 
+            tickvals=[1,2,3,4,5],
+            ticktext=["Testado","Parametrizado","Implementado","Em Implementação",'Previsto'],
+            lenmode="pixels", 
+            len=200), 
+        font=dict(size=20)
+    )
+    
+    return fig
+
 def create_figures_coleta(closed_colum='closed', open_colum='open'):
     
     week_status = pd.read_csv('data/week_status.csv')    
     count_epics_month = pd.read_csv("data/count_epics_month.csv")    
-    count_epics_week = pd.read_csv("data/count_epics_week.csv")              
+    count_epics_week = pd.read_csv("data/count_epics_week.csv")      
+    count_month = pd.read_csv("data/count_month.csv")              
     sondagem_df = pd.read_csv('data/resultados_templates.csv', index_col=0).astype(int)      
           
     epics_df = pd.read_csv("data/epics.csv")
@@ -315,11 +379,11 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
             y_column='closed_at', x_column='week_year', xaxis_title_text='Semanas'),
         plot_status_week(
             count_epics_week, title='Epics fechadas por semana',
-            y_column='Coletado', x_column='week_year', xaxis_title_text='Semanas')
-        # plot_status_mes(
-        #     count_month, title='Coletas por mês',
-        #     x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",
-        #     y1_column=open_colum, y2_column=closed_colum )
+            y_column='Coletado', x_column='week_year', xaxis_title_text='Semanas'),
+        plot_status_mes(
+            count_month, title='Coletas por mês',
+            x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",
+            y1_column='open', y2_column='closed' )
         # plot_stack(
         #     df_tags, title="Coletas por tag", x_column='tag', y2_column=open_colum, 
         #     y1_column=closed_colum, name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
@@ -331,11 +395,12 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
 
 def create_figures_dev(closed_colum='closed', open_colum='open'):
     
-    count_month = pd.read_csv("data/count_month_dev.csv")
-    week_status = pd.read_csv('data/week_status_dev.csv')
-    coletas_tag= pd.read_csv("data/coletas_tag_dev.csv")
-    epics_dev_df= pd.read_csv("data/epics_dev.csv", index_col="template_rank")    
-    
+    count_month  = pd.read_csv("data/count_month_dev.csv")
+    week_status  = pd.read_csv('data/week_status_dev.csv')
+    coletas_tag  = pd.read_csv("data/coletas_tag_dev.csv")
+    epics_dev_df = pd.read_csv("data/epics_dev.csv", index_col="template_rank")      
+    tags         = pd.read_csv('data/tags_epics.csv', index_col='subtag')
+
     open_df = pd.read_csv("data/open_df_dev.csv")
     closed_df= pd.read_csv("data/closed_df_dev.csv")
 
@@ -359,7 +424,9 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
     fig4 = plot_status_epics_dev(epics_dev_df, title='Visão Geral - Validadores feitos e a fazer',        
         y_column='template', x_column='title', hue="state")
 
-    return fig1, fig2, fig3, fig4
+    fig5 = plot_tags_coletadas(tags)
+
+    return fig1, fig2, fig3, fig4, fig5
 
 
 def create_figures_automacao():
