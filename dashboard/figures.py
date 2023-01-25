@@ -172,30 +172,25 @@ def plot_tags_coletadas(epics):
     
     return fig
 
-
 def plot_speed_epics(df, df_week, title):      
     
     df['coletado_cumsum'] = df['Coletado'].cumsum()   
     coletado_cumsum_anterior = df['coletado_cumsum'][:-1].values.tolist()
-    # df["closed_cumsum"] = df["closed"].cumsum()             
-    # df["naocoletado_cumsum"] = df["Não coletável"].cumsum()  
-    
     total_coletado_mes_anterior  = df['Coletado'][:-1].sum()
-    coletado_por_mes_atualizado = df_week['Coletado'][-4:].sum()  
-    coletado_por_mes_anterior   = df_week['Coletado'][-8:-4].sum() # df['Coletado'][-2:-1].values[0]
-    print(f'Coletado no ultimo mes   : {coletado_por_mes_atualizado}')
-    print(f'Coletado no penultimo mes: {coletado_por_mes_anterior}')
-    # fechado_por_mes = df["closed"].mean()      
-    # total_coletado  = df['Coletado'].sum()
-
-    # Definindo os meses de interesse
-    df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x}/2022' for x in range(1,13)] + 
-                                ["01/2023", "02/2023"], columns=["month_year"]), how="right").fillna(0)    
     
-    # Baselines
-    n_templates = 15 + 5            # 15 + 5 municipios
-    total_epics_by_template = 25    # estimativas baseada em 13 templates    
-    media_nao_coletavel = 7         
+    ritmo_atual     = df_week['Coletado'][-4:].sum()
+    ritmo_anterior  = df_week['Coletado'][-8:-4].sum() # df['Coletado'][-2:-1].values[0]
+    ritmo_historico = coletado_cumsum_anterior[-1] / (df.shape[0] - 1)
+    print(f'Epics coletáveis fechadas (atual/anterior/historico): {int(ritmo_atual)}/{int(ritmo_anterior)}/{int(ritmo_historico)}')
+
+    # Meses de interesse
+    df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x}/2022' for x in range(1,13)] + 
+                                [f'{x}/2023' for x in range(1,8)], columns=["month_year"]), how="right").fillna(0)    
+    
+    # Referencias
+    n_templates = 15 + 5           # 15 + 5 municipios
+    total_epics_by_template = 24   # baseada em 19/20 templates + municipios
+    media_nao_coletavel = 7        # baseado em 14/15 templates
     
     total_epics = total_epics_by_template * n_templates    
     total_months = df.shape[0]
@@ -205,8 +200,8 @@ def plot_speed_epics(df, df_week, title):
     total_coletaveis = total_epics - (media_nao_coletavel * n_templates)
     ideal_speed_discounted = total_coletaveis / total_months
     
-    previsao_mes_anterior = [total_coletado_mes_anterior + (i * coletado_por_mes_anterior) for i in range(future_months)]
-    previsao_atual = [total_coletado_mes_anterior + (i * coletado_por_mes_atualizado) for i in range(future_months)]
+    previsao_mes_anterior = [total_coletado_mes_anterior + (i * ritmo_anterior) for i in range(future_months)] # ritmo_historico|ritmo_anterior
+    previsao_atual = [total_coletado_mes_anterior + (i * ritmo_atual) for i in range(future_months)]
     
     # Plot
     fig =  px.bar(df, x="month_year", y='coletado_cumsum', title=title, opacity=0.5, height=500, width=1000,
@@ -218,22 +213,15 @@ def plot_speed_epics(df, df_week, title):
     )
     fig.add_traces([
         go.Scatter(x=df.month_year, y=[i * ideal_speed for i in range(1, total_months+1)], name="Planejado", opacity=1,
-                  line=go.scatter.Line(color='#ef553b')), #color="red" ff6692 ef553b     
+                   mode='lines+markers', line=go.scatter.Line(color='#ef553b')), #color="red" ff6692 ef553b     
         go.Scatter(x=df.month_year, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], name="Coletável",
-                  line=go.scatter.Line(color="#00CC96")), #AB63FA
-        go.Scatter(x=df.month_year, y=coletado_cumsum_anterior, name="Realizado", 
-                  line=go.scatter.Line(dash='solid', color="#636efa"), opacity=1, showlegend=False), 
-        go.Scatter(x=df.month_year[-future_months:], y=previsao_atual, name="Realizado", 
-                  line=go.scatter.Line(dash='dot', color="#636efa"), opacity=1),
+                   mode='lines+markers', line=go.scatter.Line(color="#00CC96")), #AB63FA
+        go.Scatter(x=df.month_year, y=[i * ritmo_historico for i in range(1, total_months-future_months+2)], name="Realizado",  
+                   opacity=1, line=go.scatter.Line(dash='solid', color="#636efa")), 
+        go.Scatter(x=df.month_year[-future_months:], y=previsao_atual, name="Realizado", showlegend=False,
+                   opacity=1, line=go.scatter.Line(dash='dot', color="#636efa")),
         go.Scatter(x=df.month_year[-future_months:], y=previsao_mes_anterior, name="Mês anterior",
-                  line=go.scatter.Line(dash='dot', color="#636efa"), opacity=0.2),
-        # go.Scatter(x=df.month_year, y=[i * velocidade_coleta for i in range(1, total_months+1)], name="Realizado",
-        #           line=go.scatter.Line(color="#636efa"), opacity=1),#, text=df), #8c86ff
-        # go.Scatter(x=df.month_year, y=mes_anterior, name="Mês anterior",
-        #           line=go.scatter.Line(color="#636efa"), opacity=0.2),
-        # go.Scatter(x=df.month_year, y=[i * velocidade_total for i in range(1, total_months+1)], name="Total Fechado",
-        #           line=go.scatter.Line(color="blue"), opacity=0.1),    # Inclui todas epics fechadas
-                    # dash -> ['solid', 'dot', 'dash', 'longdash', 'dashdot', 'longdashdot']
+                   opacity=0.3, line=go.scatter.Line(dash='dot', color="#636efa")),
     ])
     
     return fig

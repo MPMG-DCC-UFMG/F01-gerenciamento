@@ -3,7 +3,7 @@ rank,size,template,shortname,total_epics,total_nao_coletavel
 2,66,Memory (66),Memory (66),23,
 3,61,Siplanweb (61),Siplanweb (61),29,
 4,61,Portaltp (61),Portaltp (61),35,7
-5,60,Portal Facil (60),Portal Facil (60),18,
+5,60,Portal Facil (60),Portal Facil (60),18,0
 6,46,Portal Facil (46),Portal Facil (46),20,
 7,45,PT (45),PT (45),29,
 8,28,Template2 (28),Template2 (28),25,
