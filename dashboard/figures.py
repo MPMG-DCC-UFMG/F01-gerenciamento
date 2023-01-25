@@ -3,7 +3,7 @@ import datetime
 import plotly.graph_objects as go 
 import plotly.figure_factory as ff
 import plotly.express as px
-
+from math import isnan
 
 def dropdown_stack(df, title, x_column, y1_column, y2_column, name1=None, name2=None, showlegend=False):
 
@@ -241,57 +241,33 @@ def plot_speed_epics(df, df_week, title):
 # TODO melhorar automacao
 def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
 
-    # resultados do buscador de subtags (sondagem)
-    # templates_ja_analisados = ['ADPM', 'Betha', 'Municipal Net', 'Siplanweb', 'Memory']
-    templates_ja_analisados = [
-        'ADPM (22)', 'Betha (26)', 'Municipal Net (11)', 'Siplanweb (61)', 'Memory (66)', 
-        'Template1 (22)', 'Portal Facil (60)', 'Portal Facil (46)']
-    s = sondagem[sondagem == 0].count(axis=1)
-    s = s[s != 0]
-    s = s.drop(templates_ja_analisados)
-    s = s.sort_index()
-    nao_loc_autom = dict(s)
+    top_templates = top_templates[top_templates['rank'] <= 15]
+    stats = top_templates.set_index('template').to_dict()
+    total = stats['total_epics']
     
-    # Fonte: Planilha Controle de Dados
-    nao_loc_manual = {'Municipal Net (11)': 12, 'Portal Facil (46)': 7, 'Portaltp (61)': 7,
-                      'ADPM (7)': 8}
+    # total nao coletavel (analise manual)
+    total_nc = stats['total_nao_coletavel']
+    total_nc = {a: int(b) for a,b in total_nc.items() if not isnan(b) }
+
+    for template, count in total_nc.items():
+        for i in range(count):
+            df = df.append({'template':template, 'state':'Não coletável', 'aux':1}, ignore_index=True)
+                
+    # resultados de coletas e analises automaticas 
     coletado_autom = {'Template2 (28)': 4}
-    
+    nao_loc_autom  = {}
     for template, count in nao_loc_autom.items():
         for i in range(count):
             df = df.append({'template':template, 'state':'Não coletável (autom.)', 'aux':1}, ignore_index=True)
-            
-    for template, count in nao_loc_manual.items():
-        for i in range(count):
-            df = df.append({'template':template, 'state':'Não coletável', 'aux':1}, ignore_index=True)
-            
     for template, count in coletado_autom.items():
         for i in range(count):
             df = df.append({'template':template, 'state':'Coletado (autom.)', 'aux':1}, ignore_index=True)
        
-    # Pre-process dataframes       
+    # Pre-processing data
     count_col = 'aux'
     name_col  = 'shortname'
-    top_templates = top_templates[top_templates['rank'] <= 15]
     df = top_templates.merge(df, how='left').fillna({'state':'Estimado', count_col:1})   
     templates = df['template'].dropna().unique()     
- 
-    # TODO usar arquivo separado
-    total_ref = 25  # media de 13 templates  
-    total = dict.fromkeys(templates, total_ref)
-    total['ABO (21)'] = 23
-    total['ADPM (7)'] = 19
-    total['ADPM (22)'] = 19
-    total['Betha (26)'] = 33
-    total['GRP (27)'] = 26
-    total['Memory (66)'] = 23
-    total['Municipal Net (11)'] = 28
-    total['Portal Facil (60)'] = 18
-    total['Portal Facil (46)'] = 19
-    total['Portaltp (61)'] = 35
-    total['PT (45)'] = 29
-    total['Siplanweb (61)'] = 29
-    total['Template1 (22)'] = 24
    
     # Fill missing (estimated) epics in df
     for template in templates:        
@@ -303,54 +279,29 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
         for i in range(missing):            
             df = df.append({'template':template, 'state':'Estimado', name_col:name,
                             'size':size, count_col:1}, ignore_index=True)           
-        
-    df = df.sort_values(by=['state', name_col], ascending=[True,False])
-    xorder = df.groupby(['state', name_col]).count()['aux'][
-        'Coletado'].sort_values(ascending=False).index.tolist()
 
+    # sorting x-axis
+    df = df.sort_values(by=['state', name_col], ascending=[True,True])
+    xorder = df.groupby(['state', name_col]).count()['aux']['Coletado']
+    for x in df[name_col].unique():
+        if x not in xorder: xorder[x] = 0
+        
+    xorder = xorder.sort_values(ascending=False).index.tolist()
+    m = [x for x in xorder if x.startswith('(m')]
+    xorder = [x for x in xorder if x not in m]
+    xorder = xorder + m
+    
     # Plot
     fig = px.bar(
         df, y=count_col, x=name_col, color='state', height=800, width=1100, title=title,
-        color_discrete_map = {
-            'Coletado':'green', 
-            'Coletado (autom.)':'#92d696', 
-            'Com bloqueio':'#9F2B68',
-            'Com epic criada':'#64b5cd', 
-            'Estimado':'lightblue', 
-            'Não coletável':'red', 
-            'Não coletável (autom.)':'#ff9e99'}, 
-        labels = {
-            count_col:"#Coletores", 
-            name_col:"Template / Município"}, 
+        color_discrete_map = { 'Coletado':'green', 'Coletado (autom.)':'#92d696', 
+            'Com bloqueio':'#9F2B68', 'Com epic criada':'#64b5cd', 'Estimado':'lightblue', 
+            'Não coletável':'red', 'Não coletável (autom.)':'#ff9e99'}, 
+        labels = {count_col:"#Coletores", name_col:"Template / Município"}, 
         opacity = 0.75 )    
     
-    fig.update_layout(xaxis={'categoryorder':'array', 'categoryarray':xorder})
+    fig.update_layout(xaxis={'categoryorder':'array', 'categoryarray':xorder}, font=dict(size=18))
     fig.update_xaxes(tickangle=45)
-    fig.update_layout(font=dict(size=18))    
-    
-    return fig
-
-def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
-
-    fig = px.imshow(
-        df, height=1800, width=1700, title=title,
-        color_continuous_scale=[(0, "green"), (0.25, 'lightgreen'), (0.5, "#64b5cd"), 
-                                (0.75, '#FFD700'), (1, 'lightblue')]
-    )     
-        
-    fig.update_traces(opacity=0.75)
-    fig.update_xaxes(tickangle=-90, side="top")
-    fig.update_yaxes(showgrid=True, gridwidth=5)
-    
-    fig.update_layout(
-        coloraxis_colorbar=dict(
-            title="Status", 
-            tickvals=[1,2,3,4,5],
-            ticktext=["Testado","Parametrizado","Implementado","Em Implementação",'Previsto'],
-            lenmode="pixels", 
-            len=200), 
-        font=dict(size=20)
-    )
     
     return fig
 

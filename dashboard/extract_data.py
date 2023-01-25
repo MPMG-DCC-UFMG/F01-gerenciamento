@@ -76,6 +76,7 @@ def get_specific_labels(labels, pattern='tag'):
     
     if label != None:
         return label.split('-')[-1]
+        
     return None
 
 def load_labels(repo_F01, epic_id):

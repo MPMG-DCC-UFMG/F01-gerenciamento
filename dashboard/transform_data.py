@@ -217,12 +217,16 @@ def count_by_month(open_df, closed_df, closed_colum='closed', open_column='open'
 
 # Manter sincronizado com labels do repositorio:
 #   https://github.com/MPMG-DCC-UFMG/F01/labels
-def expand_states(df, target_labels=['template', 'tag', 'subtag'], remove_orig_col=True):
+def expand_states(df, target_labels=['template', 'tag', 'subtag', 'município'], remove_orig_col=True):
     
     for target_label in target_labels:
         df[target_label] = df.apply(lambda x: find_label(x['labels'], target_label), axis=1)
-        
-    # NOTE todas epics com label 'não-*' estão sendo agrupadas como 'Não coletável'
+    
+    # Utiliza nome do município na coluna template
+    df.template = df.template.fillna(df['município'])
+    df = df.drop(columns='município')
+    
+    #NOTE todas epics com label 'não-*' estão sendo agrupadas como 'Não coletável'
     df.loc[df.labels.astype(str).str.contains('não-'), 'state'] = 'Não coletável'   
     
     df.loc[df.labels.astype(str).str.contains('bloqueada'), 'state'] = 'Com bloqueio'    
