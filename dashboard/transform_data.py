@@ -91,10 +91,10 @@ def filter_by_labels(df, label_column='labels', labels_filter=['bug']):
 def find_label(item_labels, target_label):    
     
     item_labels = str(item_labels)
-    
+
     # recupera multiplas subtags
     if target_label == 'subtag':
-        found = re.findall(r'"subtag - ([^"]*?)"', item_labels)    
+        found = re.findall(r'"subtag - ([^"]*?)"', item_labels)
         if found: return found
         else: return None
     
@@ -290,6 +290,7 @@ def process_epics_for_tags(epics, top_templates, subtags):
     epics = epics[(epics.subtag.notnull()) & (epics.subtag.str.contains('Todas') == False)]
     
     # explode a lista de subtags em multiplas linhas
+    epics.subtag = epics.subtag.astype(str)
     epics.subtag = epics.subtag.apply(eval)
     epics = epics.explode('subtag')
     epics['tag_subtag'] = epics['tag'] + ': ' + epics['subtag']
@@ -319,7 +320,7 @@ def process_epics_for_tags(epics, top_templates, subtags):
     epics = epics.rename(columns=shortnames)
     epics = epics.sort_index()
     epics = epics.fillna(0)    
-    
+
     return epics
        
 

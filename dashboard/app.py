@@ -69,7 +69,7 @@ def coleta_layout():
                 html.H3("F01 - Coletas",style={"margin-bottom": "0px"},),
                 html.H5( "", style={"margin-top": "0px"} ), ])], className="two-half column", id="title",),
                     html.Div([   
-                            html.Button("Refresh Data", id="refresh-button"),
+                            html.Button("Atualizar Dados", id="refresh-button"),
                             html.Div(id='output-container-button', children=None),
                         ], className="one-third column", id="button-git", ), ],
                 id="header",
@@ -138,7 +138,7 @@ def desenvolvimento_layout():
                     ),
                     html.Div(
                         [   
-                            html.Button("Refresh Data", id="refresh-button"),
+                            html.Button("Atualizar Dados", id="refresh-button"),
                             html.Div(id='output-container-button', children=None),
 
                         ],
@@ -196,30 +196,28 @@ def automacao_layout():
       
     # Create app layout
     layout = html.Div([
-            dcc.Store(id="aggregate_data"),
-            # empty Div to trigger javascript file for graph resizing
-            html.Div(id="output-clientside"),
-            html.Div([ html.Div([ html.Div( [
-                
-                html.H3("F01 - Automação",style={"margin-bottom": "0px"},),
-                
-                html.H5( "", style={"margin-top": "0px"} ),] ) ],  
-                    className="two-half column", id="title", ),
-                    html.Div( [   
-                        html.Button("Refresh Data", id="refresh-button"),
-                        html.Div(id='output-container-button', children=None), ],
-                        className="one-third column", id="button-git",
-                    ), ], id="header", className="row flex-display",
-                style={"margin-bottom": "25px"},
+        dcc.Store(id="aggregate_data"),
+        # empty Div to trigger javascript file for graph resizing
+        html.Div(id="output-clientside"),
+        html.Div([ 
+            html.Div([ 
+                html.Div([
+                    html.H3("F01 - Automação",style={"margin-bottom": "0px"},),
+                    html.H5( "", style={"margin-top": "0px"} ),])
+                ], className="two-half column", id="title", 
             ),
-            
-            html.Div([ html.Div([
-                dcc.Graph(id="graph4", figure=fig1)], 
-                className="pretty_container 6 columns",)], className="row flex-display",
-            ),            
+            # html.Div( [   
+            #     # html.Button("Refresh Data", id="refresh-button"),
+            #     html.Div(id='output-container-button', children=None), ],
+            #     className="one-third column", id="button-git", ), 
+        ], id="header", className="row flex-display", style={"margin-bottom": "25px"},),
         
-        ], id="mainContainer",  style={"display": "flex", "flex-direction": "column"},
-    )
+        html.Div([ html.Div([
+            dcc.Graph(id="graph4", figure=fig1)], 
+            className="pretty_container 6 columns",)], className="row flex-display",
+        ),            
+
+    ], id="mainContainer",  style={"display": "flex", "flex-direction": "column"},)
     
     return layout
 
@@ -276,7 +274,6 @@ app.layout = html.Div([
     content
 ])
 
-
 @app.callback(Output('output-container-button', 'children'), Input("refresh-button", "n_clicks"))
 def refresh(n_clicks):
 
@@ -285,15 +282,11 @@ def refresh(n_clicks):
     else:        
         app.logger.info('Atualizando dados de coletas...')
         main_etl.update_data_coletas(git_token, zh_token)
-        
-        #TODO automatizar (#8)
-        # app.logger.info('Atualizando dados de desenvolvimento...')
+        #     app.logger.info('Atualizando dados de desenvolvimento...')
         # main_etl.update_data_desenvolvimento(git_token, zh_token)
-        
         app.logger.info('Dados atualizados.')
         html.A(href='/')
-        
-        
+
 @app.callback(
     Output("page-content", "children"),
     [Input("url", "pathname")]

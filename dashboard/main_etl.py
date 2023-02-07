@@ -108,9 +108,9 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     df_tags = count_by_tags(issues_epic_df)
     df_tags.to_csv("data/df_tags.csv", index=False)    
 
+    #TODO writing/read
     top_templates = pd.read_csv("data/top_templates.csv")    
-    epics_dev = pd.read_csv("data/epics_dev.csv", index_col="template_rank")
-    subtags = epics_dev.columns.to_list()
+    subtags = pd.read_csv("data/epics_dev.csv", index_col="template_rank").columns.to_list()
     tags = process_epics_for_tags(epics_info, top_templates, subtags)
     tags.to_csv('data/tags_epics.csv', index_label='subtag')
    

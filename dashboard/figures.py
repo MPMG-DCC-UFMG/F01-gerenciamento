@@ -226,7 +226,6 @@ def plot_speed_epics(df, df_week, title):
     
     return fig
 
-# TODO melhorar automacao
 def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics por Template (Coletores feitos e a fazer)'):
 
     top_templates = top_templates[top_templates['rank'] <= 15]
@@ -332,6 +331,30 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
         #     name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     ]
 
+def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
+
+    fig = px.imshow(
+        df, height=1800, width=1700, title=title,
+        color_continuous_scale=[(0, "green"), (0.25, 'lightgreen'), (0.5, "#64b5cd"), 
+                                (0.75, '#FFD700'), (1, 'lightblue')]
+    )     
+        
+    fig.update_traces(opacity=0.75)
+    fig.update_xaxes(tickangle=-90, side="top")
+    fig.update_yaxes(showgrid=True, gridwidth=5)
+    
+    fig.update_layout(
+        coloraxis_colorbar=dict(
+            title="Status", 
+            tickvals=[1,2,3,4,5],
+            ticktext=["Testado","Parametrizado","Implementado","Em Implementação",'Previsto'],
+            lenmode="pixels", 
+            len=200), 
+        font=dict(size=20)
+    )
+    
+    return fig
+
 def create_figures_dev(closed_colum='closed', open_colum='open'):
     
     count_month  = pd.read_csv("data/count_month_dev.csv")
@@ -367,6 +390,32 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
 
     return fig1, fig2, fig3, fig4, fig5
 
+
+def plot_pre_coleta(df, title='Resultados da Sondagem Automática'):
+    df = df.sort_index(axis=0)
+    df = df.reindex(sorted(df.columns), axis=1)
+
+    fig = px.imshow(
+        df, height=900, width=800, title=title,
+        # color_continuous_scale=[(0, "red"), (1, 'lightblue')]   # 2-state
+        color_continuous_scale=[(0, "white"), (0.5, "red"), (1, 'lightblue')]  # 3-state
+    )     
+
+    fig.update_traces(opacity=0.75)
+    fig.update_xaxes(tickangle=-90, side="top")
+    fig.update_xaxes(showgrid=True, gridwidth=5)
+
+    fig.update_layout(
+        coloraxis_colorbar=dict(
+            title="Subtag", 
+            tickvals=[-1, 0, 1],
+            ticktext=['Indeterminado', 'Não localizada', 'Localizada'],
+            lenmode="pixels", 
+            len=140), 
+        font=dict(size=14)
+    )
+
+    return fig
 
 def create_figures_automacao():
     
