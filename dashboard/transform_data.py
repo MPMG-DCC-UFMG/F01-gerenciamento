@@ -290,7 +290,6 @@ def process_epics_for_tags(epics, top_templates, subtags):
     epics = epics[(epics.subtag.notnull()) & (epics.subtag.str.contains('Todas') == False)]
     
     # explode a lista de subtags em multiplas linhas
-    epics.subtag = epics.subtag.astype(str)
     epics.subtag = epics.subtag.apply(eval)
     epics = epics.explode('subtag')
     epics['tag_subtag'] = epics['tag'] + ': ' + epics['subtag']

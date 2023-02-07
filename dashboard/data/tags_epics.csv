@@ -1,7 +1,7 @@
 subtag,ABO (21),ADPM (22),ADPM (7),(m1) Belo Horizonte,Betha (26),(m5) Betim,GRP (27),Memory (66),PT (45),Portal Facil (46),Portal Facil (60),Portaltp (61),Siplanweb (61),Síntese tecnologia (88),Template1 (22),Template2 (28),Municipal Net (11),(m2) Contagem,(m3) Uberlândia,(m4) Juiz de Fora
-Acesso à Informação: Dados Abertos,2,1,0,2,1,0,2,1,2,2,0,2,1,0,1,0.0,0.0,0.0,0.0,0.0
+Acesso à Informação: Dados Abertos,2,1,0,2,1,0,2,1,2,2,0,2,1,2,1,0.0,0.0,0.0,0.0,0.0
 Acesso à Informação: Informações,2,2,0,2,1,0,2,2,2,2,0,2,1,2,2,0.0,0.0,0.0,0.0,0.0
-Acesso à Informação: Relatório Estatístico,2,1,0,2,2,0,2,2,1,1,0,0,1,0,2,0.0,0.0,0.0,0.0,0.0
+Acesso à Informação: Relatório Estatístico,2,1,0,2,2,0,2,2,1,1,0,0,1,2,2,0.0,0.0,0.0,0.0,0.0
 Acesso à Informação: Requisitos Exigidos,2,2,0,2,2,0,2,2,2,2,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Concursos Públicos: Cópia do edital do concurso,2,1,0,2,1,0,2,1,1,1,0,2,1,1,2,0.0,0.0,0.0,0.0,0.0
 Concursos Públicos: Dados do Concurso,2,1,0,2,1,0,2,1,1,1,0,2,1,1,2,0.0,0.0,0.0,0.0,0.0
@@ -15,12 +15,12 @@ Despesas: Empenhos,2,2,2,0,2,0,2,2,2,0,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Despesas: Gerar relatório,2,2,2,0,2,0,2,2,0,2,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Despesas: Pagamentos,2,2,2,0,2,0,0,2,2,2,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Despesas: Relatórios,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
-Informações Institucionais: Conselhos Municipais,1,1,0,0,1,0,2,1,1,1,0,0,1,0,1,0.0,0.0,0.0,0.0,0.0
-Informações Institucionais: Estrutura Organizacional,1,1,0,0,1,0,2,2,2,1,0,2,1,0,2,0.0,0.0,0.0,0.0,0.0
+Informações Institucionais: Conselhos Municipais,1,1,0,0,1,0,2,1,1,1,0,0,1,2,1,0.0,0.0,0.0,0.0,0.0
+Informações Institucionais: Estrutura Organizacional,1,1,0,0,1,0,2,2,2,1,0,2,1,2,2,0.0,0.0,0.0,0.0,0.0
 Informações Institucionais: Leis Municipais,2,1,0,2,2,0,2,2,2,1,0,2,2,2,1,0.0,0.0,0.0,0.0,0.0
-Informações Institucionais: Registro das Competências,2,1,0,0,1,0,1,1,1,1,0,2,1,0,2,0.0,0.0,0.0,0.0,0.0
-Informações Institucionais: Unidades Administrativas,1,1,0,0,1,0,1,2,2,1,0,2,1,0,2,0.0,0.0,0.0,0.0,0.0
-Licitações: Editais,2,1,0,2,2,2,2,1,2,0,0,2,2,2,2,2.0,0.0,0.0,0.0,2.0
+Informações Institucionais: Registro das Competências,2,1,0,0,1,0,1,1,1,1,0,2,1,2,2,0.0,0.0,0.0,0.0,0.0
+Informações Institucionais: Unidades Administrativas,1,1,0,0,1,0,1,2,2,1,0,2,1,2,2,0.0,0.0,0.0,0.0,0.0
+Licitações: Editais,2,1,0,2,2,2,2,1,2,2,0,2,2,2,2,2.0,0.0,0.0,0.0,2.0
 Licitações: Inexigibilidade e Dispensa,2,1,0,2,2,2,2,1,2,2,0,2,2,2,2,2.0,0.0,0.0,0.0,2.0
 Licitações: Processos Licitatórios,2,1,0,2,2,2,2,1,2,2,0,2,2,2,2,2.0,0.0,0.0,0.0,2.0
 Licitações: Resultados de Licitações,2,1,0,2,2,2,2,1,2,0,0,0,2,2,2,2.0,0.0,0.0,0.0,2.0
@@ -28,14 +28,14 @@ Obras Públicas: Dados para acompanhamento,1,1,0,2,2,0,2,1,2,1,0,2,1,2,2,0.0,0.0
 Orçamento: Execução,2,2,0,2,1,0,2,2,2,0,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Orçamento: Legislação,2,2,0,2,2,0,2,2,2,0,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Receitas: Dados das receitas,2,2,0,0,2,0,0,2,2,2,0,2,2,2,2,0.0,0.0,0.0,0.0,0.0
-Servidores Públicos: Auxílios,1,1,2,2,2,0,1,2,2,0,2,0,2,2,1,0.0,0.0,0.0,0.0,0.0
-Servidores Públicos: Dados de Remuneração,0,1,2,2,2,0,0,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
+Servidores Públicos: Auxílios,1,1,2,2,1,0,1,2,2,0,2,0,1,2,1,0.0,0.0,0.0,0.0,0.0
+Servidores Públicos: Dados de Remuneração,2,1,2,2,2,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Servidores Públicos: Dados dos Servidores,2,1,2,2,2,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
-Servidores Públicos: Dispêndios,1,1,0,2,2,0,1,2,1,1,2,0,2,2,1,0.0,0.0,0.0,0.0,0.0
-Servidores Públicos: Proventos de Aposentadoria,0,1,2,2,2,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
-Servidores Públicos: Proventos de Pensão,0,1,2,2,2,0,2,2,2,0,2,0,2,2,2,0.0,0.0,0.0,0.0,0.0
-Servidores Públicos: Registro da remuneração,0,1,2,2,2,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
-Servidores Públicos: Registro por lotação,0,1,2,2,2,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
+Servidores Públicos: Dispêndios,1,1,0,2,1,0,1,2,1,1,2,0,1,2,1,0.0,0.0,0.0,0.0,0.0
+Servidores Públicos: Proventos de Aposentadoria,2,1,2,2,0,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
+Servidores Públicos: Proventos de Pensão,2,1,2,2,0,0,2,2,2,0,2,0,2,2,2,0.0,0.0,0.0,0.0,0.0
+Servidores Públicos: Registro da remuneração,2,1,2,2,0,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
+Servidores Públicos: Registro por lotação,2,1,2,2,0,0,2,2,2,0,2,2,2,2,2,0.0,0.0,0.0,0.0,0.0
 Servidores Públicos: Relatórios Despesas com Pessoal,2,1,2,2,2,0,2,2,2,0,2,0,2,2,2,0.0,0.0,0.0,0.0,0.0
 Terceiro Setor: Dados de Parcerias,2,1,0,0,2,0,2,1,2,1,0,0,2,2,2,0.0,0.0,0.0,0.0,0.0
 Terceiro Setor: Repasses,2,1,0,0,2,0,1,1,2,1,0,0,2,2,1,0.0,0.0,0.0,0.0,0.0
