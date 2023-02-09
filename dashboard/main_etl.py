@@ -120,60 +120,11 @@ def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', ope
     """
     Atualiza os dados do desenvolvimento
     """
-    
     repo_id='357557193'    
     zh = Zenhub(zh_token)
     g = Github(git_token)
-    
-    repo_C01 = g.get_repo("MPMG-DCC-UFMG/C01")
     repo_F01 = g.get_repo("MPMG-DCC-UFMG/F01")
     
     epics_id = extract_data.get_epics_ids(zh, repo_id)
     epics_df = extract_data.get_info_filtered_issues(epics_id, repo_F01)
-
-    epics_id_dev = list(epics_df['id'])
-    issues_data = extract_data.get_data_epics(zh, epics_id_dev, repo_id)
-    epics_info = extract_data.get_epics_info(repo_F01, issues_data)
-    epics_info_df = pd.DataFrame(epics_info).T.reset_index()
-
-    exploded_df = epics_info_df.explode('issues').reset_index(drop=True)
-
-    exploded_df = exploded_df.loc[~exploded_df['issues'].isna()]
-    issues_id = exploded_df['issues'].tolist()
-
-    info_issues_dev = extract_data.get_info_issues_by_id(issues_id, repo_F01)
-
-    info_issues_dev.to_csv("data/info_issues_dev.csv", index=False)
-    info_issues_dev = pd.read_csv("data/info_issues_dev.csv")
-
-    info_issues_dev['closed_at'] = info_issues_dev['closed_at'].fillna(0)
-    info_issues_dev = format_date(info_issues_dev, time_column='closed_at', status='closed')
-    info_issues_dev = format_date(info_issues_dev, time_column='created_at', status='created')
-    
-    # info_issues_dev['week'] =  pd.to_datetime(info_issues_dev['closed_at']).dt.strftime('%W')
-    week_status = count_by_week(info_issues_dev, time_column='closed_at')
-
-    closed_df = info_issues_dev.pivot_table(
-        values='title', index=['id'], columns='format_date_closed', aggfunc='count').fillna(0).reset_index()
-    closed_df.drop('1/1970', axis = 1,inplace=True)
-
-    open_df = info_issues_dev.pivot_table(
-        values='title', index=['id'], columns='format_date_created', aggfunc='count').fillna(0).reset_index()
-
-    columns_name = sort_columns(open_df)
-    open_df = open_df[columns_name]
-
-    columns_name = sort_columns(closed_df)
-    closed_df = closed_df[columns_name]
-
-    count_month_dev = count_by_month(open_df, closed_df)
-
-    df = info_issues_dev.merge(exploded_df, left_on='id', right_on='issues')
-    df = df.groupby(['template','tag', 'status'])['status'].count().unstack().reset_index().fillna(0)
-    df = df.sort_values('closed', ascending=False)
-
-    count_month_dev.to_csv("data/count_month_dev.csv", index=False)
-    open_df.to_csv("data/open_df_dev.csv", index=False)
-    closed_df.to_csv("data/closed_df_dev.csv", index=False)
-    df.to_csv("data/coletas_tag_dev.csv", index=False)
-    week_status.to_csv('data/week_status_dev.csv', index=False)
+    epics_df.to_csv('data/epics_dev.csv', index=False)

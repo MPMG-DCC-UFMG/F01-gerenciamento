@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import time
+from tqdm import tqdm
 from zenhub import APILimitError
 
 def get_epics_ids(zh, repo_id):
@@ -70,14 +71,17 @@ def get_epics_info(repo_F01, issues_data):
         
     return epics_info
 
-def get_specific_labels(labels, pattern='tag'):
+def get_specific_labels(labels, pattern='tag', multiple=False):
     
-    label = next((s for s in labels if pattern in s), None) 
+    all_labels = [s for s in labels if s.startswith(pattern)] 
     
-    if label != None:
-        return label.split('-')[-1]
+    if not all_labels:
+        return None
+    
+    if multiple:
+        return [label.split('-')[-1].strip() for label in all_labels]
         
-    return None
+    return all_labels[0].split('-')[-1].strip()
 
 def load_labels(repo_F01, epic_id):
     
@@ -123,9 +127,9 @@ def add_issues_info(issues_to_add, info_issues=None):
 
 def get_info_filtered_issues(epics_id, repo, filter_by='generalization test'):
     
-    data = {'title': [], 'id':[] , 'tag':[], 'template': [], 'status': []}
+    data = {'title': [], 'id':[] , 'tag':[], 'subtag':[], 'template': [], 'status': []}
 
-    for epic_id in epics_id:
+    for epic_id in tqdm(epics_id):
     
         issue = repo.get_issue(epic_id)
         labels = issue.labels
@@ -136,6 +140,7 @@ def get_info_filtered_issues(epics_id, repo, filter_by='generalization test'):
             data['title'].append(issue.title)
             data['id'].append(epic_id)
             data['tag'].append(get_specific_labels(labels, pattern='tag'))
+            data['subtag'].append(get_specific_labels(labels, pattern='subtag'))
             data['template'].append(get_specific_labels(labels, pattern='template'))
             data['status'].append(issue.state)
         

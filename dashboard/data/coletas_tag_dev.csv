@@ -1,26 +1,31 @@
 template,tag,closed,open
- Síntese tecnologia e informatica (88), Servidores Públicos,460.0,0.0
- Siplanweb (61), Despesas,244.0,0.0
- Siplanweb (61), Contratos,172.0,0.0
- Memory (66), Orçamento,132.0,0.0
- Memory (66), Informações Institucionais,132.0,0.0
- ABO (21), Concursos Públicos,126.0,0.0
- Síntese tecnologia e informatica (88), Informações Institucionais,87.0,0.0
- ABO (21), Acesso à Informação,63.0,0.0
- Siplanweb (61), Despesas com diárias,61.0,0.0
- Siplanweb (61), Terceiro Setor,61.0,0.0
- Siplanweb (61), Acesso à Informação,61.0,0.0
- Siplanweb (61), Licitações,59.0,0.0
- Siplanweb (61), Informações Institucionais,50.0,0.0
- PT (45), Licitações,43.0,0.0
- ABO (21), Informações Institucionais,42.0,0.0
- ABO (21), Contratos,42.0,0.0
- Betha (26), Terceiro Setor,36.0,0.0
- Betha (26), Informações Institucionais,36.0,0.0
- Betha (26), Licitações,36.0,0.0
- Betha (26), Obras Públicas,36.0,0.0
- GRP (27), Informações Institucionais,27.0,0.0
- GRP (27), Licitações,27.0,0.0
- Template2 (28), Licitações,26.0,1.0
- Template1 (22), Informações Institucionais,22.0,0.0
- ABO (21), Despesas com diárias,21.0,0.0
+Siplanweb (61),Despesas,244.0,0.0
+Siplanweb (61),Contratos,172.0,0.0
+Síntese tecnologia e informatica (88),Servidores Públicos,137.0,0.0
+Memory (66),Informações Institucionais,132.0,0.0
+Memory (66),Orçamento,132.0,0.0
+ABO (21),Concursos Públicos,126.0,0.0
+Síntese tecnologia e informatica (88),Relatórios Despesas com Pessoal,88.0,0.0
+Síntese tecnologia e informatica (88),Proventos de Aposentadoria,88.0,0.0
+Síntese tecnologia e informatica (88),Dados dos Servidores,88.0,0.0
+Síntese tecnologia e informatica (88),Informações Institucionais,87.0,0.0
+ABO (21),Acesso à Informação,63.0,0.0
+Siplanweb (61),Terceiro Setor,61.0,0.0
+Siplanweb (61),Despesas com diárias,61.0,0.0
+Siplanweb (61),Acesso à Informação,61.0,0.0
+Siplanweb (61),Licitações,59.0,0.0
+Síntese tecnologia e informatica (88),Proventos de Pensão,59.0,0.0
+Siplanweb (61),Informações Institucionais,50.0,0.0
+PT (45),Obras Públicas,45.0,0.0
+PT (45),Licitações,43.0,0.0
+ABO (21),Informações Institucionais,42.0,0.0
+ABO (21),Contratos,42.0,0.0
+Betha (26),Terceiro Setor,36.0,0.0
+Betha (26),Obras Públicas,36.0,0.0
+Betha (26),Licitações,36.0,0.0
+Betha (26),Informações Institucionais,36.0,0.0
+GRP (27),Licitações,27.0,0.0
+GRP (27),Informações Institucionais,27.0,0.0
+Template2 (28),Licitações,26.0,1.0
+Template1 (22),Informações Institucionais,22.0,0.0
+ABO (21),Despesas com diárias,21.0,0.0

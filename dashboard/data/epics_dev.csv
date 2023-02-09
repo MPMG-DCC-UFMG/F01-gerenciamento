@@ -1,21 +1,55 @@
-template_rank,Acesso à Informação: Dados Abertos,Acesso à Informação: Informações,Acesso à Informação: Relatório Estatístico,Acesso à Informação: Requisitos Exigidos,Concursos Públicos: Cópia do edital do concurso,Concursos Públicos: Dados do Concurso,Concursos Públicos: Divulgação de Recursos e Decisões,Contratos: Conteúdo Integral,Contratos: Dados dos contratos,Contratos: Gerar relatório,Despesas com diárias: Despesas com diárias,Despesas: Consulta,Despesas: Empenhos,Despesas: Gerar relatório,Despesas: Pagamentos,Despesas: Relatórios,Informações Institucionais: Conselhos Municipais,Informações Institucionais: Estrutura Organizacional,Informações Institucionais: Leis Municipais,Informações Institucionais: Registro das Competências,Informações Institucionais: Unidades Administrativas,Licitações: Editais,Licitações: Processos Licitatórios,Licitações: Inexigibilidade e Dispensa,Licitações: Resultados de Licitações,Obras Públicas: Dados para acompanhamento,Orçamento: Execução,Orçamento: Legislação,Receitas: Dados das receitas,Servidores Públicos: Auxílios,Servidores Públicos: Dados de Remuneração,Servidores Públicos: Dados dos Servidores,Servidores Públicos: Dispêndios,Servidores Públicos: Proventos de Aposentadoria,Servidores Públicos: Proventos de Pensão,Servidores Públicos: Registro da remuneração,Servidores Públicos: Registro por lotação,Servidores Públicos: Relatórios Despesas com Pessoal,Terceiro Setor: Dados de Parcerias,Terceiro Setor: Repasses
-(m5) Betim,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-(m4) Juiz de Fora,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-(m1) Belo Horizonte,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-(m3) Uberlândia,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-(m2) Contagem,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-ABO (13º),1,5,1,3,1,1,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-ADPM (12º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-Betha (10º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,3,3,3,5,5,3,5,3,3,3,3,3,3,1
-GRP (9º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,3,3,3,1,1,1,1,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-Memory (2º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,3,1,3,3,3,3,3,1,1,3,5,5,3,5,3,3,3,3,3,3,3
-Municipal Net (14º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-PT (7º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-Portal Facil (60) (5º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-Portal Fácil (46) (6º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-Portaltp (4º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-Siplanweb (3º),3,5,3,1,3,3,3,1,1,1,1,1,1,1,1,2,3,3,1,3,3,1,1,1,1,3,3,3,1,5,5,3,5,3,3,3,3,3,1,3
-Síntese tecnologia (1º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,1,5,1,1,1,1,1,3,3
-Template1 (22) (11º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-ADPM (7) (15º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
-Template2 (8º),3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,3,5,3,3,3,3,3,3,3
+title,id,tag,subtag,template,status
+Obras Públicas - Dados para Acompanhamento - PT (45),2833,Obras Públicas,Dados para acompanhamento,PT (45),closed
+Servidores Públicos - Dados de Remuneração - PT (45),2834,Servidores Públicos,Dados de Remuneração,PT (45),open
+Informações Institucionais - Leis Municipais - Betha (26),2679,Informações Institucionais,Leis Municipais,Betha (26),closed
+Informações Institucionais - Leis Municipais - GRP (27),2680,Informações Institucionais,Leis Municipais,GRP (27),closed
+Informações Institucionais do Munícipio - Leis Municipais - PT (45),2681,Informações Institucionais,Leis Municipais,PT (45),open
+Informações Institucionais - Leis Municipais  -Síntese Tecnologia e informatica (88),2682,Informações Institucionais,Leis Municipais,Síntese tecnologia e informatica (88),closed
+Servidores Públicos - Dados dos Servidores - PT (45),2880,Servidores Públicos,Dados dos Servidores,PT (45),open
+Teste de generalização do validador de Registro da remuneração (Servidores) - Síntese ,1331,Servidores Públicos,Registro da remuneração,Síntese tecnologia e informatica (88),closed
+Contratos - Gerar Relatório,2549,Contratos,Gerar relatório,ABO (21),closed
+Contratos - Conteúdo Integral -ABO (21),2481,Contratos,Conteúdo Integral,ABO (21),closed
+Teste de generalização do validador de Unidades administrativas (Informações institucionais) - Memory,2031,Informações Institucionais,Unidades Administrativas,Memory (66),closed
+Teste de generalização do validador de Registro por lotação (Servidores) - Síntese,1433,Servidores Públicos,Registro por lotação,Síntese tecnologia e informatica (88),closed
+Teste de generalização do validador de Proventos de aposentadoria (Servidores) - Síntese,1513,Servidores Públicos,Proventos de Aposentadoria,Síntese tecnologia e informatica (88),closed
+Teste de generalização do validador de Proventos de Pensão (Servidores) - Síntese,1514,Servidores Públicos,Proventos de Pensão,Síntese tecnologia e informatica (88),closed
+Testes de Generalização para o template Siplanweb,122,Licitações,Todas,Siplanweb (61),closed
+Teste de generalização do validador de Estrutura Organizacional (Informações institucionais) - Memory,2032,Informações Institucionais,Estrutura Organizacional,Memory (66),closed
+Testes de Generalização portal PT,301,Licitações,Todas,PT (45),closed
+Testes de Generalização - Despesas-Empenhos - Siplanweb,500,Despesas,Empenhos,Siplanweb (61),closed
+Testes de Generalização - Despesas - Pagamentos - Siplanweb,501,Despesas,Pagamentos,Siplanweb (61),closed
+Testes de Generalização - Despesas - Relatórios - Siplanweb,502,Despesas,Relatórios,Siplanweb (61),open
+Teste de generalização do validador de Relatório mensal da despesa com pessoal (Servidores) - Síntese ,1672,Servidores Públicos,Relatórios Despesas com Pessoal,Síntese tecnologia e informatica (88),closed
+Testes de Generalização - Despesas com diárias - Despesas com diárias - Siplanweb,822,Despesas com diárias,Despesas com diárias,Siplanweb (61),closed
+Testes de Generalização - Acesso a informação - Requisitos Exigidos - Siplanweb,760,Acesso à Informação,Requisitos Exigidos,Siplanweb (61),closed
+Testes de Generalização - Informações institucionais - Link de acesso,976,Informações Institucionais,Leis Municipais,Siplanweb (61),closed
+Teste de generalização do validador de Dados dos contratos - Siplanweb,1047,Contratos,Dados dos contratos,Siplanweb (61),closed
+Teste de generalização do validador de Conteudo Integral (Contratos) - Siplanweb,1109,Contratos,Conteúdo Integral,Siplanweb (61),closed
+Teste de generalização do validador de Cópia do edital do concurso (Concursos Públicos) - ABO,1788,Concursos Públicos,Cópia do edital do concurso,ABO (21),closed
+Teste de generalização do validador de Divulgação dos recursos e respectivas decisões (Concursos Públicos) - ABO,1789,Concursos Públicos,Divulgação de Recursos e Decisões,ABO (21),closed
+Teste de generalização do validador de Dados do Concurso (Concursos Públicos) - ABO,1787,Concursos Públicos,Dados do Concurso,ABO (21),closed
+Teste de generalização do validador de Dados para acompanhamento (Obras públicas) - Betha,1863,Obras Públicas,Dados para acompanhamento,Betha (26),closed
+Validador Orçamento - Execução - Memory,2237,Orçamento,Execução,Memory (66),closed
+Validador Orçamento - Legislação - Memory,2170,Orçamento,Legislação,Memory (66),closed
+Teste de Generalização Licitações GRP,303,Licitações,Todas,GRP (27),closed
+Teste de Generalização pro template Betha,304,Licitações,Todas,Betha (26),closed
+Teste de generalização do validador de Dados dos servidores (Servidores) - Síntese,1254,Servidores Públicos,Dados dos Servidores,Síntese tecnologia e informatica (88),closed
+Testes de Generalização - Receitas - Dados das receitas - Siplanweb,895,Receitas,Dados das receitas,Siplanweb (61),closed
+Validador Informações Institucionais - Conselhos Municipais - GRP (27),2271,Informações Institucionais,Conselhos Municipais,GRP (27),closed
+Validador Informações Institucionais - Registro das Competências - Template1 (22),2306,Informações Institucionais,Registro das Competências,Template1 (22),closed
+Validador Acesso a Informação - Base de Dados Abertos - ABO (21),2309,Acesso à Informação,Dados Abertos,ABO (21),closed
+Teste de Generalização - Despesas - Consulta - Siplanweb,503,Despesas,Consulta,Siplanweb (61),closed
+Testes de Generalização - Despesas - Gerar relatório - Siplanweb,505,Despesas,Gerar relatório,Siplanweb (61),closed
+Teste de Generalização - Terceiro Setor - Dados de Parcerias - Siplanweb,907,Terceiro Setor,Dados de Parcerias,Siplanweb (61),closed
+Validador Acesso a Informação - Relatório Estatístico - ABO - 21,2311,Acesso à Informação,Relatório Estatístico,ABO (21),closed
+Validador Terceiro Setor - Repasses,2362,Terceiro Setor,Repasses,Betha (26),closed
+Testes Generalização Template2,302,Licitações,Todas,Template2 (28),closed
+Teste de generalização do validador de Gerar relatório (Contratos) - Siplanweb,1110,Contratos,Gerar relatório,Siplanweb (61),closed
+Validador Acesso à Informações - Informações - ABO (21),2459,Acesso à Informação,Informações,ABO (21),closed
+Contratos - Dados dos contratos -ABO (21),2482,Contratos,Dados dos contratos,ABO (21),closed
+Despesas com diárias - Despesas com diárias - ABO (21),2592,Despesas com diárias,Despesas com diárias,ABO (21),closed
+Informações Institucionais - Registro das Competências - GRP (27),2619,Informações Institucionais,Registro das Competências,GRP (27),open
+Informações Institucionais - Conselhos Municipais - ABO (21) ,2616,Informações Institucionais,Conselhos Municipais,ABO (21),open
+Informações Institucionais - Leis Municipais - ABO (21),2618,Informações Institucionais,Leis Municipais,ABO (21),closed
+ Informações Institucionais - Registro das Competências - ABO (21),2620,Informações Institucionais,Registro das Competências,ABO (21),closed
+Informações Institucionais - Estrutura Organizacional - ABO (21),2617,Informações Institucionais,Estrutura Organizacional,ABO (21),open

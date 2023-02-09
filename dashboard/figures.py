@@ -142,8 +142,8 @@ def plot_tags_coletadas(epics):
     n_templates_cobertos = epics[epics == 2].count(axis=1).values
     n_subtags_pendentes  = epics[epics == 0].count(axis=0).values
 
-    y = [f'({n}) {tag}' for n, tag in zip(n_templates_cobertos, epics.index)]
-    x = [t for n, t in sorted(zip(n_subtags_pendentes, epics.columns))]
+    y = [f'({n:02d}) {tag}' for n, tag in zip(n_templates_cobertos, epics.index)]
+    x = [t for _, t in sorted(zip(n_subtags_pendentes, epics.columns))]
 
     tot_coletado = sum(n_templates_cobertos)
     tot_nao_coletavel = epics[epics == 1].count().sum()
@@ -355,13 +355,57 @@ def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):
     
     return fig
 
+def plot_status_validacao(df):
+    
+    n_temp_wip  = df[df != 0].count(axis=1)
+    n_temp_done = df[df == 4].count(axis=1).to_dict()
+    n_subt_wip  = df[df != 0].count(axis=0)
+    
+    # Sorting rows an columns
+    y_order = [s for _, s in sorted(zip(n_temp_wip, n_temp_wip.index), reverse=True)]    
+    y_labels = [f'({ n_temp_done[s] :02d}) {s}' for s in y_order]
+    df = df.reindex(y_order)   
+    x_order = [t for _, t in sorted(zip(n_subt_wip, n_subt_wip.index), reverse=True)]
+    
+    tot_validado = sum(list(n_temp_done.values()))
+    tot_nao_coletavel = df[df == 1].count().sum()
+    tot = len(x_order) * len(y_order)
+    concluido = tot_validado + tot_nao_coletavel
+    title = f'Validadores por Template/Subtag<br>'
+    title += f'<sup>{len(y_order)} subtags x {len(x_order)} templates: 800 (100%)'
+    title += f' - Validado: {tot_validado} ({round( tot_validado*100/tot , 1)}%)'
+    title += f' - Não coletável: {tot_nao_coletavel} ({round( tot_nao_coletavel*100/tot , 1)}%)'
+    title += f' - Concluído: {concluido} ({round( (concluido)*100/tot , 1)}%)</sup>'
+    
+    fig = px.imshow(
+        df[x_order], y=y_labels, height=1150, width=800, title=title, 
+        labels={'y':'subtags (#validadores testados)', 'x':'templates'},
+        color_continuous_scale=[(0, '#DDFCD9'), (0.25, '#F45B69'), (0.5, '#59C9A5'), 
+                                (0.75, '#028EA1'), (1, '#156079')])
+        # https://coolors.co/114b5f-028090-e4fde1-456990-f45b69
+        
+    # fig.update_traces(opacity=0.90)
+    fig.update_xaxes(tickangle=-90, side="top")
+    fig.update_yaxes(showgrid=True, gridwidth=2, side='right')
+    fig.update_layout(
+        coloraxis_colorbar=dict(
+            title="Status", lenmode='pixels', len=150, x=1.3, y=0.94, 
+            tickvals=[0,1,2,3,4],
+            ticktext=['Previsto', 'Não coletável', 'Coletado', 'Validação em progresso', 'Validado']), 
+        font=dict(size=12))
+    
+    fig.write_image('fig/status-dev.png', scale=3)    
+    
+    return fig
+
 def create_figures_dev(closed_colum='closed', open_colum='open'):
     
     count_month  = pd.read_csv("data/count_month_dev.csv")
     week_status  = pd.read_csv('data/week_status_dev.csv')
     coletas_tag  = pd.read_csv("data/coletas_tag_dev.csv")
-    epics_dev_df = pd.read_csv("data/epics_dev.csv", index_col="template_rank")      
+    epics_dev_df = pd.read_csv("data/epics_dev.csv")      
     tags         = pd.read_csv('data/tags_epics.csv', index_col='subtag')
+    status_dev   = pd.read_csv('data/status_dev.csv', index_col='subtag')
 
     open_df = pd.read_csv("data/open_df_dev.csv")
     closed_df= pd.read_csv("data/closed_df_dev.csv")
@@ -382,11 +426,12 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
         coletas_tag, title="Generalizações por template", x_column='template', y2_column=open_colum,
         y1_column=closed_colum, name2="Issues fechadas", name1="Issues abertas", showlegend=False)
     
-    #TODO for now, it simply uses the manually edited data/epics_dev.csv
-    fig4 = plot_status_epics_dev(epics_dev_df, title='Visão Geral - Validadores feitos e a fazer',        
-        y_column='template', x_column='title', hue="state")
+    fig4 = plot_status_validacao(status_dev)
 
     fig5 = plot_tags_coletadas(tags)
+
+    # fig6 = plot_status_epics_dev(epics_dev_df, title='Visão Geral - Validadores feitos e a fazer',        
+    #     y_column='template', x_column='title', hue="state")
 
     return fig1, fig2, fig3, fig4, fig5
 
@@ -420,17 +465,6 @@ def plot_pre_coleta(df, title='Resultados da Sondagem Automática'):
 def create_figures_automacao():
     
     s = pd.read_csv('data/resultados_templates.csv', index_col=0).astype(int)
-    
-    #NOTE correcao de erros nos nomes dos portais 
-    # s = s.rename(index={
-    #     'Porta Fácil (60)': 'Portal Facil (60)',
-    #     'Porta Fácil (46)': 'Portal Fácil (46)',
-    #     'Template 1 (22)': 'Template1 (22)',
-    #     'Template 1 (9)': 'Template1 (9)',
-    #     'Portla TP': 'Portal TP',
-    # })
-    # s.loc['GRP'] = -1
-
     fig1 = plot_pre_coleta(s, title='Resultados da Sondagem Automática (' + 
                     str(s.shape[0]) + ' templates x ' + str(s.shape[1]) + ' subtags )')
 
