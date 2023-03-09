@@ -39,10 +39,18 @@ def base_url_replace(data, url_base, param_url):
     data['base_url'] = data['base_url'].replace("<PARAM_URL>", param_url)
     
     return data
+
+def issue_add(data, issue):
+
+    data['crawler_issue'] = issue
+
+    return data
     
-def fill_config_file(template, config, tag, subtag, url_base):
+def fill_config_file(template, config, tag, subtag, url_base, issue):
     
     configs = []
+    curr_issue = issue
+
     for nome_municipio, parametros in config.items():
 
         data = source_name_replace(template.copy(), tag, subtag, nome_municipio)
@@ -52,6 +60,10 @@ def fill_config_file(template, config, tag, subtag, url_base):
                 data = base_url_replace(data, url_base, value)
             elif key == 'data_path':
                 data = data_path_replace(data, tag, subtag, value)
+
+        if issue != 0:
+            data = issue_add(data, curr_issue)
+            curr_issue += 1
         
         configs.append(data)
 
@@ -93,6 +105,8 @@ def app1():
     tag = st.text_input("Entre com a tag da solicitação (sem espaços):")
     
     subtag = st.text_input("Entre com a subtag da solicitação (sem espaços):")
+
+    issue = st.number_input("Entre com o número da primeira issue de coleta:", value=0)
       
     template_file = st.file_uploader("Carregue o template de configuração aqui")
     if template_file is not None:
@@ -105,7 +119,7 @@ def app1():
     b1 = st.checkbox('Gerar configurações', key=0)
     if b1:
         
-        configs = fill_config_file(template, config, tag, subtag, url_base)
+        configs = fill_config_file(template, config, tag, subtag, url_base, issue)
         
         if not os.path.exists('{}_{}_{}'.format(template_name, tag, subtag)):
             os.makedirs('{}_{}_{}'.format(template_name, tag, subtag))
