@@ -310,9 +310,9 @@ def process_epics_for_tags(epics, top_templates, subtags):
     
     # Adiciona informacoes de epics que cobrem multiplas subtags
     #TODO despesas com diarias vs. despesas, mesmo prefixo
-    for index, row in all_subtags_ok.iterrows():
+    for _, row in all_subtags_ok.iterrows():
         epics.loc[epics.index.str.startswith(f'{row["tag"]}:'), row['template']] = 2
-    for index,row in all_subtags_nok.iterrows():
+    for _, row in all_subtags_nok.iterrows():
         epics.loc[epics.index.str.startswith(f'{row["tag"]}:'), row['template']] = 1
         
     shortnames = {x:y for x,y in zip(top_templates.template.values, top_templates.shortname.values)} 
@@ -322,6 +322,25 @@ def process_epics_for_tags(epics, top_templates, subtags):
 
     return epics
        
+def process_status_validacao(df, df_dev):    
+    
+    df = df.copy()
+    
+    for _, row in df_dev.iterrows():
+        template = row['template']
+        subtag = f"{row['tag']}: {row['subtag']}"
+        value = 3 if row['status'] == 'open' else 4
+        
+        if template == 'Síntese tecnologia e informatica (88)':
+            template = 'Síntese tecnologia (88)'
+            
+        if subtag.endswith('Todas'): 
+            df.loc[df.index.str.startswith(row['tag']), template] = value
+            continue
+    
+        df.loc[subtag, template] = value       
+
+    return df
 
 def count_closed_epics(epics):
     

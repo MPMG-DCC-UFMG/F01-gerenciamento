@@ -1,12 +1,12 @@
 title,id,tag,subtag,template,status
-Servidores Públicos - Dados de Remuneração - PT (45),2834,Servidores Públicos,Dados de Remuneração,PT (45),open
 Obras Públicas - Dados para Acompanhamento - PT (45),2833,Obras Públicas,Dados para acompanhamento,PT (45),closed
+Servidores Públicos - Dados de Remuneração - PT (45),2834,Servidores Públicos,Dados de Remuneração,PT (45),open
 Testes de Generalização para o template Siplanweb,122,Licitações,Todas,Siplanweb (61),closed
 Testes de Generalização portal PT,301,Licitações,Todas,PT (45),closed
 Teste de Generalização Licitações GRP,303,Licitações,Todas,GRP (27),closed
-Informações Institucionais - Leis Municipais - GRP (27),2680,Informações Institucionais,Leis Municipais,GRP (27),closed
 Teste de Generalização pro template Betha,304,Licitações,Todas,Betha (26),closed
 Informações Institucionais - Leis Municipais - Betha (26),2679,Informações Institucionais,Leis Municipais,Betha (26),closed
+Informações Institucionais - Leis Municipais - GRP (27),2680,Informações Institucionais,Leis Municipais,GRP (27),closed
 Informações Institucionais do Munícipio - Leis Municipais - PT (45),2681,Informações Institucionais,Leis Municipais,PT (45),open
 Informações Institucionais - Leis Municipais  -Síntese Tecnologia e informatica (88),2682,Informações Institucionais,Leis Municipais,Síntese tecnologia e informatica (88),closed
 Servidores Públicos - Dados dos Servidores - PT (45),2880,Servidores Públicos,Dados dos Servidores,PT (45),closed
@@ -16,29 +16,30 @@ Contratos - Conteúdo Integral -ABO (21),2481,Contratos,Conteúdo Integral,ABO (
 Servidores Públicos - ABO (21),3101,Servidores Públicos,Todas,ABO (21),open
 Despesas - ABO (21),3103,Despesas,Todas,ABO (21),closed
 Teste de generalização do validador de Unidades administrativas (Informações institucionais) - Memory,2031,Informações Institucionais,Unidades Administrativas,Memory (66),closed
-Teste de generalização do validador de Registro por lotação (Servidores) - Síntese,1433,Servidores Públicos,Registro por lotação,Síntese tecnologia e informatica (88),closed
 Teste de generalização do validador de Proventos de Pensão (Servidores) - Síntese,1514,Servidores Públicos,Proventos de Pensão,Síntese tecnologia e informatica (88),closed
+Teste de generalização do validador de Registro por lotação (Servidores) - Síntese,1433,Servidores Públicos,Registro por lotação,Síntese tecnologia e informatica (88),closed
 Teste de generalização do validador de Proventos de aposentadoria (Servidores) - Síntese,1513,Servidores Públicos,Proventos de Aposentadoria,Síntese tecnologia e informatica (88),closed
 Receitas - Dados das Receitas - PT (45),3028,Receitas,Dados das receitas,PT (45),closed
 Contratos - Dados dos Contratos - PT (45),2930,Contratos,Dados dos contratos,PT (45),closed
 Teste de generalização do validador de Estrutura Organizacional (Informações institucionais) - Memory,2032,Informações Institucionais,Estrutura Organizacional,Memory (66),closed
 Terceiro Setor - ABO (21),3021,Terceiro Setor,Dados de Parcerias,ABO (21),closed
 Orçamento - ABO (21),3075,Orçamento,Todas,ABO (21),closed
-Testes de Generalização - Despesas - Pagamentos - Siplanweb,501,Despesas,Pagamentos,Siplanweb (61),closed
 Testes de Generalização - Despesas-Empenhos - Siplanweb,500,Despesas,Empenhos,Siplanweb (61),closed
+Testes de Generalização - Despesas - Pagamentos - Siplanweb,501,Despesas,Pagamentos,Siplanweb (61),closed
 Testes de Generalização - Despesas - Relatórios - Siplanweb,502,Despesas,Relatórios,Siplanweb (61),open
 Teste de generalização do validador de Relatório mensal da despesa com pessoal (Servidores) - Síntese ,1672,Servidores Públicos,Relatórios Despesas com Pessoal,Síntese tecnologia e informatica (88),closed
 Testes de Generalização - Despesas com diárias - Despesas com diárias - Siplanweb,822,Despesas com diárias,Despesas com diárias,Siplanweb (61),closed
 Testes de Generalização - Acesso a informação - Requisitos Exigidos - Siplanweb,760,Acesso à Informação,Requisitos Exigidos,Siplanweb (61),closed
 Testes de Generalização - Informações institucionais - Link de acesso,976,Informações Institucionais,Leis Municipais,Siplanweb (61),closed
 Teste de generalização do validador de Dados dos contratos - Siplanweb,1047,Contratos,Dados dos contratos,Siplanweb (61),closed
+Despesas - Pagamentos - PT (45),3151,Despesas,Pagamentos,PT (45),closed
 Teste de generalização do validador de Conteudo Integral (Contratos) - Siplanweb,1109,Contratos,Conteúdo Integral,Siplanweb (61),closed
-Teste de generalização do validador de Cópia do edital do concurso (Concursos Públicos) - ABO,1788,Concursos Públicos,Cópia do edital do concurso,ABO (21),closed
 Teste de generalização do validador de Dados do Concurso (Concursos Públicos) - ABO,1787,Concursos Públicos,Dados do Concurso,ABO (21),closed
+Teste de generalização do validador de Cópia do edital do concurso (Concursos Públicos) - ABO,1788,Concursos Públicos,Cópia do edital do concurso,ABO (21),closed
 Teste de generalização do validador de Divulgação dos recursos e respectivas decisões (Concursos Públicos) - ABO,1789,Concursos Públicos,Divulgação de Recursos e Decisões,ABO (21),closed
 Teste de generalização do validador de Dados para acompanhamento (Obras públicas) - Betha,1863,Obras Públicas,Dados para acompanhamento,Betha (26),closed
-Validador Orçamento - Legislação - Memory,2170,Orçamento,Legislação,Memory (66),closed
 Validador Orçamento - Execução - Memory,2237,Orçamento,Execução,Memory (66),closed
+Validador Orçamento - Legislação - Memory,2170,Orçamento,Legislação,Memory (66),closed
 Teste de generalização do validador de Dados dos servidores (Servidores) - Síntese,1254,Servidores Públicos,Dados dos Servidores,Síntese tecnologia e informatica (88),closed
 Testes de Generalização - Receitas - Dados das receitas - Siplanweb,895,Receitas,Dados das receitas,Siplanweb (61),closed
 Validador Informações Institucionais - Conselhos Municipais - GRP (27),2271,Informações Institucionais,Conselhos Municipais,GRP (27),closed
@@ -48,14 +49,14 @@ Testes de Generalização - Despesas - Gerar relatório - Siplanweb,505,Despesas
 Validador Acesso a Informação - Base de Dados Abertos - ABO (21),2309,Acesso à Informação,Dados Abertos,ABO (21),closed
 Teste de Generalização - Terceiro Setor - Dados de Parcerias - Siplanweb,907,Terceiro Setor,Dados de Parcerias,Siplanweb (61),closed
 Validador Acesso a Informação - Relatório Estatístico - ABO - 21,2311,Acesso à Informação,Relatório Estatístico,ABO (21),closed
-Validador Terceiro Setor - Repasses,2362,Terceiro Setor,Repasses,Betha (26),closed
 Testes Generalização Template2,302,Licitações,Todas,Template2 (28),closed
+Validador Terceiro Setor - Repasses,2362,Terceiro Setor,Repasses,Betha (26),closed
 Teste de generalização do validador de Gerar relatório (Contratos) - Siplanweb,1110,Contratos,Gerar relatório,Siplanweb (61),closed
 Validador Acesso à Informações - Informações - ABO (21),2459,Acesso à Informação,Informações,ABO (21),closed
 Contratos - Dados dos contratos -ABO (21),2482,Contratos,Dados dos contratos,ABO (21),closed
 Despesas com diárias - Despesas com diárias - ABO (21),2592,Despesas com diárias,Despesas com diárias,ABO (21),closed
 Receitas - ABO (21),2617,Receitas,Dados das receitas,ABO (21),closed
-Licitações - ABO (21) ,2616,Licitações,,ABO (21),open
+Licitações - ABO (21) ,2616,Licitações,Todas,ABO (21),open
+Informações Institucionais - Leis Municipais - ABO (21),2618,Informações Institucionais,Leis Municipais,ABO (21),closed
 Informações Institucionais - Registro das Competências - GRP (27),2619,Informações Institucionais,Registro das Competências,GRP (27),open
  Informações Institucionais - Registro das Competências - ABO (21),2620,Informações Institucionais,Registro das Competências,ABO (21),closed
-Informações Institucionais - Leis Municipais - ABO (21),2618,Informações Institucionais,Leis Municipais,ABO (21),closed

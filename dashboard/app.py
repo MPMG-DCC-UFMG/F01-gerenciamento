@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
-import dash
-from dash.dependencies import Input, Output, State, ClientsideFunction
-from dash import dcc, html
+from dash import Dash, dcc, html
+from dash.dependencies import Input, Output
+from dash.exceptions import PreventUpdate
 import dash_bootstrap_components as dbc
-from dash_bootstrap_templates import load_figure_template
-import math, pandas as pd, datetime as dt, sys
-import plotly.io as pio
-import logging
+import pandas as pd
 
 import figures
 import main_etl
@@ -31,14 +28,13 @@ CONTENT_STYLE = {
 
 def html_div_chart(fig):
     return html.Div([ 
-        html.Div([ dcc.Graph(figure=fig) ], # id=f'graph{i}', 
+        html.Div([ dcc.Graph(figure=fig) ],
         className="pretty_container 6 columns",)], 
         className="row flex-display",)
 
 def coleta_layout():
-    
-    count_month = pd.read_csv("data/count_month.csv")
-    df_tags = pd.read_csv("data/df_tags.csv")
+        
+    count_month = pd.read_csv("data/count_month.csv")    
     open_df = pd.read_csv("data/open_df.csv")
 
     count_open = count_month['open'].sum()
@@ -76,8 +72,9 @@ def coleta_layout():
                 className="row flex-display",
                 style={"margin-bottom": "25px"},),
 
-            # Resumo
+            # Estatisticas
             html.Div([ html.Div( [ html.Div([
+        
                 html.Div([
                     html.H6(id="coletas_fechadas"), 
                     html.P('Coletas concluídas na semana: {}'.format(count_coletas_semana)),
@@ -104,9 +101,8 @@ def coleta_layout():
             html_div_chart(figs[2]),
             html_div_chart(figs[3]),
             html_div_chart(figs[4]),
-        ],
-        id="mainContainer",
-        style={"display": "flex", "flex-direction": "column"},
+        
+        ], id="mainContainer", style={"display": "flex", "flex-direction": "column"},
     )
     
     return layout
@@ -114,7 +110,7 @@ def coleta_layout():
 
 def desenvolvimento_layout():
     
-    fig1, fig2, fig3, fig4, fig5 =  figures.create_figures_dev()
+    figs =  figures.create_figures_dev()
       
     # Create app layout
     layout = html.Div(
@@ -122,69 +118,28 @@ def desenvolvimento_layout():
             dcc.Store(id="aggregate_data"),
             # empty Div to trigger javascript file for graph resizing
             html.Div(id="output-clientside"),
-            html.Div(
-                [
-                    html.Div(
-                        [
-                            html.Div(
-                                [
-                                    html.H3("F01 - Validação",style={"margin-bottom": "0px"},),
-                                    html.H5( "", style={"margin-top": "0px"} ),
-                                ]
-                            )
-                        ],
-                        className="two-half column",
-                        id="title",
-                    ),
-                    html.Div(
-                        [   
-                            html.Button("Atualizar Dados", id="refresh-button"),
-                            html.Div(id='output-container-button', children=None),
+            html.Div([         
+        
+                html.Div([ html.Div([        
+                    html.H3("F01 - Validação",style={"margin-bottom": "0px"},),
+                    html.H5( "", style={"margin-top": "0px"} ),
+                ])], className="two-half column", id="title", ),
 
-                        ],
-                        className="one-third column",
-                        id="button-git",
-                    ),
-                   
-                ],
-                id="header",
-                className="row flex-display",
-                style={"margin-bottom": "25px"},
-            ),
+                html.Div([           
+                    html.Button("Atualizar Dados", id="refresh-button"),
+                    html.Div(id='output-container-button', children=None),
+                ], className="one-third column", id="button-git", ), 
+
+            ], id="header", className="row flex-display", style={"margin-bottom": "25px"},) ,
             
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph4", figure=fig4)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),   
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph5", figure=fig5)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),            
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph1", figure=fig1)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph2", figure=fig2)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),
-            html.Div(
-                [
-                    html.Div([dcc.Graph(id="graph3", figure=fig3)], className="pretty_container 6 columns",)
-                ],
-                className="row flex-display",
-            ),
-        ],
-        id="mainContainer",
-        style={"display": "flex", "flex-direction": "column"},
+            # Graficos
+            html_div_chart(figs[0]),
+            html_div_chart(figs[1]),
+            html_div_chart(figs[2]),
+            html_div_chart(figs[3]),
+            html_div_chart(figs[4]),
+
+        ], id="mainContainer", style={"display": "flex", "flex-direction": "column"},
     )
     
     return layout
@@ -206,10 +161,6 @@ def automacao_layout():
                     html.H5( "", style={"margin-top": "0px"} ),])
                 ], className="two-half column", id="title", 
             ),
-            # html.Div( [   
-            #     # html.Button("Refresh Data", id="refresh-button"),
-            #     html.Div(id='output-container-button', children=None), ],
-            #     className="one-third column", id="button-git", ), 
         ], id="header", className="row flex-display", style={"margin-bottom": "25px"},),
         
         html.Div([ html.Div([
@@ -223,19 +174,20 @@ def automacao_layout():
 
 #---------------------------------------------------------------------------------------------
 
-app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}], 
+app = Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}], 
                 external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 sidebar = html.Div(
     [
-        html.Img(src=app.get_asset_url("logo.png"),
-                 id="plotly-image",
-                 style={
-                     "height": "80px",
-                     "width": "auto",
-                     "margin-bottom": "25px",
-                         },
-                ),
+        html.Img(
+            src=app.get_asset_url("logo.png"),
+            id="plotly-image",
+            style={
+                "height": "80px",
+                "width": "auto",
+                "margin-bottom": "25px",
+            },
+        ),
         html.Hr(),
         dbc.Nav(
             [
@@ -262,9 +214,7 @@ layout = dict(
         paper_bgcolor="#F9F9F9",
         legend=dict(font=dict(size=10), orientation="h")
     )
-
 #app.layout = create_layout
-
 
 content = html.Div(id="page-content", children=[], style=CONTENT_STYLE)
 
@@ -278,12 +228,12 @@ app.layout = html.Div([
 def refresh(n_clicks):
 
     if n_clicks is None:
-        raise dash.exceptions.PreventUpdate
+        raise PreventUpdate
     else:        
         app.logger.info('Atualizando dados de coletas...')
         main_etl.update_data_coletas(git_token, zh_token)
-        #     app.logger.info('Atualizando dados de desenvolvimento...')
-        # main_etl.update_data_desenvolvimento(git_token, zh_token)
+        app.logger.info('Atualizando dados de desenvolvimento...')
+        main_etl.update_data_desenvolvimento(git_token, zh_token)
         app.logger.info('Dados atualizados.')
         html.A(href='/')
 

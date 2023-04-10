@@ -22,7 +22,7 @@ def get_data_epics(zh, epics_id, repo_id):
     
     issues_data = {} 
 
-    for i in epics_id:
+    for i in tqdm(epics_id):
         try:
             issues_data[i] = zh.get_epic_data(repo_id=repo_id, epic_id=i) 
 
@@ -50,7 +50,7 @@ def get_pipeline_name(zh, repo_id_c01, issue_number, workspace_id='615dcc142f7e9
 def get_epics_info(repo_F01, issues_data):
     
     epics_info = {}
-    for j in issues_data.keys():
+    for j in tqdm(issues_data.keys()):
 
         aux = {'issues': []}
         labels = load_labels(repo_F01, epic_id=j)
@@ -92,7 +92,7 @@ def load_labels(repo_F01, epic_id):
 
 def get_issues_by_creator(repo, creators, state='open'):
     
-    issues = [repo.get_issues(creator=creator, state=state)  for creator in creators]
+    issues = [repo.get_issues(creator=creator, state=state) for creator in creators]
     
     return issues
 

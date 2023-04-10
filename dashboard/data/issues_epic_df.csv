@@ -3,22 +3,22 @@ Síntese tecnologia e informatica (88),Servidores Públicos,623.0,1.0
 Síntese tecnologia e informatica (88),Despesas,616.0,0.0
 Memory (66),Informações Institucionais,330.0,0.0
 Siplanweb (61),Despesas,326.0,46.0
+PT (45),Despesas,280.0,0.0
 Memory (66),Orçamento,263.0,0.0
-PT (45),Despesas,235.0,0.0
 Siplanweb (61),Contratos,208.0,11.0
 Memory (66),Acesso à Informação,199.0,0.0
 Memory (66),Despesas,198.0,0.0
-Portaltp (61),Despesas,183.0,0.0
 Portaltp (61),Acesso à Informação,183.0,0.0
-Portaltp (61),Informações Institucionais,183.0,0.0
+Portaltp (61),Despesas,183.0,0.0
 Portaltp (61),Licitações,183.0,0.0
+Portaltp (61),Informações Institucionais,183.0,0.0
 Portal Facil (60),Despesas,180.0,0.0
 Síntese tecnologia e informatica (88),Orçamento,176.0,0.0
 Síntese tecnologia e informatica (88),Informações Institucionais,175.0,0.0
 Siplanweb (61),Terceiro Setor,163.0,6.0
-PT (45),Acesso à Informação,141.0,0.0
 PT (45),Informações Institucionais,141.0,0.0
 ABO (21),Concursos Públicos,141.0,0.0
+PT (45),Acesso à Informação,141.0,0.0
 PT (45),Servidores Públicos,139.0,0.0
 Portal Facil (46),Acesso à Informação,138.0,0.0
 Betha (26),Despesas,127.0,0.0
@@ -27,18 +27,19 @@ Siplanweb (61),Servidores Públicos,122.0,0.0
 GRP (27),Acesso à Informação,112.0,0.0
 GRP (27),Informações Institucionais,109.0,0.0
 Siplanweb (61),Informações Institucionais,97.0,0.0
+PT (45),Obras Públicas,92.0,0.0
 PT (45),Contratos,92.0,0.0
 Portal Facil (46),Licitações,92.0,0.0
-PT (45),Obras Públicas,92.0,0.0
-Siplanweb (61),Despesas com diárias,88.0,8.0
+Portal Facil (46),Despesas,92.0,0.0
 Betha (26),Terceiro Setor,88.0,0.0
-Síntese tecnologia e informatica (88),Obras Públicas,88.0,0.0
-Síntese tecnologia e informatica (88),Contratos,88.0,0.0
-Síntese tecnologia e informatica (88),Terceiro Setor,88.0,0.0
-Síntese tecnologia e informatica (88),Receitas,88.0,0.0
-Síntese tecnologia e informatica (88),Licitações,88.0,0.0
 Síntese tecnologia e informatica (88),Acesso à Informação,88.0,0.0
+Síntese tecnologia e informatica (88),Receitas,88.0,0.0
+Síntese tecnologia e informatica (88),Obras Públicas,88.0,0.0
+Síntese tecnologia e informatica (88),Licitações,88.0,0.0
 Síntese tecnologia e informatica (88),Despesas com diárias,88.0,0.0
+Siplanweb (61),Despesas com diárias,88.0,8.0
+Síntese tecnologia e informatica (88),Terceiro Setor,88.0,0.0
+Síntese tecnologia e informatica (88),Contratos,88.0,0.0
 ABO (21),Despesas,84.0,0.0
 PT (45),Receitas,82.0,0.0
 ABO (21),Informações Institucionais,79.0,0.0
@@ -46,71 +47,74 @@ Betha (26),Receitas,78.0,0.0
 Betha (26),Licitações,73.0,0.0
 Siplanweb (61),Acesso à Informação,72.0,4.0
 ABO (21),Acesso à Informação,67.0,0.0
-Template1 (22),Acesso à Informação,66.0,0.0
-Template1 (22),Despesas,66.0,0.0
+Memory (66),Despesas com diárias,66.0,0.0
+Template1 (22),Servidores Públicos,66.0,0.0
 Memory (66),Receitas,66.0,0.0
 Memory (66),Servidores Públicos,66.0,0.0
+Template1 (22),Despesas,66.0,0.0
+Template1 (22),Acesso à Informação,66.0,0.0
 ADPM (22),Despesas,66.0,0.0
-Template1 (22),Servidores Públicos,66.0,0.0
-Memory (66),Despesas com diárias,66.0,0.0
 Betha (26),Obras Públicas,62.0,0.0
-Portaltp (61),Despesas com diárias,61.0,0.0
-Siplanweb (61),Licitações,61.0,0.0
-Siplanweb (61),Orçamento,61.0,0.0
-Portaltp (61),Receitas,61.0,0.0
 Siplanweb (61),Receitas,61.0,0.0
-Portaltp (61),Terceiro Setor,61.0,0.0
-Portaltp (61),Obras Públicas,61.0,0.0
+Siplanweb (61),Orçamento,61.0,0.0
+Siplanweb (61),Licitações,61.0,0.0
 Portaltp (61),Servidores Públicos,61.0,0.0
+Portaltp (61),Receitas,61.0,0.0
+Portaltp (61),Obras Públicas,61.0,0.0
+Portaltp (61),Despesas com diárias,61.0,0.0
 Portaltp (61),Concursos Públicos,61.0,0.0
-Portal Facil (60),Despesas com diárias,60.0,0.0
-Portal Facil (60),Licitações,60.0,0.0
-Portal Facil (60),Contratos,60.0,60.0
-GRP (27),Despesas,60.0,24.0
+Portaltp (61),Terceiro Setor,61.0,0.0
 Portal Facil (60),Servidores Públicos,60.0,0.0
+Portal Facil (60),Informações Institucionais,60.0,0.0
+Portal Facil (60),Terceiro Setor,60.0,0.0
+GRP (27),Despesas,60.0,24.0
 Portal Facil (60),Receitas,60.0,0.0
+Portal Facil (60),Obras Públicas,60.0,0.0
+Portal Facil (60),Licitações,60.0,0.0
+Portal Facil (60),Despesas com diárias,60.0,0.0
+Portal Facil (60),Contratos,60.0,60.0
 ABO (21),Contratos,58.0,0.0
-GRP (27),Servidores Públicos,56.0,0.0
 GRP (27),Orçamento,56.0,0.0
+GRP (27),Servidores Públicos,56.0,0.0
 Template2 (28),Despesas,56.0,0.0
+Template2 (28),Informações Institucionais,56.0,28.0
 Betha (26),Servidores Públicos,52.0,26.0
 Betha (26),Acesso à Informação,52.0,0.0
-PT (45),Terceiro Setor,47.0,0.0
 PT (45),Licitações,47.0,0.0
 PT (45),Despesas com diárias,47.0,0.0
+PT (45),Terceiro Setor,47.0,0.0
 Betha (26),Informações Institucionais,46.0,0.0
-Portal Facil (46),Despesas com diárias,46.0,0.0
-Portal Facil (46),Despesas,46.0,46.0
-Portal Facil (46),Contratos,46.0,0.0
 Portal Facil (46),Receitas,46.0,0.0
+Portal Facil (46),Despesas com diárias,46.0,0.0
+Portal Facil (46),Contratos,46.0,0.0
 Template1 (22),Informações Institucionais,44.0,0.0
-ADPM (22),Orçamento,44.0,0.0
+Template1 (22),Orçamento,44.0,0.0
 ADPM (22),Acesso à Informação,44.0,0.0
 ADPM (22),Receitas,44.0,0.0
-Template1 (22),Orçamento,44.0,0.0
-ABO (21),Servidores Públicos,42.0,0.0
-ABO (21),Despesas com diárias,42.0,0.0
+ADPM (22),Orçamento,44.0,0.0
 ABO (21),Licitações,42.0,0.0
+ABO (21),Despesas com diárias,42.0,0.0
+ABO (21),Servidores Públicos,42.0,0.0
 ABO (21),Orçamento,41.0,0.0
 ABO (21),Receitas,38.0,0.0
+GRP (27),Concursos Públicos,28.0,0.0
+GRP (27),Despesas com diárias,28.0,0.0
 Template2 (28),Obras Públicas,28.0,0.0
+GRP (27),Licitações,28.0,0.0
 GRP (27),Terceiro Setor,28.0,0.0
 GRP (27),Obras Públicas,28.0,0.0
-GRP (27),Licitações,28.0,0.0
-GRP (27),Concursos Públicos,28.0,0.0
 GRP (27),Contratos,28.0,0.0
-GRP (27),Despesas com diárias,28.0,0.0
-Betha (26),Contratos,26.0,0.0
 Betha (26),Despesas com diárias,26.0,0.0
 Betha (26),Orçamento,26.0,0.0
+Betha (26),Contratos,26.0,0.0
 Template2 (28),Licitações,25.0,0.0
-Template1 (22),Contratos,22.0,0.0
-Template1 (22),Terceiro Setor,22.0,0.0
-Template1 (22),Receitas,22.0,0.0
-Template1 (22),Obras Públicas,22.0,0.0
-Template1 (22),Licitações,22.0,0.0
 Template1 (22),Despesas com diárias,22.0,0.0
+Template1 (22),Contratos,22.0,0.0
+Template1 (22),Obras Públicas,22.0,0.0
+Template1 (22),Receitas,22.0,0.0
+Template1 (22),Licitações,22.0,0.0
 Template1 (22),Concursos Públicos,22.0,0.0
+Template1 (22),Terceiro Setor,22.0,0.0
 ADPM (22),Contratos,22.0,0.0
 ADPM (22),Despesas com diárias,22.0,0.0
 ADPM (22),Licitações,22.0,0.0
@@ -118,11 +122,14 @@ ABO (21),Terceiro Setor,21.0,0.0
 ADPM (7),Despesas,21.0,0.0
 ADPM (7),Servidores Públicos,14.0,0.0
 Template1 (9),Licitações,9.0,1.0
-ADPM (7),Acesso à Informação,7.0,0.0
 ADPM (7),Contratos,7.0,0.0
+ADPM (7),Acesso à Informação,7.0,0.0
 ADPM (7),Despesas com diárias,7.0,0.0
 Fiorilli (7),Licitações,6.0,0.0
 Portal Facil (5),Licitações,4.0,0.0
+Template2 (28),Acesso à Informação,0.0,28.0
 Template2 (28),Contratos,0.0,28.0
+Template2 (28),Despesas com diárias,0.0,28.0
 Municipal Net (11),Licitações,0.0,1.0
+Template2 (28),Terceiro Setor,0.0,28.0
 Habeas Data,Licitação,4.0,0.0

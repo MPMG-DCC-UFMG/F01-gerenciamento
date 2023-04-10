@@ -14,8 +14,6 @@ nlp = spacy.load('pt_core_news_sm')
 def main_tranform_data(repo, creators):
     
     list_municipios = utils.loader_data(column_name='municipio', path_to_read='data/municipios.csv')
-    list_items = utils.loader_data(column_name='tag', path_to_read='data/itens.csv')
-    
     info_issues = extract_data.get_all_issues(repo, creators)
     df = pd.DataFrame(info_issues)
     
@@ -37,7 +35,6 @@ def main_tranform_data(repo, creators):
     df = pd.read_csv("data/df.csv")
     
     df['closed_at'] = df['closed_at'].fillna(0)
-
     df = format_date(df, time_column='closed_at', status='closed')
     df = format_date(df, time_column='created_at', status='created')    
 
@@ -115,11 +112,10 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     tags.to_csv('data/tags_epics.csv', index_label='subtag')
    
 
-def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', open_column='open'):
-    
+def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', open_column='open'):    
     """
     Atualiza os dados do desenvolvimento
-    """
+    """        
     repo_id='357557193'    
     zh = Zenhub(zh_token)
     g = Github(git_token)
@@ -128,3 +124,7 @@ def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', ope
     epics_id = extract_data.get_epics_ids(zh, repo_id)
     epics_df = extract_data.get_info_filtered_issues(epics_id, repo_F01)
     epics_df.to_csv('data/epics_dev.csv', index=False)
+    
+    tags = pd.read_csv('data/tags_epics.csv', index_col='subtag')
+    status_dev = process_status_validacao(tags, epics_df)
+    status_dev.to_csv('data/status_dev.csv')

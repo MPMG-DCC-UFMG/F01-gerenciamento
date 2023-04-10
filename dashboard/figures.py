@@ -305,8 +305,6 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
     open_df = pd.read_csv("data/open_df.csv")
 
     x = open_df.columns[1:].tolist()
-    z = open_df.columns[1:]
-    y = 'municipio'    
 
     return [
         plot_status_epics(epics_df, top_templates_df, sondagem_df),
@@ -322,13 +320,6 @@ def create_figures_coleta(closed_colum='closed', open_colum='open'):
             count_month, title='Coletas por mês',
             x_column=x, name1='Coletas a realizar', name2="Coletas realizadas",
             y1_column='open', y2_column='closed' )
-        # plot_stack(
-        #     df_tags, title="Coletas por tag", x_column='tag', y2_column=open_colum, 
-        #     y1_column=closed_colum, name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
-        # dropdown_stack(
-        #     issues_epic_df, title="Coletas por template", 
-        #     x_column='template', y2_column=open_colum, y1_column=closed_colum, 
-        #     name2="Coletas a realizar", name1="Coletas realizadas", showlegend=False)
     ]
 
 def plot_status_epics_dev(df, title, y_column, x_column, hue, showlegend=True):    
@@ -402,38 +393,26 @@ def create_figures_dev(closed_colum='closed', open_colum='open'):
     
     count_month  = pd.read_csv("data/count_month_dev.csv")
     week_status  = pd.read_csv('data/week_status_dev.csv')
-    coletas_tag  = pd.read_csv("data/coletas_tag_dev.csv")
-    epics_dev_df = pd.read_csv("data/epics_dev.csv")      
+    coletas_tag  = pd.read_csv("data/coletas_tag_dev.csv")   
     tags         = pd.read_csv('data/tags_epics.csv', index_col='subtag')
     status_dev   = pd.read_csv('data/status_dev.csv', index_col='subtag')
-
-    open_df = pd.read_csv("data/open_df_dev.csv")
-    closed_df= pd.read_csv("data/closed_df_dev.csv")
+    open_df      = pd.read_csv("data/open_df_dev.csv")
 
     x = open_df.columns[1:].tolist()
-    z = open_df.columns[1:]
-    y = 'municipio'    
     
-    fig1 = plot_status_mes(
-        count_month, x_column=x, name1='Issues abertas', name2="Issues fechadas",
-        y1_column=open_colum, y2_column=closed_colum, title='Generalizações por mês')    
-    
-    fig2 = plot_status_week(
-        week_status, y_column='closed_at', x_column='week',
-        title='Testes de generalização feitos por semana', xaxis_title_text='Semanas')
-    
-    fig3 = dropdown_stack(
-        coletas_tag, title="Generalizações por template", x_column='template', y2_column=open_colum,
-        y1_column=closed_colum, name2="Issues fechadas", name1="Issues abertas", showlegend=False)
-    
-    fig4 = plot_status_validacao(status_dev)
-
-    fig5 = plot_tags_coletadas(tags)
-
-    # fig6 = plot_status_epics_dev(epics_dev_df, title='Visão Geral - Validadores feitos e a fazer',        
-    #     y_column='template', x_column='title', hue="state")
-
-    return fig1, fig2, fig3, fig4, fig5
+    return [
+        plot_status_validacao(status_dev),  
+        plot_tags_coletadas(tags),
+        plot_status_mes(
+            count_month, x_column=x, name1='Issues abertas', name2="Issues fechadas",
+            y1_column=open_colum, y2_column=closed_colum, title='Generalizações por mês'),    
+        plot_status_week(
+            week_status, y_column='closed_at', x_column='week',
+            title='Testes de generalização feitos por semana', xaxis_title_text='Semanas'),
+        dropdown_stack(
+            coletas_tag, title="Generalizações por template", x_column='template', y2_column=open_colum,
+            y1_column=closed_colum, name2="Issues fechadas", name1="Issues abertas", showlegend=False),
+    ]
 
 
 def plot_pre_coleta(df, title='Resultados da Sondagem Automática'):
