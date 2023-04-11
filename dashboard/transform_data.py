@@ -6,7 +6,7 @@ import extract_data
 
 def count_issues_epic(info_issues, zh, repo_F01, repo_id_f01):
     
-    epics_id = extract_data.get_epics_ids(zh, repo_id_f01)
+    epics_id = extract_data.get_epics_ids(zh, repo_id_f01)  
     issues_data = extract_data.get_data_epics(zh, epics_id, repo_id_f01)
     epics_info = extract_data.get_epics_info(repo_F01, issues_data)
 
@@ -375,7 +375,7 @@ def count_closed_epics(epics):
     return counts['month'], counts['week']
 
 def summarize_epics(epics_id, repo):
-    
+    #TODO log
     epics = extract_data.get_issues_by_number(repo, numbers=epics_id)
     epics = pd.DataFrame(extract_data.add_issues_info([epics]))   
     epics = epics.loc[epics['title'].str.find("Coletor para") != -1]

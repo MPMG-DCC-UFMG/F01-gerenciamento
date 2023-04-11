@@ -4,6 +4,7 @@ from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
 import dash_bootstrap_components as dbc
 import pandas as pd
+import logging
 
 import figures
 import main_etl
@@ -177,6 +178,11 @@ def automacao_layout():
 app = Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width"}], 
                 external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(filename)s:%(lineno)d - %(message)s')
+
+
 sidebar = html.Div(
     [
         html.Img(
@@ -230,11 +236,8 @@ def refresh(n_clicks):
     if n_clicks is None:
         raise PreventUpdate
     else:        
-        app.logger.info('Atualizando dados de coletas...')
         main_etl.update_data_coletas(git_token, zh_token)
-        app.logger.info('Atualizando dados de desenvolvimento...')
         main_etl.update_data_desenvolvimento(git_token, zh_token)
-        app.logger.info('Dados atualizados.')
         html.A(href='/')
 
 @app.callback(
@@ -244,17 +247,17 @@ def refresh(n_clicks):
 def render_page_content(pathname):
 
     if pathname == "/":
-        app.logger.info('Renderizando layout de coleta...')
+        logging.info('Renderizando layout de coleta...')
         layout = coleta_layout()
         return layout
 
     elif pathname == "/validacao":
-        app.logger.info('Renderizando layout de desenvolvimento...')
+        logging.info('Renderizando layout de desenvolvimento...')
         layout = desenvolvimento_layout()
         return layout
 
     elif pathname == "/automacao":
-        app.logger.info('Renderizando layout de automação...')
+        logging.info('Renderizando layout de automação...')
         layout = automacao_layout()
         return layout
     
@@ -271,12 +274,10 @@ def render_page_content(pathname):
 # Note: remember to gitignore this file to avoid revoking the tokens
 def read_auth_tokens(filename = 'tokens.txt'):    
     global git_token, zh_token    
-
-    app.logger.info('Lendo tokens de autenticacao...')
+    logging.info('Lendo tokens de autenticacao...')
 
     with open(filename) as f:
          git_token, zh_token = [line.rstrip('\n') for line in f.readlines()]    
-
 
 if __name__ == '__main__':
     read_auth_tokens()

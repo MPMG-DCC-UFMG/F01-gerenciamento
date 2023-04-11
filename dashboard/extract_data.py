@@ -1,7 +1,10 @@
 import pandas as pd
 import requests
 import time
+import logging
+from github.PaginatedList import PaginatedList
 from tqdm import tqdm
+from tqdm.contrib.logging import logging_redirect_tqdm
 from zenhub import APILimitError
 
 def get_epics_ids(zh, repo_id):
@@ -22,14 +25,15 @@ def get_data_epics(zh, epics_id, repo_id):
     
     issues_data = {} 
 
-    for i in tqdm(epics_id):
-        try:
-            issues_data[i] = zh.get_epic_data(repo_id=repo_id, epic_id=i) 
+    with logging_redirect_tqdm():
+        for i in tqdm(epics_id):
+            try:
+                issues_data[i] = zh.get_epic_data(repo_id=repo_id, epic_id=i) 
 
-        except APILimitError:  # tenta apenas mais uma vez
-            print('Limite de requisicoes alcancado (ZenHub). Aguardando um minuto..')        
-            time.sleep(60)
-            issues_data[i] = zh.get_epic_data(repo_id=repo_id, epic_id=i)  
+            except APILimitError:  # tenta apenas mais uma vez
+                print('Limite de requisicoes alcancado (ZenHub). Aguardando um minuto..')        
+                time.sleep(60)
+                issues_data[i] = zh.get_epic_data(repo_id=repo_id, epic_id=i)  
         
     return issues_data
 
@@ -50,24 +54,25 @@ def get_pipeline_name(zh, repo_id_c01, issue_number, workspace_id='615dcc142f7e9
 def get_epics_info(repo_F01, issues_data):
     
     epics_info = {}
-    for j in tqdm(issues_data.keys()):
 
-        aux = {'issues': []}
-        labels = load_labels(repo_F01, epic_id=j)
-        
-        template = get_specific_labels(labels, pattern='template')
+    logging.info('|__ Recuperando labels das epics...')
+    with logging_redirect_tqdm():
 
-        if template != None:
-             
-            aux['template'] = template
-            aux['tag'] = get_specific_labels(labels, pattern='tag')
-        
-            dev = get_specific_labels(labels, pattern='development')
-
-            for i in issues_data[j]['issues']:
-                aux['issues'].append(i['issue_number'])
+        for j in tqdm(issues_data.keys()):
+            aux = {'issues': []}
+            labels = load_labels(repo_F01, epic_id=j)
             
-            epics_info[j] = aux
+            template = get_specific_labels(labels, pattern='template')
+
+            if template != None:
+                
+                aux['template'] = template
+                aux['tag'] = get_specific_labels(labels, pattern='tag')
+            
+                for i in issues_data[j]['issues']:
+                    aux['issues'].append(i['issue_number'])
+                
+                epics_info[j] = aux
         
     return epics_info
 
@@ -114,14 +119,19 @@ def add_issues_info(issues_to_add, info_issues=None):
         info_issues = {'title': [], 'number': [], 'created_at': [], 
                        'closed_at': [], 'labels' : [], 'state': [] }
     
-    for i in issues_to_add:
-        for issue in i:
-            info_issues['title'].append(issue.title)
-            info_issues['number'].append(issue.number)
-            info_issues['created_at'].append(issue.created_at)
-            info_issues['labels'].append(issue.labels)
-            info_issues['closed_at'].append(issue.closed_at)
-            info_issues['state'].append(issue.state)
+    with logging_redirect_tqdm():
+        
+        for l in tqdm(issues_to_add):
+            size = l.totalCount if isinstance(l, PaginatedList) else len(l) 
+            logging.info(f'|__ Preenchendo informações de {size+1} issue(s)...')
+            
+            for issue in l:
+                info_issues['title'].append(issue.title)
+                info_issues['number'].append(issue.number)
+                info_issues['created_at'].append(issue.created_at)
+                info_issues['labels'].append(issue.labels)
+                info_issues['closed_at'].append(issue.closed_at)
+                info_issues['state'].append(issue.state)
             
     return info_issues
 
@@ -129,23 +139,24 @@ def get_info_filtered_issues(epics_id, repo, filter_by='generalization test'):
     
     data = {'title': [], 'id':[] , 'tag':[], 'subtag':[], 'template': [], 'status': []}
 
-    for epic_id in tqdm(epics_id):
-    
-        issue = repo.get_issue(epic_id)
-        labels = issue.labels
-        labels = [i.name for i in labels]
-    
-        if filter_by in labels:
-
-            data['title'].append(issue.title)
-            data['id'].append(epic_id)
-            data['tag'].append(get_specific_labels(labels, pattern='tag'))
-            data['subtag'].append(get_specific_labels(labels, pattern='subtag'))
-            data['template'].append(get_specific_labels(labels, pattern='template'))
-            data['status'].append(issue.state)
+    with logging_redirect_tqdm():
+        for epic_id in tqdm(epics_id):
         
-    df = pd.DataFrame(data)
-    
+            issue = repo.get_issue(epic_id)
+            labels = issue.labels
+            labels = [i.name for i in labels]
+        
+            if filter_by in labels:
+
+                data['title'].append(issue.title)
+                data['id'].append(epic_id)
+                data['tag'].append(get_specific_labels(labels, pattern='tag'))
+                data['subtag'].append(get_specific_labels(labels, pattern='subtag'))
+                data['template'].append(get_specific_labels(labels, pattern='template'))
+                data['status'].append(issue.state)
+            
+        df = pd.DataFrame(data)
+        
     return df
 
 def get_info_issues_by_id(ids, repo):

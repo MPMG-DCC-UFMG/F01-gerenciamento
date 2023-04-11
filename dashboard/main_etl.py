@@ -1,14 +1,14 @@
-import pandas as pd
 from github import Github
 from zenhub import Zenhub
-
-import figures as fig_module
-import extract_data
-import utils
-from transform_data import *
+import pandas as pd
+import logging
 
 import spacy
 nlp = spacy.load('pt_core_news_sm')
+
+import extract_data
+import utils
+from transform_data import *
 
 #TODO move to transform_data
 def main_tranform_data(repo, creators):
@@ -20,6 +20,7 @@ def main_tranform_data(repo, creators):
     df['lower_title'] = df['title'].str.lower()
     df = filter_(df, column_name='lower_title')
 
+    #TODO log
     results = fill_cities(df, nlp, list_municipios)
     municipios_df = pd.DataFrame(results, index=[0]).T.reset_index()
     
@@ -64,12 +65,12 @@ def main_tranform_data(repo, creators):
     return df, open_df, closed_df
 
 def update_data_coletas(git_token, zh_token, closed_column='closed', open_column='open'):    
-    
     """
     Atualiza os dados das coletas. 
     Tempo estimado: ~5min (incluindo espera automática, devido a limites de requisições ao ZenHub)
     """
-    
+    logging.info('Atualizando os dados de coletas...')
+
     repo_id='357557193'    
     zh = Zenhub(zh_token)
     g = Github(git_token)
@@ -80,11 +81,14 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     creators = ['carbo6ufmg', 'RitaRez', 'asafeclemente', 'CinthiaS', 'isabel-elise', 'albertoueda', 
                 'arthurnader', 'GabrielLimab', 'lucas-maia-96', 'dalila20', 'AntonioNvs','GabiAraujo',
                 'rafaelmg7','jorgesilva2407']
-    
+
+
+    logging.info('|__ Atualizando issues abertas e fechadas...')
     df, open_df, closed_df = main_tranform_data(repo_C01, creators)
     open_df.to_csv("data/open_df.csv", index=False)
     closed_df.to_csv("data/closed_df.csv", index=False)
 
+    logging.info('|__ Atualizando dados mensais e semanais...')
     count_month = count_by_month(open_df, closed_df)
     count_month.to_csv("data/count_month.csv", index=False)
     
@@ -92,11 +96,13 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     week_status.to_csv('data/week_status.csv', index=False)    
     df.to_csv("data/df.csv", index=False)
        
+    logging.info('|__ Atualizando epics...')
     issues_epic_df, epics_id = count_issues_epic(df, zh, repo_F01, repo_id)
     aux = pd.DataFrame([['Habeas Data','Licitação', 4.0, 0.0]], columns=['template','tag','closed', 'open'])
     issues_epic_df = pd.concat([issues_epic_df, aux])
     issues_epic_df.to_csv("data/issues_epic_df.csv", index=False)
-
+    
+    logging.info('|__ Extraindo outras informações das epics...')
     epics_info, count_epics_month, count_epics_week = summarize_epics(epics_id, repo_F01)
     count_epics_month.to_csv("data/count_epics_month.csv", index=False) 
     count_epics_week.to_csv("data/count_epics_week.csv", index=False) 
@@ -110,17 +116,19 @@ def update_data_coletas(git_token, zh_token, closed_column='closed', open_column
     subtags = pd.read_csv("data/tags_epics.csv").subtag.to_list()
     tags = process_epics_for_tags(epics_info, top_templates, subtags)
     tags.to_csv('data/tags_epics.csv', index_label='subtag')
+    
+    logging.info('Dados de coletas atualizados.')
    
 
 def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', open_column='open'):    
-    """
-    Atualiza os dados do desenvolvimento
-    """        
+    
     repo_id='357557193'    
     zh = Zenhub(zh_token)
     g = Github(git_token)
     repo_F01 = g.get_repo("MPMG-DCC-UFMG/F01")
     
+    logging.info('Atualizando os dados de validação...')
+
     epics_id = extract_data.get_epics_ids(zh, repo_id)
     epics_df = extract_data.get_info_filtered_issues(epics_id, repo_F01)
     epics_df.to_csv('data/epics_dev.csv', index=False)
@@ -128,3 +136,5 @@ def update_data_desenvolvimento(git_token, zh_token, closed_column='closed', ope
     tags = pd.read_csv('data/tags_epics.csv', index_col='subtag')
     status_dev = process_status_validacao(tags, epics_df)
     status_dev.to_csv('data/status_dev.csv')
+
+    logging.info('Dados de validação atualizados.')

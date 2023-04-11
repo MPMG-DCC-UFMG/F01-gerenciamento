@@ -73,7 +73,7 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,6,7,2021,00,27/2021,1/1970,7/2021
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,6,7,2021,00,27/2021,1/1970,7/2021
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,21,7,2021,00,29/2021,1/1970,7/2021
-Coleta de Informações Institucionais - Leis Municipais - Juiz de Fora,10989,2023-04-05 23:26:16,0,[T] Realização F01 [0] Coleta,open,Juiz de Fora,5,4,2023,00,14/2023,1/1970,4/2023
+Coleta de Informações Institucionais - Leis Municipais de Betim,10992,2023-04-10 23:15:29,0,[T] Realização F01 [0] Coleta,open,Betim,10,4,2023,00,15/2023,1/1970,4/2023
 Coleta de Servidores Públicos - Dados dos Servidores - Juiz de Fora,10958,2023-04-03 23:54:01,0,[T] Realização F01 [0] Coleta,open,Juiz de Fora,3,4,2023,00,14/2023,1/1970,4/2023
 Coleta de Despesas - Relatórios - Juiz de Fora,10682,2023-03-16 10:14:03,0,[T] Realização F01 [0] Coleta,open,Juiz de Fora,16,3,2023,00,11/2023,1/1970,3/2023
 Tratamento de Alertas do Navegador em Coletas Dinâmicas,8483,2022-12-19 11:19:52,0,[E] Externa [0] Desenvolvimento [2] Média Prioridade [3] Processamento Dinâmico,open,,19,12,2022,00,51/2022,1/1970,12/2022
@@ -1697,6 +1697,7 @@ Coleta de dados de Licitações de Congonhas,643,2021-07-21 16:31:30,2021-10-29 
 BUG - Dados coletados perdendo acentuações ,627,2021-07-20 12:53:43,2021-08-30 16:23:23,[E] Externa [0] Desenvolvimento,closed,,20,7,2021,35,29/2021,8/2021,7/2021
 Coleta de Concursos Públicos - Betim,10991,2023-04-06 23:21:24,2023-04-07 02:18:31,[T] Realização F01 [0] Coleta,closed,Betim,6,4,2023,14,14/2023,4/2023,4/2023
 Coleta de Servidores Públicos - Despesas com Pessoal - Juiz de Fora,10990,2023-04-06 01:44:59,2023-04-07 00:55:51,[T] Realização F01 [0] Coleta,closed,Juiz de Fora,6,4,2023,14,14/2023,4/2023,4/2023
+Coleta de Informações Institucionais - Leis Municipais - Juiz de Fora,10989,2023-04-05 23:26:16,2023-04-10 23:09:02,[T] Realização F01 [0] Coleta,closed,Juiz de Fora,5,4,2023,15,14/2023,4/2023,4/2023
 Coleta de Informações Institucionais - Estrutura Organizacional - Juiz de Fora,10988,2023-04-04 23:40:06,2023-04-05 01:42:40,[T] Realização F01 [0] Coleta,closed,Juiz de Fora,4,4,2023,14,14/2023,4/2023,4/2023
 Coleta de Despesas com Diárias - Juiz de Fora,10987,2023-04-04 23:19:16,2023-04-04 23:56:02,[T] Realização F01 [0] Coleta,closed,Juiz de Fora,4,4,2023,14,14/2023,4/2023,4/2023
 Coleta de Contratos - Juiz de Fora,10957,2023-04-03 23:22:39,2023-04-04 23:12:26,[T] Realização F01 [0] Coleta,closed,Juiz de Fora,3,4,2023,14,14/2023,4/2023,4/2023

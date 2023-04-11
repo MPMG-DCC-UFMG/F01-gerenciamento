@@ -1,9 +1,9 @@
 import pandas as pd
-import datetime    
+from math import isnan
+import logging
 import plotly.graph_objects as go 
 import plotly.figure_factory as ff
 import plotly.express as px
-from math import isnan
 
 def dropdown_stack(df, title, x_column, y1_column, y2_column, name1=None, name2=None, showlegend=False):
 
@@ -181,7 +181,7 @@ def plot_speed_epics(df, df_week, title):
     ritmo_atual     = df_week['Coletado'][-4:].sum()
     ritmo_anterior  = df_week['Coletado'][-8:-4].sum() # df['Coletado'][-2:-1].values[0]
     ritmo_historico = coletado_cumsum_anterior[-1] / (df.shape[0] - 1)
-    print(f'Epics coletáveis fechadas (atual/anterior/historico): {int(ritmo_atual)}/{int(ritmo_anterior)}/{int(ritmo_historico)}')
+    logging.info(f'Epics coletáveis fechadas (atual/anterior/historico): {int(ritmo_atual)}/{int(ritmo_anterior)}/{int(ritmo_historico)}')
 
     # Meses de interesse
     df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x}/2022' for x in range(1,13)] + 
