@@ -205,7 +205,7 @@ def plot_speed_epics(df, df_week, title):
     
     # Plot
     fig =  px.bar(df, x="month_year", y='coletado_cumsum', title=title, opacity=0.5, height=500, width=1000,
-                 labels={"value":"Epics concluídas (acumulado)", "month_year":"Mês", 'variable':''})
+                 labels={"coletado_cumsum":"Epics concluídas", "month_year":"Mês", 'variable':''})
 
     fig.update_layout(
         yaxis = dict(tickmode = 'linear', tick0 = 0, dtick = 100),
@@ -241,7 +241,7 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
             df = df.append({'template':template, 'state':'Não coletável', 'aux':1}, ignore_index=True)
                 
     # resultados de coletas e analises automaticas 
-    coletado_autom = {'Template2 (28)': 4}
+    coletado_autom = {'Template2 (28)': 3}  #4
     nao_loc_autom  = {}
     for template, count in nao_loc_autom.items():
         for i in range(count):

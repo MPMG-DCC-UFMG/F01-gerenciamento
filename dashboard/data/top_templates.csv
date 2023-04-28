@@ -3,19 +3,19 @@ rank,size,template,shortname,total_epics,total_nao_coletavel
 2,66,Memory (66),Memory (66),23,
 3,61,Siplanweb (61),Siplanweb (61),29,
 4,61,Portaltp (61),Portaltp (61),29,
-5,60,Portal Facil (60),Portal Facil (60),18,0
+5,60,Portal Facil (60),Portal Facil (60),22,0
 6,46,Portal Facil (46),Portal Facil (46),20,
 7,45,PT (45),PT (45),29,
-8,28,Template2 (28),Template2 (28),25,
+8,28,Template2 (28),Template2 (28),25,1
 9,27,GRP (27),GRP (27),25,
 10,26,Betha (26),Betha (26),33,
 11,22,Template1 (22),Template1 (22),24,
 12,22,ADPM (22),ADPM (22),19,
 13,21,ABO (21),ABO (21),23,
-14,11,Municipal Net (11),Municipal Net (11),28,12
-15,7,ADPM (7),ADPM (7),19,8
-1,1,Belo Horizonte,(m1) Belo Horizonte,19,2
+14,11,Municipal Net (11),Municipal Net (11),28,
+15,7,ADPM (7),ADPM (7),16,
+1,1,Belo Horizonte,(m1) Belo Horizonte,19,
 2,1,Contagem,(m2) Contagem,20,3
 3,1,Uberlândia,(m3) Uberlândia,20,1
-4,1,Juiz de Fora,(m4) Juiz de Fora,18,1
-5,1,Betim,(m5) Betim,21,2
+4,1,Juiz de Fora,(m4) Juiz de Fora,19,
+5,1,Betim,(m5) Betim,21,
