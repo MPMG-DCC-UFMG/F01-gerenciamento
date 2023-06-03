@@ -241,7 +241,7 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
             df = df.append({'template':template, 'state':'Não coletável', 'aux':1}, ignore_index=True)
                 
     # resultados de coletas e analises automaticas 
-    coletado_autom = {'Template2 (28)': 3}  #4
+    coletado_autom = {}  #4 'Template2 (28)': 3
     nao_loc_autom  = {}
     for template, count in nao_loc_autom.items():
         for i in range(count):

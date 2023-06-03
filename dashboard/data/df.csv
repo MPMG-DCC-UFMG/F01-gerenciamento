@@ -73,6 +73,11 @@ Coleta de dados do Terceiro Setor do portal de transparência de Uberlândia.,54
 Coleta de dados de Licitações e Contratos do portal de transparência da prefeitura de Uberlândia.,538,2021-07-06 14:22:30,0,[E] Externa [0] Coleta,open,Uberlândia,6,7,2021,00,27/2021,1/1970,7/2021
 Coleta de dados de despesas do portal de transparência da prefeitura de Uberlândia.,537,2021-07-06 13:47:58,0,[E] Externa [T] Realização F01 [0] Coleta,open,Uberlândia,6,7,2021,00,27/2021,1/1970,7/2021
 Coleta de dados de licitações de Paracatu,644,2021-07-21 16:47:03,0,[2] Alta Prioridade [E] Externa [T] Realização F01 [0] Coleta,open,Paracatu,21,7,2021,00,29/2021,1/1970,7/2021
+Erro na coleta de páginas Microsoft Power BI no portal da transparência de Uberlândia,11296,2023-05-12 11:28:59,0,[E] Externa [0] Desenvolvimento,open,Uberlândia,12,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Despesas - Relatórios - Contas Públicas - Uberlândia,11221,2023-05-04 11:15:37,0,[T] Realização F01 [0] Coleta,open,Uberlândia,4,5,2023,00,18/2023,1/1970,5/2023
+Coleta de Despesas - Relatórios - Orçamento Municipal - Uberlândia,11220,2023-05-03 10:58:48,0,[T] Realização F01 [0] Coleta,open,Uberlândia,3,5,2023,00,18/2023,1/1970,5/2023
+Coleta de Despesas - Empenhos e Pagamentos - Uberlândia,11219,2023-05-03 10:31:20,0,[T] Realização F01 [0] Coleta,open,Uberlândia,3,5,2023,00,18/2023,1/1970,5/2023
+Coleta de Licitações - Uberlândia,11218,2023-05-02 11:05:46,0,[T] Realização F01 [0] Coleta,open,Uberlândia,2,5,2023,00,18/2023,1/1970,5/2023
 Coleta de Servidores Públicos - Dados dos Servidores - Juiz de Fora,10958,2023-04-03 23:54:01,0,[T] Realização F01 [0] Coleta,open,Juiz de Fora,3,4,2023,00,14/2023,1/1970,4/2023
 Coleta de Despesas - Relatórios - Juiz de Fora,10682,2023-03-16 10:14:03,0,[T] Realização F01 [0] Coleta,open,Juiz de Fora,16,3,2023,00,11/2023,1/1970,3/2023
 Tratamento de Alertas do Navegador em Coletas Dinâmicas,8483,2022-12-19 11:19:52,0,[E] Externa [0] Desenvolvimento [2] Média Prioridade [3] Processamento Dinâmico,open,,19,12,2022,00,51/2022,1/1970,12/2022
@@ -175,34 +180,139 @@ Coleta de Contratos - Conteúdo Integral - Pingo d'Água,7959,2022-11-16 14:48:0
 Coleta de Contratos - Conteúdo Integral - Santa Maria de Itabira,7958,2022-11-16 14:48:04,0,[T] Realização F01 [0] Coleta,open,Santa Maria de Itabira,16,11,2022,00,46/2022,1/1970,11/2022
 Coleta de Contratos - Conteúdo Integral - Argirita,7957,2022-11-16 14:48:02,0,[T] Realização F01 [0] Coleta,open,Argirita,16,11,2022,00,46/2022,1/1970,11/2022
 Coleta de Contratos - Conteúdo Integral - Maravilhas,7956,2022-11-16 14:48:00,0,[T] Realização F01 [0] Coleta,open,Maravilhas,16,11,2022,00,46/2022,1/1970,11/2022
-Coleta de Contratos - Novo Oriente de Minas,10599,2023-03-07 21:44:05,0,[T] Realização F01 [0] Coleta,open,Novo Oriente de Minas,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Frei Gaspar,10598,2023-03-07 21:44:03,0,[T] Realização F01 [0] Coleta,open,Frei Gaspar,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Fronteira dos Vales,10597,2023-03-07 21:44:01,0,[T] Realização F01 [0] Coleta,open,Fronteira dos Vales,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Chapada do Norte,10596,2023-03-07 21:43:59,0,[T] Realização F01 [0] Coleta,open,Chapada do Norte,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Coroaci,10595,2023-03-07 21:43:57,0,[T] Realização F01 [0] Coleta,open,Coroaci,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Caraí,10594,2023-03-07 21:43:54,0,[T] Realização F01 [0] Coleta,open,Caraí,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Jordânia,10593,2023-03-07 21:43:53,0,[T] Realização F01 [0] Coleta,open,Jordânia,7,3,2023,00,10/2023,1/1970,3/2023
+Coleta de Acesso à Informação - Relatório estatístico - Guapé,11362,2023-05-26 17:09:42,0,[T] Realização F01 [0] Coleta,open,Guapé,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Alvarenga,11361,2023-05-26 17:09:41,0,[T] Realização F01 [0] Coleta,open,Alvarenga,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Vermelho Novo,11360,2023-05-26 17:09:39,0,[T] Realização F01 [0] Coleta,open,Vermelho Novo,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Urucânia,11359,2023-05-26 17:09:37,0,[T] Realização F01 [0] Coleta,open,Urucânia,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Bom Jesus do Galho,11358,2023-05-26 17:06:39,0,[T] Realização F01 [0] Coleta,open,Bom Jesus do Galho,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Paiva,11357,2023-05-26 17:06:37,0,[T] Realização F01 [0] Coleta,open,Paiva,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Araçuaí,11356,2023-05-26 17:06:35,0,[T] Realização F01 [0] Coleta,open,Araçuaí,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Joanésia,11355,2023-05-26 17:06:33,0,[T] Realização F01 [0] Coleta,open,Joanésia,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Cambuí,11354,2023-05-26 17:06:32,0,[T] Realização F01 [0] Coleta,open,Cambuí,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Capetinga,11353,2023-05-26 17:06:30,0,[T] Realização F01 [0] Coleta,open,Capetinga,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Salto da Divisa,11352,2023-05-26 17:06:28,0,[T] Realização F01 [0] Coleta,open,Salto da Divisa,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - São José do Mantimento,11351,2023-05-26 17:06:26,0,[T] Realização F01 [0] Coleta,open,São José do Mantimento,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Raul Soares,11350,2023-05-26 17:06:25,0,[T] Realização F01 [0] Coleta,open,Raul Soares,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Angelândia,11349,2023-05-26 17:06:23,0,[T] Realização F01 [0] Coleta,open,Angelândia,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Palma,11348,2023-05-26 17:06:21,0,[T] Realização F01 [0] Coleta,open,Palma,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Medina,11347,2023-05-26 17:06:19,0,[T] Realização F01 [0] Coleta,open,Medina,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Fernandes Tourinho,11346,2023-05-26 17:06:18,0,[T] Realização F01 [0] Coleta,open,Fernandes Tourinho,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Dionísio,11345,2023-05-26 17:06:16,0,[T] Realização F01 [0] Coleta,open,Dionísio,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Mesquita,11344,2023-05-26 17:06:14,0,[T] Realização F01 [0] Coleta,open,Mesquita,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Ipaba,11343,2023-05-26 17:06:13,0,[T] Realização F01 [0] Coleta,open,Ipaba,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Ponto dos Volantes,11342,2023-05-26 17:06:11,0,[T] Realização F01 [0] Coleta,open,Ponto dos Volantes,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Naque,11341,2023-05-26 17:06:09,0,[T] Realização F01 [0] Coleta,open,Naque,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Barão de Cocais,11340,2023-05-26 17:06:08,0,[T] Realização F01 [0] Coleta,open,Barão de Cocais,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Cajuri,11339,2023-05-26 17:03:09,0,[T] Realização F01 [0] Coleta,open,Cajuri,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Três Marias,11338,2023-05-26 17:03:07,0,[T] Realização F01 [0] Coleta,open,Três Marias,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - São Tomás de Aquino,11337,2023-05-26 17:03:05,0,[T] Realização F01 [0] Coleta,open,São Tomás de Aquino,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Bicas,11336,2023-05-26 17:03:04,0,[T] Realização F01 [0] Coleta,open,Bicas,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Conceição de Ipanema,11335,2023-05-26 17:03:02,0,[T] Realização F01 [0] Coleta,open,Conceição de Ipanema,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Antônio Dias,11334,2023-05-26 17:03:01,0,[T] Realização F01 [0] Coleta,open,Antônio Dias,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Nova Serrana,11333,2023-05-26 17:02:59,0,[T] Realização F01 [0] Coleta,open,Nova Serrana,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Córrego Novo,11332,2023-05-26 17:02:57,0,[T] Realização F01 [0] Coleta,open,Córrego Novo,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - São João do Oriente,11331,2023-05-26 17:02:56,0,[T] Realização F01 [0] Coleta,open,São João do Oriente,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Acaiaca,11330,2023-05-26 17:02:54,0,[T] Realização F01 [0] Coleta,open,Acaiaca,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Sete Lagoas,11329,2023-05-26 17:02:52,0,[T] Realização F01 [0] Coleta,open,Sete Lagoas,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Bela Vista de Minas,11328,2023-05-26 17:02:50,0,[T] Realização F01 [0] Coleta,open,Bela Vista de Minas,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Dom Cavati,11327,2023-05-26 17:02:48,0,[T] Realização F01 [0] Coleta,open,Dom Cavati,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Ubaporanga,11326,2023-05-26 17:02:47,0,[T] Realização F01 [0] Coleta,open,Ubaporanga,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Pompéu,11325,2023-05-26 17:02:45,0,[T] Realização F01 [0] Coleta,open,Pompéu,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Jaguaraçu,11324,2023-05-26 17:02:43,0,[T] Realização F01 [0] Coleta,open,Jaguaraçu,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Inhapim,11323,2023-05-26 17:02:42,0,[T] Realização F01 [0] Coleta,open,Inhapim,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Itaobim,11322,2023-05-26 17:02:40,0,[T] Realização F01 [0] Coleta,open,Itaobim,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Belo Oriente,11321,2023-05-26 17:02:38,0,[T] Realização F01 [0] Coleta,open,Belo Oriente,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Orizânia,11320,2023-05-26 16:59:40,0,[T] Realização F01 [0] Coleta,open,Orizânia,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Engenheiro Caldas,11319,2023-05-26 16:59:38,0,[T] Realização F01 [0] Coleta,open,Engenheiro Caldas,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Peçanha,11318,2023-05-26 16:59:36,0,[T] Realização F01 [0] Coleta,open,Peçanha,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Monte Formoso,11317,2023-05-26 16:59:34,0,[T] Realização F01 [0] Coleta,open,Monte Formoso,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Machado,11316,2023-05-26 16:59:33,0,[T] Realização F01 [0] Coleta,open,Machado,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Bugre,11315,2023-05-26 16:59:31,0,[T] Realização F01 [0] Coleta,open,Bugre,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - São Gonçalo do Pará,11314,2023-05-26 16:59:29,0,[T] Realização F01 [0] Coleta,open,São Gonçalo do Pará,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Cássia,11313,2023-05-26 16:59:28,0,[T] Realização F01 [0] Coleta,open,Cássia,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Aimorés,11312,2023-05-26 16:59:26,0,[T] Realização F01 [0] Coleta,open,Aimorés,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Piedade de Caratinga,11311,2023-05-26 16:59:24,0,[T] Realização F01 [0] Coleta,open,Piedade de Caratinga,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Piracema,11310,2023-05-26 16:59:23,0,[T] Realização F01 [0] Coleta,open,Piracema,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Sabinópolis,11309,2023-05-26 16:59:21,0,[T] Realização F01 [0] Coleta,open,Sabinópolis,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - São João Nepomuceno,11308,2023-05-26 16:59:19,0,[T] Realização F01 [0] Coleta,open,São João Nepomuceno,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Viçosa,11307,2023-05-26 16:59:18,0,[T] Realização F01 [0] Coleta,open,Viçosa,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Pingo d'Água,11306,2023-05-26 16:59:16,0,[T] Realização F01 [0] Coleta,open,Pingo d'Água,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Santa Maria de Itabira,11305,2023-05-26 16:59:14,0,[T] Realização F01 [0] Coleta,open,Santa Maria de Itabira,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Argirita,11304,2023-05-26 16:59:12,0,[T] Realização F01 [0] Coleta,open,Argirita,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Acesso à Informação - Relatório estatístico - Maravilhas,11303,2023-05-26 16:59:10,0,[T] Realização F01 [0] Coleta,open,Maravilhas,26,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Guapé,11291,2023-05-08 14:18:29,0,[T] Realização F01 [0] Coleta,open,Guapé,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Alvarenga,11290,2023-05-08 14:18:27,0,[T] Realização F01 [0] Coleta,open,Alvarenga,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Vermelho Novo,11289,2023-05-08 14:18:26,0,[T] Realização F01 [0] Coleta,open,Vermelho Novo,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Urucânia,11288,2023-05-08 14:18:24,0,[T] Realização F01 [0] Coleta,open,Urucânia,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Bom Jesus do Galho,11287,2023-05-08 14:18:22,0,[T] Realização F01 [0] Coleta,open,Bom Jesus do Galho,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Paiva,11286,2023-05-08 14:18:21,0,[T] Realização F01 [0] Coleta,open,Paiva,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Araçuaí,11285,2023-05-08 14:18:19,0,[T] Realização F01 [0] Coleta,open,Araçuaí,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Joanésia,11284,2023-05-08 14:18:17,0,[T] Realização F01 [0] Coleta,open,Joanésia,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Cambuí,11283,2023-05-08 14:18:15,0,[T] Realização F01 [0] Coleta,open,Cambuí,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Capetinga,11282,2023-05-08 14:18:14,0,[T] Realização F01 [0] Coleta,open,Capetinga,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Salto da Divisa,11281,2023-05-08 14:18:12,0,[T] Realização F01 [0] Coleta,open,Salto da Divisa,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - São José do Mantimento,11280,2023-05-08 14:18:10,0,[T] Realização F01 [0] Coleta,open,São José do Mantimento,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Raul Soares,11279,2023-05-08 14:18:09,0,[T] Realização F01 [0] Coleta,open,Raul Soares,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Angelândia,11268,2023-05-08 13:52:11,0,[T] Realização F01 [0] Coleta,open,Angelândia,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Palma,11267,2023-05-08 13:52:10,0,[T] Realização F01 [0] Coleta,open,Palma,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Medina,11266,2023-05-08 13:52:07,0,[T] Realização F01 [0] Coleta,open,Medina,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Fernandes Tourinho,11265,2023-05-08 13:52:06,0,[T] Realização F01 [0] Coleta,open,Fernandes Tourinho,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Dionísio,11264,2023-05-08 13:52:04,0,[T] Realização F01 [0] Coleta,open,Dionísio,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Mesquita,11263,2023-05-08 13:52:02,0,[T] Realização F01 [0] Coleta,open,Mesquita,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Ipaba,11262,2023-05-08 13:52:00,0,[T] Realização F01 [0] Coleta,open,Ipaba,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Ponto dos Volantes,11261,2023-05-08 13:51:59,0,[T] Realização F01 [0] Coleta,open,Ponto dos Volantes,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Naque,11260,2023-05-08 13:51:57,0,[T] Realização F01 [0] Coleta,open,Naque,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Barão de Cocais,11259,2023-05-08 13:51:47,0,[T] Realização F01 [0] Coleta,open,Barão de Cocais,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Cajuri,11258,2023-05-08 13:48:49,0,[T] Realização F01 [0] Coleta,open,Cajuri,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Três Marias,11257,2023-05-08 13:48:48,0,[T] Realização F01 [0] Coleta,open,Três Marias,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - São Tomás de Aquino,11256,2023-05-08 13:48:46,0,[T] Realização F01 [0] Coleta,open,São Tomás de Aquino,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Bicas,11255,2023-05-08 13:48:44,0,[T] Realização F01 [0] Coleta,open,Bicas,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Conceição de Ipanema,11254,2023-05-08 13:48:43,0,[T] Realização F01 [0] Coleta,open,Conceição de Ipanema,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Antônio Dias,11253,2023-05-08 13:48:41,0,[T] Realização F01 [0] Coleta,open,Antônio Dias,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Nova Serrana,11252,2023-05-08 13:48:39,0,[T] Realização F01 [0] Coleta,open,Nova Serrana,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Córrego Novo,11251,2023-05-08 13:48:38,0,[T] Realização F01 [0] Coleta,open,Córrego Novo,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - São João do Oriente,11250,2023-05-08 13:48:36,0,[T] Realização F01 [0] Coleta,open,São João do Oriente,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Acaiaca,11249,2023-05-08 13:48:34,0,[T] Realização F01 [0] Coleta,open,Acaiaca,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Sete Lagoas,11248,2023-05-08 13:48:32,0,[T] Realização F01 [0] Coleta,open,Sete Lagoas,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Bela Vista de Minas,11247,2023-05-08 13:48:31,0,[T] Realização F01 [0] Coleta,open,Bela Vista de Minas,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Dom Cavati,11246,2023-05-08 13:48:29,0,[T] Realização F01 [0] Coleta,open,Dom Cavati,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Ubaporanga,11245,2023-05-08 13:48:27,0,[T] Realização F01 [0] Coleta,open,Ubaporanga,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Pompéu,11244,2023-05-08 13:48:25,0,[T] Realização F01 [0] Coleta,open,Pompéu,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Jaguaraçu,11243,2023-05-08 13:48:24,0,[T] Realização F01 [0] Coleta,open,Jaguaraçu,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Inhapim,11242,2023-05-08 13:48:22,0,[T] Realização F01 [0] Coleta,open,Inhapim,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Itaobim,11241,2023-05-08 13:48:20,0,[T] Realização F01 [0] Coleta,open,Itaobim,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Belo Oriente,11240,2023-05-08 13:48:18,0,[T] Realização F01 [0] Coleta,open,Belo Oriente,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Orizânia,11239,2023-05-08 13:45:20,0,[T] Realização F01 [0] Coleta,open,Orizânia,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Engenheiro Caldas,11238,2023-05-08 13:45:19,0,[T] Realização F01 [0] Coleta,open,Engenheiro Caldas,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Peçanha,11237,2023-05-08 13:45:17,0,[T] Realização F01 [0] Coleta,open,Peçanha,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Monte Formoso,11236,2023-05-08 13:45:15,0,[T] Realização F01 [0] Coleta,open,Monte Formoso,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Machado,11235,2023-05-08 13:45:13,0,[T] Realização F01 [0] Coleta,open,Machado,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Bugre,11234,2023-05-08 13:45:12,0,[T] Realização F01 [0] Coleta,open,Bugre,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - São Gonçalo do Pará,11233,2023-05-08 13:45:10,0,[T] Realização F01 [0] Coleta,open,São Gonçalo do Pará,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Cássia,11232,2023-05-08 13:45:08,0,[T] Realização F01 [0] Coleta,open,Cássia,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Aimorés,11231,2023-05-08 13:45:06,0,[T] Realização F01 [0] Coleta,open,Aimorés,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Aimorés,11278,2023-05-08 13:52:42,2023-05-08 14:10:31,,closed,Aimorés,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Piedade de Caratinga,11230,2023-05-08 13:45:04,0,[T] Realização F01 [0] Coleta,open,Piedade de Caratinga,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Piedade de Caratinga,11277,2023-05-08 13:52:40,2023-05-08 14:10:23,,closed,Piedade de Caratinga,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Piracema,11229,2023-05-08 13:45:03,0,[T] Realização F01 [0] Coleta,open,Piracema,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Piracema,11276,2023-05-08 13:52:38,2023-05-08 14:10:15,,closed,Piracema,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Sabinópolis,11228,2023-05-08 13:45:01,0,[T] Realização F01 [0] Coleta,open,Sabinópolis,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Sabinópolis,11275,2023-05-08 13:52:36,2023-05-08 14:09:57,,closed,Sabinópolis,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - São João Nepomuceno,11227,2023-05-08 13:44:59,0,[T] Realização F01 [0] Coleta,open,São João Nepomuceno,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - São João Nepomuceno,11274,2023-05-08 13:52:34,2023-05-08 14:09:40,,closed,São João Nepomuceno,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Viçosa,11226,2023-05-08 13:44:57,0,[T] Realização F01 [0] Coleta,open,Viçosa,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Viçosa,11273,2023-05-08 13:52:33,2023-05-08 14:09:29,,closed,Viçosa,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Pingo d'Água,11225,2023-05-08 13:44:56,0,[T] Realização F01 [0] Coleta,open,Pingo d'Água,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Pingo d'Água,11272,2023-05-08 13:52:31,2023-05-08 14:09:21,,closed,Pingo d'Água,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Santa Maria de Itabira,11224,2023-05-08 13:44:54,0,[T] Realização F01 [0] Coleta,open,Santa Maria de Itabira,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Santa Maria de Itabira,11271,2023-05-08 13:52:29,2023-05-08 14:09:12,,closed,Santa Maria de Itabira,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Argirita,11223,2023-05-08 13:44:52,0,[T] Realização F01 [0] Coleta,open,Argirita,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Argirita,11270,2023-05-08 13:52:28,2023-05-08 14:08:57,,closed,Argirita,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Concursos Públicos - Maravilhas,11222,2023-05-08 13:44:50,0,[T] Realização F01 [0] Coleta,open,Maravilhas,8,5,2023,00,19/2023,1/1970,5/2023
+Coleta de Concursos Públicos - Maravilhas,11269,2023-05-08 13:52:23,2023-05-08 14:08:48,,closed,Maravilhas,8,5,2023,19,19/2023,5/2023,5/2023
+Coleta de Despesas - Empenhos e Pagamentos - Contagem,11299,2023-05-22 12:06:57,0,[T] Realização F01 [0] Coleta,open,Contagem,22,5,2023,00,21/2023,1/1970,5/2023
+Coleta de Despesas - Relatórios - Contagem,11298,2023-05-22 11:31:14,0,[T] Realização F01 [0] Coleta,open,Contagem,22,5,2023,00,21/2023,1/1970,5/2023
 Coleta de Contratos - Pavão,10592,2023-03-07 21:43:51,0,[T] Realização F01 [0] Coleta,open,Pavão,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Padre Paraíso,10591,2023-03-07 21:43:49,0,[T] Realização F01 [0] Coleta,open,Padre Paraíso,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Santo Antônio do Jacinto,10590,2023-03-07 21:43:47,0,[T] Realização F01 [0] Coleta,open,Santo Antônio do Jacinto,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Cantagalo,10589,2023-03-07 21:40:49,0,[T] Realização F01 [0] Coleta,open,Cantagalo,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Pescador,10588,2023-03-07 21:40:47,0,[T] Realização F01 [0] Coleta,open,Pescador,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - São João Evangelista,10587,2023-03-07 21:40:45,0,[T] Realização F01 [0] Coleta,open,São João Evangelista,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Ataléia,10586,2023-03-07 21:40:43,0,[T] Realização F01 [0] Coleta,open,Ataléia,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Machacalis,10585,2023-03-07 21:40:40,0,[T] Realização F01 [0] Coleta,open,Machacalis,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Sardoá,10584,2023-03-07 21:40:39,0,[T] Realização F01 [0] Coleta,open,Sardoá,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Bertópolis,10583,2023-03-07 21:40:37,0,[T] Realização F01 [0] Coleta,open,Bertópolis,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Cuparaque,10582,2023-03-07 21:40:35,0,[T] Realização F01 [0] Coleta,open,Cuparaque,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - São Sebastião do Maranhão,10581,2023-03-07 21:40:33,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Maranhão,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Marilac,10580,2023-03-07 21:40:31,0,[T] Realização F01 [0] Coleta,open,Marilac,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Santa Efigênia de Minas,10579,2023-03-07 21:40:29,0,[T] Realização F01 [0] Coleta,open,Santa Efigênia de Minas,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Tumiritinga,10578,2023-03-07 21:40:27,0,[T] Realização F01 [0] Coleta,open,Tumiritinga,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Bandeira,10577,2023-03-07 21:40:25,0,[T] Realização F01 [0] Coleta,open,Bandeira,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Ouro Verde de Minas,10576,2023-03-07 21:40:23,0,[T] Realização F01 [0] Coleta,open,Ouro Verde de Minas,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Periquito,10575,2023-03-07 21:40:21,0,[T] Realização F01 [0] Coleta,open,Periquito,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Itabirinha,10574,2023-03-07 21:40:19,0,[T] Realização F01 [0] Coleta,open,Itabirinha,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Umburatiba,10573,2023-03-07 21:40:17,0,[T] Realização F01 [0] Coleta,open,Umburatiba,7,3,2023,00,10/2023,1/1970,3/2023
-Coleta de Contratos - Itaipé,10572,2023-03-07 21:40:15,0,[T] Realização F01 [0] Coleta,open,Itaipé,7,3,2023,00,10/2023,1/1970,3/2023
 Coleta de Despesas - Relatórios Fiscas - São Sebastião do Maranhão,10273,2023-02-22 21:00:48,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Maranhão,22,2,2023,00,8/2023,1/1970,2/2023
 Coleta de Despesas - Relatórios Fiscas - São Sebastião do Maranhão,10245,2023-02-22 20:56:46,2023-02-23 23:36:44,[T] Realização F01 [0] Coleta,closed,São Sebastião do Maranhão,22,2,2023,08,8/2023,2/2023,2/2023
 Coleta de Despesas - Relatórios Fiscas - Marilac,10272,2023-02-22 21:00:46,0,[T] Realização F01 [0] Coleta,open,Marilac,22,2,2023,00,8/2023,1/1970,2/2023
@@ -329,34 +439,6 @@ Coleta de Despesas - Empenhos - Periquito,11143,2023-04-25 11:15:55,0,[T] Realiz
 Coleta de Despesas - Empenhos - Itabirinha,11142,2023-04-25 11:15:53,0,[T] Realização F01 [0] Coleta,open,Itabirinha,25,4,2023,00,17/2023,1/1970,4/2023
 Coleta de Despesas - Empenhos - Umburatiba,11141,2023-04-25 11:15:51,0,[T] Realização F01 [0] Coleta,open,Umburatiba,25,4,2023,00,17/2023,1/1970,4/2023
 Coleta de Despesas - Empenhos - Itaipé,11140,2023-04-25 11:15:49,0,[T] Realização F01 [0] Coleta,open,Itaipé,25,4,2023,00,17/2023,1/1970,4/2023
-Coleta de Despesas com Diárias - Novo Oriente de Minas,10710,2023-03-22 00:44:17,0,[T] Realização F01 [0] Coleta,open,Novo Oriente de Minas,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Frei Gaspar,10709,2023-03-22 00:44:15,0,[T] Realização F01 [0] Coleta,open,Frei Gaspar,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Fronteira dos Vales,10708,2023-03-22 00:44:13,0,[T] Realização F01 [0] Coleta,open,Fronteira dos Vales,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Chapada do Norte,10707,2023-03-22 00:44:11,0,[T] Realização F01 [0] Coleta,open,Chapada do Norte,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Coroaci,10706,2023-03-22 00:44:10,0,[T] Realização F01 [0] Coleta,open,Coroaci,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Caraí,10705,2023-03-22 00:44:08,0,[T] Realização F01 [0] Coleta,open,Caraí,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Jordânia,10704,2023-03-22 00:44:06,0,[T] Realização F01 [0] Coleta,open,Jordânia,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Pavão,10703,2023-03-22 00:44:04,0,[T] Realização F01 [0] Coleta,open,Pavão,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Padre Paraíso,10702,2023-03-22 00:44:02,0,[T] Realização F01 [0] Coleta,open,Padre Paraíso,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Santo Antônio do Jacinto,10701,2023-03-22 00:44:00,0,[T] Realização F01 [0] Coleta,open,Santo Antônio do Jacinto,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Cantagalo,10700,2023-03-22 00:41:02,0,[T] Realização F01 [0] Coleta,open,Cantagalo,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Pescador,10699,2023-03-22 00:41:00,0,[T] Realização F01 [0] Coleta,open,Pescador,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - São João Evangelista,10698,2023-03-22 00:40:57,0,[T] Realização F01 [0] Coleta,open,São João Evangelista,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Ataléia,10697,2023-03-22 00:40:56,0,[T] Realização F01 [0] Coleta,open,Ataléia,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Machacalis,10696,2023-03-22 00:40:54,0,[T] Realização F01 [0] Coleta,open,Machacalis,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Sardoá,10695,2023-03-22 00:40:52,0,[T] Realização F01 [0] Coleta,open,Sardoá,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Bertópolis,10694,2023-03-22 00:40:50,0,[T] Realização F01 [0] Coleta,open,Bertópolis,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Cuparaque,10693,2023-03-22 00:40:48,0,[T] Realização F01 [0] Coleta,open,Cuparaque,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - São Sebastião do Maranhão,10692,2023-03-22 00:40:46,0,[T] Realização F01 [0] Coleta,open,São Sebastião do Maranhão,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Marilac,10691,2023-03-22 00:40:44,0,[T] Realização F01 [0] Coleta,open,Marilac,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Santa Efigênia de Minas,10690,2023-03-22 00:40:43,0,[T] Realização F01 [0] Coleta,open,Santa Efigênia de Minas,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Tumiritinga,10689,2023-03-22 00:40:41,0,[T] Realização F01 [0] Coleta,open,Tumiritinga,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Bandeira,10688,2023-03-22 00:40:39,0,[T] Realização F01 [0] Coleta,open,Bandeira,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Ouro Verde de Minas,10687,2023-03-22 00:40:37,0,[T] Realização F01 [0] Coleta,open,Ouro Verde de Minas,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Periquito,10686,2023-03-22 00:40:36,0,[T] Realização F01 [0] Coleta,open,Periquito,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Itabirinha,10685,2023-03-22 00:40:34,0,[T] Realização F01 [0] Coleta,open,Itabirinha,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Umburatiba,10684,2023-03-22 00:40:32,0,[T] Realização F01 [0] Coleta,open,Umburatiba,22,3,2023,00,12/2023,1/1970,3/2023
-Coleta de Despesas com Diárias - Itaipé,10683,2023-03-22 00:40:30,0,[T] Realização F01 [0] Coleta,open,Itaipé,22,3,2023,00,12/2023,1/1970,3/2023
 Coleta de Contratos - Itacarambi,3523,2022-05-25 00:18:29,2023-01-19 17:40:04,[T] Realização F01 [0] Coleta,closed,Itacarambi,25,5,2022,03,21/2022,1/2023,5/2022
 Coleta de Contratos - Montezuma,3522,2022-05-25 00:18:27,2023-01-19 17:40:04,[T] Realização F01 [0] Coleta,closed,Montezuma,25,5,2022,03,21/2022,1/2023,5/2022
 Coleta de Contratos - Manga,3521,2022-05-25 00:18:26,2023-01-19 17:40:04,[T] Realização F01 [0] Coleta,closed,Manga,25,5,2022,03,21/2022,1/2023,5/2022
@@ -8065,6 +8147,33 @@ Coleta de Terceiro Setor - Periquito,10714,2023-03-23 14:10:59,2023-04-27 13:24:
 Coleta de Terceiro Setor - Itabirinha,10713,2023-03-23 14:10:57,2023-04-27 13:24:04,[T] Realização F01 [0] Coleta,closed,Itabirinha,23,3,2023,17,12/2023,4/2023,3/2023
 Coleta de Terceiro Setor - Umburatiba,10712,2023-03-23 14:10:54,2023-04-27 13:24:06,[T] Realização F01 [0] Coleta,closed,Umburatiba,23,3,2023,17,12/2023,4/2023,3/2023
 Coleta de Terceiro Setor - Itaipé,10711,2023-03-23 14:10:51,2023-04-27 13:23:50,[T] Realização F01 [0] Coleta,closed,Itaipé,23,3,2023,17,12/2023,4/2023,3/2023
+Coleta de Contratos - Novo Oriente de Minas,10599,2023-03-07 21:44:05,2023-04-29 13:25:07,[T] Realização F01 [0] Coleta,closed,Novo Oriente de Minas,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Frei Gaspar,10598,2023-03-07 21:44:03,2023-04-29 13:25:09,[T] Realização F01 [0] Coleta,closed,Frei Gaspar,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Fronteira dos Vales,10597,2023-03-07 21:44:01,2023-04-29 13:25:10,[T] Realização F01 [0] Coleta,closed,Fronteira dos Vales,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Chapada do Norte,10596,2023-03-07 21:43:59,2023-04-29 13:25:12,[T] Realização F01 [0] Coleta,closed,Chapada do Norte,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Coroaci,10595,2023-03-07 21:43:57,2023-04-29 13:25:14,[T] Realização F01 [0] Coleta,closed,Coroaci,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Caraí,10594,2023-03-07 21:43:54,2023-04-29 13:25:16,[T] Realização F01 [0] Coleta,closed,Caraí,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Jordânia,10593,2023-03-07 21:43:53,2023-04-29 13:24:54,[T] Realização F01 [0] Coleta,closed,Jordânia,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Padre Paraíso,10591,2023-03-07 21:43:49,2023-04-29 13:24:36,[T] Realização F01 [0] Coleta,closed,Padre Paraíso,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Santo Antônio do Jacinto,10590,2023-03-07 21:43:47,2023-04-29 13:24:39,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Jacinto,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Cantagalo,10589,2023-03-07 21:40:49,2023-04-29 13:24:40,[T] Realização F01 [0] Coleta,closed,Cantagalo,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Pescador,10588,2023-03-07 21:40:47,2023-04-29 13:24:42,[T] Realização F01 [0] Coleta,closed,Pescador,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - São João Evangelista,10587,2023-03-07 21:40:45,2023-04-29 13:24:44,[T] Realização F01 [0] Coleta,closed,São João Evangelista,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Ataléia,10586,2023-03-07 21:40:43,2023-04-29 13:24:23,[T] Realização F01 [0] Coleta,closed,Ataléia,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Machacalis,10585,2023-03-07 21:40:40,2023-04-29 13:24:25,[T] Realização F01 [0] Coleta,closed,Machacalis,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Sardoá,10584,2023-03-07 21:40:39,2023-04-29 13:24:27,[T] Realização F01 [0] Coleta,closed,Sardoá,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Bertópolis,10583,2023-03-07 21:40:37,2023-04-29 13:24:29,[T] Realização F01 [0] Coleta,closed,Bertópolis,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Cuparaque,10582,2023-03-07 21:40:35,2023-04-29 13:24:46,[T] Realização F01 [0] Coleta,closed,Cuparaque,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - São Sebastião do Maranhão,10581,2023-03-07 21:40:33,2023-04-29 13:24:31,[T] Realização F01 [0] Coleta,closed,São Sebastião do Maranhão,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Marilac,10580,2023-03-07 21:40:31,2023-05-04 20:53:51,[T] Realização F01 [0] Coleta,closed,Marilac,7,3,2023,18,10/2023,5/2023,3/2023
+Coleta de Contratos - Santa Efigênia de Minas,10579,2023-03-07 21:40:29,2023-04-29 13:23:55,[T] Realização F01 [0] Coleta,closed,Santa Efigênia de Minas,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Tumiritinga,10578,2023-03-07 21:40:27,2023-04-29 13:23:57,[T] Realização F01 [0] Coleta,closed,Tumiritinga,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Bandeira,10577,2023-03-07 21:40:25,2023-04-29 13:23:59,[T] Realização F01 [0] Coleta,closed,Bandeira,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Ouro Verde de Minas,10576,2023-03-07 21:40:23,2023-04-29 13:24:14,[T] Realização F01 [0] Coleta,closed,Ouro Verde de Minas,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Periquito,10575,2023-03-07 21:40:21,2023-04-29 13:24:14,[T] Realização F01 [0] Coleta,closed,Periquito,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Itabirinha,10574,2023-03-07 21:40:19,2023-04-29 13:24:16,[T] Realização F01 [0] Coleta,closed,Itabirinha,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Umburatiba,10573,2023-03-07 21:40:17,2023-04-29 13:24:18,[T] Realização F01 [0] Coleta,closed,Umburatiba,7,3,2023,17,10/2023,4/2023,3/2023
+Coleta de Contratos - Itaipé,10572,2023-03-07 21:40:15,2023-04-29 13:23:51,[T] Realização F01 [0] Coleta,closed,Itaipé,7,3,2023,17,10/2023,4/2023,3/2023
 Coleta de Obras Públicas - Novo Oriente de Minas,10421,2023-03-01 23:23:45,2023-03-01 23:51:09,[T] Realização F01 [0] Coleta,closed,Novo Oriente de Minas,1,3,2023,09,9/2023,3/2023,3/2023
 Coleta de Obras Públicas - Frei Gaspar,10420,2023-03-01 23:23:44,2023-03-01 23:51:07,[T] Realização F01 [0] Coleta,closed,Frei Gaspar,1,3,2023,09,9/2023,3/2023,3/2023
 Coleta de Obras Públicas - Fronteira dos Vales,10419,2023-03-01 23:23:42,2023-03-01 23:50:45,[T] Realização F01 [0] Coleta,closed,Fronteira dos Vales,1,3,2023,09,9/2023,3/2023,3/2023
@@ -9052,6 +9161,34 @@ Coleta de Acesso à Informação - Informações - Periquito,10932,2023-03-31 22
 Coleta de Acesso à Informação - Informações - Itabirinha,10931,2023-03-31 22:01:02,2023-04-18 13:43:00,[T] Realização F01 [0] Coleta,closed,Itabirinha,31,3,2023,16,13/2023,4/2023,3/2023
 Coleta de Acesso à Informação - Informações - Umburatiba,10930,2023-03-31 22:01:00,2023-04-18 13:42:59,[T] Realização F01 [0] Coleta,closed,Umburatiba,31,3,2023,16,13/2023,4/2023,3/2023
 Coleta de Acesso à Informação - Informações - Itaipé,10929,2023-03-31 22:00:58,2023-04-18 13:42:59,[T] Realização F01 [0] Coleta,closed,Itaipé,31,3,2023,16,13/2023,4/2023,3/2023
+Coleta de Despesas com Diárias - Novo Oriente de Minas,10710,2023-03-22 00:44:17,2023-05-02 11:44:34,[T] Realização F01 [0] Coleta,closed,Novo Oriente de Minas,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Frei Gaspar,10709,2023-03-22 00:44:15,2023-05-02 11:44:34,[T] Realização F01 [0] Coleta,closed,Frei Gaspar,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Fronteira dos Vales,10708,2023-03-22 00:44:13,2023-05-02 11:44:34,[T] Realização F01 [0] Coleta,closed,Fronteira dos Vales,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Chapada do Norte,10707,2023-03-22 00:44:11,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Chapada do Norte,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Coroaci,10706,2023-03-22 00:44:10,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Coroaci,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Caraí,10705,2023-03-22 00:44:08,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Caraí,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Jordânia,10704,2023-03-22 00:44:06,2023-05-02 11:44:32,[T] Realização F01 [0] Coleta,closed,Jordânia,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Pavão,10703,2023-03-22 00:44:04,2023-05-02 11:44:32,[T] Realização F01 [0] Coleta,closed,Pavão,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Padre Paraíso,10702,2023-03-22 00:44:02,2023-05-02 11:44:35,[T] Realização F01 [0] Coleta,closed,Padre Paraíso,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Santo Antônio do Jacinto,10701,2023-03-22 00:44:00,2023-05-02 11:44:35,[T] Realização F01 [0] Coleta,closed,Santo Antônio do Jacinto,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Cantagalo,10700,2023-03-22 00:41:02,2023-05-02 11:44:35,[T] Realização F01 [0] Coleta,closed,Cantagalo,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Pescador,10699,2023-03-22 00:41:00,2023-05-02 11:44:34,[T] Realização F01 [0] Coleta,closed,Pescador,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - São João Evangelista,10698,2023-03-22 00:40:57,2023-05-02 11:44:34,[T] Realização F01 [0] Coleta,closed,São João Evangelista,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Ataléia,10697,2023-03-22 00:40:56,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Ataléia,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Machacalis,10696,2023-03-22 00:40:54,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Machacalis,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Sardoá,10695,2023-03-22 00:40:52,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Sardoá,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Bertópolis,10694,2023-03-22 00:40:50,2023-05-02 11:44:32,[T] Realização F01 [0] Coleta,closed,Bertópolis,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Cuparaque,10693,2023-03-22 00:40:48,2023-05-02 11:44:32,[T] Realização F01 [0] Coleta,closed,Cuparaque,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - São Sebastião do Maranhão,10692,2023-03-22 00:40:46,2023-05-02 11:44:35,[T] Realização F01 [0] Coleta,closed,São Sebastião do Maranhão,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Marilac,10691,2023-03-22 00:40:44,2023-05-02 11:44:35,[T] Realização F01 [0] Coleta,closed,Marilac,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Santa Efigênia de Minas,10690,2023-03-22 00:40:43,2023-05-02 11:44:35,[T] Realização F01 [0] Coleta,closed,Santa Efigênia de Minas,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Tumiritinga,10689,2023-03-22 00:40:41,2023-05-02 11:44:34,[T] Realização F01 [0] Coleta,closed,Tumiritinga,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Bandeira,10688,2023-03-22 00:40:39,2023-05-02 11:44:34,[T] Realização F01 [0] Coleta,closed,Bandeira,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Ouro Verde de Minas,10687,2023-03-22 00:40:37,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Ouro Verde de Minas,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Periquito,10686,2023-03-22 00:40:36,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Periquito,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Itabirinha,10685,2023-03-22 00:40:34,2023-05-02 11:44:33,[T] Realização F01 [0] Coleta,closed,Itabirinha,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Umburatiba,10684,2023-03-22 00:40:32,2023-05-02 11:44:32,[T] Realização F01 [0] Coleta,closed,Umburatiba,22,3,2023,18,12/2023,5/2023,3/2023
+Coleta de Despesas com Diárias - Itaipé,10683,2023-03-22 00:40:30,2023-05-02 11:44:32,[T] Realização F01 [0] Coleta,closed,Itaipé,22,3,2023,18,12/2023,5/2023,3/2023
 Coleta de Concursos Públicos - Novo Oriente de Minas,10495,2023-03-02 15:50:37,2023-03-15 01:39:26,[T] Realização F01 [0] Coleta,closed,Novo Oriente de Minas,2,3,2023,11,9/2023,3/2023,3/2023
 Coleta de Concursos Públicos - Frei Gaspar,10494,2023-03-02 15:50:35,2023-03-15 01:39:26,[T] Realização F01 [0] Coleta,closed,Frei Gaspar,2,3,2023,11,9/2023,3/2023,3/2023
 Coleta de Concursos Públicos - Fronteira dos Vales,10493,2023-03-02 15:50:33,2023-03-15 01:39:25,[T] Realização F01 [0] Coleta,closed,Fronteira dos Vales,2,3,2023,11,9/2023,3/2023,3/2023
