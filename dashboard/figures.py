@@ -185,19 +185,19 @@ def plot_speed_epics(df, df_week, title):
 
     # Meses de interesse
     df = df.merge( pd.DataFrame(["11/2021", "12/2021"] + [f'{x}/2022' for x in range(1,13)] + 
-                                [f'{x}/2023' for x in range(1,8)], columns=["month_year"]), how="right").fillna(0)    
+                                [f'{x}/2023' for x in range(1,7)], columns=["month_year"]), how="right").fillna(0)    
     
     # Referencias
-    n_templates = 15 + 5           # 15 + 5 municipios
-    total_epics_by_template = 24   # baseada em 19/20 templates + municipios
-    media_nao_coletavel = 7        # baseado em 14/15 templates
+    n_templates = 15 + 5              # 15 + 5 municipios
+    # total_epics_by_template = 23.3    # baseada em 20/20 templates + municipios
+    # media_nao_coletavel = 6           # baseado em 20/20 templates + municipios
     
-    total_epics = total_epics_by_template * n_templates    
+    total_epics = 466  #total_epics_by_template * n_templates    
     total_months = df.shape[0]
-    future_months = total_months - len(coletado_cumsum_anterior) + 1
+    future_months = total_months - len(coletado_cumsum_anterior) #+ 1
     ideal_speed = total_epics / total_months
     
-    total_coletaveis = total_epics - (media_nao_coletavel * n_templates)
+    total_coletaveis = 345  #total_epics - (media_nao_coletavel * n_templates)
     ideal_speed_discounted = total_coletaveis / total_months
     
     previsao_mes_anterior = [total_coletado_mes_anterior + (i * ritmo_anterior) for i in range(future_months)] # ritmo_historico|ritmo_anterior
@@ -216,12 +216,12 @@ def plot_speed_epics(df, df_week, title):
                    mode='lines+markers', line=go.scatter.Line(color='#ef553b')), #color="red" ff6692 ef553b     
         go.Scatter(x=df.month_year, y=[i * ideal_speed_discounted for i in range(1, total_months+1)], name="Coletável",
                    mode='lines+markers', line=go.scatter.Line(color="#00CC96")), #AB63FA
-        go.Scatter(x=df.month_year, y=[i * ritmo_historico for i in range(1, total_months-future_months+2)], name="Realizado",  
-                   opacity=1, line=go.scatter.Line(dash='solid', color="#636efa")), 
-        go.Scatter(x=df.month_year[-future_months:], y=previsao_atual, name="Realizado", showlegend=False,
-                   opacity=1, line=go.scatter.Line(dash='dot', color="#636efa")),
-        go.Scatter(x=df.month_year[-future_months:], y=previsao_mes_anterior, name="Mês anterior",
-                   opacity=0.3, line=go.scatter.Line(dash='dot', color="#636efa")),
+        go.Scatter(x=df.month_year, y=df.coletado_cumsum, name="Realizado",  #y=[i * ritmo_historico for i in range(1, total_months-future_months+2)]
+                   mode='lines+markers', opacity=1, line=go.scatter.Line(dash='solid', color="#636efa")), 
+        # go.Scatter(x=df.month_year[-future_months:], y=previsao_atual, name="Realizado", showlegend=False,
+        #            opacity=1, line=go.scatter.Line(dash='dot', color="#636efa")),
+        # go.Scatter(x=df.month_year[-future_months:], y=previsao_mes_anterior, name="Mês anterior",
+        #            opacity=0.3, line=go.scatter.Line(dash='dot', color="#636efa")),
     ])
     
     return fig
@@ -253,7 +253,7 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
     # Pre-processing data
     count_col = 'aux'
     name_col  = 'shortname'
-    df = top_templates.merge(df, how='left').fillna({'state':'Estimado', count_col:1})   
+    df = top_templates.merge(df, how='left').fillna({'state':'Planejado', count_col:1})   
     templates = df['template'].dropna().unique()     
    
     # Fill missing (estimated) epics in df
@@ -264,7 +264,7 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
         name = df[df.template == template][name_col].values[0]
 
         for i in range(missing):            
-            df = df.append({'template':template, 'state':'Estimado', name_col:name,
+            df = df.append({'template':template, 'state':'Planejado', name_col:name,
                             'size':size, count_col:1}, ignore_index=True)           
 
     # sorting x-axis
@@ -282,13 +282,15 @@ def plot_status_epics(df, top_templates, sondagem, title='Visão Geral - Epics p
     fig = px.bar(
         df, y=count_col, x=name_col, color='state', height=800, width=1100, title=title,
         color_discrete_map = { 'Coletado':'green', 'Coletado (autom.)':'#92d696', 
-            'Com bloqueio':'#9F2B68', 'Com epic criada':'#64b5cd', 'Estimado':'lightblue', 
+            'Com bloqueio':'#9F2B68', 'Em progresso':'#64b5cd',# 'Planejado':'lightblue', 
             'Não coletável':'red', 'Não coletável (autom.)':'#ff9e99'}, 
         labels = {count_col:"#Coletores", name_col:"Template / Município"}, 
         opacity = 0.75 )    
     
     fig.update_layout(xaxis={'categoryorder':'array', 'categoryarray':xorder}, font=dict(size=18))
     fig.update_xaxes(tickangle=45)
+
+    fig.write_image('fig/status-coleta.png', scale=3)    
     
     return fig
 
@@ -352,12 +354,13 @@ def plot_status_validacao(df):
     n_temp_done = df[df == 4].count(axis=1).to_dict()
     n_subt_wip  = df[df != 0].count(axis=0)
     
-    # Sorting rows an columns
-    y_order = [s for _, s in sorted(zip(n_temp_wip, n_temp_wip.index), reverse=True)]    
+    # Sorting rows and columns
+    # y_order = [s for _, s in sorted(zip(n_temp_wip, n_temp_wip.index), reverse=True)]    
+    y_order = list(df.index.values)
     y_labels = [f'({ n_temp_done[s] :02d}) {s}' for s in y_order]
-    df = df.reindex(y_order)   
+    # df = df.reindex(y_order)
     x_order = [t for _, t in sorted(zip(n_subt_wip, n_subt_wip.index), reverse=True)]
-    
+        
     tot_validado = sum(list(n_temp_done.values()))
     tot_nao_coletavel = df[df == 1].count().sum()
     tot = len(x_order) * len(y_order)
@@ -369,7 +372,7 @@ def plot_status_validacao(df):
     title += f' - Concluído: {concluido} ({round( (concluido)*100/tot , 1)}%)</sup>'
     
     fig = px.imshow(
-        df[x_order], y=y_labels, height=1150, width=800, title=title, 
+        df, y=y_labels, height=1150, width=800, title=title,  #df[x_order]
         labels={'y':'subtags (#validadores testados)', 'x':'templates'},
         color_continuous_scale=[(0, '#DDFCD9'), (0.25, '#F45B69'), (0.5, '#59C9A5'), 
                                 (0.75, '#028EA1'), (1, '#156079')])

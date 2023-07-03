@@ -378,7 +378,7 @@ Coletor para o município de Belo Horizonte - Acesso à Informação - Relatóri
 Coletor para o município de Belo Horizonte - Acesso à Informação - Requisitos Exigidos,2648,2023-01-30 12:22:51,2023-01-31 01:18:35,Coletado,Belo Horizonte,Acesso à Informação,['Requisitos Exigidos'],1
 Coletor para o município de Belo Horizonte - Acesso à Informação - Informações,2649,2023-01-30 12:24:03,2023-01-30 23:22:33,Coletado,Belo Horizonte,Acesso à Informação,['Informações'],1
 Coletor para o município de Betim - Despesas - Orçamento,2650,2023-01-30 22:00:56,2023-01-30 22:14:52,Coletado,Betim,Despesas,['Relatórios'],1
-Coletor para o município de Contagem - Informações Institucionais - Conselhos Municipais,3356,2023-05-19 12:05:17,,Com epic criada,Contagem,Informações Institucionais,['Conselhos Municipais'],1
+Coletor para o município de Contagem - Informações Institucionais - Conselhos Municipais,3356,2023-05-19 12:05:17,,Em progresso,Contagem,Informações Institucionais,['Conselhos Municipais'],1
 Coletor para o template Template2 - Acesso à Informação - Requisitos Exigidos,3228,2023-04-12 11:49:46,2023-04-25 11:51:26,Coletado,Template2 (28),Acesso à Informação,['Requisitos Exigidos'],1
 Coletor para o template Síntese Tecnologia e Informática - Licitações,90,2021-11-19 10:18:38,2022-05-23 20:25:08,Coletado,Síntese tecnologia e informatica (88),Licitações,,1
 Coletor para o template Municipal Net - Acesso à Informação - Requisitos Exigidos,3328,2023-04-28 02:00:26,2023-04-28 02:44:18,Coletado,Municipal Net (11),Acesso à Informação,['Requisitos Exigidos'],1
@@ -394,7 +394,7 @@ Coletor para o template Portal Fácil (46) - Despesas - Relatórios,2363,2022-12
 Coletor para o município de Belo Horizonte - Despesas - Empenhos e Pagamentos,2653,2023-02-01 00:06:26,,Com bloqueio,Belo Horizonte,Despesas,"['Empenhos', 'Pagamentos', 'Consulta', 'Gerar relatório']",1
 Coletor para o município de Betim - Servidores Públicos,3277,2023-04-20 10:48:56,2023-04-27 23:01:58,Coletado,Betim,Servidores Públicos,"['Dados dos Servidores', 'Dados de Remuneração', 'Registro da remuneração', 'Registro por lotação']",1
 Coletor para o template Portal Fácil (46) - Orçamento,2364,2022-12-12 11:00:35,,Com bloqueio,Portal Facil (46),Orçamento,['Todas'],1
-Coletor para o template Betha - Servidores Públicos - Servidores Inativos,886,2022-05-23 22:36:50,,Com bloqueio,Betha (26),Servidores Públicos,"['Proventos de Aposentadoria', 'Proventos de Pensão']",1
+Coletor para o template Betha - Servidores Públicos - Servidores Inativos,886,2022-05-23 22:36:50,,Em progresso,Betha (26),Servidores Públicos,"['Proventos de Aposentadoria', 'Proventos de Pensão']",1
 Coletor para o município de Belo Horizonte - Receitas,2654,2023-02-01 00:11:01,,Com bloqueio,Belo Horizonte,Receitas,['Dados das receitas'],1
 Coletor para o template Municipal Net - Despesas - Empenhos - Despesas Empenhadas,3264,2023-04-18 12:20:03,,Com bloqueio,Municipal Net (11),Despesas,['Empenhos'],1
 Coletor para o template Template2 - Servidores - Dados dos Servidores,3023,2023-02-28 19:02:29,,Coletado,Template2 (28),Servidores Públicos,"['Dados dos Servidores', 'Proventos de Aposentadoria', 'Proventos de Pensão', 'Dados de Remuneração', 'Registro da remuneração', 'Registro por lotação']",1
@@ -408,15 +408,14 @@ Coletor para o template Municipal Net - Despesas com Diárias,3272,2023-04-18 12
 Coletor para o template Municipal Net - Orçamento - Execução,3273,2023-04-18 12:55:39,,Com bloqueio,Municipal Net (11),Orçamento,['Execução'],1
 Coletor para o template Municipal Net - Informações Institucionais - Estrutura Organizacional,3274,2023-04-18 12:57:41,,Com bloqueio,Municipal Net (11),Informações Institucionais,['Estrutura Organizacional'],1
 Coletor para o template Portal Fácil (46) - Servidores Públicos - Despesas com Pessoal,2407,2022-12-19 11:44:41,,Com bloqueio,Portal Facil (46),Servidores Públicos,['Relatórios Despesas com Pessoal'],1
-Coletor para o município de Contagem - Acesso à Informação - Relatório Estatístico,3368,2023-06-01 10:55:46,,Com epic criada,Contagem,Acesso à Informação,['Relatório Estatístico'],1
+Coletor para o município de Contagem - Acesso à Informação - Relatório Estatístico,3368,2023-06-01 10:55:46,,Em progresso,Contagem,Acesso à Informação,['Relatório Estatístico'],1
 Coletor para o template Template2 - Contratos,3127,2023-03-07 21:36:59,,Coletado,Template2 (28),Contratos,"['Dados dos contratos', 'Conteúdo Integral']",1
-Coletor para o Template1 (9) - Licitações,83,2021-11-08 19:09:27,,Com epic criada,Template1 (9),Licitações,,1
+Coletor para o Template1 (9) - Licitações,83,2021-11-08 19:09:27,,Em progresso,Template1 (9),Licitações,,1
 Coletor para o município de Juiz de Fora - Despesas - Relatórios,3198,2023-03-16 10:09:19,,Coletado,Juiz de Fora,Despesas,['Relatórios'],1
 Coletor para o template Portal Fácil (60) - Informações institucionais do munícipio - Legislações,3207,2023-03-28 13:04:54,2023-04-27 13:29:44,Coletado,Portal Facil (60),Informações Institucionais,['Leis Municipais'],1
-Coletor para o template Municipal net - Licitações,82,2021-11-08 19:01:23,,Com bloqueio,Municipal Net (11),Licitações,,1
-Coletor para o template Betha - Servidores Públicos - Servidores Contratados,891,2022-05-27 14:59:44,,Com bloqueio,Betha (26),Servidores Públicos,,1
+Coletor para o template Betha - Servidores Públicos - Servidores Contratados,891,2022-05-27 14:59:44,,Em progresso,Betha (26),Servidores Públicos,,1
 Coletor para o município de Uberlândia - Acesso à Informação - Dados Abertos,3336,2023-05-08 10:34:23,,Coletado,Uberlândia,Acesso à Informação,['Dados Abertos'],1
-Coletor para o template Betha - Servidores Públicos - Servidores Ativos,890,2022-05-27 14:58:02,,Com bloqueio,Betha (26),Servidores Públicos,"['Dados dos Servidores', 'Registro por lotação']",1
+Coletor para o template Betha - Servidores Públicos - Servidores Ativos,890,2022-05-27 14:58:02,,Em progresso,Betha (26),Servidores Públicos,"['Dados dos Servidores', 'Registro por lotação']",1
 Coletor para o template Template2 - Informações Institucionais - Leis Municipais,3202,2023-03-23 14:17:26,,Coletado,Template2 (28),Informações Institucionais,['Leis Municipais'],1
 Coletor para o template Municipal Net - Terceiro Setor - Repasses,3327,2023-04-27 01:28:56,2023-04-28 01:56:45,Coletado,Municipal Net (11),Terceiro Setor,['Repasses'],1
 Coletor para o template Template2 - Despesas com Diárias,3199,2023-03-17 16:44:36,2023-05-02 11:44:35,Coletado,Template2 (28),Despesas com diárias,"['Despesas com diárias', 'Todas']",1
@@ -437,13 +436,13 @@ Coletor para o município de Juiz de Fora - Servidores Públicos - Dados dos Ser
 Coletor para o município de Uberlândia - Licitações,3329,2023-05-02 10:24:08,,Coletado,Uberlândia,Licitações,['Todas'],1
 Coletor para o município de Uberlândia - Despesas - Relatórios - Contas Públicas,3332,2023-05-04 11:14:10,,Coletado,Uberlândia,Despesas,['Relatórios'],1
 Coletor para o município de Uberlândia - Receitas,3341,2023-05-09 11:50:36,,Coletado,Uberlândia,Receitas,['Todas'],1
-Coletor para Juiz de Fora - Despesas,485,2022-04-20 01:27:40,,Com epic criada,Prefeitura,Despesas,,1
+Coletor para Juiz de Fora - Despesas,485,2022-04-20 01:27:40,,Em progresso,Prefeitura,Despesas,,1
 Coletor para o município de Uberlândia - Terceiro Setor - Dados de Parcerias,3342,2023-05-09 11:52:57,,Coletado,Uberlândia,Terceiro Setor,['Dados de Parcerias'],1
-Coletor para Betim - Licitações,486,2022-04-20 01:29:27,,Com epic criada,Prefeitura,Licitações,,1
-Coletor para o município de Contagem - Contratos,3369,2023-06-01 11:15:06,,Com epic criada,Contagem,Contratos,['Todas'],1
+Coletor para Betim - Licitações,486,2022-04-20 01:29:27,,Em progresso,Prefeitura,Licitações,,1
+Coletor para o município de Contagem - Contratos,3369,2023-06-01 11:15:06,,Em progresso,Contagem,Contratos,['Todas'],1
 Coletor para o template Portal Fácil (60) - Concursos Públicos,3340,2023-05-08 13:47:46,,Coletado,Portal Facil (60),Concursos Públicos,['Todas'],1
 Coletor para Uberlândia - Licitações,484,2022-04-20 01:24:10,2023-05-12 11:50:23,Coletado,Prefeitura,Licitações,,1
-Coletor para o template Portal Fácil (60) - Contratos - Conteúdo Integral,2308,2022-11-16 14:45:32,,Com epic criada,Portal Facil (60),Contratos,['Conteúdo Integral'],1
+Coletor para o template Portal Fácil (60) - Contratos - Conteúdo Integral,2308,2022-11-16 14:45:32,,Em progresso,Portal Facil (60),Contratos,['Conteúdo Integral'],1
 Coletor para o template Template2 - Terceiro Setor,3200,2023-03-23 14:08:54,2023-04-27 13:24:54,Coletado,Template2 (28),Terceiro Setor,"['Repasses', 'Dados de Parcerias']",1
 Coletor para o template Municipal Net - Licitações e Contratos,3263,2023-04-18 11:02:20,,Com bloqueio,Municipal Net (11),Contratos,['Todas'],1
 Coletor para o template Municipal Net - Despesas - Empenhos - Despesas a Liquidar,3266,2023-04-18 12:25:42,,Com bloqueio,Municipal Net (11),Despesas,['Empenhos'],1
@@ -470,3 +469,6 @@ Coletor para o template Template2 - Terceiro Setor,3200,2023-03-23 14:08:54,2023
 Coletor para o template Template2 - Terceiro Setor,3200,2023-03-23 14:08:54,2023-04-27 13:24:54,Coletado,Template2 (28),Terceiro Setor,"['Repasses', 'Dados de Parcerias']",1
 Coletor para o template Template2 - Terceiro Setor,3200,2023-03-23 14:08:54,2023-04-27 13:24:54,Coletado,Template2 (28),Terceiro Setor,"['Repasses', 'Dados de Parcerias']",1
 Coletor para o município de Juiz de Fora - Terceiro Setor - Repasses,3214,2023-03-30 00:45:31,2023-03-31 21:29:30,Coletado,Juiz de Fora,Terceiro Setor,['Repasses'],1
+Coletor para o município de Contagem - Informações Institucionais - Conselhos Municipais,3356,2023-05-19 12:05:17,,Coletado,Contagem,Informações Institucionais,['Conselhos Municipais'],1
+Coletor para o município de Contagem - Informações Institucionais - Conselhos Municipais,3356,2023-05-19 12:05:17,,Em progresso,Contagem,Informações Institucionais,['Conselhos Municipais'],1
+Coletor para o município de Contagem - Informações Institucionais - Conselhos Municipais,3356,2023-05-19 12:05:17,,Em progresso,Contagem,Informações Institucionais,['Conselhos Municipais'],1
